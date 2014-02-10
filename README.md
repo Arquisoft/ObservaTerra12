@@ -1,4 +1,6 @@
-ObservaTerra12
-==============
+ObservaTerra0
+=============
 
-ObservaTerra 1.2
+ObservaTerra0
+
+
