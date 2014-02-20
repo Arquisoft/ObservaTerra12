@@ -1,6 +1,6 @@
-ObservaTerra0
+ObservaTerra1.2
 =============
 
-ObservaTerra0
+ObservaTerra1.2
 
 
