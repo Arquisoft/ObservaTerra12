@@ -1,0 +1,5 @@
+@(message: String)
+
+<script>
+	d3.select("body").text("Keep you waiting, huh?");
+</script>

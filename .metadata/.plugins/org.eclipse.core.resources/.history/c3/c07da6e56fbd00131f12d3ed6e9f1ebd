@@ -1,0 +1,10 @@
+@(message: String)
+
+@main("Welcome to Play") {
+    
+    <script>
+		d3.select("p").text("Keep you waiting, huh?");
+	</script>
+}
+
+
