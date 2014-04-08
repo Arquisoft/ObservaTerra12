@@ -1,7 +1,8 @@
-package model;
+package es.uniovi.asw.observaTerra.model;
 
 public class User {
 
+	private long idUsuario;
 	private String user;
 	private String password;
 	private String name;
@@ -47,4 +48,16 @@ public class User {
 	public void setOrganization(Organization organization) {
 		this.organization = organization;
 	}
+
+	public long getIdUsuario() {
+		return idUsuario;
+	}
+
+	public void setIdUsuario(long idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+	
+	
+	
 }

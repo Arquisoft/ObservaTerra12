@@ -1,4 +1,4 @@
-package model;
+package es.uniovi.asw.observaTerra.model;
 public class Observation {
 
 	private Area area;

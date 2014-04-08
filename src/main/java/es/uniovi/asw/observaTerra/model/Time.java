@@ -1,4 +1,4 @@
-package model;
+package es.uniovi.asw.observaTerra.model;
 import java.util.Date;
 
 public class Time {

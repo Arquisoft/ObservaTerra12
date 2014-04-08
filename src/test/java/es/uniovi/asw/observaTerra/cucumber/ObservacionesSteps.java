@@ -30,7 +30,7 @@ public class ObservacionesSteps {
 	}
 
 	@Dada("^una observación de (.+) con valor (.+)$")
-	public void una_observación_con_valor_(String nombre, Double valor) 
+	public void una_observacion_con_valor_(String nombre, Double valor) 
 			 throws Throwable {
 		observationList = new ObservationList();
 	    observationList.addObservation(new Country(nombre), valor);
