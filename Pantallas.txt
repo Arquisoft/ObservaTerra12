@@ -1,0 +1,11 @@
+Ver datos
+Comparar datos
+--------------
+Subir archivos
+Gestionar archivos
+Conpartir archivos
+Descargar archivos
+--------------
+Login
+Registro (desarrollador/periodista/político/miembro de ONG/administrador?)
+Modificar tus datos
