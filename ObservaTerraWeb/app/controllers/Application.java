@@ -14,5 +14,9 @@ public class Application extends Controller {
     public static Result histogram() {
         return ok(histogram.render("Histogram"));
     }
+    
+    public static Result pieChart() {
+        return ok(piechart.render("Pie Chart"));
+    }
 
 }
