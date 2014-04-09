@@ -19,5 +19,10 @@ Escenario: Calcular valor medio de una observación
     Cuando calculo la nota media
     Entonces obtengo el valor 3,2
     
+Escenario: Almacenar y recuperar un documento de la base de datos
+	
+	Dada un fichero de texto
+    Cuando lo guardo en la base de datos
+    Entonces lo recupero, comparo y es igual que el que inserte
     
     

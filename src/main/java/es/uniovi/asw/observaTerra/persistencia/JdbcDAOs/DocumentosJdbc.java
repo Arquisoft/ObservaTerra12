@@ -1,12 +1,11 @@
 package es.uniovi.asw.observaTerra.persistencia.JdbcDAOs;
 
+import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Blob;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -16,74 +15,131 @@ import es.uniovi.asw.observaTerra.model.User;
 import es.uniovi.asw.observaTerra.utils.DBConnection;
 import es.uniovi.asw.observaTerra.utils.LectorConsultas;
 
-public class DocumentosJdbc 
-{
-	
-	public long guardarDocumento(User usuario, File file) throws SQLException, FileNotFoundException
-	{
-		//Carga de la consulta
+public class DocumentosJdbc {
+
+	/**
+	 * Guarda un documento en el repositorio del sistema. Devolverá el
+	 * identificador del documento que se ha guardado, que debe ser gestionado
+	 * por la aplicación.
+	 * 
+	 * @param usuario
+	 *            - Usuario que va a guardar el documento.
+	 * @param file
+	 *            - Archivo que quiere guardar.
+	 * @return - Identificador único del repositorio creado.
+	 * @throws SQLException
+	 * @throws IOException
+	 */
+	public long guardarDocumento(User usuario, File file) throws SQLException,
+			IOException {
+		// Carga de la consulta
 		Connection con = DBConnection.getConnection();
 		String SQL = LectorConsultas.get("GUARDAR_DOCUMENTO");
-		
-		//Preparar el statement, y meter el id del usuario
+
+		// Preparar el statement, y meter el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuario.getIdUsuario()  );
-		
-		//Meter el chorro de bytes
-		FileInputStream fis = new FileInputStream(file);
-		pst.setBinaryStream(2, (InputStream)fis, (int)file.length());
-		
-		//Set the document name
+		pst.setLong(1, usuario.getIdUsuario());
+
+		// Meter el chorro de bytes
+		byte[] fileData = new byte[(int) file.length()];
+		DataInputStream dis = new DataInputStream(new FileInputStream(file));
+		dis.readFully(fileData);
+		dis.close();
+		pst.setBytes(2, fileData);
+
+		// Almacenar el nombre del documento (para devolver el mismo)
 		pst.setString(3, file.getName());
-		
-		pst.executeUpdate();	
-		
+
+		pst.executeUpdate();
+
 		Long idDocumento = getIdDocumento(con, usuario.getIdUsuario());
-		
+
 		con.close();
 		return idDocumento;
 	}
 
-	private long getIdDocumento(Connection con, long idUsuario) throws SQLException 
-	{
+	/**
+	 * Función auxiliar para recoger el identificador del documento que se acabe
+	 * de almacenar.
+	 * 
+	 * @param con
+	 *            - Conexión a utilizar.
+	 * @param idUsuario
+	 *            - Identificador del usuario que ha guardado el documento.
+	 * @return Identificador del documento.
+	 * @throws SQLException
+	 */
+	private long getIdDocumento(Connection con, long idUsuario)
+			throws SQLException {
+
 		String SQL = LectorConsultas.get("MAX_ID_DOCUMENTO");
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idUsuario);
 		ResultSet rs = pst.executeQuery();
 		Long idDocumento = null;
-		
-		while(rs.next())
-		{
+
+		while (rs.next()) {
 			idDocumento = rs.getLong("id_repositorio");
 		}
-		
-		return idDocumento;		
+
+		return idDocumento;
 	}
-	
-	public File leerDocumento(long idDocumento) throws SQLException, IOException
-	{
-		//Carga de la consulta
+
+	/**
+	 * Carga un documento del repositorio en base a su identificador único.
+	 * 
+	 * @param idDocumento
+	 *            - Identificador único de la base de datos del documento.
+	 * @return - Documento a crear cargado en memoria, ojo.
+	 * @throws SQLException
+	 * @throws IOException
+	 */
+	public File leerDocumento(long idDocumento) throws SQLException,
+			IOException {
+		// Carga de la consulta
 		Connection con = DBConnection.getConnection();
 		String SQL = LectorConsultas.get("LEER_DOCUMENTO");
-		
-		//Preparar el statement, y meter el id del usuario
+
+		// Preparar el statement, y meter el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idDocumento);
 		ResultSet rs = pst.executeQuery();
-		File file = null;		
-		while(rs.next())
-		{
-			Blob blob = rs.getBlob("documento");
-			byte[] bytes = blob.getBytes(0, (int)blob.length());
-			file = new File(rs.getString("nombre_documento"));
-			file.createNewFile();
-			FileOutputStream f1 = new FileOutputStream(file);
-			f1.write(bytes);
-			f1.flush();
-			f1.close();
+		File image = null;
+		while (rs.next()) {
+			// Crea el documento y añade el prefijo 'download'
+			image = new File("(download)" + rs.getString("nombre_documento"));
+			FileOutputStream fos = new FileOutputStream(image);
+			InputStream inputStream = rs.getBinaryStream("documento");
+			// Carga de datos del chorro de bytes
+			byte[] buffer = new byte[256];
+			while (inputStream.read(buffer) > 0) {
+				fos.write(buffer);
+			}
+			// Cierre del recurso
+			fos.flush();
+			fos.close();
 		}
-		
-		return file;
+		// Devuelve la imagen del fichero.
+		return image;
 	}
-	
+
+	/**
+	 * Borra un documento del repositorio en base al identificador del mismo.
+	 * 
+	 * @param idDocumento
+	 *            - Identificador del documento a almacenar.
+	 * @throws SQLException
+	 * @throws IOException
+	 */
+	public void borrarDocumento(long idDocumento) throws SQLException,
+			IOException {
+		// Carga de la consulta
+		Connection con = DBConnection.getConnection();
+		String SQL = LectorConsultas.get("ELIMINAR_DOCUMENTO");
+
+		// Preparar el statement,
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.executeUpdate();
+	}
+
 }
