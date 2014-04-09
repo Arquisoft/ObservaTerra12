@@ -18,9 +18,5 @@ public class Application extends Controller {
     public static Result pieChart() {
         return ok(piechart.render("Pie Chart"));
     }
-    
-    public static Result bubbleChart() {
-        return ok(piechart.render("BubbleChart"));
-    }
 
 }
