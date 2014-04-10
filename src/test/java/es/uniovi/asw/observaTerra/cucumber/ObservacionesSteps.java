@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dada;
 import cucumber.api.java.es.Entonces;
@@ -30,7 +29,7 @@ public class ObservacionesSteps {
 	}
 
 	@Dada("^una observación de (.+) con valor (.+)$")
-	public void una_observación_con_valor_(String nombre, Double valor) 
+	public void una_observacion_con_valor_(String nombre, Double valor) 
 			 throws Throwable {
 		observationList = new ObservationList();
 	    observationList.addObservation(new Country(nombre), valor);
