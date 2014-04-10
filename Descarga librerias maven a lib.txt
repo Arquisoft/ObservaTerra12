@@ -1,3 +1,0 @@
-Ejecutar
-mvn dependency:copy-dependencies -DoutputDirectory=lib
-Desde el directorio principal del proyecto.
