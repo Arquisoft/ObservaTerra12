@@ -17,37 +17,55 @@ import utils.LectorConsultas;
 
 public class DocumentosJdbc {
 
+	/**
+	 * Método que permite guardar cualquier archivo en el repositorio 
+	 * privado del usuario.
+	 * Inicialmente no se compartirá con nadie
+	 * No se recomienda permitir almacenar archivos *.txt porque no
+	 * se recuperan del todo bien en el 100% de los casos.
+	 * @param usuario - Usuario propietario del archivo.
+	 * @param file - Archivo a almacenar en el repositorio.
+	 * @return Identificador del archivo guardado en la base de datos, necesario para
+	 * poder recuperarlo mas tarde.
+	 */
 	public long guardarDocumento(User usuario, File file) throws SQLException,
 			IOException {
 
+		//Establece la conexión y crea la consulta
 		Connection con = DBConnection.getConnection();
-		String SQL = LectorConsultas.get("GUARDAR_DOCUMENTO");
+		String SQL = "INSERT INTO REPOSITORIOS (ID_USUARIO,DOCUMENTO,nombre_documento) VALUES (?,?,?)";
 
-
+		//Precompila el statement y establece el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, usuario.getIdUsuario());
 
-
+		//Convierte el archivo a un chorro de bytes, que permitirá guardarlo mas tarde.
 		byte[] fileData = new byte[(int) file.length()];
 		DataInputStream dis = new DataInputStream(new FileInputStream(file));
 		dis.readFully(fileData);
 		dis.close();
 		pst.setBytes(2, fileData);
 
+		//Almacena el nombre del fichero, necesario para poder restaurarlo mas tarde
 		pst.setString(3, file.getName());
 
+		//Inserta el archivo y recupera su identificador.
 		pst.executeUpdate();
-
 		Long idDocumento = getIdDocumento(con, usuario.getIdUsuario());
 
+		//Libera los recursos utilizados
+		pst.close();
 		con.close();
 		return idDocumento;
 	}
 
+	/**
+	 * 
+	 */
 	private long getIdDocumento(Connection con, long idUsuario)
 			throws SQLException {
 
-		String SQL = LectorConsultas.get("MAX_ID_DOCUMENTO");
+		String SQL = "SELECT max(id_repositorio) as id_repositorio from repositorios where id_usuario = ?";
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idUsuario);
 		ResultSet rs = pst.executeQuery();
@@ -73,7 +91,7 @@ public class DocumentosJdbc {
 			IOException {
 		// Carga de la consulta
 		Connection con = DBConnection.getConnection();
-		String SQL = LectorConsultas.get("LEER_DOCUMENTO");
+		String SQL = "SELECT documento,nombre_documento FROM REPOSITORIOS where id_repositorio = ?";
 
 		// Preparar el statement, y meter el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -102,10 +120,25 @@ public class DocumentosJdbc {
 			IOException {
 		// Carga de la consulta
 		Connection con = DBConnection.getConnection();
-		String SQL = LectorConsultas.get("ELIMINAR_DOCUMENTO");
+		String SQL = "DELETE FROM REPOSITORIOS WHERE ID_DOCUMENTO = ?";
 
 		// Preparar el statement,
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.executeUpdate();
+	}
+	
+	public List<Long> listarRepositoriosUsuarios(Usuario usuario)
+	{
+		
+	}
+	
+	public List<Long> listarRespositoriosAccesiblesUsuario(Usuario usuario)
+	{
+		
+	}
+	
+	public void compartirRepositorioConUsuario(Long idRepositorio, Usuario usuarioACompartir)
+	{
+		
 	}
 }
