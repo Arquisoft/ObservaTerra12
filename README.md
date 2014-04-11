@@ -1,8 +1,6 @@
 ObservaTerra1.2
 =============
 
-ObservaTerra1.2
-
 Estado: _EN DESARROLLO_.
 
 Portal web que actúa como observatorio de datos de la tierra. 
