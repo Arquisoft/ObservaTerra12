@@ -10,85 +10,92 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import model.User;
-import utils.DBConnection;
-import utils.LectorConsultas;
 
 /**
- * Clase encargada de consultar la base de datos
- * para todas las operaciones relacionadas con los 
- * documentos.
+ * Clase encargada de consultar la base de datos para todas las operaciones
+ * relacionadas con los documentos.
+ * 
  * @author Jose Enrique
  */
 public class DocumentosJdbc {
-	
+
 	private Connection con;
-	
-	/**
-	 * Establece la conexiÛn a utilizar en las 
-	 * operaciones contra la base de datos.
-	 * Realiza una primera comprobaciÛn de su estado.
-	 */
-	public void setConnection(Connection con)
-	{
-		if(con == null)
-			throw new IllegalArgumentException("ConexiÛn invalida - par·metro null.")
-		
-		if(!con.isActive())
-			throw new IllegalArgumentException("La conexiÛn no est· activa");
-		
-		this.con = con;
-	}
-	
 
 	/**
-	 * MÈtodo que permite guardar cualquier archivo en el repositorio 
-	 * privado del usuario.
-	 * Inicialmente no se compartir· con nadie
-	 * No se recomienda permitir almacenar archivos *.txt porque no
-	 * se recuperan del todo bien en el 100% de los casos.
-	 * @param usuario - Usuario propietario del archivo.
-	 * @param file - Archivo a almacenar en el repositorio.
-	 * @return Identificador del archivo guardado en la base de datos, necesario para
-	 * poder recuperarlo mas tarde.
+	 * Establece la conexi√≥n a utilizar en las operaciones contra la base de
+	 * datos. Realiza una primera comprobaci√≥n de su estado.
+	 * 
+	 * @throws SQLException
+	 */
+	public void setConnection(Connection con) throws SQLException {
+		if (con == null)
+			throw new IllegalArgumentException(
+					"Conexi√≥n invalida - par√°metro null.");
+
+		if (con.isClosed())
+			throw new IllegalArgumentException("La conexi√≥n no est√° activa");
+
+		this.con = con;
+	}
+
+	/**
+	 * M√©todo que permite guardar cualquier archivo en el repositorio privado
+	 * del usuario. Inicialmente no se compartir√° con nadie No se recomienda
+	 * permitir almacenar archivos *.txt porque no se recuperan del todo bien en
+	 * el 100% de los casos.
+	 * 
+	 * @param usuario
+	 *            - Usuario propietario del archivo.
+	 * @param file
+	 *            - Archivo a almacenar en el repositorio.
+	 * @return Identificador del archivo guardado en la base de datos, necesario
+	 *         para poder recuperarlo mas tarde.
 	 */
 	public long guardarDocumento(User usuario, File file) throws SQLException,
 			IOException {
 
-		//Crea la consulta
-		String SQL = "INSERT INTO REPOSITORIOS (ID_USUARIO,DOCUMENTO,nombre_documento) VALUES (?,?,?)";
+		// Crea la consulta
+		String SQL = "INSERT INTO REPOSITORIOS (ID_USUARIO,DOCUMENTO,NOMBRE_DOCUMENTO) VALUES (?,?,?)";
 
-		//Precompila el statement y establece el id del usuario
+		// Precompila el statement y establece el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, usuario.getIdUsuario());
 
-		//Convierte el archivo a un chorro de bytes, que permitir· guardarlo mas tarde.
+		// Convierte el archivo a un chorro de bytes, que permitir√° guardarlo
+		// mas tarde.
 		byte[] fileData = new byte[(int) file.length()];
 		DataInputStream dis = new DataInputStream(new FileInputStream(file));
 		dis.readFully(fileData);
 		dis.close();
 		pst.setBytes(2, fileData);
 
-		//Almacena el nombre del fichero, necesario para poder restaurarlo mas tarde
+		// Almacena el nombre del fichero, necesario para poder restaurarlo mas
+		// tarde
 		pst.setString(3, file.getName());
 
-		//Inserta el archivo y recupera su identificador.
+		// Inserta el archivo y recupera su identificador.
 		pst.executeUpdate();
 		Long idDocumento = getIdDocumento(con, usuario.getIdUsuario());
 
-		//Libera los recursos utilizados
+		// Libera los recursos utilizados
 		pst.close();
 		con.close();
 		return idDocumento;
 	}
 
 	/**
-	 * FunciÛn auxiliar que permite recuperar el identificador del repositorio
-	 * del ˙ltimo documento cargado por el usuario.
-	 * @param con - ConexiÛn abierta a reutilizar.
-	 * @param  idUsuario - identificador del usuario que ha cargado los documentos
-	 * @return - Identificador del ˙ltimo repositorio cargado por el usuario. 
+	 * Funci√≥n auxiliar que permite recuperar el identificador del repositorio
+	 * del √∫ltimo documento cargado por el usuario.
+	 * 
+	 * @param con
+	 *            - Conexi√≥n abierta a reutilizar.
+	 * @param idUsuario
+	 *            - identificador del usuario que ha cargado los documentos
+	 * @return - Identificador del √∫ltimo repositorio cargado por el usuario.
 	 */
 	private Long getIdDocumento(Connection con, Long idUsuario)
 			throws SQLException {
@@ -107,15 +114,16 @@ public class DocumentosJdbc {
 	}
 
 	/**
-	 * Recupera un documento del repositorio en base a su identificador ˙nico.
+	 * Recupera un documento del repositorio en base a su identificador √∫nico.
 	 * 
 	 * @param idDocumento
-	 *            - Identificador ˙nico de la base de datos del documento.
-	 * @return - Documento a crear cargado en memoria, ojo. No est· escrito en disco.
+	 *            - Identificador √∫nico de la base de datos del documento.
+	 * @return - Documento a crear cargado en memoria, ojo. No est√° escrito en
+	 *         disco.
 	 */
 	public File leerDocumento(long idDocumento) throws SQLException,
 			IOException {
-		
+
 		// Carga de la consulta
 		String SQL = "SELECT documento,nombre_documento FROM REPOSITORIOS where id_repositorio = ?";
 
@@ -125,7 +133,7 @@ public class DocumentosJdbc {
 		ResultSet rs = pst.executeQuery();
 		File image = null;
 		while (rs.next()) {
-			// Crea el documento y aÒade el prefijo 'download'
+			// Crea el documento y a√±ade el prefijo 'download'
 			image = new File("(download)" + rs.getString("nombre_documento"));
 			FileOutputStream fos = new FileOutputStream(image);
 			InputStream inputStream = rs.getBinaryStream("documento");
@@ -138,89 +146,237 @@ public class DocumentosJdbc {
 			fos.flush();
 			fos.close();
 		}
-		
-		//Liberar recursos
+
+		// Liberar recursos
 		pst.close();
 		rs.close();
 		con.close();
-		
+
 		// Devuelve la imagen del fichero.
 		return image;
 	}
 
 	/**
-	 * Borra un documento del repositorio en base a su identificador ˙nico.
-	 * Para borrarlo, deber· asegurarse de que ya no est· compartido con nadie.
-	 * En caso contrario, lanzar· una SQLException.
-	 * @param idDocumento - Identificador del documento en la base de datos.
-	 * @param usuario - Usuario que va a realizar la operaciÛn
+	 * Borra un documento del repositorio en base a su identificador √∫nico. Para
+	 * borrarlo, deber√° asegurarse de que ya no est√° compartido con nadie. En
+	 * caso contrario, lanzar√° una SQLException.
+	 * 
+	 * @param idDocumento
+	 *            - Identificador del documento en la base de datos.
+	 * @param usuario
+	 *            - Usuario que va a realizar la operaci√≥n
+	 * @throws SecurityException
+	 *             - El usuario propietario no coincide con el registrado en la
+	 *             base de datos.
 	 */
-	public void borrarDocumento(Long idDocumento) throws SQLException,
-			IOException {
+	public void borrarDocumento(User user, Long idDocumento)
+			throws SQLException {
+
+		if (!esPropietario(user, idDocumento))
+			throw new SecurityException(
+					"No es el propietario del documento: petici√≥n denegada.");
+
 		// Carga de la consulta
-		String SQL = "DELETE FROM REPOSITORIOS WHERE ID_DOCUMENTO = ?";
+		String SQL = "DELETE FROM REPOSITORIOS WHERE ID_REPOSITORIO = ?";
 
 		// Preparar el statement, ejecutar la consulta
 		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idDocumento);
 		pst.executeUpdate();
-		
-		//Liberar recursos
+
+		// Liberar recursos
 		pst.close();
 		con.close();
 	}
-	
-	
-	/******
-	 * MÈtodo borrar documento - Comprobar que el que lo borra es el propietario.
-	 */
-	
-	
-	
+
 	/**
-	 * Genera un listado con todos los identificadores de los repositorios de 
-	 * un usuario determinado.
-	 * @param usuario - Usuario del que queremos saber sus documentos.
-	 * @return - Listado con los identificadores de los documentos de un usuario determinado.
+	 *********************************************** 
+	 *** ESTE METODO REQUIERE UNA CONEXI√ìN ABIERTA **
+	 *********************************************** 
+	 * M√©todo que comprueba si un usuario es el propietario de un repositorio.
+	 * 
+	 * @param user
+	 *            - Usuario a comprobar.
+	 * @param idDocumento
+	 *            - Identificador del repositorio.
+	 * @return booleano resultado.
+	 * @throws SQLException
 	 */
-	public List<Long> listarRepositoriosUsuarios(Usuario usuario)
-	{
-		String SQL = "SELECT * FROM COMPARTE WHERE ID_USUARIO=?";
+	private boolean esPropietario(User user, Long idRepositorio)
+			throws SQLException {
+		// Definici√≥n de SQL
+		String SQL = "SELECT id_usuario FROM repositorios WHERE id_repositorio = ?";
+
+		// Carga del statement y ejecuci√≥n de la consulta
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idRepositorio);
+		ResultSet rs = pst.executeQuery();
+
+		// Recogida de datos
+		Long idUsuario = null;
+		while (rs.next()) {
+			idUsuario = rs.getLong("ID_USUARIO");
+		}
+
+		// Cierre de los recursos
+		rs.close();
+		pst.close();
+
+		// Devuelvo el resultado
+		if (idUsuario != null && idUsuario == user.getIdUsuario())
+			return true;
+		return false;
 	}
-	
+
 	/**
-	 * Genera un listado con los identificadores de los repositorios
-	 * compartidos con un usuario. Este listado no incluir· sus propios repositorios, 
-	 * solo los que se han compartido con Èl.
-	 * @param usuario - Usuario determinado.
-	 * @return - Listado con los identificadores de los documentos
-	 * que un usuario determinado tiene accesibles.
+	 * Genera un listado con todos los identificadores de los repositorios de un
+	 * usuario determinado. Solo obtenemos los identificadores de sus propios
+	 * documentos, no de los que han sido compartidos con el.
+	 * 
+	 * @param usuario
+	 *            - Usuario del que queremos saber sus documentos.
+	 * @return - Listado con los identificadores de los documentos de un usuario
+	 *         determinado.
+	 * @throws SQLException
 	 */
-	public List<Long> listarRespositoriosAccesiblesUsuario(Usuario usuario)
-	{
-		//TODO
+	public List<Long> listarRepositoriosUsuario(User usuario)
+			throws SQLException {
+		// Definici√≥n de SQL
+		String SQL = "SELECT id_repositorio FROM repositorios WHERE id_usuario = ?";
+
+		// Carga del statement y ejecuci√≥n de la consulta
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, usuario.getIdUsuario());
+		ResultSet rs = pst.executeQuery();
+
+		// Recogida de datos
+		List<Long> repositorios = new ArrayList<Long>();
+		while (rs.next()) {
+			Long id = rs.getLong("ID_REPOSITORIO");
+			repositorios.add(id);
+		}
+
+		// Cierre de los recursos
+		rs.close();
+		pst.close();
+		con.close();
+
+		// Devuelvo el resultado
+		return repositorios;
 	}
-	
+
 	/**
-	 * Comparte un repositorio con un usuario determinado.
-	 * Desde este momento, ese repositorio queda accesible
-	 * para el otro usuario totalmente.
-	 * @param idRepositorio - Identificador del documento a compartir.
-	 * @param usuarioACompartir - Usuario que va a tener acceso al documento.
+	 * Genera un listado con los identificadores de los repositorios compartidos
+	 * con un usuario. Este listado no incluir√° sus propios repositorios, solo
+	 * los que se han compartido con √©l.
+	 * 
+	 * @param usuario
+	 *            - Usuario determinado.
+	 * @return - Listado con los identificadores de los documentos que un
+	 *         usuario determinado tiene accesibles.
+	 * @throws SQLException
 	 */
-	public void compartirRepositorioConUsuario(Long idRepositorio, Usuario usuarioACompartir)
-	{
-		//TODO
+	public List<Long> listarRespositoriosAccesiblesUsuario(User usuario)
+			throws SQLException {
+		// Definici√≥n de SQL
+		String SQL = "SELECT id_repositorio FROM comparte WHERE id_usuario=?";
+
+		// Carga del statement y ejecuci√≥n de la consulta
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, usuario.getIdUsuario());
+		ResultSet rs = pst.executeQuery();
+
+		// Recogida de datos
+		List<Long> repositorios = new ArrayList<Long>();
+		while (rs.next()) {
+			Long id = rs.getLong("ID_REPOSITORIO");
+			repositorios.add(id);
+		}
+
+		// Cierre de los recursos
+		rs.close();
+		pst.close();
+		con.close();
+
+		// Devuelvo el resultado
+		return repositorios;
 	}
-	
+
 	/**
-	 * Anula la comparticiÛn de un repositorio con un usuario determinado.
-	 * Desde este momento, ese repositorio ya no queda accesible
-	 * para el otro usuario totalmente.
-	 * @param idRepositorio - Identificador del documento a compartir.
-	 * @param usuarioACompartir - Usuario que va ya no va a tener acceso al documento.
+	 * Comparte un repositorio con un usuario determinado. Desde este momento,
+	 * ese repositorio queda accesible para el otro usuario totalmente.
+	 * 
+	 * @param idRepositorio
+	 *            - Identificador del documento a compartir.
+	 * @param usuarioACompartir
+	 *            - Usuario que va a tener acceso al documento.
+	 * @param usuarioPropietario
+	 *            - Usuario propietario del documento (por cuestiones de
+	 *            seguridad)
+	 * @throws SQLException
+	 * @throws SecurityException
+	 *             - El usuario propietario no coincide con el registrado en la
+	 *             base de datos.
 	 */
-	public void anularCompartirRepositorioConUsuario(Long idRepositorio, Usuario usuarioACompartir)
-	{
-		//TODO
+	public void compartirRepositorioConUsuario(Long idRepositorio,
+			User usuarioACompartir, User usuarioPropietario)
+			throws SQLException {
+		// Compruebo que el usuario que comparte sea el propietario-en caso
+		// contrario, no autorizado.
+		if (!esPropietario(usuarioPropietario, idRepositorio))
+			throw new SecurityException(
+					"No es el propietario del documento: petici√≥n denegada.");
+
+		// Definici√≥n de la consulta
+		String SQL = "INSERT INTO COMPARTE (ID_USUARIO,ID_REPOSITORIO) VALUES (?,?)";
+
+		// Carga de la consulta y ejecuci√≥n
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, usuarioACompartir.getIdUsuario());
+		pst.setLong(2, idRepositorio);
+		pst.executeUpdate();
+
+		// Cierre de recursos
+		pst.close();
+		con.close();
+	}
+
+	/**
+	 * Anula la compartici√≥n de un repositorio con un usuario determinado. Desde
+	 * este momento, ese repositorio ya no queda accesible para el otro usuario
+	 * totalmente.
+	 * 
+	 * @param idRepositorio
+	 *            - Identificador del documento a compartir.
+	 * @param usuarioACompartir
+	 *            - Usuario que va ya no va a tener acceso al documento.
+	 * @param usuarioPropietario
+	 *            - Usuario propietario del documento (por motivos de seguridad)
+	 * @throws SQLException
+	 * @throws SecurityException
+	 *             - El usuario propietario no coincide con el registrado en la
+	 *             base de datos.
+	 */
+	public void anularCompartirRepositorioConUsuario(Long idRepositorio,
+			User usuarioACompartir, User usuarioPropietario)
+			throws SQLException {
+		// Compruebo que el usuario que comparte sea el propietario-en caso
+		// contrario, no autorizado.
+		if (!esPropietario(usuarioPropietario, idRepositorio))
+			throw new SecurityException(
+					"No es el propietario del documento: petici√≥n denegada.");
+
+		// Definici√≥n de la consulta
+		String SQL = "DELETE FROM COMPARTE WHERE ID_USUARIO = ? AND ID_REPOSITORIO = ?";
+
+		// Carga de la consulta y ejecuci√≥n
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, usuarioACompartir.getIdUsuario());
+		pst.setLong(2, idRepositorio);
+		pst.executeUpdate();
+
+		// Cierre de recursos
+		pst.close();
+		con.close();
 	}
 }
