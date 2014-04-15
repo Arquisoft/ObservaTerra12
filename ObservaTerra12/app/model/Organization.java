@@ -50,4 +50,45 @@ public class Organization {
 		this.tipoOrganizacion = tipoOrganizacion;
 	}
 
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result
+				+ ((idOrganizacion == null) ? 0 : idOrganizacion.hashCode());
+		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
+		result = prime
+				* result
+				+ ((tipoOrganizacion == null) ? 0 : tipoOrganizacion.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Organization other = (Organization) obj;
+		if (idOrganizacion == null) {
+			if (other.idOrganizacion != null)
+				return false;
+		} else if (!idOrganizacion.equals(other.idOrganizacion))
+			return false;
+		if (nombre == null) {
+			if (other.nombre != null)
+				return false;
+		} else if (!nombre.equals(other.nombre))
+			return false;
+		if (tipoOrganizacion == null) {
+			if (other.tipoOrganizacion != null)
+				return false;
+		} else if (!tipoOrganizacion.equals(other.tipoOrganizacion))
+			return false;
+		return true;
+	}
+
+	
 }

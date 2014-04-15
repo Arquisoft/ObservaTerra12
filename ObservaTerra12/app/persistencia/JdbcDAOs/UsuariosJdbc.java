@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import model.Organization;
 import model.User;
@@ -111,12 +113,13 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void insertarUsuario(User usuario) throws SQLException {
-		String SQL = "INSERT INTO USUARIOS (NOMBRE_USUARIO,CLAVE,ID_ORGANIZACION) VALUES (?,?,?)";
+		String SQL = "INSERT INTO USUARIOS (ID_USUARIO, NOMBRE_USUARIO,CLAVE,ID_ORGANIZACION) VALUES (?,?,?,?)";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setString(1, usuario.getUserName());
-		pst.setString(2, usuario.getPassword());
-		pst.setLong(3, usuario.getOrganization().getIdOrganizacion());
+		pst.setLong(1, usuario.getIdUsuario());
+		pst.setString(2, usuario.getUserName());
+		pst.setString(3, usuario.getPassword());
+		pst.setLong(4, usuario.getOrganization().getIdOrganizacion());
 
 		pst.executeUpdate();
 	}
@@ -171,6 +174,8 @@ public class UsuariosJdbc {
 				+ "ORGANIZACION WHERE nombre_usuario = ? and clave = ? ";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setString(1, nombreUsuario);
+		pst.setString(2, claveUsuario);
 		ResultSet rs = pst.executeQuery();
 
 		User usuario = null;
@@ -234,7 +239,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void actualizarDatosPersonales(User usuario) throws SQLException {
-		String SQL = "UPDATE datospersonales SET nombre = ? and apellidos = ? and email = ? and rol = ? WHERE id_usuario = ?";
+		String SQL = "UPDATE datospersonales SET nombre = ?,apellidos = ?,email = ?,rol = ? WHERE id_usuario = ?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getName());
@@ -246,7 +251,6 @@ public class UsuariosJdbc {
 		pst.executeUpdate();
 
 		pst.close();
-		con.close();
 	}
 
 	/**
@@ -258,7 +262,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void actualizarDatosUsuario(User usuario) throws SQLException {
-		String SQL = "UPDATE usuarios SET nombre_usuario = ? and clave = ? and id_organizacion = ? WHERE id_usuario = ?";
+		String SQL = "UPDATE usuarios SET nombre_usuario=?,clave=?,id_organizacion=? WHERE id_usuario=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getUserName());
@@ -269,7 +273,43 @@ public class UsuariosJdbc {
 		pst.executeUpdate();
 
 		pst.close();
+	}
+	
+	/**
+	 * Genera un listado con todos los usuarios registrados en el sistema,
+	 * sin incluir a que organización pertenecen.
+	 * @return listado de usuarios.
+	 * @throws SQLException 
+	 */
+	public List<User> listarUsuarios() throws SQLException
+	{
+		String SQL = "SELECT * FROM usuarios natural join datospersonales";
+		
+		PreparedStatement pst = con.prepareStatement(SQL);
+		ResultSet rs = pst.executeQuery();
+		
+		List<User> usuarios = new ArrayList<User>();
+		
+		while(rs.next())
+		{
+			User usuario = new User();
+			
+			usuario.setIdUsuario(rs.getLong("id_usuario"));
+			usuario.setUserName(rs.getString("nombre_usuario"));
+			usuario.setPassword(rs.getString("clave"));
+			usuario.setName(rs.getString("nombre"));
+			usuario.setSurname(rs.getString("apellidos"));
+			usuario.setEmail(rs.getString("email"));
+			usuario.setRol(rs.getString("rol"));			
+			
+			usuarios.add(usuario);			
+		}		
+		
+		rs.close();
+		pst.close();
 		con.close();
+		
+		return usuarios;
 	}
 
 }

@@ -25,7 +25,7 @@ public class DocumentosTest {
 
 	@Before
 	public void preparacion() throws Throwable {
-		this.file = new File("build.sbt");
+		this.file = new File("readme");
 		this.usuario = new User();
 		this.usuario.setIdUsuario(1);
 	}
