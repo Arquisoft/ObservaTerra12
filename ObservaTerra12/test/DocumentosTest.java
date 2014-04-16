@@ -14,7 +14,7 @@ import model.User;
 import org.junit.Before;
 import org.junit.Test;
 
-import persistencia.JdbcDAOs.DocumentosJdbc;
+import persistence.impl.DocumentosJdbc;
 import utils.DBConnection;
 
 public class DocumentosTest {

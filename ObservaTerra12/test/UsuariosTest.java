@@ -9,7 +9,7 @@ import model.User;
 import org.junit.Before;
 import org.junit.Test;
 
-import persistencia.JdbcDAOs.UsuariosJdbc;
+import persistence.impl.UsuariosJdbc;
 import utils.DBConnection;
 
 

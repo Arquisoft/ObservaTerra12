@@ -1,10 +1,10 @@
-/*C2*/SET SCHEMA PUBLIC
+/*C5*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C3*/SET SCHEMA PUBLIC
-CREATE TABLE Areas\u000a(\u000aid_area identity,\u000anombre_area varchar not null,\u000a)
-CREATE TABLE pertenece\u000a(\u000aid_area_referenciada integer,\u000aid_area_pertenece integer,\u000aFOREIGN KEY (id_area_referenciada) REFERENCES areas(id_area),\u000aFOREIGN KEY (id_area_pertenece) REFERENCES areas(id_area),\u000aPRIMARY KEY (id_area_referenciada, id_area_pertenece)\u000a)
-CREATE TABLE intervalotiempo\u000a(\u000aid_intervalo identity,\u000afecha_principio timestamp not null,\u000afecha_fin timestamp,\u000a)
-CREATE TABLE medidas\u000a(\u000aid_medida identity,\u000avalor_medida varchar not null,\u000aunidad_medida varchar not null\u000a)
-CREATE TABLE compuestade\u000a(\u000aid_organizacion_referenciada integer,\u000aid_organizacion_pertenece integer,\u000aPRIMARY KEY (id_organizacion_referenciada, id_organizacion_pertenece),\u000aFOREIGN KEY (id_organizacion_referenciada) REFERENCES organizacion(id_organizacion),\u000aFOREIGN KEY (id_organizacion_pertenece) REFERENCES organizacion(id_organizacion)\u000a)
-CREATE TABLE indicadores\u000a(\u000aid_indicador identity,\u000anombre_indicador varchar not null,\u000aid_area integer,\u000aid_organizacion integer,\u000aid_medida integer,\u000aid_tiempo integer,\u000aFOREIGN KEY (id_area) REFERENCES areas(id_area),\u000aFOREIGN KEY (id_organizacion) REFERENCES organizacion(id_organizacion),\u000aFOREIGN KEY (id_medida) REFERENCES medidas(id_medida),\u000aFOREIGN KEY (id_tiempo) REFERENCES  intervalotiempo(id_intervalo)\u000a)
+/*C6*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C7*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C8*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C4*/SET SCHEMA PUBLIC
 DISCONNECT

@@ -3,12 +3,16 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
+
 import java.sql.SQLException;
 import java.util.List;
+
 import model.Organization;
+
 import org.junit.Before;
 import org.junit.Test;
-import persistencia.JdbcDAOs.OrganizacionesJdbc;
+
+import persistence.impl.OrganizacionesJdbc;
 import utils.DBConnection;
 
 public class OrganizacionesTest {

@@ -1,4 +1,4 @@
-package persistencia.JdbcDAOs;
+package persistence.impl;
 
 import java.io.DataInputStream;
 import java.io.File;
@@ -13,6 +13,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import persistence.fachada.DocumentosGateway;
 import model.User;
 
 /**
@@ -21,7 +22,7 @@ import model.User;
  * 
  * @author Jose Enrique
  */
-public class DocumentosJdbc {
+public class DocumentosJdbc implements DocumentosGateway {
 
 	private Connection con;
 

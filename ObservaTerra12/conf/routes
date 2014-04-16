@@ -2,8 +2,16 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-# Home page
+# Index
 GET     /                           controllers.Application.index()
+POST	/							controllers.Application.authenticate()
+
+# Error
+GET     /error                      controllers.Application.error()
+
+# Menu
+GET     /options                    controllers.Application.options()
+GET		/logout						controllers.Application.logout()
 
 # Visualization
 GET     /histogram					controllers.Application.histogram()

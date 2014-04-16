@@ -1,8 +1,9 @@
-/ApplicationTest.class
 /DocumentosTest.class
+/LoginTest.class
 /OrganizacionesTest.class
 /UsuariosTest.class
 /controllers
 /model
-/persistencia
+/persistence
 /utils
+/views

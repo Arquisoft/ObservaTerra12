@@ -1,4 +1,4 @@
-package persistencia.JdbcDAOs;
+package persistence.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,8 +9,14 @@ import java.util.List;
 
 import model.Organization;
 import model.User;
+import persistence.fachada.UsuariosGateway;
+import utils.DBConnection;
 
-public class UsuariosJdbc {
+public class UsuariosJdbc implements UsuariosGateway {
+	
+	public UsuariosJdbc() throws SQLException {
+		setConnection(DBConnection.getConnection());
+	}
 
 	private Connection con;
 
@@ -54,7 +60,7 @@ public class UsuariosJdbc {
 			// Ejecuta la transaccion
 			con.commit();
 			return usuario;
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
 			throw e;
 		} finally {
@@ -147,7 +153,7 @@ public class UsuariosJdbc {
 			pst2.setLong(1, usuario.getIdUsuario());
 			pst2.executeUpdate();
 			con.commit();
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
 			throw e;
 		} finally {
@@ -221,7 +227,7 @@ public class UsuariosJdbc {
 			actualizarDatosUsuario(usuario);
 			actualizarDatosPersonales(usuario);
 			con.commit();
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
 			throw e;
 		} finally {
