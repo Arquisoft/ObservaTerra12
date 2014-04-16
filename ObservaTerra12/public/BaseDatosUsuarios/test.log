@@ -1,35 +1,10 @@
-/*C22*/SET SCHEMA PUBLIC
+/*C2*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C1*/SET SCHEMA SYSTEM_LOBS
-INSERT INTO LOB_IDS VALUES(56,0,0,30)
-COMMIT
-ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 57
-/*C23*/SET SCHEMA PUBLIC
-INSERT INTO REPOSITORIOS VALUES(1,55,56,'maven.txt')
-SET SCHEMA SYSTEM_LOBS
-DELETE FROM LOB_IDS WHERE LOB_ID=56
-INSERT INTO LOB_IDS VALUES(56,0,1,30)
-COMMIT
-SET SCHEMA PUBLIC
-DISCONNECT
-/*C24*/SET SCHEMA PUBLIC
-DISCONNECT
-/*C1*/INSERT INTO LOB_IDS VALUES(57,238,0,30)
-COMMIT
-ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 58
-DELETE FROM BLOCKS WHERE BLOCK_ADDR=1056
-INSERT INTO BLOCKS VALUES(1056,1,0)
-INSERT INTO BLOCKS VALUES(1057,2147482590,0)
-DELETE FROM BLOCKS WHERE BLOCK_ADDR=1056
-INSERT INTO LOBS VALUES(1056,1,0,57)
-COMMIT
-/*C25*/SET SCHEMA PUBLIC
-INSERT INTO REPOSITORIOS VALUES(1,56,57,'script.txt')
-SET SCHEMA SYSTEM_LOBS
-DELETE FROM LOB_IDS WHERE LOB_ID=57
-INSERT INTO LOB_IDS VALUES(57,238,1,30)
-COMMIT
-SET SCHEMA PUBLIC
-DISCONNECT
-/*C26*/SET SCHEMA PUBLIC
+/*C3*/SET SCHEMA PUBLIC
+CREATE TABLE Areas\u000a(\u000aid_area identity,\u000anombre_area varchar not null,\u000a)
+CREATE TABLE pertenece\u000a(\u000aid_area_referenciada integer,\u000aid_area_pertenece integer,\u000aFOREIGN KEY (id_area_referenciada) REFERENCES areas(id_area),\u000aFOREIGN KEY (id_area_pertenece) REFERENCES areas(id_area),\u000aPRIMARY KEY (id_area_referenciada, id_area_pertenece)\u000a)
+CREATE TABLE intervalotiempo\u000a(\u000aid_intervalo identity,\u000afecha_principio timestamp not null,\u000afecha_fin timestamp,\u000a)
+CREATE TABLE medidas\u000a(\u000aid_medida identity,\u000avalor_medida varchar not null,\u000aunidad_medida varchar not null\u000a)
+CREATE TABLE compuestade\u000a(\u000aid_organizacion_referenciada integer,\u000aid_organizacion_pertenece integer,\u000aPRIMARY KEY (id_organizacion_referenciada, id_organizacion_pertenece),\u000aFOREIGN KEY (id_organizacion_referenciada) REFERENCES organizacion(id_organizacion),\u000aFOREIGN KEY (id_organizacion_pertenece) REFERENCES organizacion(id_organizacion)\u000a)
+CREATE TABLE indicadores\u000a(\u000aid_indicador identity,\u000anombre_indicador varchar not null,\u000aid_area integer,\u000aid_organizacion integer,\u000aid_medida integer,\u000aid_tiempo integer,\u000aFOREIGN KEY (id_area) REFERENCES areas(id_area),\u000aFOREIGN KEY (id_organizacion) REFERENCES organizacion(id_organizacion),\u000aFOREIGN KEY (id_medida) REFERENCES medidas(id_medida),\u000aFOREIGN KEY (id_tiempo) REFERENCES  intervalotiempo(id_intervalo)\u000a)
 DISCONNECT
