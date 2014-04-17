@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -9,7 +10,7 @@ import model.User;
 import org.junit.Before;
 import org.junit.Test;
 
-import persistence.impl.UsuariosJdbc;
+import persistencia.implJdbc.UsuariosJdbc;
 import utils.DBConnection;
 
 
@@ -49,13 +50,14 @@ public class UsuariosTest {
 	{
 		//Guarda al nuevo usuario cread0
 		UsuariosJdbc usuariosJDBC = new UsuariosJdbc();
-		usuariosJDBC.setConnection( DBConnection.getConnection() );
+		Connection con = DBConnection.getConnection();
+		usuariosJDBC.setConnection( con );
 		this.usuario = usuariosJDBC.crearUsuario(this.usuario);
-		
+		con.commit();
 		
 		//Probar a recuperarlo individualmente
 		usuariosJDBC = new UsuariosJdbc();
-		usuariosJDBC.setConnection( DBConnection.getConnection() );
+		usuariosJDBC.setConnection( con );
 		User usuarioLeido = usuariosJDBC.leerUsuario(this.usuario.getUserName(), this.usuario.getPassword() );
 		
 		assertNotNull(usuarioLeido);
@@ -66,10 +68,12 @@ public class UsuariosTest {
 		
 		//Probar a listar todos
 		usuariosJDBC = new UsuariosJdbc();
-		usuariosJDBC.setConnection( DBConnection.getConnection() );
+		usuariosJDBC.setConnection( con );
 		List<User> usuariosLeidos = usuariosJDBC.listarUsuarios();
 		
 		assertTrue( usuariosLeidos.contains(this.usuario) );
+		
+		con.close();
 	}
 	
 	/**
@@ -118,20 +122,21 @@ public class UsuariosTest {
 	{
 		//Borra al nuevo usuario cread0
 		UsuariosJdbc usuariosJDBC = new UsuariosJdbc();
-		usuariosJDBC.setConnection( DBConnection.getConnection() );
+		Connection con = DBConnection.getConnection();
+		usuariosJDBC.setConnection( con );
 		usuariosJDBC.eliminarUsuario(this.usuario);
-		
+		con.commit();
 		
 		//Probar a recuperarlo individualmente
 		usuariosJDBC = new UsuariosJdbc();
-		usuariosJDBC.setConnection( DBConnection.getConnection() );
+		usuariosJDBC.setConnection( con );
 		User usuarioLeido = usuariosJDBC.leerUsuario(this.usuario.getUserName(), this.usuario.getPassword() );
 		
 		assertNull(usuarioLeido);
 		
 		//Probar a listar todos
 		usuariosJDBC = new UsuariosJdbc();
-		usuariosJDBC.setConnection( DBConnection.getConnection() );
+		usuariosJDBC.setConnection( con );
 		List<User> usuariosLeidos = usuariosJDBC.listarUsuarios();
 		
 		assertFalse( usuariosLeidos.contains(this.usuario) );

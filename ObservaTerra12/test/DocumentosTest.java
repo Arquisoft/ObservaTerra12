@@ -14,7 +14,7 @@ import model.User;
 import org.junit.Before;
 import org.junit.Test;
 
-import persistence.impl.DocumentosJdbc;
+import persistencia.implJdbc.DocumentosJdbc;
 import utils.DBConnection;
 
 public class DocumentosTest {
@@ -77,7 +77,9 @@ public class DocumentosTest {
 		} finally {
 			// Borrar el fichero
 			borrarFicheroTexto();
+			con.close();
 		}
+		
 	}
 
 	/**
@@ -96,6 +98,7 @@ public class DocumentosTest {
 
 		// Comprobar que ahora mismo existe el fichero
 		List<Long> repos = docs.listarRepositoriosUsuario(usuario);
+		con.close();
 		assertFalse(repos.isEmpty());
 		assertTrue(repos.contains(idDocumento));
 
@@ -106,6 +109,7 @@ public class DocumentosTest {
 		con = DBConnection.getConnection();
 		docs.setConnection(con);
 		repos = docs.listarRepositoriosUsuario(usuario);
+		con.close();
 		assertFalse(repos.contains(idDocumento));
 	}
 
@@ -128,6 +132,7 @@ public class DocumentosTest {
 
 		// Compartir el recurso con el usuario dos
 		docs.compartirRepositorioConUsuario(idDocumento, usuario2, usuario);
+		con.close();
 
 		// Comprueba que el fichero se ha compartido
 		comprobarFicheroCompartido(usuario2);
@@ -139,6 +144,7 @@ public class DocumentosTest {
 		// Dejar de compartir el recurso con el usuario dos
 		docs.anularCompartirRepositorioConUsuario(idDocumento, usuario2,
 				usuario);
+		con.close();
 
 		// Comprueba que el fichero se ha compartido
 		comprobarFicheroNoCompartido(usuario2);
@@ -162,6 +168,7 @@ public class DocumentosTest {
 
 		// Comprobar que el usuario dos ya no puede ver el repositorio
 		List<Long> repos = docs.listarRespositoriosAccesiblesUsuario(usuario2);
+		con.close();
 		assertFalse(repos.contains(idDocumento));
 	}
 
@@ -173,6 +180,7 @@ public class DocumentosTest {
 
 		// Comprobar que el usuario dos ya no puede ver el repositorio
 		List<Long> repos = docs.listarRespositoriosAccesiblesUsuario(usuario2);
+		con.close();
 		assertTrue(repos.contains(idDocumento));
 	}
 
