@@ -3,11 +3,8 @@ package controllers;
 import static play.data.Form.form;
 
 import java.sql.SQLException;
-
 import akka.dispatch.Filter;
 import model.User;
-import persistence.JDBCFactory;
-import persistence.fachada.UsuariosGateway;
 import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
@@ -27,7 +24,7 @@ public class Application extends Controller {
 		
 		public String validate() {
 			try {
-				UsuariosGateway usuarios = JDBCFactory.createUsuariosFactory();
+				UsuariosDAO usuarios = persistecia.PersistenceFactory.createUsuariosDAO();
 				User user = usuarios.leerUsuario(userName, password);
 				if (user == null)
 					return "Usuario o contraseña incorrecta.";
