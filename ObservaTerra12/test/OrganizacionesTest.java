@@ -12,7 +12,7 @@ import model.Organization;
 import org.junit.Before;
 import org.junit.Test;
 
-import persistence.impl.OrganizacionesJdbc;
+import persistencia.implJdbc.OrganizacionesJdbc;
 import utils.DBConnection;
 
 public class OrganizacionesTest {

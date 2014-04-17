@@ -3,10 +3,12 @@ package controllers;
 import static play.data.Form.form;
 
 import java.sql.SQLException;
+<<<<<<< HEAD
 
+=======
+import akka.dispatch.Filter;
+>>>>>>> 109f5d5c9a58e9fcb32ec75bd46436ba322abeb0
 import model.User;
-import persistence.JDBCFactory;
-import persistence.fachada.UsuariosGateway;
 import play.data.Form;
 import play.i18n.Messages;
 import play.mvc.Controller;
@@ -27,7 +29,7 @@ public class Application extends Controller {
 		
 		public String validate() {
 			try {
-				UsuariosGateway usuarios = JDBCFactory.createUsuariosFactory();
+				UsuariosDAO usuarios = persistecia.PersistenceFactory.createUsuariosDAO();
 				User user = usuarios.leerUsuario(userName, password);
 				if (user == null)
 					return Messages.get("index_form_error_login");
