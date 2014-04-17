@@ -3,17 +3,19 @@ package controllers;
 import static play.data.Form.form;
 
 import java.sql.SQLException;
-<<<<<<< HEAD
 
-=======
-import akka.dispatch.Filter;
->>>>>>> 109f5d5c9a58e9fcb32ec75bd46436ba322abeb0
 import model.User;
+import persistencia.PersistenceFactory;
+import persistencia.UsuariosDAO;
 import play.data.Form;
 import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.*;
+import views.html.error;
+import views.html.histogram;
+import views.html.index;
+import views.html.piechart;
+import views.html.user_panel;
 
 public class Application extends Controller {
 	
@@ -29,7 +31,7 @@ public class Application extends Controller {
 		
 		public String validate() {
 			try {
-				UsuariosDAO usuarios = persistecia.PersistenceFactory.createUsuariosDAO();
+				UsuariosDAO usuarios = PersistenceFactory.createUsuariosDAO();
 				User user = usuarios.leerUsuario(userName, password);
 				if (user == null)
 					return Messages.get("index_form_error_login");

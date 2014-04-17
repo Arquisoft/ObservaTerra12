@@ -42,9 +42,9 @@ INDEX VERSION 1.126+C:\Users\Manuel\Documents\GitHub\ObservaTerra12\.metadata\.p
 3955404533.index
 1259610255.index
 2450734853.index
-3887790817.index
-2121765493.index
 3974580528.index
+2121765493.index
+3887790817.index
 71507749.index
 2246947040.index
 2055710791.index

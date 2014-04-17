@@ -7,6 +7,7 @@ public class Observation {
 	private Time time;
 	private Provider provider;
 	private Submission submission;
+	private Long idObservacion;	
 
 	public Area getArea() {
 		return area;
@@ -54,5 +55,13 @@ public class Observation {
 
 	public void setSubmission(Submission submission) {
 		this.submission = submission;
+	}
+
+	public Long getIdObservacion() {
+		return idObservacion;
+	}
+
+	public void setIdObservacion(Long idObservacion) {
+		this.idObservacion = idObservacion;
 	}
 }
