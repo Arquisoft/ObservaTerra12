@@ -51,9 +51,9 @@ public class AreasJdbc {
 				}
 			}
 			con.commit();
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
-			throw e;
+			throw new SQLException("Error creando el area", e.getMessage());
 		}
 	}
 
@@ -126,9 +126,9 @@ public class AreasJdbc {
 			}
 			eliminarSubarea(area.getId_area());
 			con.commit();
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
-			throw e;
+			throw new SQLException("Error eliminando el area", e.getMessage());
 		} 
 	}
 

@@ -54,9 +54,9 @@ public class UsuariosJdbc {
 			// Ejecuta la transaccion
 			con.commit();
 			return usuario;
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
-			throw e;
+			throw new SQLException("Error creando el usuario", e);
 		} 
 	}
 
@@ -151,9 +151,9 @@ public class UsuariosJdbc {
 			pst2.setLong(1, usuario.getIdUsuario());
 			pst2.executeUpdate();
 			con.commit();
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
-			throw e;
+			throw new SQLException("Eliminar usuario", e);
 		} finally {
 			pst.close();
 			pst2.close();
@@ -225,7 +225,7 @@ public class UsuariosJdbc {
 			con.commit();
 		} catch (Exception e) {
 			con.rollback();
-			throw e;
+			throw new SQLException("Actualizar usuario", e);
 		}
 	}
 
