@@ -44,6 +44,7 @@ public class TiempoJdbc {
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, id);
+		Long l = intervalo.getStartDate().getTime();
 		pst.setLong(2, intervalo.getStartDate().getTime());
 		if (intervalo.getEndDate() != null) 
 		{
