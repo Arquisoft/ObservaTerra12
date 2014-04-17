@@ -1,0 +1,24 @@
+@(form: Form[Application.Login])
+@import play.i18n._
+
+@main(@Messages.get("index_title")) {
+
+	@if(form.hasGlobalErrors) {
+		<p class="error">
+			@form.globalError.message
+		</p>
+	}
+
+	@helper.form(routes.Application.authenticate) {
+		<h1>@Messages("index_form_title")</h1>
+		<p>
+			<input type="text" name="userName" placeholder="@Messages("index_form_user_name")" value='@form("userName").value'/>
+		</p>
+		<p>
+			<input type="password" name="password" placeholder="@Messages("index_form_password")"/>
+		</p>
+		<p>
+			<button type="submit">Login</button>
+		</p>
+	}
+}

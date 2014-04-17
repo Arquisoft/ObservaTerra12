@@ -28,23 +28,11 @@ public class LoginTest extends WithApplication {
         Result result = callAction(
             controllers.routes.ref.Application.authenticate(),
             fakeRequest().withFormUrlEncodedBody(ImmutableMap.of(
-                "userName", "user",
-                "password", "FROOORF"))
+                "userName", "periodista1",
+                "password", "periodista1"))
         );
         assertEquals(303, status(result));
-        assertEquals("user", session(result).get("userName"));
-    }
-    
-    @Test
-    public void authenticateFailure() {
-        Result result = callAction(
-            controllers.routes.ref.Application.authenticate(),
-            fakeRequest().withFormUrlEncodedBody(ImmutableMap.of(
-                "userName", "user",
-                "password", "MIPIM"))
-        );
-        assertEquals(400, status(result));
-        assertNull(session(result).get("userName"));
+        assertEquals("periodista1", session(result).get("userName"));
     }
     
     @Test
@@ -52,6 +40,18 @@ public class LoginTest extends WithApplication {
     	authenticateSuccess();
         Result result = callAction(controllers.routes.ref.Application.logout());
         assertEquals(303, status(result));
+        assertNull(session(result).get("userName"));
+    }
+    
+    @Test
+    public void authenticateFailure() {
+        Result result = callAction(
+            controllers.routes.ref.Application.authenticate(),
+            fakeRequest().withFormUrlEncodedBody(ImmutableMap.of(
+                "userName", "FROOORF",
+                "password", "MIPIM"))
+        );
+        assertEquals(400, status(result));
         assertNull(session(result).get("userName"));
     }
 }

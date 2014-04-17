@@ -4,11 +4,11 @@ import static play.data.Form.form;
 
 import java.sql.SQLException;
 
-import akka.dispatch.Filter;
 import model.User;
 import persistence.JDBCFactory;
 import persistence.fachada.UsuariosGateway;
 import play.data.Form;
+import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.Result;
 import views.html.*;
@@ -30,12 +30,12 @@ public class Application extends Controller {
 				UsuariosGateway usuarios = JDBCFactory.createUsuariosFactory();
 				User user = usuarios.leerUsuario(userName, password);
 				if (user == null)
-					return "Usuario o contraseña incorrecta.";
+					return Messages.get("index_form_error_login");
 				return null;
 			} catch (SQLException e) {
 				e.printStackTrace();
+				return Messages.get("index_form_error_bd");
 			}
-			return "Error al acceder a la base de datos.";
 		}
 	}
 
@@ -44,19 +44,19 @@ public class Application extends Controller {
     }
 
     public static Result authenticate() {
-    	Form<Login> loginForm = form(Login.class).bindFromRequest();
-    	if (loginForm.hasErrors())
-    		return badRequest(index.render(loginForm));
-    	else {
-    		session().clear();
-    		session("userName", loginForm.get().userName);
-    		return redirect(routes.Application.options());
-    	}
+	    Form<Login> loginForm = form(Login.class).bindFromRequest();
+	    if (loginForm.hasErrors())
+	    	return badRequest(index.render(loginForm));
+	    else {
+	    	session().clear();
+	    	session("userName", loginForm.get().userName);
+	    	return redirect(routes.Application.userPanel());
+	    }
     }
     
-    public static Result options() {
+    public static Result userPanel() {
     	if (session().get("userName") != null)
-    		return ok(options.render());
+    		return ok(user_panel.render());
     	return redirect(routes.Application.error());
     }
 

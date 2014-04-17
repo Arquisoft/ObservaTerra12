@@ -7,4 +7,9 @@
 <fullyQualifiedTypeName name="java.io.DataInputStream"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="tyrex.util.Messages"/>
+<fullyQualifiedTypeName name="play.i18n.Lang"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="play.i18n.Messages"/>
+<fullyQualifiedTypeName name="java.lang.reflect.InvocationTargetException"/>
 </qualifiedTypeNameHistroy>

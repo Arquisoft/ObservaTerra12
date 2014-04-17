@@ -1,6 +1,7 @@
 @(form: Form[Application.Login])
+@import play.i18n._
 
-@main("ObservaTerra: Home") {
+@main(Messages.get("index_title")) {
 
 	@if(form.hasGlobalErrors) {
 		<p class="error">
@@ -9,15 +10,15 @@
 	}
 
 	@helper.form(routes.Application.authenticate) {
-		<h1>Sign in</h1>
+		<h1>@Messages.get("index_form_title")</h1>
 		<p>
-			<input type="text" name="userName" placeholder="UserName" value='@form("userName").value'/>
+			<input type="text" name="userName" placeholder="@Messages.get("index_form_user_name")" value='@form("userName").value'/>
 		</p>
 		<p>
-			<input type="password" name="password" placeholder="Password"/>
+			<input type="password" name="password" placeholder="@Messages.get("index_form_password")"/>
 		</p>
 		<p>
-			<button type="submit">Login</button>
+			<button type="submit">@Messages.get("index_form_login")</button>
 		</p>
 	}
 }

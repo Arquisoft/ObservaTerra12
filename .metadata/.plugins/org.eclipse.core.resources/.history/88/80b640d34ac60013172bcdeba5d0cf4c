@@ -1,0 +1,23 @@
+@(form: Form[Application.Login])
+
+@main("Home") {
+
+	@if(form.hasGlobalErrors) {
+		<p class="error">
+			@form.globalError.message
+		</p>
+	}
+
+	@helper.form(routes.Application.authenticate) {
+		<h1>&{index_titulo}</h1>
+		<p>
+			<input type="text" name="userName" placeholder="UserName" value='@form("userName").value'/>
+		</p>
+		<p>
+			<input type="password" name="password" placeholder="Password"/>
+		</p>
+		<p>
+			<button type="submit">Login</button>
+		</p>
+	}
+}

@@ -10,7 +10,7 @@ POST	/							controllers.Application.authenticate()
 GET     /error                      controllers.Application.error()
 
 # Menu
-GET     /options                    controllers.Application.options()
+GET     /user-panel                 controllers.Application.userPanel()
 GET		/logout						controllers.Application.logout()
 
 # Visualization
