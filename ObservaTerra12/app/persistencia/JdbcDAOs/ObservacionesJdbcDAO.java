@@ -81,6 +81,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 				tiempo.crearIntervalo(observacion.getTime());
 
 			// Insertar la observacion
+			this.observacionesJDBC.setConnection(con);
 			Observation obv = this.observacionesJDBC
 					.insertarObservacion(observacion);
 			con.commit();
