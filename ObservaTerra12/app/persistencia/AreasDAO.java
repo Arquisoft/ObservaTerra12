@@ -3,8 +3,14 @@ package persistencia;
 import java.sql.SQLException;
 
 import model.Area;
+import model.Country;
 
 public interface AreasDAO {
+	
+	
+	public void crearPais(Country pais);
+	public Country leerPais(String nombre);
+	public Country leerPais(Long idPais);
 
 	/**
 	 * Registra un nuevo area, iterando tambien por las subareas para ir

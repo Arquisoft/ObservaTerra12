@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 import model.Area;
+import model.Country;
 import persistencia.AreasDAO;
 import persistencia.implJdbc.AreasJdbc;
 import utils.DBConnection;
@@ -145,6 +146,24 @@ public class AreasJdbcDAO implements AreasDAO {
 		this.areasJDBC.setConnection(con);
 		this.areasJDBC.anularAsociacionSubarea(areaPertenece, subarea);
 		con.close();
+	}
+
+	@Override
+	public void crearPais(Country pais) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Country leerPais(String nombre) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Country leerPais(Long idPais) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

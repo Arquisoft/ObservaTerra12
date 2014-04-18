@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 import model.Organization;
+import model.Provider;
 import persistencia.OrganizacionesDAO;
 import persistencia.implJdbc.OrganizacionesJdbc;
 import utils.DBConnection;
@@ -87,5 +88,23 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		List<Organization> org = this.organizacionesJDBC.listarOrganizaciones();
 		con.close();
 		return org;
+	}
+
+	@Override
+	public Provider leerProvedor(Long idProveedor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Provider crearProveedor(Provider proveedor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Provider> listarProveedores() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

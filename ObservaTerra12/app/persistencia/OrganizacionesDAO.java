@@ -4,8 +4,16 @@ import java.sql.SQLException;
 import java.util.List;
 
 import model.Organization;
+import model.Provider;
 
 public interface OrganizacionesDAO {
+	
+	//Leer proveedor
+	public Provider leerProvedor(Long idProveedor);
+	//Registra a una organizacion como proveedor de datos del sistema
+	public Provider crearProveedor(Provider proveedor);	
+	//Genera un listado con todos los proveedores del sistema
+	public List<Provider> listarProveedores();
 
 	/**
 	 * Registra una nueva organización en la base de datos.

@@ -2,6 +2,7 @@ package persistencia;
 
 import persistencia.JdbcDAOs.AreasJdbcDAO;
 import persistencia.JdbcDAOs.DocumentosJdbcDAO;
+import persistencia.JdbcDAOs.IndicadoresJdbcDAO;
 import persistencia.JdbcDAOs.MedidasJdbcDAO;
 import persistencia.JdbcDAOs.ObservacionesJdbcDAO;
 import persistencia.JdbcDAOs.OrganizacionesJdbcDAO;
@@ -44,6 +45,11 @@ public class PersistenceFactory
 	public static UsuariosDAO createUsuariosDAO()
 	{
 		return new UsuariosJdbcDAO();
+	}
+	
+	public static IndicadoresDAO createIndicadoresDAO()
+	{
+		return new IndicadoresJdbcDAO();
 	}
 	
 	

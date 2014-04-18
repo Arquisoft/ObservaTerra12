@@ -10,6 +10,7 @@ import model.Measure;
 import model.Observation;
 import model.Organization;
 import model.Provider;
+import model.Submission;
 import model.Time;
 import persistencia.ObservacionesDAO;
 import persistencia.implJdbc.AreasJdbc;
@@ -228,6 +229,19 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 
 		con.close();
 		return ret;
+	}
+
+	@Override
+	public List<Observation> listarTodasObservaciones() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Observation insertarObservacion(Observation observacion,
+			Submission submission) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

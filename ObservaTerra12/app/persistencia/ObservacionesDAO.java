@@ -5,8 +5,13 @@ import java.util.List;
 
 import model.Area;
 import model.Observation;
+import model.Submission;
 
 public interface ObservacionesDAO {
+	
+	//Genera un listado con todas las observaciones del sistema
+	public List<Observation> listarTodasObservaciones();
+	
 
 	/**
 	 * Inserta una nueva observación en la base de datos. Este método cuenta con
@@ -18,7 +23,16 @@ public interface ObservacionesDAO {
 	 * @return Observacion insertada, mas el identificador único.
 	 * @throws SQLException
 	 */
+	//debería usarse el método de abajo
+	@Deprecated
 	public  Observation insertarObservacion(Observation observacion)
+			throws SQLException;
+	
+	
+	/**
+	 * Registra una observacion en la base de datos
+	 */
+	public  Observation insertarObservacion(Observation observacion, Submission submission)
 			throws SQLException;
 
 	/**
@@ -42,8 +56,7 @@ public interface ObservacionesDAO {
 	 * @return Observación encontrada.
 	 * @throws SQLException
 	 */
-	public  Observation buscarObservacionPorIdentificador(
-			Long identificador) throws SQLException;
+	public  Observation buscarObservacionPorIdentificador(Long identificador) throws SQLException;
 
 	/**
 	 * Busca y recupera un listado de observaciones en base al área al que
@@ -70,7 +83,10 @@ public interface ObservacionesDAO {
 	 * @return Listado de observaciones encontradas.
 	 * @throws SQLException
 	 */
-	public  List<Observation> leerObservacionesDeUnIndicador(
-			String nombreIndicador) throws SQLException;
+	public List<Observation> leerObservacionesDeUnIndicador(String nombreIndicador) throws SQLException;
+	
+
+	
+	
 
 }
