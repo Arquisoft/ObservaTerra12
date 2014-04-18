@@ -99,15 +99,15 @@ public class ObservacionesTest {
 		List<Observation> leidas = obvJDBC.leerObservacionesDeUnIndicador("Nombre de prueba");
 
 		assertEquals(leidas.size(), 1);
-		assertEquals(leidas.get(0).getArea().getId_area(), this.area.getId_area());
+		assertEquals(leidas.get(0).getArea().getIdArea(), this.area.getIdArea());
 		assertEquals(leidas.get(0).getIndicator().getNombre(), this.observacion
 				.getIndicator().getNombre());
-		assertEquals(leidas.get(0).getProvider().getIdOrganizacion(),
-				this.proveedor.getIdOrganizacion());
-		assertEquals(leidas.get(0).getMeasure().getIdMedida(),
-				this.medida.getIdMedida());
-		assertEquals(leidas.get(0).getTime().getIdTiempo(),
-				this.intervalo.getIdTiempo());
+		assertEquals(leidas.get(0).getProvider().getIdOrganization(),
+				this.proveedor.getIdOrganization());
+		assertEquals(leidas.get(0).getMeasure().getIdMeasure(),
+				this.medida.getIdMeasure());
+		assertEquals(leidas.get(0).getTime().getIdTime(),
+				this.intervalo.getIdTime());
 		assertEquals(leidas.get(0).getIndicator().getNombre(), "Nombre de prueba");
 
 		con.close();		
@@ -123,15 +123,15 @@ public class ObservacionesTest {
 		List<Observation> leidas = obvJDBC.leerObservacionesDeUnArea(this.area);
 
 		assertEquals(leidas.size(), 1);
-		assertEquals(leidas.get(0).getArea().getId_area(), this.area.getId_area());
+		assertEquals(leidas.get(0).getArea().getIdArea(), this.area.getIdArea());
 		assertEquals(leidas.get(0).getIndicator().getNombre(), this.observacion
 				.getIndicator().getNombre());
-		assertEquals(leidas.get(0).getProvider().getIdOrganizacion(),
-				this.proveedor.getIdOrganizacion());
-		assertEquals(leidas.get(0).getMeasure().getIdMedida(),
-				this.medida.getIdMedida());
-		assertEquals(leidas.get(0).getTime().getIdTiempo(),
-				this.intervalo.getIdTiempo());
+		assertEquals(leidas.get(0).getProvider().getIdOrganization(),
+				this.proveedor.getIdOrganization());
+		assertEquals(leidas.get(0).getMeasure().getIdMeasure(),
+				this.medida.getIdMeasure());
+		assertEquals(leidas.get(0).getTime().getIdTime(),
+				this.intervalo.getIdTime());
 		assertEquals(leidas.get(0).getIndicator().getNombre(), "Nombre de prueba");
 
 		con.close();		
@@ -147,18 +147,18 @@ public class ObservacionesTest {
 		// Recuperar la observacion
 		Observation leida = obvJDBC
 				.buscarObservacionPorIdentificador(this.observacion
-						.getIdObservacion());
+						.getIdObservation());
 
 		assertNotNull(leida);
-		assertEquals(leida.getArea().getId_area(), this.area.getId_area());
+		assertEquals(leida.getArea().getIdArea(), this.area.getIdArea());
 		assertEquals(leida.getIndicator().getNombre(), this.observacion
 				.getIndicator().getNombre());
-		assertEquals(leida.getProvider().getIdOrganizacion(),
-				this.proveedor.getIdOrganizacion());
-		assertEquals(leida.getMeasure().getIdMedida(),
-				this.medida.getIdMedida());
-		assertEquals(leida.getTime().getIdTiempo(),
-				this.intervalo.getIdTiempo());
+		assertEquals(leida.getProvider().getIdOrganization(),
+				this.proveedor.getIdOrganization());
+		assertEquals(leida.getMeasure().getIdMeasure(),
+				this.medida.getIdMeasure());
+		assertEquals(leida.getTime().getIdTime(),
+				this.intervalo.getIdTime());
 		assertEquals(leida.getIndicator().getNombre(), "Nombre de prueba");
 
 		con.close();
@@ -174,7 +174,7 @@ public class ObservacionesTest {
 		// Recuperar la observacion
 		Observation leida = obvJDBC
 				.buscarObservacionPorIdentificador(this.observacion
-						.getIdObservacion());
+						.getIdObservation());
 
 		assertNull(leida);
 

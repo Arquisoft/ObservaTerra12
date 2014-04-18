@@ -71,9 +71,9 @@ public class AreasJdbc {
 
 		PreparedStatement pst = null;
 
-		area.setId_area(idNuevaArea);
+		area.setIdArea(idNuevaArea);
 		pst = con.prepareStatement(SQL);
-		pst.setLong(1, area.getId_area());
+		pst.setLong(1, area.getIdArea());
 		pst.setString(2, area.getName());
 		pst.executeUpdate();
 		
@@ -119,12 +119,12 @@ public class AreasJdbc {
 			con.setAutoCommit(false);
 			if (area.getAreas() != null && !area.getAreas().isEmpty()) {
 				for (Area areas : area.getAreas()) {
-					eliminarReferenciaSubarea(areas.getId_area(),
-							area.getId_area());
-					eliminarSubarea(areas.getId_area());
+					eliminarReferenciaSubarea(areas.getIdArea(),
+							area.getIdArea());
+					eliminarSubarea(areas.getIdArea());
 				}
 			}
-			eliminarSubarea(area.getId_area());
+			eliminarSubarea(area.getIdArea());
 			con.commit();
 		} catch (SQLException e) {
 			con.rollback();
@@ -183,7 +183,7 @@ public class AreasJdbc {
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, area.getName());
-		pst.setLong(2, area.getId_area());
+		pst.setLong(2, area.getIdArea());
 		pst.executeUpdate();
 
 		pst.close();
@@ -208,7 +208,7 @@ public class AreasJdbc {
 		Area area = null;
 		while (rs.next()) {
 			area = new Area();
-			area.setId_area(rs.getLong("id_area"));
+			area.setIdArea(rs.getLong("id_area"));
 			area.setName(rs.getString("nombre_area"));
 		}
 
@@ -237,7 +237,7 @@ public class AreasJdbc {
 		Area area = null;
 		while (rs.next()) {
 			area = new Area();
-			area.setId_area(rs.getLong("id_area"));
+			area.setIdArea(rs.getLong("id_area"));
 			area.setName(rs.getString("nombre_area"));
 		}
 
@@ -260,7 +260,7 @@ public class AreasJdbc {
 		String SQL = "SELECT * FROM pertenece WHERE id_area_pertenece=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, area.getId_area());
+		pst.setLong(1, area.getIdArea());
 		ResultSet rs = pst.executeQuery();
 
 		List<Area> subareas = new ArrayList<Area>();
@@ -292,8 +292,8 @@ public class AreasJdbc {
 		String SQL = "INSERT INTO PERTENECE (ID_AREA_REFERENCIADA,ID_AREA_PERTENECE) VALUES (?,?)";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, subarea.getId_area());
-		pst.setLong(2, areaPertenece.getId_area());
+		pst.setLong(1, subarea.getIdArea());
+		pst.setLong(2, areaPertenece.getIdArea());
 		pst.executeUpdate();
 
 		pst.close();
@@ -314,8 +314,8 @@ public class AreasJdbc {
 		String SQL = "DELETE FROM PERTENECE WHERE id_area_referenciada=? and id_area_pertenece=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, subarea.getId_area());
-		pst.setLong(2, areaPertenece.getId_area());
+		pst.setLong(1, subarea.getIdArea());
+		pst.setLong(2, areaPertenece.getIdArea());
 		pst.executeUpdate();
 
 		pst.close();

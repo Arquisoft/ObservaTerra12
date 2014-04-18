@@ -39,7 +39,7 @@ public class MedidasJdbc
 		String SQL = "INSERT INTO MEDIDAS (ID_MEDIDA,VALOR_MEDIDA,UNIDAD_MEDIDA) VALUES (?,?,?)";
 		
 		Long id = leerProximoIdentificador();
-		measure.setIdMedida(id);
+		measure.setIdMeasure(id);
 		
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, id);
@@ -84,7 +84,7 @@ public class MedidasJdbc
 		String SQL = "DELETE FROM medidas WHERE id_medida=?";
 		
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, medida.getIdMedida());
+		pst.setLong(1, medida.getIdMeasure());
 		pst.executeUpdate();
 		
 		pst.close();
@@ -109,7 +109,7 @@ public class MedidasJdbc
 		while(rs.next())
 		{
 			medida = new Measure();
-			medida.setIdMedida(rs.getLong("id_medida"));
+			medida.setIdMeasure(rs.getLong("id_medida"));
 			medida.setValue(rs.getString("valor_medida"));
 			medida.setUnit(rs.getString("unidad_medida"));
 		}

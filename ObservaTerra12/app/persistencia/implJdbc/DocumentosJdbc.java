@@ -63,7 +63,7 @@ public class DocumentosJdbc {
 
 		// Precompila el statement y establece el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuario.getIdUsuario());
+		pst.setLong(1, usuario.getIdUser());
 
 		// Convierte el archivo a un chorro de bytes, que permitirá guardarlo
 		// mas tarde.
@@ -79,7 +79,7 @@ public class DocumentosJdbc {
 
 		// Inserta el archivo y recupera su identificador.
 		pst.executeUpdate();
-		Long idDocumento = getIdDocumento(con, usuario.getIdUsuario());
+		Long idDocumento = getIdDocumento(con, usuario.getIdUser());
 
 		// Libera los recursos utilizados
 		pst.close();
@@ -221,7 +221,7 @@ public class DocumentosJdbc {
 		rs.close();
 
 		// Devuelvo el resultado
-		if (idUsuario != null && idUsuario == user.getIdUsuario())
+		if (idUsuario != null && idUsuario == user.getIdUser())
 			return true;
 		return false;
 	}
@@ -244,7 +244,7 @@ public class DocumentosJdbc {
 
 		// Carga del statement y ejecución de la consulta
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuario.getIdUsuario());
+		pst.setLong(1, usuario.getIdUser());
 		ResultSet rs = pst.executeQuery();
 
 		// Recogida de datos
@@ -280,7 +280,7 @@ public class DocumentosJdbc {
 
 		// Carga del statement y ejecución de la consulta
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuario.getIdUsuario());
+		pst.setLong(1, usuario.getIdUser());
 		ResultSet rs = pst.executeQuery();
 
 		// Recogida de datos
@@ -328,7 +328,7 @@ public class DocumentosJdbc {
 
 		// Carga de la consulta y ejecución
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuarioACompartir.getIdUsuario());
+		pst.setLong(1, usuarioACompartir.getIdUser());
 		pst.setLong(2, idRepositorio);
 		pst.executeUpdate();
 
@@ -366,7 +366,7 @@ public class DocumentosJdbc {
 
 		// Carga de la consulta y ejecución
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuarioACompartir.getIdUsuario());
+		pst.setLong(1, usuarioACompartir.getIdUser());
 		pst.setLong(2, idRepositorio);
 		pst.executeUpdate();
 

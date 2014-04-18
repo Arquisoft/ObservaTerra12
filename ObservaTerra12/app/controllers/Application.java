@@ -11,11 +11,7 @@ import play.data.Form;
 import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.error;
-import views.html.histogram;
-import views.html.index;
-import views.html.piechart;
-import views.html.user_panel;
+import views.html.*;
 
 public class Application extends Controller {
 	
@@ -73,16 +69,7 @@ public class Application extends Controller {
         return redirect(routes.Application.index());
     }
     
-    public static Result histogram() {
-        return ok(histogram.render("Histogram"));
+    public static Result documents() {
+        return ok(documents.render());
     }
-    
-    public static Result pieChart() {
-        return ok(piechart.render("Pie Chart"));
-    }
-    
-    public static Result bubbleChart() {
-        return ok(piechart.render("BubbleChart"));
-    }
-
 }

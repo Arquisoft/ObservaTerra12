@@ -40,11 +40,10 @@ public class TiempoJdbc {
 		String SQL = "INSERT INTO INTERVALOTIEMPO (ID_INTERVALO,FECHA_PRINCIPIO,FECHA_FIN) VALUES (?,?,?)";
 
 		Long id = leerProximoIdentificador();
-		intervalo.setIdTiempo(id);
+		intervalo.setIdTime(id);
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, id);
-		Long l = intervalo.getStartDate().getTime();
 		pst.setLong(2, intervalo.getStartDate().getTime());
 		if (intervalo.getEndDate() != null) 
 		{
@@ -93,7 +92,7 @@ public class TiempoJdbc {
 		String SQL = "DELETE FROM intervalotiempo WHERE id_intervalo=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, intervalo.getIdTiempo());
+		pst.setLong(1, intervalo.getIdTime());
 		pst.executeUpdate();
 
 		pst.close();
@@ -117,7 +116,7 @@ public class TiempoJdbc {
 
 		while (rs.next()) {
 			tiempo = new Time();
-			tiempo.setIdTiempo(rs.getLong("id_intervalo"));
+			tiempo.setIdTime(rs.getLong("id_intervalo"));
 			tiempo.setStartDate(new Date(rs.getLong("fecha_principio")));
 			tiempo.setEndDate(new Date(rs.getLong("fecha_fin")));
 		}

@@ -47,10 +47,10 @@ public class OrganizacionesJdbc {
 		try {
 			con.setAutoCommit(false);
 			// Calcular el proximo identificador
-			organizacion.setIdOrganizacion(proximoIdentificadorOrganizacion());
+			organizacion.setIdOrganization(proximoIdentificadorOrganizacion());
 			// Guardar la organización nueva
 			pst = con.prepareStatement(SQL);
-			pst.setLong(1, organizacion.getIdOrganizacion());
+			pst.setLong(1, organizacion.getIdOrganization());
 			pst.setString(2, organizacion.getNombre());
 			pst.setString(3, organizacion.getTipoOrganizacion());
 			pst.executeUpdate();
@@ -108,7 +108,7 @@ public class OrganizacionesJdbc {
 
 		while (rs.next()) {
 			org = new Provider();
-			org.setIdOrganizacion(idOrganizacion);
+			org.setIdOrganization(idOrganizacion);
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
 		}
@@ -131,7 +131,7 @@ public class OrganizacionesJdbc {
 		String SQL = "DELETE FROM organizacion WHERE id_organizacion=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, organizacion.getIdOrganizacion());
+		pst.setLong(1, organizacion.getIdOrganization());
 
 		pst.executeUpdate();
 
@@ -151,7 +151,7 @@ public class OrganizacionesJdbc {
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, organizacion.getNombre());
 		pst.setString(2, organizacion.getTipoOrganizacion());
-		pst.setLong(3, organizacion.getIdOrganizacion());
+		pst.setLong(3, organizacion.getIdOrganization());
 
 		pst.executeUpdate();
 
@@ -176,7 +176,7 @@ public class OrganizacionesJdbc {
 		while(rs.next())
 		{
 			Organization org = new Organization();
-			org.setIdOrganizacion( rs.getLong("id_organizacion") );
+			org.setIdOrganization( rs.getLong("id_organizacion") );
 			org.setNombre( rs.getString("nombre_organizacion") );
 			org.setTipoOrganizacion( rs.getString("tipo") );
 			organizaciones.add( org );

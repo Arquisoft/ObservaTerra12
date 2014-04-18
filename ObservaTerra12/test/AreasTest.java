@@ -61,16 +61,16 @@ public class AreasTest {
 		Area leida = areasJDBC.leerArea("Area principal");
 		con.close();
 		
-		org.junit.Assert.assertTrue(leida.getId_area() == this.area.getId_area());
+		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
 		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
 				
 		//Recuperarla por id
 		con = DBConnection.getConnection();
 		areasJDBC.setConnection(con);
-		leida = areasJDBC.buscarArea(this.area.getId_area());
+		leida = areasJDBC.buscarArea(this.area.getIdArea());
 		con.close();
 		
-		org.junit.Assert.assertTrue(leida.getId_area() == this.area.getId_area());
+		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
 		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
 		
 		//Leer subareas
@@ -79,7 +79,7 @@ public class AreasTest {
 		leida = areasJDBC.leerSubAreas(this.area);
 		con.close();
 		
-		org.junit.Assert.assertTrue(leida.getId_area() == this.area.getId_area());
+		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
 		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
 		
 		for(int i=0; i<leida.getAreas().size(); i++)
@@ -106,7 +106,7 @@ public class AreasTest {
 		Area leida = areasJDBC.leerArea("nombreArea00001");
 		con.close();
 		
-		org.junit.Assert.assertTrue(leida.getId_area() == this.area.getId_area());
+		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
 		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());	
 	}
 
@@ -130,7 +130,7 @@ public class AreasTest {
 		Area leida = areasJDBC.leerSubAreas(this.area);
 		con.close();
 		
-		org.junit.Assert.assertTrue(leida.getId_area() == this.area.getId_area());
+		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
 		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
 		
 		for(int i=0; i<leida.getAreas().size(); i++)
@@ -158,7 +158,7 @@ public class AreasTest {
 		Area leida = areasJDBC.leerSubAreas(this.area);
 		con.close();
 		
-		org.junit.Assert.assertTrue(leida.getId_area() == this.area.getId_area());
+		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
 		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
 		
 		for(int i=0; i<leida.getAreas().size(); i++)

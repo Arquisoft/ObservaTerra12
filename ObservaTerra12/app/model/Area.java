@@ -4,9 +4,10 @@ import java.util.List;
 
 public class Area {
 
-	private Long id_area;
-	private String name;
-	private List<Area> areas;
+	private Long idArea = 0L;
+	
+	private String name = "";
+	private List<Area> areas = null;
 
 	public String getName() {
 		return name;
@@ -24,12 +25,12 @@ public class Area {
 		areas.remove(area);
 	}
 
-	public Long getId_area() {
-		return id_area;
+	public Long getIdArea() {
+		return idArea;
 	}
 
-	public void setId_area(Long id_area) {
-		this.id_area = id_area;
+	public void setIdArea(Long idArea) {
+		this.idArea = idArea;
 	}
 
 	public List<Area> getAreas() {
@@ -44,8 +45,7 @@ public class Area {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((id_area == null) ? 0 : id_area.hashCode());
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + ((idArea == null) ? 0 : idArea.hashCode());
 		return result;
 	}
 
@@ -58,18 +58,11 @@ public class Area {
 		if (getClass() != obj.getClass())
 			return false;
 		Area other = (Area) obj;
-		if (id_area == null) {
-			if (other.id_area != null)
+		if (idArea == null) {
+			if (other.idArea != null)
 				return false;
-		} else if (!id_area.equals(other.id_area))
-			return false;
-		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
+		} else if (!idArea.equals(other.idArea))
 			return false;
 		return true;
 	}
-	
-	
 }

@@ -46,7 +46,7 @@ public class UsuariosJdbc {
 			con.setAutoCommit(false);
 			// Computa el siguiente id de usuario
 			Long id = leerSiguienteIdUsuario();
-			usuario.setIdUsuario(id);
+			usuario.setIdUser(id);
 			// Inserta los datos de inicio de sesión
 			insertarUsuario(usuario);
 			// Inserta los datos de personales
@@ -71,7 +71,7 @@ public class UsuariosJdbc {
 		String SQL = "INSERT INTO DATOSPERSONALES (ID_USUARIO,NOMBRE,APELLIDOS,EMAIL,ROL) VALUES (?,?,?,?,?)";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuario.getIdUsuario());
+		pst.setLong(1, usuario.getIdUser());
 		pst.setString(2, usuario.getName());
 		pst.setString(3, usuario.getSurname());
 		pst.setString(4, usuario.getEmail());
@@ -118,10 +118,10 @@ public class UsuariosJdbc {
 		String SQL = "INSERT INTO USUARIOS (ID_USUARIO, NOMBRE_USUARIO,CLAVE,ID_ORGANIZACION) VALUES (?,?,?,?)";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, usuario.getIdUsuario());
+		pst.setLong(1, usuario.getIdUser());
 		pst.setString(2, usuario.getUserName());
 		pst.setString(3, usuario.getPassword());
-		pst.setLong(4, usuario.getOrganization().getIdOrganizacion());
+		pst.setLong(4, usuario.getOrganization().getIdOrganization());
 
 		pst.executeUpdate();
 		
@@ -145,10 +145,10 @@ public class UsuariosJdbc {
 		try {
 			con.setAutoCommit(false);
 			pst = con.prepareStatement(SQL1);
-			pst.setLong(1, usuario.getIdUsuario());
+			pst.setLong(1, usuario.getIdUser());
 			pst.executeUpdate();
 			pst2 = con.prepareStatement(SQL2);
-			pst2.setLong(1, usuario.getIdUsuario());
+			pst2.setLong(1, usuario.getIdUser());
 			pst2.executeUpdate();
 			con.commit();
 		} catch (SQLException e) {
@@ -186,13 +186,13 @@ public class UsuariosJdbc {
 		while (rs.next()) {
 			// Organización
 			Organization org = new Organization();
-			org.setIdOrganizacion(rs.getLong("id_organizacion"));
+			org.setIdOrganization(rs.getLong("id_organizacion"));
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
 
 			// Usuario
 			usuario = new User();
-			usuario.setIdUsuario(rs.getLong("id_usuario"));
+			usuario.setIdUser(rs.getLong("id_usuario"));
 			usuario.setUserName(nombreUsuario);
 			usuario.setPassword(claveUsuario);
 			usuario.setName(rs.getString("nombre"));
@@ -246,7 +246,7 @@ public class UsuariosJdbc {
 		pst.setString(2, usuario.getSurname());
 		pst.setString(3, usuario.getEmail());
 		pst.setString(4, usuario.getRol());
-		pst.setLong(5, usuario.getIdUsuario());
+		pst.setLong(5, usuario.getIdUser());
 
 		pst.executeUpdate();
 
@@ -267,8 +267,8 @@ public class UsuariosJdbc {
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getUserName());
 		pst.setString(2, usuario.getPassword());
-		pst.setLong(3, usuario.getOrganization().getIdOrganizacion());
-		pst.setLong(4, usuario.getIdUsuario());
+		pst.setLong(3, usuario.getOrganization().getIdOrganization());
+		pst.setLong(4, usuario.getIdUser());
 
 		pst.executeUpdate();
 
@@ -294,7 +294,7 @@ public class UsuariosJdbc {
 		{
 			User usuario = new User();
 			
-			usuario.setIdUsuario(rs.getLong("id_usuario"));
+			usuario.setIdUser(rs.getLong("id_usuario"));
 			usuario.setUserName(rs.getString("nombre_usuario"));
 			usuario.setPassword(rs.getString("clave"));
 			usuario.setName(rs.getString("nombre"));

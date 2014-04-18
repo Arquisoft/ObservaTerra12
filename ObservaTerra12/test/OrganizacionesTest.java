@@ -49,7 +49,7 @@ public class OrganizacionesTest {
 		organizacionesJDBC = new OrganizacionesJdbc();
 		organizacionesJDBC.setConnection(DBConnection.getConnection());
 		Organization orgLeida = organizacionesJDBC
-				.leerOrganizacion(this.organizacion.getIdOrganizacion());
+				.leerOrganizacion(this.organizacion.getIdOrganization());
 
 		assertNotNull(orgLeida);
 		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
@@ -83,7 +83,7 @@ public class OrganizacionesTest {
 		organizacionesJDBC = new OrganizacionesJdbc();
 		organizacionesJDBC.setConnection(DBConnection.getConnection());
 		Organization orgLeida = organizacionesJDBC
-				.leerOrganizacion(this.organizacion.getIdOrganizacion());
+				.leerOrganizacion(this.organizacion.getIdOrganization());
 
 		assertNotNull(orgLeida);
 		assertEquals("org-0001", orgLeida.getNombre());
@@ -107,7 +107,7 @@ public class OrganizacionesTest {
 		organizacionesJDBC = new OrganizacionesJdbc();
 		organizacionesJDBC.setConnection(DBConnection.getConnection());
 		Organization orgLeida = organizacionesJDBC
-				.leerOrganizacion(this.organizacion.getIdOrganizacion());
+				.leerOrganizacion(this.organizacion.getIdOrganization());
 
 		assertNull(orgLeida);
 

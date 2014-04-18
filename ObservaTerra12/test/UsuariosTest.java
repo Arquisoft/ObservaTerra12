@@ -28,7 +28,7 @@ public class UsuariosTest {
 		this.usuario.setName("admin001");
 		
 		Organization org = new Organization();
-		org.setIdOrganizacion(0L);
+		org.setIdOrganization(0L);
 		
 		this.usuario.setOrganization(org);		
 	}

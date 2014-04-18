@@ -36,7 +36,7 @@ public class MedidasTest {
 
 		// Probar a recuperarla y comparar
 		Measure leida = medidasJDBC.buscarMedidaPorIdentificador(this.medida
-				.getIdMedida());
+				.getIdMeasure());
 		org.junit.Assert.assertNotNull(leida);
 
 		org.junit.Assert.assertEquals(leida.getUnit(), this.medida.getUnit());
@@ -55,7 +55,7 @@ public class MedidasTest {
 
 		// Probar a recuperarla y comparar
 		Measure leida = medidasJDBC.buscarMedidaPorIdentificador(this.medida
-				.getIdMedida());
+				.getIdMeasure());
 		org.junit.Assert.assertNull(leida);
 
 		con.close();

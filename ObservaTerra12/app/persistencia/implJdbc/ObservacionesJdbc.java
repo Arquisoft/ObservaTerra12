@@ -50,14 +50,14 @@ public class ObservacionesJdbc {
 		String SQL = "INSERT INTO INDICADORES (ID_INDICADOR,NOMBRE_INDICADOR,ID_AREA,ID_ORGANIZACION,ID_MEDIDA,ID_TIEMPO) VALUES (?,?,?,?,?,?)";
 
 		Long proximoID = leerProximoIdentificador();
-		observacion.setIdObservacion(proximoID);
+		observacion.setIdObservation(proximoID);
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, proximoID);
 		pst.setString(2, observacion.getIndicator().getNombre());
-		pst.setLong(3, observacion.getArea().getId_area());
-		pst.setLong(4, observacion.getProvider().getIdOrganizacion());
-		pst.setLong(5, observacion.getMeasure().getIdMedida());
-		pst.setLong(6, observacion.getTime().getIdTiempo());
+		pst.setLong(3, observacion.getArea().getIdArea());
+		pst.setLong(4, observacion.getProvider().getIdOrganization());
+		pst.setLong(5, observacion.getMeasure().getIdMeasure());
+		pst.setLong(6, observacion.getTime().getIdTime());
 		pst.executeUpdate();
 
 		pst.close();
@@ -99,7 +99,7 @@ public class ObservacionesJdbc {
 		String SQL = "DELETE FROM indicadores WHERE id_indicador=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, observacion.getIdObservacion());
+		pst.setLong(1, observacion.getIdObservation());
 		pst.executeUpdate();
 
 		pst.close();
@@ -126,7 +126,7 @@ public class ObservacionesJdbc {
 
 		while (rs.next()) {
 			observacion = new Observation();
-			observacion.setIdObservacion(rs.getLong("id_indicador"));
+			observacion.setIdObservation(rs.getLong("id_indicador"));
 
 			// Creacion del indicador
 			Indicator indicador = new Indicator();
@@ -135,22 +135,22 @@ public class ObservacionesJdbc {
 
 			// Creacion del area
 			Area area = new Area();
-			area.setId_area(rs.getLong("id_area"));
+			area.setIdArea(rs.getLong("id_area"));
 			observacion.setArea(area);
 
 			//Proveedor
 			Provider org = new Provider();
-			org.setIdOrganizacion(rs.getLong("id_organizacion"));
+			org.setIdOrganization(rs.getLong("id_organizacion"));
 			observacion.setProvider( org);
 
 			// Medida
 			Measure medida = new Measure();
-			medida.setIdMedida(rs.getLong("id_medida"));
+			medida.setIdMeasure(rs.getLong("id_medida"));
 			observacion.setMeasure(medida);
 
 			// Tiempo
 			Time tiempo = new Time();
-			tiempo.setIdTiempo(rs.getLong("id_tiempo"));
+			tiempo.setIdTime(rs.getLong("id_tiempo"));
 			observacion.setTime(tiempo);
 		}
 
@@ -174,14 +174,14 @@ public class ObservacionesJdbc {
 		String SQL = "SELECT * FROM indicadores WHERE id_area=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
-		pst.setLong(1, area.getId_area());
+		pst.setLong(1, area.getIdArea());
 		ResultSet rs = pst.executeQuery();
 
 		List<Observation> observaciones = new ArrayList<Observation>();
 
 		while (rs.next()) {
 			Observation observacion = new Observation();
-			observacion.setIdObservacion(rs.getLong("id_indicador"));
+			observacion.setIdObservation(rs.getLong("id_indicador"));
 
 			// Creacion del indicador
 			Indicator indicador = new Indicator();
@@ -193,17 +193,17 @@ public class ObservacionesJdbc {
 
 			//Proveedor
 			Provider org = new Provider();
-			org.setIdOrganizacion(rs.getLong("id_organizacion"));
+			org.setIdOrganization(rs.getLong("id_organizacion"));
 			observacion.setProvider( org);
 
 			// Medida
 			Measure medida = new Measure();
-			medida.setIdMedida(rs.getLong("id_medida"));
+			medida.setIdMeasure(rs.getLong("id_medida"));
 			observacion.setMeasure(medida);
 
 			// Tiempo
 			Time tiempo = new Time();
-			tiempo.setIdTiempo(rs.getLong("id_tiempo"));
+			tiempo.setIdTime(rs.getLong("id_tiempo"));
 			observacion.setTime(tiempo);
 
 			observaciones.add(observacion);
@@ -237,7 +237,7 @@ public class ObservacionesJdbc {
 
 		while (rs.next()) {
 			Observation observacion = new Observation();
-			observacion.setIdObservacion(rs.getLong("id_indicador"));
+			observacion.setIdObservation(rs.getLong("id_indicador"));
 
 			// Creacion del indicador
 			Indicator indicador = new Indicator();
@@ -246,22 +246,22 @@ public class ObservacionesJdbc {
 
 			// Creacion del area
 			Area area = new Area();
-			area.setId_area(rs.getLong("id_area"));
+			area.setIdArea(rs.getLong("id_area"));
 			observacion.setArea(area);
 
 			//Proveedor
 			Provider org = new Provider();
-			org.setIdOrganizacion(rs.getLong("id_organizacion"));
+			org.setIdOrganization(rs.getLong("id_organizacion"));
 			observacion.setProvider( org);
 
 			// Medida
 			Measure medida = new Measure();
-			medida.setIdMedida(rs.getLong("id_medida"));
+			medida.setIdMeasure(rs.getLong("id_medida"));
 			observacion.setMeasure(medida);
 
 			// Tiempo
 			Time tiempo = new Time();
-			tiempo.setIdTiempo(rs.getLong("id_tiempo"));
+			tiempo.setIdTime(rs.getLong("id_tiempo"));
 			observacion.setTime(tiempo);
 
 			observaciones.add(observacion);

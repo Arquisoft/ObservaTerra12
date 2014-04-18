@@ -12,3 +12,6 @@ index_form_error_bd = Error interno.
 #Panel de usuario
 panel_title = ObservaTerra: Panel de usuario
 panel_logout = Desconectarse
+panel_documents = Mis documentos compartidos
+#Documentos
+documents_title = ObservaTerra: Documentos

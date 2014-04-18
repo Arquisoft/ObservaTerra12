@@ -41,7 +41,7 @@ public class TiempoTest {
 
 		// Probar a recuperarla y comparar
 		Time leida = tiempoJDBC
-				.buscarIntervaloTiempo(this.tiempo.getIdTiempo());
+				.buscarIntervaloTiempo(this.tiempo.getIdTime());
 
 		org.junit.Assert.assertNotNull(leida);
 		org.junit.Assert.assertEquals(leida.getStartDate(),
@@ -62,7 +62,7 @@ public class TiempoTest {
 
 		// Probar a recuperarla y comparar
 		Time leida = tiempoJDBC
-				.buscarIntervaloTiempo(this.tiempo.getIdTiempo());
+				.buscarIntervaloTiempo(this.tiempo.getIdTime());
 
 		org.junit.Assert.assertNull(leida);
 

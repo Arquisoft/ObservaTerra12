@@ -27,7 +27,7 @@ public class DocumentosTest {
 	public void preparacion() throws Throwable {
 		this.file = new File("readme");
 		this.usuario = new User();
-		this.usuario.setIdUsuario(1);
+		this.usuario.setIdUser(1L);
 	}
 
 	/**
@@ -71,7 +71,7 @@ public class DocumentosTest {
 
 		// Intento de borrado de otro usuario
 		User user = new User();
-		user.setIdUsuario(34);
+		user.setIdUser(34L);
 		try {
 			docs.borrarDocumento(user, idDocumento);
 		} finally {
@@ -128,7 +128,7 @@ public class DocumentosTest {
 		docs.setConnection(con);
 
 		User usuario2 = new User();
-		usuario2.setIdUsuario(2);
+		usuario2.setIdUser(2L);
 
 		// Compartir el recurso con el usuario dos
 		docs.compartirRepositorioConUsuario(idDocumento, usuario2, usuario);

@@ -53,7 +53,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 			// Insertar el area
 			AreasJdbc areasJDBC = new AreasJdbc();
 			areasJDBC.setConnection(con);
-			Area a = areasJDBC.buscarArea(observacion.getArea().getId_area());
+			Area a = areasJDBC.buscarArea(observacion.getArea().getIdArea());
 			if (a == null)
 				areasJDBC.crearAreaySubAreas(observacion.getArea());
 
@@ -61,7 +61,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 			OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
 			orgJDBC.setConnection(con);
 			Organization or = orgJDBC.leerOrganizacion(observacion
-					.getProvider().getIdOrganizacion());
+					.getProvider().getIdOrganization());
 			if (or == null)
 				orgJDBC.crearOrganizacion(observacion.getProvider());
 
@@ -69,7 +69,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 			MedidasJdbc medidas = new MedidasJdbc();
 			medidas.setConnection(con);
 			Measure md = medidas.buscarMedidaPorIdentificador(observacion
-					.getMeasure().getIdMedida());
+					.getMeasure().getIdMeasure());
 			if (md == null)
 				medidas.crearMedida(observacion.getMeasure());
 
@@ -77,7 +77,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 			TiempoJdbc tiempo = new TiempoJdbc();
 			tiempo.setConnection(con);
 			Time td = tiempo.buscarIntervaloTiempo(observacion.getTime()
-					.getIdTiempo());
+					.getIdTime());
 			if (td == null)
 				tiempo.crearIntervalo(observacion.getTime());
 
@@ -150,27 +150,27 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 			// Recuperar el area
 			AreasJdbc areasJDBC = new AreasJdbc();
 			areasJDBC.setConnection(con);
-			Area area = areasJDBC.buscarArea(obv.getArea().getId_area());
+			Area area = areasJDBC.buscarArea(obv.getArea().getIdArea());
 			obv.setArea(area);
 
 			// Recuperar el proveedor
 			OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
 			orgJDBC.setConnection(con);
 			Organization or = orgJDBC.leerOrganizacion(obv.getProvider()
-					.getIdOrganizacion());
+					.getIdOrganization());
 			obv.setProvider((Provider) or);
 
 			// Recuperar la medida
 			MedidasJdbc medidas = new MedidasJdbc();
 			medidas.setConnection(con);
 			Measure md = medidas.buscarMedidaPorIdentificador(obv.getMeasure()
-					.getIdMedida());
+					.getIdMeasure());
 			obv.setMeasure(md);
 
 			// Recuperar el tiempo
 			TiempoJdbc tiempo = new TiempoJdbc();
 			tiempo.setConnection(con);
-			Time td = tiempo.buscarIntervaloTiempo(obv.getTime().getIdTiempo());
+			Time td = tiempo.buscarIntervaloTiempo(obv.getTime().getIdTime());
 			obv.setTime(td);
 
 			con.commit();
@@ -201,7 +201,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		List<Observation> ret = new ArrayList<Observation>();
 
 		for (Observation obv : a) {
-			ret.add(buscarObservacionPorIdentificador(obv.getIdObservacion()));
+			ret.add(buscarObservacionPorIdentificador(obv.getIdObservation()));
 		}
 
 		con.close();
@@ -224,7 +224,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		List<Observation> ret = new ArrayList<Observation>();
 
 		for (Observation obv : a) {
-			ret.add(buscarObservacionPorIdentificador(obv.getIdObservacion()));
+			ret.add(buscarObservacionPorIdentificador(obv.getIdObservation()));
 		}
 
 		con.close();
