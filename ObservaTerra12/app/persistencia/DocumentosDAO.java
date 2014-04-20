@@ -1,10 +1,10 @@
 package persistencia;
 
-import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
+import model.Document;
 import model.User;
 
 public interface DocumentosDAO {
@@ -15,15 +15,12 @@ public interface DocumentosDAO {
 	 * permitir almacenar archivos *.txt porque no se recuperan del todo bien en
 	 * el 100% de los casos.
 	 * 
-	 * @param usuario
-	 *            - Usuario propietario del archivo.
-	 * @param file
-	 *            - Archivo a almacenar en el repositorio.
-	 * @return Identificador del archivo guardado en la base de datos, necesario
-	 *         para poder recuperarlo mas tarde.
+	 * @param Document
+	 *            - Archivo a guardar y usuario propietario.
+	 * @return archivo guardado en la base de datos.
 	 */
-	public  Long guardarDocumento(User usuario, File file)
-			throws SQLException, IOException;
+	public Document guardarDocumento(Document documento) throws SQLException,
+			IOException;
 
 	/**
 	 * Recupera un documento del repositorio en base a su identificador único.
@@ -33,7 +30,7 @@ public interface DocumentosDAO {
 	 * @return - Documento a crear cargado en memoria, ojo. No está escrito en
 	 *         disco.
 	 */
-	public  File leerDocumento(long idDocumento) throws SQLException,
+	public Document leerDocumento(Long idDocumento) throws SQLException,
 			IOException;
 
 	/**
@@ -41,16 +38,14 @@ public interface DocumentosDAO {
 	 * borrarlo, deberá asegurarse de que ya no está compartido con nadie. En
 	 * caso contrario, lanzará una SQLException.
 	 * 
-	 * @param idDocumento
-	 *            - Identificador del documento en la base de datos.
-	 * @param usuario
-	 *            - Usuario que va a realizar la operación
+	 * @param documento
+	 *            - Documento a borrar de la base de datos.
+	 * 
 	 * @throws SecurityException
 	 *             - El usuario propietario no coincide con el registrado en la
 	 *             base de datos.
 	 */
-	public  void borrarDocumento(User user, Long idDocumento)
-			throws SQLException;
+	public void borrarDocumento(Document documento) throws SQLException;
 
 	/**
 	 * Genera un listado con todos los identificadores de los repositorios de un
@@ -59,12 +54,12 @@ public interface DocumentosDAO {
 	 * 
 	 * @param usuario
 	 *            - Usuario del que queremos saber sus documentos.
-	 * @return - Listado con los identificadores de los documentos de un usuario
-	 *         determinado.
+	 * @return - Listado de los documentos de un usuario determinado.
 	 * @throws SQLException
+	 * @throws IOException 
 	 */
-	public  List<Long> listarRepositoriosUsuario(User usuario)
-			throws SQLException;
+	public List<Document> listarRepositoriosUsuario(User usuario)
+			throws SQLException, IOException;
 
 	/**
 	 * Genera un listado con los identificadores de los repositorios compartidos
@@ -73,51 +68,46 @@ public interface DocumentosDAO {
 	 * 
 	 * @param usuario
 	 *            - Usuario determinado.
-	 * @return - Listado con los identificadores de los documentos que un
-	 *         usuario determinado tiene accesibles.
+	 * @return - Listado con los documentos que un usuario determinado tiene
+	 *         accesibles, ATENCIÓN: Sin indicar el usuario propietario.
 	 * @throws SQLException
+	 * @throws IOException 
 	 */
-	public  List<Long> listarRespositoriosAccesiblesUsuario(User usuario)
-			throws SQLException;
+	public List<Document> listarRespositoriosAccesiblesUsuario(User usuario)
+			throws SQLException, IOException;
 
 	/**
 	 * Comparte un repositorio con un usuario determinado. Desde este momento,
 	 * ese repositorio queda accesible para el otro usuario totalmente.
 	 * 
-	 * @param idRepositorio
-	 *            - Identificador del documento a compartir.
+	 * @param documento
+	 *            - Documento a compartir y usuario propietario.
 	 * @param usuarioACompartir
-	 *            - Usuario que va a tener acceso al documento.
-	 * @param usuarioPropietario
-	 *            - Usuario propietario del documento (por cuestiones de
-	 *            seguridad)
+	 *            - usuario a compartir con.
+	 * 
 	 * @throws SQLException
 	 * @throws SecurityException
 	 *             - El usuario propietario no coincide con el registrado en la
 	 *             base de datos.
 	 */
-	public  void compartirRepositorioConUsuario(Long idRepositorio,
-			User usuarioACompartir, User usuarioPropietario)
-			throws SQLException;
+	public void compartirRepositorioConUsuario(Document documento,
+			User usuarioACompartir) throws SQLException;
 
 	/**
 	 * Anula la compartición de un repositorio con un usuario determinado. Desde
 	 * este momento, ese repositorio ya no queda accesible para el otro usuario
 	 * totalmente.
 	 * 
-	 * @param idRepositorio
-	 *            - Identificador del documento a compartir.
+	 * @param documento
+	 *            - documento compartido.
 	 * @param usuarioACompartir
 	 *            - Usuario que va ya no va a tener acceso al documento.
-	 * @param usuarioPropietario
-	 *            - Usuario propietario del documento (por motivos de seguridad)
 	 * @throws SQLException
 	 * @throws SecurityException
 	 *             - El usuario propietario no coincide con el registrado en la
 	 *             base de datos.
 	 */
-	public  void anularCompartirRepositorioConUsuario(
-			Long idRepositorio, User usuarioACompartir, User usuarioPropietario)
-			throws SQLException;
+	public void anularCompartirRepositorioConUsuario(Document documento,
+			User usuarioACompartir) throws SQLException;
 
 }

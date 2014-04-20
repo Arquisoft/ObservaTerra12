@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.Area;
+import model.Indicator;
 import model.Measure;
 import model.Observation;
 import model.Organization;
@@ -14,6 +15,8 @@ import model.Submission;
 import model.Time;
 import persistencia.ObservacionesDAO;
 import persistencia.implJdbc.AreasJdbc;
+import persistencia.implJdbc.EntradasJdbc;
+import persistencia.implJdbc.IndicadoresJdbc;
 import persistencia.implJdbc.MedidasJdbc;
 import persistencia.implJdbc.ObservacionesJdbc;
 import persistencia.implJdbc.OrganizacionesJdbc;
@@ -46,53 +49,84 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 	@Override
 	public Observation insertarObservacion(Observation observacion)
 			throws SQLException {
+		if (observacion == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado una observación.");
 
 		Connection con = DBConnection.getConnection();
-
 		try {
-			// Insertar el area
-			AreasJdbc areasJDBC = new AreasJdbc();
-			areasJDBC.setConnection(con);
-			Area a = areasJDBC.buscarArea(observacion.getArea().getIdArea());
-			if (a == null)
-				areasJDBC.crearAreaySubAreas(observacion.getArea());
-
-			// Insertar el proveedor
-			OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
-			orgJDBC.setConnection(con);
-			Organization or = orgJDBC.leerOrganizacion(observacion
-					.getProvider().getIdOrganization());
-			if (or == null)
-				orgJDBC.crearOrganizacion(observacion.getProvider());
-
-			// Insertar la medida
-			MedidasJdbc medidas = new MedidasJdbc();
-			medidas.setConnection(con);
-			Measure md = medidas.buscarMedidaPorIdentificador(observacion
-					.getMeasure().getIdMeasure());
-			if (md == null)
-				medidas.crearMedida(observacion.getMeasure());
-
-			// Insertar el tiempo
-			TiempoJdbc tiempo = new TiempoJdbc();
-			tiempo.setConnection(con);
-			Time td = tiempo.buscarIntervaloTiempo(observacion.getTime()
-					.getIdTime());
-			if (td == null)
-				tiempo.crearIntervalo(observacion.getTime());
-
-			// Insertar la observacion
-			this.observacionesJDBC.setConnection(con);
-			Observation obv = this.observacionesJDBC
-					.insertarObservacion(observacion);
+			con.setAutoCommit(false);
+			Observation obv = insertarContenidoObservacion(observacion, con);
 			con.commit();
 			return obv;
-		} catch (Exception e) {
+		}catch(NullPointerException e)
+		{
+			con.rollback();
+			throw new IllegalArgumentException("La observación parece no estar completa. Revisar el contenido.");
+		}catch (SQLException e) {
 			con.rollback();
 			throw new SQLException("Incapaz de completar la transacción", e);
 		} finally {
 			con.close();
 		}
+	}
+
+	/**
+	 * Función auxiliar que inserta el contenido de una observacion
+	 * 
+	 * @param observacion
+	 *            - Observacion a insertar
+	 * @param con
+	 *            - Conexion a utilizar.
+	 * @return
+	 * @throws SQLException
+	 */
+	private Observation insertarContenidoObservacion(Observation observacion,
+			Connection con) throws SQLException {
+		// Insertar la entrada
+		EntradasJdbc entradasJDBC = new EntradasJdbc();
+		entradasJDBC.setConnection(con);
+		//Si no está registrada, crearla
+		if(observacion.getSubmission().getIdSubmission() == null)
+			observacion.setSubmission(entradasJDBC.crearEntrada(observacion.getSubmission()));
+
+		// Insertar el indicador
+		IndicadoresJdbc indicadorJDBC = new IndicadoresJdbc();
+		indicadorJDBC.setConnection(con);
+		if (observacion.getIndicator().getIdIndicator() == null)
+			observacion.setIndicator(indicadorJDBC.añadirIndicador(observacion.getIndicator()));
+
+		// Insertar el area
+		AreasJdbc areasJDBC = new AreasJdbc();
+		areasJDBC.setConnection(con);
+		if (observacion.getArea().getIdArea() == null)
+			areasJDBC.crearAreaySubAreas(observacion.getArea());
+
+		// Insertar el proveedor
+		if (!(observacion.getProvider() instanceof Provider))
+			throw new IllegalArgumentException("La observación no viene de un proveedor.");
+
+		OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
+		orgJDBC.setConnection(con);
+		if (observacion.getProvider().getIdOrganization() == null)
+			observacion.setProvider((Provider) orgJDBC.crearOrganizacion(observacion.getProvider()));
+
+		// Insertar la medida
+		MedidasJdbc medidas = new MedidasJdbc();
+		medidas.setConnection(con);
+		if (observacion.getMeasure().getIdMeasure() == null)
+			observacion.setMeasure(medidas.crearMedida(observacion.getMeasure()));
+
+		// Insertar el tiempo
+		TiempoJdbc tiempo = new TiempoJdbc();
+		tiempo.setConnection(con);
+		if (observacion.getTime().getIdTime()== null)
+			observacion.setTime(tiempo.crearIntervalo(observacion.getTime()));
+
+		// Insertar la observacion
+		this.observacionesJDBC.setConnection(con);
+		Observation obv = this.observacionesJDBC.insertarObservacion(observacion);
+		return obv;
 	}
 
 	/*
@@ -105,22 +139,22 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 	@Override
 	public void eliminarObservacion(Observation observacion)
 			throws SQLException {
+		if (observacion == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado la observación.");
+		else if (observacion.getIdObservation() == null)
+			throw new IllegalArgumentException(
+					"La observación no contiene su identificador único.");
+
 		Connection con = DBConnection.getConnection();
 
 		try {
-			// No se borra la observacion
-			// No se borra el proveedor
-
-			// Borrar la medida
-			MedidasJdbc medidas = new MedidasJdbc();
-			medidas.setConnection(con);
-			medidas.borrarMedida(observacion.getMeasure());
-
-			// Borrar el tiempo
-			TiempoJdbc tiempo = new TiempoJdbc();
-			tiempo.setConnection(con);
-			tiempo.borrarIntervalo(observacion.getTime());
-
+			con.setAutoCommit(false);
+			// Borrar la observacion
+			this.observacionesJDBC.setConnection(con);
+			this.observacionesJDBC.eliminarObservacion(observacion);
+			//Borrar la informacion
+			borrarInformacion(observacion, con);
 			con.commit();
 		} catch (Exception e) {
 			con.rollback();
@@ -128,6 +162,48 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		} finally {
 			con.close();
 		}
+	}
+
+	/**
+	 * Función auxiliar para borrar la información contenida en la observacion
+	 * 
+	 * @param observacion
+	 *            - Observacion a borrar.
+	 * @param con
+	 *            - Conexión a utilizar.
+	 * @throws SQLException
+	 */
+	private void borrarInformacion(Observation observacion, Connection con)
+			throws SQLException {
+		// Borrar la entrada
+		EntradasJdbc entradasJDBC = new EntradasJdbc();
+		entradasJDBC.setConnection(con);
+		entradasJDBC.eliminarEntrada(observacion.getSubmission());
+
+		// Borrar el indicador
+		IndicadoresJdbc indicadorJDBC = new IndicadoresJdbc();
+		indicadorJDBC.setConnection(con);
+		indicadorJDBC.eliminarIndicador(observacion.getIndicator());
+
+		// Borrar el area
+		AreasJdbc areasJDBC = new AreasJdbc();
+		areasJDBC.setConnection(con);
+		areasJDBC.eliminarArea(observacion.getArea());
+
+		// Borrar el proveedor
+		OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
+		orgJDBC.setConnection(con);
+		orgJDBC.borrarOrganizacion(observacion.getProvider());
+
+		// Borrar la medida
+		MedidasJdbc medidas = new MedidasJdbc();
+		medidas.setConnection(con);
+		medidas.borrarMedida(observacion.getMeasure());
+
+		// Borrar el tiempo
+		TiempoJdbc tiempo = new TiempoJdbc();
+		tiempo.setConnection(con);
+		tiempo.borrarIntervalo(observacion.getTime());
 	}
 
 	/*
@@ -140,39 +216,19 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 	@Override
 	public Observation buscarObservacionPorIdentificador(Long identificador)
 			throws SQLException {
+		if (identificador == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el identificador.");
+
 		Connection con = DBConnection.getConnection();
 		this.observacionesJDBC.setConnection(con);
 		try {
+			con.setAutoCommit(false);
 			Observation obv = this.observacionesJDBC
 					.buscarObservacionPorIdentificador(identificador);
-
-			// Recuperar la informacion
-			// Recuperar el area
-			AreasJdbc areasJDBC = new AreasJdbc();
-			areasJDBC.setConnection(con);
-			Area area = areasJDBC.buscarArea(obv.getArea().getIdArea());
-			obv.setArea(area);
-
-			// Recuperar el proveedor
-			OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
-			orgJDBC.setConnection(con);
-			Organization or = orgJDBC.leerOrganizacion(obv.getProvider()
-					.getIdOrganization());
-			obv.setProvider((Provider) or);
-
-			// Recuperar la medida
-			MedidasJdbc medidas = new MedidasJdbc();
-			medidas.setConnection(con);
-			Measure md = medidas.buscarMedidaPorIdentificador(obv.getMeasure()
-					.getIdMeasure());
-			obv.setMeasure(md);
-
-			// Recuperar el tiempo
-			TiempoJdbc tiempo = new TiempoJdbc();
-			tiempo.setConnection(con);
-			Time td = tiempo.buscarIntervaloTiempo(obv.getTime().getIdTime());
-			obv.setTime(td);
-
+			if (obv != null) {
+				obv = construirObservacion(con, obv);
+			}
 			con.commit();
 			return obv;
 		} catch (Exception e) {
@@ -181,6 +237,61 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		} finally {
 			con.close();
 		}
+	}
+
+	/**
+	 * Función auxiliar que ayuda a construir la observacion.
+	 * 
+	 * @param con
+	 *            - Conexión a utilizar.
+	 * @param obv
+	 *            - Observacion a construir
+	 * @throws SQLException
+	 */
+	private Observation construirObservacion(Connection con, Observation obv)
+			throws SQLException {
+		// Recuperar la informacion
+
+		// Recuperar la entrada
+		EntradasJdbc entradasJDBC = new EntradasJdbc();
+		entradasJDBC.setConnection(con);
+		obv.setSubmission(entradasJDBC.leerEntrada(obv.getSubmission()
+				.getIdSubmission()));
+
+		// Recuperar el indicador
+		IndicadoresJdbc indicadorJDBC = new IndicadoresJdbc();
+		indicadorJDBC.setConnection(con);
+		Indicator indic = indicadorJDBC.leerIndicador(obv.getIndicator()
+				.getIdIndicator());
+		obv.setIndicator(indic);
+
+		// Recuperar el area
+		AreasJdbc areasJDBC = new AreasJdbc();
+		areasJDBC.setConnection(con);
+		Area area = areasJDBC.buscarArea(obv.getArea().getIdArea());
+		obv.setArea(area);
+
+		// Recuperar el proveedor
+		OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
+		orgJDBC.setConnection(con);
+		Organization or = orgJDBC.leerProveedor(obv.getProvider()
+				.getIdOrganization());
+		obv.setProvider((Provider) or);
+
+		// Recuperar la medida
+		MedidasJdbc medidas = new MedidasJdbc();
+		medidas.setConnection(con);
+		Measure md = medidas.buscarMedidaPorIdentificador(obv.getMeasure()
+				.getIdMeasure());
+		obv.setMeasure(md);
+
+		// Recuperar el tiempo
+		TiempoJdbc tiempo = new TiempoJdbc();
+		tiempo.setConnection(con);
+		Time td = tiempo.buscarIntervaloTiempo(obv.getTime().getIdTime());
+		obv.setTime(td);
+
+		return obv;
 	}
 
 	/*
@@ -193,6 +304,12 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 	@Override
 	public List<Observation> leerObservacionesDeUnArea(Area area)
 			throws SQLException {
+		if (area == null)
+			throw new IllegalArgumentException("El parámetro es null");
+		else if (area.getIdArea() == null)
+			throw new IllegalArgumentException(
+					"El area no lleva su identificador único.");
+
 		Connection con = DBConnection.getConnection();
 		this.observacionesJDBC.setConnection(con);
 		List<Observation> a = this.observacionesJDBC
@@ -200,11 +317,12 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 
 		List<Observation> ret = new ArrayList<Observation>();
 
+		con.close();
+
 		for (Observation obv : a) {
 			ret.add(buscarObservacionPorIdentificador(obv.getIdObservation()));
 		}
 
-		con.close();
 		return ret;
 	}
 
@@ -216,32 +334,55 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 	 * (java.lang.String)
 	 */
 	@Override
-	public List<Observation> leerObservacionesDeUnIndicador(
-			String nombreIndicador) throws SQLException {
+	public List<Observation> leerObservacionesDeUnIndicador(String nombreIndicador) throws SQLException {
+		if (nombreIndicador == null || nombreIndicador.isEmpty())
+			throw new IllegalArgumentException("Debe indicarse un nombre.");
+
 		Connection con = DBConnection.getConnection();
 		this.observacionesJDBC.setConnection(con);
 		List<Observation> a = this.observacionesJDBC.leerObservacionesDeUnIndicador(nombreIndicador);
 		List<Observation> ret = new ArrayList<Observation>();
 
+		con.close();
+
 		for (Observation obv : a) {
 			ret.add(buscarObservacionPorIdentificador(obv.getIdObservation()));
 		}
 
-		con.close();
 		return ret;
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOs.ObservacionesDAO#listarTodasObservaciones
+	 * (java.lang.String)
+	 */
 	@Override
-	public List<Observation> listarTodasObservaciones() {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Observation> listarTodasObservaciones() throws SQLException {
+		Connection con = DBConnection.getConnection();
+		this.observacionesJDBC.setConnection(con);
+		List<Observation> lista = this.observacionesJDBC
+				.listarTodasObservaciones();
+		con.close();
+		return lista;
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * persistencia.JdbcDAOs.ObservacionesDAO#insertarObservacion(model.Observation
+	 * , model.Submission)
+	 */
 	@Override
 	public Observation insertarObservacion(Observation observacion,
 			Submission submission) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		if (observacion == null || submission == null)
+			throw new IllegalArgumentException("Uno de los parámetros es null.");
+
+		observacion.setSubmission(submission);
+		return this.insertarObservacion(observacion);
 	}
 
 }

@@ -8,42 +8,44 @@ import model.Observation;
 import model.Submission;
 
 public interface ObservacionesDAO {
-	
-	//Genera un listado con todas las observaciones del sistema
-	public List<Observation> listarTodasObservaciones();
-	
 
 	/**
-	 * Inserta una nueva observación en la base de datos. Este método cuenta con
-	 * que previamente ya se han almacenado las medidas, los tiempos, las areas,
-	 * y solo guarda las referencias a las mismas.
+	 * Genera un listado con todas las observaciones registradas
+	 * 
+	 * @return listaado de observacioens registradas
+	 * @throws SQLException
+	 */
+	public List<Observation> listarTodasObservaciones() throws SQLException;
+
+	/**
+	 * Inserta una nueva observación en la base de datos. Este método inserta en
+	 * una transacción todo el contenido interno de la observación.
+	 * En caso de que no se puedan insertar todas, se cancelará la transacción.
 	 * 
 	 * @param observacion
 	 *            - Observacion a insertar
 	 * @return Observacion insertada, mas el identificador único.
 	 * @throws SQLException
 	 */
-	//debería usarse el método de abajo
-	@Deprecated
-	public  Observation insertarObservacion(Observation observacion)
-			throws SQLException;
-	
-	
-	/**
-	 * Registra una observacion en la base de datos
-	 */
-	public  Observation insertarObservacion(Observation observacion, Submission submission)
+	public Observation insertarObservacion(Observation observacion)
 			throws SQLException;
 
 	/**
-	 * Este método elimina una observación, contando con que después alguien
-	 * eliminará las medidas, areas, etc que tenía asignadas.
+	 * Registra una observacion en la base de datos
+	 */
+	@Deprecated
+	public Observation insertarObservacion(Observation observacion,
+			Submission submission) throws SQLException;
+
+	/**
+	 * Este método elimina una observación y TODO SU CONTENIDO REGISTRADO
+	 * transaccionalmente.
 	 * 
 	 * @param observacion
 	 *            - Observación a eliminar.
 	 * @throws SQLException
 	 */
-	public  void eliminarObservacion(Observation observacion)
+	public void eliminarObservacion(Observation observacion)
 			throws SQLException;
 
 	/**
@@ -56,7 +58,8 @@ public interface ObservacionesDAO {
 	 * @return Observación encontrada.
 	 * @throws SQLException
 	 */
-	public  Observation buscarObservacionPorIdentificador(Long identificador) throws SQLException;
+	public Observation buscarObservacionPorIdentificador(Long identificador)
+			throws SQLException;
 
 	/**
 	 * Busca y recupera un listado de observaciones en base al área al que
@@ -69,24 +72,20 @@ public interface ObservacionesDAO {
 	 * @return Listado de observaciones encontradas
 	 * @throws SQLException
 	 */
-	public  List<Observation> leerObservacionesDeUnArea(Area area)
+	public List<Observation> leerObservacionesDeUnArea(Area area)
 			throws SQLException;
 
 	/**
 	 * Busca y recupera un listado de observaciones en base al nombre del
-	 * indicador que pretenden medir. Recupera tambíen los identificadores
-	 * únicos de los elementos que componen la observación, que deberán ser
-	 * leídos uno a uno posteriormente.
+	 * indicador que pretenden medir. Recupera tambíen el contenido de
+	 * las mismas.
 	 * 
 	 * @param nombreIndicador
 	 *            = Nombre del indicador deseado.
 	 * @return Listado de observaciones encontradas.
 	 * @throws SQLException
 	 */
-	public List<Observation> leerObservacionesDeUnIndicador(String nombreIndicador) throws SQLException;
-	
-
-	
-	
+	public List<Observation> leerObservacionesDeUnIndicador(
+			String nombreIndicador) throws SQLException;
 
 }

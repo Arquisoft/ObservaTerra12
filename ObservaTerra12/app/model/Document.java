@@ -4,7 +4,7 @@ import java.io.File;
 
 public class Document {
 	
-	private Long idDocument = 0L;
+	private Long idDocument = null;
 	
 	private User user = null;
 	private File file = null;

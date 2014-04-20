@@ -2,7 +2,7 @@ package model;
 
 public class User {
 
-	private Long idUser = 0L;
+	private Long idUser = null;
 	
 	private String userName = "";
 	private String password = "";
@@ -12,7 +12,7 @@ public class User {
 	private Organization organization = null;
 	private String rol = "";
 
-	public long getIdUser() {
+	public Long getIdUser() {
 		return idUser;
 	}
 

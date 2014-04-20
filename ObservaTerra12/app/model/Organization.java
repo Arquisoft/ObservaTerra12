@@ -4,7 +4,8 @@ import java.util.List;
 
 public class Organization {
 	
-	private Long idOrganization = 0L;
+	//No se puede inicializar,
+	private Long idOrganization = null;
 
 	private String nombre = "";
 	private Country country = null;

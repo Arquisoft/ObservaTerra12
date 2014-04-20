@@ -1,7 +1,7 @@
 package model;
 public class Observation {
 	
-	private Long idObservation = 0L;	
+	private Long idObservation = null;	
 
 	private Area area = null;
 	private Indicator indicator = null;

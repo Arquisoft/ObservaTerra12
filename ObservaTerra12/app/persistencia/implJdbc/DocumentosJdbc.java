@@ -13,6 +13,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.Document;
 import model.User;
 
 /**
@@ -122,17 +123,19 @@ public class DocumentosJdbc {
 	 * @return - Documento a crear cargado en memoria, ojo. No está escrito en
 	 *         disco.
 	 */
-	public File leerDocumento(long idDocumento) throws SQLException,
+	public Document leerDocumento(Long idDocumento) throws SQLException,
 			IOException {
 
 		// Carga de la consulta
-		String SQL = "SELECT documento,nombre_documento FROM REPOSITORIOS where id_repositorio = ?";
+		String SQL = "SELECT * FROM REPOSITORIOS where id_repositorio = ?";
 
 		// Preparar el statement, y meter el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idDocumento);
 		ResultSet rs = pst.executeQuery();
 		File image = null;
+		String nombre = null;
+		User usuario = null;
 		while (rs.next()) {
 			// Crea el documento y añade el prefijo 'download'
 			image = new File("(download)" + rs.getString("nombre_documento"));
@@ -146,6 +149,10 @@ public class DocumentosJdbc {
 			// Cierre del recurso
 			fos.flush();
 			fos.close();
+			
+			usuario = new User();
+			usuario.setIdUser( rs.getLong("id_usuario"));
+			nombre = rs.getString("nombre_documento");
 		}
 
 		// Liberar recursos
@@ -153,7 +160,12 @@ public class DocumentosJdbc {
 		rs.close();
 
 		// Devuelve la imagen del fichero.
-		return image;
+		Document documento = new Document();
+		documento.setFile(image);
+		documento.setUser(usuario);
+		documento.setIdDocumento(idDocumento);
+		documento.setName(nombre);
+		return documento;
 	}
 
 	/**

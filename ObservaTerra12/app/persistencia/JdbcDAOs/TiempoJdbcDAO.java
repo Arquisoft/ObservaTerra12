@@ -23,11 +23,17 @@ public class TiempoJdbcDAO implements TiempoDAO {
 		this.tiempoJDBC = tiempoJDBC;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see persistencia.JdbcDAOs.TiempoDAO#crearIntervalo(model.Time)
 	 */
 	@Override
 	public Time crearIntervalo(Time intervalo) throws SQLException {
+		if (intervalo == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el intervalo a crear.");
+
 		Connection con = DBConnection.getConnection();
 		this.tiempoJDBC.setConnection(con);
 		Time t = this.tiempoJDBC.crearIntervalo(intervalo);
@@ -35,22 +41,38 @@ public class TiempoJdbcDAO implements TiempoDAO {
 		return t;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see persistencia.JdbcDAOs.TiempoDAO#borrarIntervalo(model.Time)
 	 */
 	@Override
 	public void borrarIntervalo(Time intervalo) throws SQLException {
+		if (intervalo == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el intervalo a crear.");
+		else if (intervalo.getIdTime() == null)
+			throw new IllegalArgumentException(
+					"No se puede borrar el intervalo sin su identificador único.");
+
 		Connection con = DBConnection.getConnection();
 		this.tiempoJDBC.setConnection(con);
 		this.tiempoJDBC.borrarIntervalo(intervalo);
 		con.close();
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.TiempoDAO#buscarIntervaloTiempo(java.lang.Long)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * persistencia.JdbcDAOs.TiempoDAO#buscarIntervaloTiempo(java.lang.Long)
 	 */
 	@Override
 	public Time buscarIntervaloTiempo(Long idIntervalo) throws SQLException {
+		if (idIntervalo == null)
+			throw new IllegalArgumentException(
+					"No se puede buscar el intervalo sin su identificador único.");
+
 		Connection con = DBConnection.getConnection();
 		this.tiempoJDBC.setConnection(con);
 		Time t = this.tiempoJDBC.buscarIntervaloTiempo(idIntervalo);

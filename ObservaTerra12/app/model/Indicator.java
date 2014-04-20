@@ -2,7 +2,7 @@ package model;
 
 public class Indicator {
 
-	private Long idIndicator = 0L;
+	private Long idIndicator = null;
 	private String nombre = "";
 
 	public Long getIdIndicator() {

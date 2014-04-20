@@ -16,7 +16,7 @@ public interface UsuariosDAO {
 	 * @return - Usuario guardado, con su nuevo identificador único añadido.
 	 * @throws SQLException
 	 */
-	public  User crearUsuario(User usuario) throws SQLException;
+	public User crearUsuario(User usuario) throws SQLException;
 
 	/**
 	 * Método transaccional que elimina los datos de inicio de sesión y los
@@ -26,7 +26,7 @@ public interface UsuariosDAO {
 	 *            - Usuario a eliminar.
 	 * @throws SQLException
 	 */
-	public  void eliminarUsuario(User usuario) throws SQLException;
+	public void eliminarUsuario(User usuario) throws SQLException;
 
 	/**
 	 * Método que busca y recupera a un usuario en la base de datos en base a
@@ -39,7 +39,7 @@ public interface UsuariosDAO {
 	 * @return - Usuario recuperado / null si no existe.
 	 * @throws SQLException
 	 */
-	public  User leerUsuario(String nombreUsuario, String claveUsuario)
+	public User leerUsuario(String nombreUsuario, String claveUsuario)
 			throws SQLException;
 
 	/**
@@ -50,7 +50,7 @@ public interface UsuariosDAO {
 	 *            - Usuario a actualizar.
 	 * @throws SQLException
 	 */
-	public  void actualizarUsuario(User usuario) throws SQLException;
+	public void actualizarUsuario(User usuario) throws SQLException;
 
 	/**
 	 * Genera un listado con todos los usuarios registrados en el sistema, sin
@@ -59,6 +59,6 @@ public interface UsuariosDAO {
 	 * @return listado de usuarios.
 	 * @throws SQLException
 	 */
-	public  List<User> listarUsuarios() throws SQLException;
+	public List<User> listarUsuarios() throws SQLException;
 
 }

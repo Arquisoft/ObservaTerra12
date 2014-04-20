@@ -1,4 +1,14 @@
-/persistencia
+/AreasTest.class
+/DocumentosTest.class
+/LoginTest.class
+/MedidasTest.class
+/ObservacionesTest.class
+/OrganizacionesTest.class
+/TiempoTest.class
+/UsuariosTest.class
 /controllers
-/views
 /model
+/persistencia
+/utils
+/views
+/tests

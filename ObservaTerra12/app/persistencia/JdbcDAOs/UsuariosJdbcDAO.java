@@ -25,11 +25,18 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		this.usuariosJDBC = usuariosJDBC;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see persistencia.JdbcDAOs.UsuariosDAO#crearUsuario(model.User)
 	 */
 	@Override
 	public User crearUsuario(User usuario) throws SQLException {
+
+		if (usuario == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el usuario a crear.");
+
 		Connection con = DBConnection.getConnection();
 		this.usuariosJDBC.setConnection(con);
 		User us = this.usuariosJDBC.crearUsuario(usuario);
@@ -37,23 +44,41 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		return us;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see persistencia.JdbcDAOs.UsuariosDAO#eliminarUsuario(model.User)
 	 */
 	@Override
 	public void eliminarUsuario(User usuario) throws SQLException {
+
+		if (usuario == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el usuario a crear.");
+		else if (usuario.getIdUser() == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el identificador del usuario.");
+
 		Connection con = DBConnection.getConnection();
 		this.usuariosJDBC.setConnection(con);
 		this.usuariosJDBC.eliminarUsuario(usuario);
 		con.close();
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.UsuariosDAO#leerUsuario(java.lang.String, java.lang.String)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOs.UsuariosDAO#leerUsuario(java.lang.String,
+	 * java.lang.String)
 	 */
 	@Override
 	public User leerUsuario(String nombreUsuario, String claveUsuario)
 			throws SQLException {
+		if (nombreUsuario == null || nombreUsuario.isEmpty())
+			throw new IllegalArgumentException("Nombre de usuario malformado.");
+		else if (claveUsuario == null || claveUsuario.isEmpty())
+			throw new IllegalArgumentException("Clave malformada.");
+
 		Connection con = DBConnection.getConnection();
 		this.usuariosJDBC.setConnection(con);
 		User us = this.usuariosJDBC.leerUsuario(nombreUsuario, claveUsuario);
@@ -61,18 +86,29 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		return us;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see persistencia.JdbcDAOs.UsuariosDAO#actualizarUsuario(model.User)
 	 */
 	@Override
 	public void actualizarUsuario(User usuario) throws SQLException {
+		if (usuario == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el usuario a actualizar.");
+		else if (usuario.getIdUser() == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el identificador del usuario.");
+
 		Connection con = DBConnection.getConnection();
 		this.usuariosJDBC.setConnection(con);
 		this.usuariosJDBC.actualizarUsuario(usuario);
 		con.close();
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see persistencia.JdbcDAOs.UsuariosDAO#listarUsuarios()
 	 */
 	@Override

@@ -41,6 +41,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public User crearUsuario(User usuario) throws SQLException {
+				
 		// Intentar ejecutar la transaccion
 		try {
 			con.setAutoCommit(false);
@@ -57,7 +58,7 @@ public class UsuariosJdbc {
 		} catch (SQLException e) {
 			con.rollback();
 			throw new SQLException("Error creando el usuario", e);
-		} 
+		}
 	}
 
 	/**
@@ -78,7 +79,7 @@ public class UsuariosJdbc {
 		pst.setString(5, usuario.getRol().toUpperCase());
 
 		pst.executeUpdate();
-		
+
 		pst.close();
 	}
 
@@ -99,8 +100,9 @@ public class UsuariosJdbc {
 		while (rs.next()) {
 			maxID = rs.getLong("maximo");
 		}
-		
-		rs.close();pst.close();
+
+		rs.close();
+		pst.close();
 
 		return maxID + 1;
 	}
@@ -124,7 +126,7 @@ public class UsuariosJdbc {
 		pst.setLong(4, usuario.getOrganization().getIdOrganization());
 
 		pst.executeUpdate();
-		
+
 		pst.close();
 	}
 
@@ -208,6 +210,41 @@ public class UsuariosJdbc {
 		return usuario;
 	}
 
+	public User leerUsuario(Long idUsuario) throws SQLException {
+		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES natural join "
+				+ "ORGANIZACION WHERE id_usuario=? ";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idUsuario);
+		ResultSet rs = pst.executeQuery();
+
+		User usuario = null;
+
+		while (rs.next()) {
+			// Organización
+			Organization org = new Organization();
+			org.setIdOrganization(rs.getLong("id_organizacion"));
+			org.setNombre(rs.getString("nombre_organizacion"));
+			org.setTipoOrganizacion(rs.getString("tipo"));
+
+			// Usuario
+			usuario = new User();
+			usuario.setIdUser(rs.getLong("id_usuario"));
+			usuario.setUserName(rs.getString("nombre_usuario"));
+			usuario.setPassword(rs.getString("clave"));
+			usuario.setName(rs.getString("nombre"));
+			usuario.setSurname(rs.getString("apellidos"));
+			usuario.setEmail(rs.getString("email"));
+			usuario.setRol(rs.getString("rol"));
+			usuario.setOrganization(org);
+		}
+
+		rs.close();
+		pst.close();
+
+		return usuario;
+	}
+
 	/**
 	 * Método que actualiza los datos (de inicio de sesión y personales) de un
 	 * usuario en la base de datos.
@@ -258,7 +295,8 @@ public class UsuariosJdbc {
 	 * en base a su identificador único. ATENCIÓN: Este método deberá ejecutarse
 	 * dentro de una transacción ya abierta.
 	 * 
-	 * @param usuario - Usuario a actualizar.
+	 * @param usuario
+	 *            - Usuario a actualizar.
 	 * @throws SQLException
 	 */
 	private void actualizarDatosUsuario(User usuario) throws SQLException {
@@ -274,40 +312,39 @@ public class UsuariosJdbc {
 
 		pst.close();
 	}
-	
+
 	/**
-	 * Genera un listado con todos los usuarios registrados en el sistema,
-	 * sin incluir a que organización pertenecen.
+	 * Genera un listado con todos los usuarios registrados en el sistema, sin
+	 * incluir a que organización pertenecen.
+	 * 
 	 * @return listado de usuarios.
-	 * @throws SQLException 
+	 * @throws SQLException
 	 */
-	public List<User> listarUsuarios() throws SQLException
-	{
+	public List<User> listarUsuarios() throws SQLException {
 		String SQL = "SELECT * FROM usuarios natural join datospersonales";
-		
+
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
-		
+
 		List<User> usuarios = new ArrayList<User>();
-		
-		while(rs.next())
-		{
+
+		while (rs.next()) {
 			User usuario = new User();
-			
+
 			usuario.setIdUser(rs.getLong("id_usuario"));
 			usuario.setUserName(rs.getString("nombre_usuario"));
 			usuario.setPassword(rs.getString("clave"));
 			usuario.setName(rs.getString("nombre"));
 			usuario.setSurname(rs.getString("apellidos"));
 			usuario.setEmail(rs.getString("email"));
-			usuario.setRol(rs.getString("rol"));			
-			
-			usuarios.add(usuario);			
-		}		
-		
+			usuario.setRol(rs.getString("rol"));
+
+			usuarios.add(usuario);
+		}
+
 		rs.close();
 		pst.close();
-		
+
 		return usuarios;
 	}
 

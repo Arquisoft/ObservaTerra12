@@ -44,6 +44,10 @@ public class AreasJdbcDAO implements AreasDAO {
 	 */
 	@Override
 	public void crearArea(Area area) throws SQLException {
+		if (area == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado un area a crear");
+
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		this.areasJDBC.crearAreaySubAreas(area);
@@ -57,6 +61,13 @@ public class AreasJdbcDAO implements AreasDAO {
 	 */
 	@Override
 	public void eliminarArea(Area area) throws SQLException {
+		if (area == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el area a eliminar");
+		else if (area.getIdArea() == null)
+			throw new IllegalArgumentException(
+					"No se puede borrar un área sin identificador único");
+
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		this.areasJDBC.eliminarArea(area);
@@ -70,6 +81,13 @@ public class AreasJdbcDAO implements AreasDAO {
 	 */
 	@Override
 	public void actualizarArea(Area area) throws SQLException {
+		if (area == null)
+			throw new IllegalArgumentException(
+					"No se ha indicado el area a actualizar");
+		else if (area.getIdArea() == null)
+			throw new IllegalArgumentException(
+					"No se puede actualizar un área sin identificador único");
+
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		this.areasJDBC.actualizarArea(area);
@@ -83,6 +101,9 @@ public class AreasJdbcDAO implements AreasDAO {
 	 */
 	@Override
 	public Area leerArea(String nombre) throws SQLException {
+		if (nombre == null || nombre.isEmpty())
+			throw new IllegalArgumentException("Parámetro malformado");
+
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		Area a = this.areasJDBC.leerArea(nombre);
@@ -97,6 +118,9 @@ public class AreasJdbcDAO implements AreasDAO {
 	 */
 	@Override
 	public Area buscarArea(Long idArea) throws SQLException {
+		if (idArea == null)
+			throw new IllegalArgumentException("Parámetro malformado");
+
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		Area a = this.areasJDBC.buscarArea(idArea);
@@ -110,7 +134,13 @@ public class AreasJdbcDAO implements AreasDAO {
 	 * @see persistencia.JdbcDAOs.AreasDAO#leerSubAreas(model.Area)
 	 */
 	@Override
-	public Area leerSubAreas(Area area) throws SQLException {
+	public Area leerSubAreas(Area area) throws SQLException 
+	{
+		if (area == null)
+			throw new IllegalArgumentException("No se ha indicado el area");
+		else if (area.getIdArea() == null)
+			throw new IllegalArgumentException("No se pueden leer las subareas sin el identificador único");
+		
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		Area a = this.areasJDBC.leerSubAreas(area);
@@ -125,8 +155,12 @@ public class AreasJdbcDAO implements AreasDAO {
 	 * model.Area)
 	 */
 	@Override
-	public void asociarSubarea(Area areaPertenece, Area subarea)
-			throws SQLException {
+	public void asociarSubarea(Area areaPertenece, Area subarea) throws SQLException {
+		if (areaPertenece == null || subarea == null)
+			throw new IllegalArgumentException("No se ha indicado uno de los areas");
+		else if (areaPertenece.getIdArea() == null || subarea.getIdArea() == null)
+			throw new IllegalArgumentException("Uno de los areas no dispone de identificador único");
+		
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		this.areasJDBC.asociarSubarea(areaPertenece, subarea);
@@ -140,30 +174,70 @@ public class AreasJdbcDAO implements AreasDAO {
 	 * model.Area)
 	 */
 	@Override
-	public void anularAsociacionSubarea(Area areaPertenece, Area subarea)
-			throws SQLException {
+	public void anularAsociacionSubarea(Area areaPertenece, Area subarea) throws SQLException {
+		if (areaPertenece == null || subarea == null)
+			throw new IllegalArgumentException("No se ha indicado uno de los areas");
+		else if (areaPertenece.getIdArea() == null || subarea.getIdArea() == null)
+			throw new IllegalArgumentException("Uno de los areas no dispone de identificador único");
+		
+		
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
 		this.areasJDBC.anularAsociacionSubarea(areaPertenece, subarea);
 		con.close();
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOs.AreasDAO#crearPais(model.Country)
+	 */
 	@Override
-	public void crearPais(Country pais) {
-		// TODO Auto-generated method stub
+	public void crearPais(Country pais) throws SQLException 
+	{
+		if(pais == null)
+			throw new IllegalArgumentException("No se ha indicado el país");
 		
+		
+		Connection con = DBConnection.getConnection();
+		this.areasJDBC.setConnection(con);
+		this.areasJDBC.crearAreaySubAreas(pais);
+		con.close();
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOs.AreasDAO#leerPais(java.lang.String)
+	 */
 	@Override
-	public Country leerPais(String nombre) {
-		// TODO Auto-generated method stub
-		return null;
+	public Country leerPais(String nombre) throws SQLException {
+		if(nombre == null || nombre.isEmpty())
+			throw new IllegalArgumentException("Parámetro malformado");
+		
+		
+		Connection con = DBConnection.getConnection();
+		this.areasJDBC.setConnection(con);
+		Country leida = this.areasJDBC.leerPais(nombre);
+		con.close();
+		return leida;
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOs.AreasDAO#leerPais(java.lang.Long)
+	 */
 	@Override
-	public Country leerPais(Long idPais) {
-		// TODO Auto-generated method stub
-		return null;
+	public Country leerPais(Long idPais) throws SQLException {
+		if(idPais == null)
+			throw new IllegalArgumentException("Parámetro malformado");
+		
+		Connection con = DBConnection.getConnection();
+		this.areasJDBC.setConnection(con);
+		Country leida = this.areasJDBC.leerPais(idPais);
+		con.close();
+		return leida;
 	}
 
 }

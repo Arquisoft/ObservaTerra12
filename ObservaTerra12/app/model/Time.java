@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Time {
 	
-	private Long idTime = 0L;
+	private Long idTime = null;
 
 	private Date startDate = null;
 	private Date endDate = null;

@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Submission {
 	
-	private Long idSubmission = 0L;
+	private Long idSubmission = null;
 	
 	private Date date = null;
 	private User user = null;

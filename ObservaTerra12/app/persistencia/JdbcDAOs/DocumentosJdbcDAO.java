@@ -1,14 +1,16 @@
 package persistencia.JdbcDAOs;
 
-import java.io.File;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
+import model.Document;
 import model.User;
 import persistencia.DocumentosDAO;
 import persistencia.implJdbc.DocumentosJdbc;
+import persistencia.implJdbc.UsuariosJdbc;
 import utils.DBConnection;
 
 public class DocumentosJdbcDAO implements DocumentosDAO {
@@ -27,99 +29,192 @@ public class DocumentosJdbcDAO implements DocumentosDAO {
 		this.documentosJDBC = documentosJDBC;
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.DocumentosDAO#guardarDocumento(model.User, java.io.File)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOseDocumentosDAO#guardarDocumento(model.Document)
 	 */
 	@Override
-	public Long guardarDocumento(User usuario, File file) throws SQLException,
-			IOException {
+	public Document guardarDocumento(Document documento) throws SQLException,IOException {
+		if(documento == null)
+			throw new IllegalArgumentException("No se ha indicado el documento a guardar");
+		else if(documento.getFile() == null)
+			throw new IllegalArgumentException("No hay ningún archivo para guardar");
+		else if(documento.getUser() == null)
+			throw new IllegalArgumentException("Se requiere al usuario propietario del documento");
+		
 
-		Connection con = DBConnection.getConnection();
-		this.documentosJDBC.setConnection(con);
-		Long a = this.documentosJDBC.guardarDocumento(usuario, file);
-		con.close();
-		return a;
+		Connection con = null;
+		Long idDocumento = null;
+		try {
+			con = DBConnection.getConnection();
+			con.setAutoCommit(false);
+			this.documentosJDBC.setConnection(con);
+			idDocumento = this.documentosJDBC.guardarDocumento(documento.getUser(), documento.getFile());
+			documento.setIdDocumento(idDocumento);
+			con.commit();
+		} catch (SQLException e) 
+		{
+			con.rollback();
+			throw new SQLException("");
+		}finally{
+			con.close();
+		}
+		
+		return documento;
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.DocumentosDAO#leerDocumento(long)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOs.DocumentosDAO#leerDocumento(java.lang.Long)
 	 */
 	@Override
-	public File leerDocumento(long idDocumento) throws SQLException,
-			IOException {
-
+	public Document leerDocumento(Long idDocumento) throws SQLException, IOException {
+		if(idDocumento == null)
+			throw new IllegalArgumentException("No se ha indicado el identificador del documento");
+		
+		
 		Connection con = DBConnection.getConnection();
 		this.documentosJDBC.setConnection(con);
-		File a = this.documentosJDBC.leerDocumento(idDocumento);
+		Document doc = this.documentosJDBC.leerDocumento(idDocumento);
+		
+		//Buscar al usuario
+		UsuariosJdbc usuariosJDBC = new UsuariosJdbc();
+		usuariosJDBC.setConnection(con);
+		User usuario = usuariosJDBC.leerUsuario( doc.getUser().getIdUser() );
+		
+		//asignar al documento
+		doc.setUser(usuario);
+		
 		con.close();
-		return a;
+		return doc;
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.DocumentosDAO#borrarDocumento(model.User, java.lang.Long)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see persistencia.JdbcDAOs.DocumentosDAO#borrarDocumento(model.Document)
 	 */
 	@Override
-	public void borrarDocumento(User user, Long idDocumento)
-			throws SQLException {
-
+	public void borrarDocumento(Document documento) throws SQLException 
+	{
+		if(documento == null)
+			throw new IllegalArgumentException("No se ha indicado el documento a guardar");
+		else if(documento.getFile() == null)
+			throw new IllegalArgumentException("No hay ningún archivo para guardar");
+		else if(documento.getUser() == null)
+			throw new IllegalArgumentException("Se requiere al usuario propietario del documento");
+				
 		Connection con = DBConnection.getConnection();
 		this.documentosJDBC.setConnection(con);
-		this.documentosJDBC.borrarDocumento(user, idDocumento);
+		this.documentosJDBC.borrarDocumento(documento.getUser(),
+				documento.getIdDocumento());
 		con.close();
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.DocumentosDAO#listarRepositoriosUsuario(model.User)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * persistencia.JdbcDAOs.DocumentosDAO#listarRepositoriosUsuario(model.User)
 	 */
 	@Override
-	public List<Long> listarRepositoriosUsuario(User usuario)
-			throws SQLException {
+	public List<Document> listarRepositoriosUsuario(User usuario) throws SQLException, IOException {
+		if(usuario == null)
+			throw new IllegalArgumentException("No se ha indicado el usuario.");
+		else if(usuario.getIdUser() == null)
+			throw new IllegalArgumentException("El usuario indicado no tiene identificador único.");
+				
 		Connection con = DBConnection.getConnection();
 		this.documentosJDBC.setConnection(con);
+		// Carga la lista de identificadores
 		List<Long> a = this.documentosJDBC.listarRepositoriosUsuario(usuario);
+
+		List<Document> documentos = new ArrayList<Document>();
+
+		// Crea un objeto del modelo de dominio, leyendo los archivos
+		for (Long identificador : a) {
+			Document documento = this.documentosJDBC.leerDocumento(identificador);
+			documento.setUser(usuario);
+			documentos.add(documento);
+		}
+
 		con.close();
-		return a;
+		return documentos;
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.DocumentosDAO#listarRespositoriosAccesiblesUsuario(model.User)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * persistencia.JdbcDAOs.DocumentosDAO#listarRespositoriosAccesiblesUsuario
+	 * (model.User)
 	 */
 	@Override
-	public List<Long> listarRespositoriosAccesiblesUsuario(User usuario)
-			throws SQLException {
+	public List<Document> listarRespositoriosAccesiblesUsuario(User usuario) 	throws SQLException, IOException {
+		if(usuario == null)
+			throw new IllegalArgumentException("No se ha indicado el usuario.");
+		else if(usuario.getIdUser() == null)
+			throw new IllegalArgumentException("El usuario indicado no tiene identificador único.");		
+		
 		Connection con = DBConnection.getConnection();
 		this.documentosJDBC.setConnection(con);
-		List<Long> a = this.documentosJDBC
-				.listarRespositoriosAccesiblesUsuario(usuario);
+		List<Long> a = this.documentosJDBC.listarRespositoriosAccesiblesUsuario(usuario);
+		
+		List<Document> documentos = new ArrayList<Document>();
+		// Crea un objeto del modelo de dominio, leyendo los archivos
+		for (Long identificador : a) {
+			Document documento =  this.documentosJDBC.leerDocumento(identificador);
+			documento.setIdDocumento(identificador);
+			documentos.add(documento);
+		}
+
 		con.close();
-		return a;
+		return documentos;
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.DocumentosDAO#compartirRepositorioConUsuario(java.lang.Long, model.User, model.User)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * persistencia.JdbcDAOs.DocumentosDAO#compartirRepositorioConUsuario(model.Document, model.User)
 	 */
 	@Override
-	public void compartirRepositorioConUsuario(Long idRepositorio,
-			User usuarioACompartir, User usuarioPropietario)
-			throws SQLException {
+	public void compartirRepositorioConUsuario(Document documento, 	User usuarioACompartir) throws SQLException {
+		if(documento == null || documento.getUser() == null || documento.getFile() == null)
+			throw new IllegalArgumentException("Parámetro documento malformado");
+		else if(usuarioACompartir == null)
+			throw new IllegalArgumentException("No se ha indicado el usuario.");
+		else if(usuarioACompartir.getIdUser() == null || documento.getUser().getIdUser() == null)
+			throw new IllegalArgumentException("El usuario indicado no tiene identificador único.");	
+				
 		Connection con = DBConnection.getConnection();
 		this.documentosJDBC.setConnection(con);
-		this.documentosJDBC.compartirRepositorioConUsuario(idRepositorio,
-				usuarioACompartir, usuarioPropietario);
+		this.documentosJDBC.compartirRepositorioConUsuario(documento.getIdDocumento(), usuarioACompartir, documento.getUser());
 		con.close();
 	}
 
-	/* (non-Javadoc)
-	 * @see persistencia.JdbcDAOs.DocumentosDAO#anularCompartirRepositorioConUsuario(java.lang.Long, model.User, model.User)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * persistencia.JdbcDAOs.DocumentosDAO#anularCompartirRepositorioConUsuario
+	 * (model.Document, model.User)
 	 */
 	@Override
-	public void anularCompartirRepositorioConUsuario(Long idRepositorio,
-			User usuarioACompartir, User usuarioPropietario)
-			throws SQLException {
+	public void anularCompartirRepositorioConUsuario(Document documento, User usuarioACompartir) throws SQLException 
+	{
+		if(documento == null || documento.getUser() == null || documento.getFile() == null)
+			throw new IllegalArgumentException("Parámetro documento malformado");
+		else if(usuarioACompartir == null)
+			throw new IllegalArgumentException("No se ha indicado el usuario.");
+		else if(usuarioACompartir.getIdUser() == null || documento.getUser().getIdUser() == null)
+			throw new IllegalArgumentException("El usuario indicado no tiene identificador único.");		
+		
 		Connection con = DBConnection.getConnection();
 		this.documentosJDBC.setConnection(con);
-		this.documentosJDBC.anularCompartirRepositorioConUsuario(idRepositorio,
-				usuarioACompartir, usuarioPropietario);
+		this.documentosJDBC.anularCompartirRepositorioConUsuario(documento.getIdDocumento(), usuarioACompartir, documento.getUser());
 		con.close();
 	}
 

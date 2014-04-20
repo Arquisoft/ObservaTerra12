@@ -7,13 +7,34 @@ import model.Organization;
 import model.Provider;
 
 public interface OrganizacionesDAO {
-	
-	//Leer proveedor
-	public Provider leerProvedor(Long idProveedor);
-	//Registra a una organizacion como proveedor de datos del sistema
-	public Provider crearProveedor(Provider proveedor);	
-	//Genera un listado con todos los proveedores del sistema
-	public List<Provider> listarProveedores();
+
+	/**
+	 * Recoge un proveedor del sistema en base a su identificador único.
+	 * 
+	 * @param idProveedor
+	 *            - Identificador único del sistema.
+	 * @return Proveedor encontrado
+	 * @throws SQLException 
+	 */
+	public Provider leerProvedor(Long idProveedor) throws SQLException;
+
+	/**
+	 * Registra una organización como proveedor de datos para el sistema.
+	 * 
+	 * @param proveedor
+	 *            - Nuevo proveedor
+	 * @return Objeto proveedor del sistema.
+	 * @throws SQLException 
+	 */
+	public Provider crearProveedor(Provider proveedor) throws SQLException;
+
+	/**
+	 * Genera un listado con todos los proveedores del sistema.
+	 * 
+	 * @return listado de proveedores del sistema.
+	 * @throws SQLException 
+	 */
+	public List<Provider> listarProveedores() throws SQLException;
 
 	/**
 	 * Registra una nueva organización en la base de datos.
@@ -23,7 +44,7 @@ public interface OrganizacionesDAO {
 	 * @return - Objeto organización con su nuevo identificador único.
 	 * @throws SQLException
 	 */
-	public  Organization crearOrganizacion(Organization organizacion)
+	public Organization crearOrganizacion(Organization organizacion)
 			throws SQLException;
 
 	/**
@@ -35,7 +56,7 @@ public interface OrganizacionesDAO {
 	 * @return - Organización encontrada.
 	 * @throws SQLException
 	 */
-	public  Organization leerOrganizacion(Long idOrganizacion)
+	public Organization leerOrganizacion(Long idOrganizacion)
 			throws SQLException;
 
 	/**
@@ -46,7 +67,7 @@ public interface OrganizacionesDAO {
 	 *            - Organización a borrar.
 	 * @throws SQLException
 	 */
-	public  void borrarOrganizacion(Organization organizacion)
+	public void borrarOrganizacion(Organization organizacion)
 			throws SQLException;
 
 	/**
@@ -56,7 +77,7 @@ public interface OrganizacionesDAO {
 	 *            - Organización a actualizar.
 	 * @throws SQLException
 	 */
-	public  void actualizarOrganizacion(Organization organizacion)
+	public void actualizarOrganizacion(Organization organizacion)
 			throws SQLException;
 
 	/**
@@ -65,7 +86,6 @@ public interface OrganizacionesDAO {
 	 * @return - Listado de organizaciones registradas.
 	 * @throws SQLException
 	 */
-	public  List<Organization> listarOrganizaciones()
-			throws SQLException;
+	public List<Organization> listarOrganizaciones() throws SQLException;
 
 }

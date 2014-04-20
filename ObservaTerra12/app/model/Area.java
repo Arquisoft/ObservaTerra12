@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Area {
 
-	private Long idArea = 0L;
+	private Long idArea;
 	
 	private String name = "";
 	private List<Area> areas = null;

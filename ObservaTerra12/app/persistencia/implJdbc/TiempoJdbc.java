@@ -45,11 +45,9 @@ public class TiempoJdbc {
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, id);
 		pst.setLong(2, intervalo.getStartDate().getTime());
-		if (intervalo.getEndDate() != null) 
-		{
+		if (intervalo.getEndDate() != null) {
 			pst.setLong(3, intervalo.getEndDate().getTime());
-		}else
-		{
+		} else {
 			pst.setNull(3, java.sql.Types.BIGINT);
 		}
 		pst.executeUpdate();
@@ -101,7 +99,8 @@ public class TiempoJdbc {
 	/**
 	 * Busca un intervalo en la base de datos en base a su identificador único.
 	 * 
-	 * @param idIntervalo - Identificador del intervalo a buscar.
+	 * @param idIntervalo
+	 *            - Identificador del intervalo a buscar.
 	 * @return - Intervalo encontrado.
 	 * @throws SQLException
 	 */
@@ -120,8 +119,9 @@ public class TiempoJdbc {
 			tiempo.setStartDate(new Date(rs.getLong("fecha_principio")));
 			tiempo.setEndDate(new Date(rs.getLong("fecha_fin")));
 		}
-		
-		rs.close();pst.close();
+
+		rs.close();
+		pst.close();
 
 		return tiempo;
 	}

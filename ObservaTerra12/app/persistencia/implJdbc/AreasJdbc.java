@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.Area;
+import model.Country;
 
 public class AreasJdbc {
 
@@ -67,7 +68,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	private Area crearArea(Area area, Long idNuevaArea) throws SQLException {
-		String SQL = "INSERT INTO AREAS (ID_AREA, NOMBRE_AREA) VALUES (?,?)";
+		String SQL = "INSERT INTO AREAS (ID_AREA, NOMBRE_AREA, ES_PAIS) VALUES (?,?,?)";
 
 		PreparedStatement pst = null;
 
@@ -75,8 +76,15 @@ public class AreasJdbc {
 		pst = con.prepareStatement(SQL);
 		pst.setLong(1, area.getIdArea());
 		pst.setString(2, area.getName());
+
+		if (area instanceof Country) {
+			pst.setString(3, "SI");
+		} else {
+			pst.setString(3, "NO");
+		}
+
 		pst.executeUpdate();
-		
+
 		pst.close();
 
 		return area;
@@ -129,7 +137,7 @@ public class AreasJdbc {
 		} catch (SQLException e) {
 			con.rollback();
 			throw new SQLException("Error eliminando el area", e.getMessage());
-		} 
+		}
 	}
 
 	/**
@@ -199,7 +207,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Area leerArea(String nombre) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE nombre_area=?";
+		String SQL = "SELECT * FROM areas WHERE nombre_area=? and es_pais='NO' ";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombre);
@@ -208,6 +216,58 @@ public class AreasJdbc {
 		Area area = null;
 		while (rs.next()) {
 			area = new Area();
+			area.setIdArea(rs.getLong("id_area"));
+			area.setName(rs.getString("nombre_area"));
+		}
+
+		rs.close();
+		pst.close();
+
+		return area;
+	}
+	
+	/**
+	 * Recoge los datos de un pais determinado en base a su nombre.
+	 * @param nombre - Nombre del pais.
+	 * @return País encontrado (si existe alguno)
+	 * @throws SQLException
+	 */
+	public Country leerPais(String nombre) throws SQLException {
+		String SQL = "SELECT * FROM areas WHERE nombre_area=? and es_pais='SI' ";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setString(1, nombre);
+		ResultSet rs = pst.executeQuery();
+
+		Country area = null;
+		while (rs.next()) {
+			area = new Country();
+			area.setIdArea(rs.getLong("id_area"));
+			area.setName(rs.getString("nombre_area"));
+		}
+
+		rs.close();
+		pst.close();
+
+		return area;
+	}
+	
+	/**
+	 * Recoge los datos de un pais determinado en base a su identificador único.
+	 * @param idPais - Identificador del país
+	 * @return País encontrado (si existe alguno)
+	 * @throws SQLException
+	 */
+	public Country leerPais(Long idPais) throws SQLException {
+		String SQL = "SELECT * FROM areas WHERE id_area=? and es_pais='SI' ";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idPais);
+		ResultSet rs = pst.executeQuery();
+
+		Country area = null;
+		while (rs.next()) {
+			area = new Country();
 			area.setIdArea(rs.getLong("id_area"));
 			area.setName(rs.getString("nombre_area"));
 		}
@@ -228,7 +288,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Area buscarArea(Long idArea) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE id_area=?";
+		String SQL = "SELECT * FROM areas WHERE id_area=? and es_pais='NO' ";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idArea);
@@ -271,9 +331,10 @@ public class AreasJdbc {
 		}
 
 		area.setAreas(subareas);
-		
-		rs.close();pst.close();
-		
+
+		rs.close();
+		pst.close();
+
 		return area;
 	}
 

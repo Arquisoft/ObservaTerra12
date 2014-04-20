@@ -2,7 +2,7 @@ package model;
 
 public class Measure {
 	
-	private Long idMeasure = 0L;
+	private Long idMeasure = null;
 
 	private String value = "";
 	private String unit = "";
