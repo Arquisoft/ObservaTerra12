@@ -1,0 +1,4 @@
+@main("ObservaTerra: Menu") {
+
+	<h1>¿Qué haces? Deja las rutas tranquilas.</h1>
+}

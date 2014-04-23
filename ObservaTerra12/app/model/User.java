@@ -2,21 +2,22 @@ package model;
 
 public class User {
 
-	private long idUsuario;
-	private String userName;
-	private String password;
-	private String name;
-	private String surname;
-	private String email;
-	private Organization organization;
-	private String rol;
+	private Long idUser = null;
+	
+	private String userName = "";
+	private String password = "";
+	private String name = "";
+	private String surname = "";
+	private String email = "";
+	private Organization organization = null;
+	private String rol = "";
 
-	public long getIdUsuario() {
-		return idUsuario;
+	public Long getIdUser() {
+		return idUser;
 	}
 
-	public void setIdUsuario(long idUsuario) {
-		this.idUsuario = idUsuario;
+	public void setIdUser(Long idUser) {
+		this.idUser = idUser;
 	}
 
 	public String getUserName() {
@@ -79,15 +80,7 @@ public class User {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((email == null) ? 0 : email.hashCode());
-		result = prime * result + (int) (idUsuario ^ (idUsuario >>> 32));
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result
-				+ ((password == null) ? 0 : password.hashCode());
-		result = prime * result + ((rol == null) ? 0 : rol.hashCode());
-		result = prime * result + ((surname == null) ? 0 : surname.hashCode());
-		result = prime * result
-				+ ((userName == null) ? 0 : userName.hashCode());
+		result = prime * result + ((idUser == null) ? 0 : idUser.hashCode());
 		return result;
 	}
 
@@ -100,42 +93,11 @@ public class User {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		if (email == null) {
-			if (other.email != null)
+		if (idUser == null) {
+			if (other.idUser != null)
 				return false;
-		} else if (!email.equals(other.email))
-			return false;
-		if (idUsuario != other.idUsuario)
-			return false;
-		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
-			return false;
-		if (password == null) {
-			if (other.password != null)
-				return false;
-		} else if (!password.equals(other.password))
-			return false;
-		if (rol == null) {
-			if (other.rol != null)
-				return false;
-		} else if (!rol.equals(other.rol))
-			return false;
-		if (surname == null) {
-			if (other.surname != null)
-				return false;
-		} else if (!surname.equals(other.surname))
-			return false;
-		if (userName == null) {
-			if (other.userName != null)
-				return false;
-		} else if (!userName.equals(other.userName))
+		} else if (!idUser.equals(other.idUser))
 			return false;
 		return true;
 	}
-	
-	
-
-	
 }

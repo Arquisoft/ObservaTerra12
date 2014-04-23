@@ -1,0 +1,6 @@
+@import play.i18n._
+
+@main(Messages.get("error_title")) {
+
+	<h1>Messages.get("error_message")</h1>
+}

@@ -1,12 +1,22 @@
 package model;
 public class Observation {
+	
+	private Long idObservation = null;	
 
-	private Area area;
-	private Indicator indicator;
-	private Measure measure;
-	private Time time;
-	private Provider provider;
-	private Submission submission;
+	private Area area = null;
+	private Indicator indicator = null;
+	private Measure measure = null;
+	private Time time = null;
+	private Provider provider = null;
+	private Submission submission = null;
+
+	public Long getIdObservation() {
+		return idObservation;
+	}
+
+	public void setIdObservation(Long idObservation) {
+		this.idObservation = idObservation;
+	}
 
 	public Area getArea() {
 		return area;
@@ -54,5 +64,31 @@ public class Observation {
 
 	public void setSubmission(Submission submission) {
 		this.submission = submission;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result
+				+ ((idObservation == null) ? 0 : idObservation.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Observation other = (Observation) obj;
+		if (idObservation == null) {
+			if (other.idObservation != null)
+				return false;
+		} else if (!idObservation.equals(other.idObservation))
+			return false;
+		return true;
 	}
 }

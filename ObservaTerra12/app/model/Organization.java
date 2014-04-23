@@ -3,12 +3,22 @@ package model;
 import java.util.List;
 
 public class Organization {
+	
+	//No se puede inicializar,
+	private Long idOrganization = null;
 
-	private String nombre;
-	private Long idOrganizacion;
-	private Country country;
-	private String tipoOrganizacion;
-	private List<Organization> organizations;
+	private String nombre = "";
+	private Country country = null;
+	private String tipoOrganizacion = null;
+	private List<Organization> organizations = null;
+
+	public Long getIdOrganization() {
+		return idOrganization;
+	}
+
+	public void setIdOrganization(Long idOrganization) {
+		this.idOrganization = idOrganization;
+	}
 
 	public String getNombre() {
 		return nombre;
@@ -16,14 +26,6 @@ public class Organization {
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
-	}
-
-	public Long getIdOrganizacion() {
-		return idOrganizacion;
-	}
-
-	public void setIdOrganizacion(Long idOrganizacion) {
-		this.idOrganizacion = idOrganizacion;
 	}
 
 	public Country getCountry() {
@@ -55,11 +57,7 @@ public class Organization {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((idOrganizacion == null) ? 0 : idOrganizacion.hashCode());
-		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
-		result = prime
-				* result
-				+ ((tipoOrganizacion == null) ? 0 : tipoOrganizacion.hashCode());
+				+ ((idOrganization == null) ? 0 : idOrganization.hashCode());
 		return result;
 	}
 
@@ -72,23 +70,11 @@ public class Organization {
 		if (getClass() != obj.getClass())
 			return false;
 		Organization other = (Organization) obj;
-		if (idOrganizacion == null) {
-			if (other.idOrganizacion != null)
+		if (idOrganization == null) {
+			if (other.idOrganization != null)
 				return false;
-		} else if (!idOrganizacion.equals(other.idOrganizacion))
-			return false;
-		if (nombre == null) {
-			if (other.nombre != null)
-				return false;
-		} else if (!nombre.equals(other.nombre))
-			return false;
-		if (tipoOrganizacion == null) {
-			if (other.tipoOrganizacion != null)
-				return false;
-		} else if (!tipoOrganizacion.equals(other.tipoOrganizacion))
+		} else if (!idOrganization.equals(other.idOrganization))
 			return false;
 		return true;
 	}
-
-	
 }

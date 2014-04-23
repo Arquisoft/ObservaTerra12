@@ -1,5 +1,0 @@
-package persistencia.JdbcDAOs;
-
-public class DocumentosJdbc {
-
-}

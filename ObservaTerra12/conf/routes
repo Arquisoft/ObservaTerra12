@@ -2,13 +2,19 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-# Home page
+# Index
 GET     /                           controllers.Application.index()
+POST	/							controllers.Application.authenticate()
+
+# Error
+GET     /error                      controllers.Application.error()
+
+# Menu
+GET     /user-panel                 controllers.Application.userPanel()
+GET		/logout						controllers.Application.logout()
+GET		/user-panel/documents		controllers.Application.documents()
 
 # Visualization
-GET     /histogram					controllers.Application.histogram()
-GET     /pie-chart					controllers.Application.pieChart()
-GET     /bubble-chart					controllers.Application.pieChart()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
