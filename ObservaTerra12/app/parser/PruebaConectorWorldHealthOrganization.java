@@ -33,6 +33,7 @@ import persistencia.MedidasDAO;
 import persistencia.ObservacionesDAO;
 import persistencia.TiempoDAO;
 import persistencia.JdbcDAOs.AreasJdbcDAO;
+import persistencia.JdbcDAOs.IndicadoresJdbcDAO;
 import persistencia.JdbcDAOs.MedidasJdbcDAO;
 import persistencia.JdbcDAOs.ObservacionesJdbcDAO;
 import persistencia.JdbcDAOs.OrganizacionesJdbcDAO;
@@ -119,7 +120,8 @@ public class PruebaConectorWorldHealthOrganization {
 				Indicator indicator = new Indicator();
 				indicator.setNombre(arrayObjetivo.get(i).getAsJsonObject()
 						.get("GHO").getAsString());
-
+				IndicadoresJdbcDAO indicatorDao = new IndicadoresJdbcDAO();
+				indicatorDao.añadirIndicador(indicator);
 				obs.setIndicator(indicator);
 
 				//
