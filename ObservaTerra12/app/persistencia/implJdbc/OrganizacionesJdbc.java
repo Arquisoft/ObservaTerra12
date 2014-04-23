@@ -125,8 +125,8 @@ public class OrganizacionesJdbc {
 			case ("NO"):
 				org = new Organization();
 				break;
-			}			
-			
+			}
+
 			org.setIdOrganization(idOrganizacion);
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));

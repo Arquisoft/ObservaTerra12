@@ -22,6 +22,11 @@ public class PruebaCrawlerController {
 	private int numberOfCrawlers;
 	private String crawlerFolder;
 
+	/**
+	 * 
+	 * @param numberOfCrawlers
+	 * @param crawlerFolder
+	 */
 	public PruebaCrawlerController(int numberOfCrawlers, String crawlerFolder) {
 		this.crawlerFolder = crawlerFolder;
 		this.numberOfCrawlers = numberOfCrawlers;

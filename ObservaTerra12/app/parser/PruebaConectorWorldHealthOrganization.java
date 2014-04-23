@@ -16,6 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
@@ -29,6 +30,7 @@ import model.Organization;
 import model.Provider;
 import model.Submission;
 import model.Time;
+import model.User;
 import persistencia.MedidasDAO;
 import persistencia.ObservacionesDAO;
 import persistencia.TiempoDAO;
@@ -78,7 +80,7 @@ public class PruebaConectorWorldHealthOrganization {
 			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
 					"public/pruebasCrawler/observationsPrueba1WorldHealthOrganization.json");
-			FileUtils.copyURLToFile(new URL(url), file);
+			// FileUtils.copyURLToFile(new URL(url), file);
 			br = new BufferedReader(new FileReader(file));
 
 			// ********************
@@ -156,11 +158,17 @@ public class PruebaConectorWorldHealthOrganization {
 
 				Provider provider = new Provider();
 				provider.setNombre("prueba");
+				provider.setCountry(country);
+				provider.setTipoOrganizacion("prueba");
 				OrganizacionesJdbcDAO orgDao = new OrganizacionesJdbcDAO();
 				orgDao.crearOrganizacion(provider);
 				obs.setProvider(provider);
 
 				Submission submission = new Submission();
+				submission.setDate(new Date());
+				User usuario = new User();
+				usuario.setIdUser(1L);
+				submission.setUser(usuario);
 
 				obs.setSubmission(submission);
 
@@ -169,7 +177,6 @@ public class PruebaConectorWorldHealthOrganization {
 				obsDao = new ObservacionesJdbcDAO();
 
 				try {
-					System.out.println(obs.getIdObservation());
 					obsDao.insertarObservacion(obs);
 				} catch (SQLException e) {
 					e.printStackTrace();
@@ -177,21 +184,22 @@ public class PruebaConectorWorldHealthOrganization {
 
 			}
 
-			for (int i = 0; i < 100; i++) {
-				System.out.println(obsDao
-						.buscarObservacionPorIdentificador(Integer
-								.toUnsignedLong(i)));
+			List<Observation> lista = obsDao.listarTodasObservaciones();
+			for (int i = 0; i < lista.size(); i++) {
+				System.out.println(lista.get(i).getIdObservation() + " - "
+						+ lista.get(i).getArea());
 
 			}
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (ParseException e1) {
 			e1.printStackTrace();
-		} catch (MalformedURLException e1) {
-
-			e1.printStackTrace();
+			// } catch (MalformedURLException e1) {
+			//
+			// e1.printStackTrace();
 		} catch (IOException e1) {
 
 			e1.printStackTrace();
@@ -218,7 +226,8 @@ public class PruebaConectorWorldHealthOrganization {
 			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
 					"public/pruebasCrawler/countriesWorldHealthOrganization.json");
-			org.apache.commons.io.FileUtils.copyURLToFile(new URL(url), file);
+			// org.apache.commons.io.FileUtils.copyURLToFile(new URL(url),
+			// file);
 			br = new BufferedReader(new FileReader(file));
 
 			// ********************
@@ -247,8 +256,8 @@ public class PruebaConectorWorldHealthOrganization {
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
+			// } catch (MalformedURLException e) {
+			// e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {

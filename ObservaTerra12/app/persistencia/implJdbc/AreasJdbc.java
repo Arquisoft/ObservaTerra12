@@ -54,6 +54,7 @@ public class AreasJdbc {
 			con.commit();
 		} catch (SQLException e) {
 			con.rollback();
+			e.printStackTrace();
 			throw new SQLException("Error creando el area", e.getMessage());
 		}
 	}
@@ -225,10 +226,12 @@ public class AreasJdbc {
 
 		return area;
 	}
-	
+
 	/**
 	 * Recoge los datos de un pais determinado en base a su nombre.
-	 * @param nombre - Nombre del pais.
+	 * 
+	 * @param nombre
+	 *            - Nombre del pais.
 	 * @return País encontrado (si existe alguno)
 	 * @throws SQLException
 	 */
@@ -251,10 +254,12 @@ public class AreasJdbc {
 
 		return area;
 	}
-	
+
 	/**
 	 * Recoge los datos de un pais determinado en base a su identificador único.
-	 * @param idPais - Identificador del país
+	 * 
+	 * @param idPais
+	 *            - Identificador del país
 	 * @return País encontrado (si existe alguno)
 	 * @throws SQLException
 	 */
