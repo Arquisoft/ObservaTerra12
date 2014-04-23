@@ -18,6 +18,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
+
 import model.Area;
 import model.Country;
 import model.Indicator;
@@ -75,7 +77,7 @@ public class PruebaConectorWorldHealthOrganization {
 			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
 					"public/pruebasCrawler/observationsPrueba1WorldHealthOrganization.json");
-			// FileUtils.copyURLToFile(new URL(url), file);
+			FileUtils.copyURLToFile(new URL(url), file);
 			br = new BufferedReader(new FileReader(file));
 
 			// ********************
@@ -165,7 +167,7 @@ public class PruebaConectorWorldHealthOrganization {
 				obsDao = new ObservacionesJdbcDAO();
 
 				try {
-					System.out.println(obs.getIdObservacion());
+					System.out.println(obs.getIdObservation());
 					obsDao.insertarObservacion(obs);
 				} catch (SQLException e) {
 					e.printStackTrace();
@@ -184,6 +186,12 @@ public class PruebaConectorWorldHealthOrganization {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (ParseException e1) {
+			e1.printStackTrace();
+		} catch (MalformedURLException e1) {
+
+			e1.printStackTrace();
+		} catch (IOException e1) {
+
 			e1.printStackTrace();
 		}
 
@@ -208,8 +216,7 @@ public class PruebaConectorWorldHealthOrganization {
 			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
 					"public/pruebasCrawler/countriesWorldHealthOrganization.json");
-			// org.apache.commons.io.FileUtils.copyURLToFile(new URL(url),
-			// file);
+			org.apache.commons.io.FileUtils.copyURLToFile(new URL(url), file);
 			br = new BufferedReader(new FileReader(file));
 
 			// ********************

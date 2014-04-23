@@ -56,7 +56,10 @@ public class PruebaJsonParserLocal {
 				String name = arrayPaises.get(i).getAsJsonObject()
 						.get("display").getAsString();
 
-				areasDao.crearArea(new Country(code, name));
+				Country c = new Country();
+				c.setName(name);
+
+				areasDao.crearArea(c);
 
 			}
 
