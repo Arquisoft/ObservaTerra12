@@ -100,6 +100,10 @@ public class PruebaConectorWorldHealthOrganization {
 						.getAsString());
 			}
 
+			// Metodo para pruebas
+			borraTodasObservacionesDeLaBaseDeDatos();
+
+			// arrayObjetivo.size()
 			for (int i = 0; i < arrayObjetivo.size(); i++) {
 
 				// Map<String, String> map = new HashMap<String, String>();
@@ -194,16 +198,53 @@ public class PruebaConectorWorldHealthOrganization {
 
 	}
 
+	/*
+	 * Metodo creado para hacer las pruebas mas rapido
+	 */
+	private static void borraTodasObservacionesDeLaBaseDeDatos() {
+		ObservacionesDAO obsDao = new ObservacionesJdbcDAO();
+		List<Observation> observaciones;
+
+		try {
+			observaciones = obsDao.listarTodasObservaciones();
+			for (int i = 0; i < observaciones.size(); i++) {
+				obsDao.eliminarObservacion(observaciones.get(i));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
 	public static void print() {
 		ObservacionesDAO obsDao = new ObservacionesJdbcDAO();
 		List<Observation> lista;
 		System.out.println();
 		System.out.println("**** LISTADO DE OBSERVACIONES ****");
 		System.out.println();
+
+		AreasJdbcDAO areasDao = new AreasJdbcDAO();
+		IndicadoresJdbcDAO indicatorDao = new IndicadoresJdbcDAO();
+		MedidasDAO medidasDao = new MedidasJdbcDAO();
+		TiempoDAO tiempoDao = new TiempoJdbcDAO();
+
 		try {
 			lista = obsDao.listarTodasObservaciones();
 			for (int i = 0; i < lista.size(); i++) {
 				System.out.println(lista.get(i));
+				System.out
+						.println("\t"
+								+ areasDao.leerPais(lista.get(i).getArea()
+										.getIdArea()));
+				System.out.println("\t"
+						+ indicatorDao.leerIndicador(lista.get(i)
+								.getIndicator().getIdIndicator()));
+				System.out.println("\t"
+						+ medidasDao.buscarMedidaPorIdentificador((lista.get(i)
+								.getMeasure().getIdMeasure())));
+				System.out.println("\t"
+						+ tiempoDao.buscarIntervaloTiempo(lista.get(i)
+								.getTime().getIdTime()));
+
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

@@ -27,15 +27,12 @@ public class Observation {
 	}
 
 	public Observation() {
-		super();
+
 	}
 
 	@Override
 	public String toString() {
-		return "Observation [idObservation=" + idObservation + ", area=" + area
-				+ ", indicator=" + indicator + ", measure=" + measure
-				+ ", time=" + time + ", provider=" + provider + ", submission="
-				+ submission + "]";
+		return "Observation [id=" + idObservation + "]";
 	}
 
 	public void setIdObservation(Long idObservation) {
