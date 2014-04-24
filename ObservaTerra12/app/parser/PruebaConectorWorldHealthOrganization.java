@@ -106,7 +106,7 @@ public class PruebaConectorWorldHealthOrganization {
 			borraTodasObservacionesDeLaBaseDeDatos();
 
 			// arrayObjetivo.size()
-			for (int i = 0; i < 5; i++) {
+			for (int i = 0; i < arrayObjetivo.size(); i++) {
 
 				// Map<String, String> map = new HashMap<String, String>();
 
