@@ -260,4 +260,34 @@ public class OrganizacionesJdbc {
 
 		return org;
 	}
+
+	/**
+	 * Busca un proveedor por nombre
+	 * 
+	 * @param nombre
+	 *            - Nombre del proveedor
+	 * @return proveedor encontrado
+	 * @throws SQLException
+	 */
+	public Provider buscarProveedorPorNombre(String nombre) throws SQLException {
+		String SQL = "SELECT * FROM organizacion WHERE nombre_organizacion = ? and es_proveedor = 'SI'";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setString(1, nombre);
+		ResultSet rs = pst.executeQuery();
+
+		Provider org = null;
+		while (rs.next()) {
+			org = new Provider();
+			org.setIdOrganization(rs.getLong("id_organizacion"));
+			org.setNombre(rs.getString("nombre_organizacion"));
+			org.setTipoOrganizacion(rs.getString("tipo"));
+		}
+
+		rs.close();
+		pst.close();
+
+		return org;
+	}
+
 }

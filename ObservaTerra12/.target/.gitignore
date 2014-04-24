@@ -1,14 +1,6 @@
-/AreasTest.class
-/DocumentosTest.class
-/LoginTest.class
-/MedidasTest.class
-/ObservacionesTest.class
-/OrganizacionesTest.class
-/TiempoTest.class
-/UsuariosTest.class
 /controllers
 /model
 /persistencia
+/tests
 /utils
 /views
-/tests

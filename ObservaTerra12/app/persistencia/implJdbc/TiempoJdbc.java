@@ -126,4 +126,47 @@ public class TiempoJdbc {
 		return tiempo;
 	}
 
+	/**
+	 * Busca un intervalo de tiempo según su contenido.
+	 * 
+	 * @param startDate
+	 *            - Fecha de inicio
+	 * @param endDate
+	 *            - Fecha de fin
+	 * @return Tiempo encontrado
+	 * @throws SQLException
+	 */
+	public Time buscarIntervaloTiempo(Date startDate, Date endDate)
+			throws SQLException {
+		String SQL = "SELECT * FROM intervalotiempo WHERE fecha_principio = ? and fecha_fin = ?";
+		String SQL_SOLO_START_DATE = "SELECT * FROM intervalotiempo WHERE fecha_principio = ?";
+
+		ResultSet rs = null;
+		PreparedStatement pst = null;
+
+		if (endDate == null) {
+			pst = con.prepareStatement(SQL_SOLO_START_DATE);
+			pst.setLong(1, startDate.getTime());
+			rs = pst.executeQuery();
+		} else {
+			pst = con.prepareStatement(SQL);
+			pst.setLong(1, startDate.getTime());
+			pst.setLong(2, endDate.getTime());
+			rs = pst.executeQuery();
+		}
+
+		Time intervalo = null;
+		while (rs.next()) {
+			intervalo = new Time();
+			intervalo.setIdTime(rs.getLong("id_intervalo"));
+			intervalo.setStartDate(startDate);
+			intervalo.setEndDate(endDate);
+		}
+
+		rs.close();
+		pst.close();
+
+		return intervalo;
+	}
+
 }
