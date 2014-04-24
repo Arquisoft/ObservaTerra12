@@ -14,17 +14,17 @@ import play.mvc.Result;
 import views.html.*;
 
 public class Application extends Controller {
-	
+
 	/**
 	 * Clase utilizada para el formulario de acceso a la aplicación.
 	 * 
 	 * @author Nacho & Manuel
 	 */
 	public static class Login {
-		
+
 		public String userName;
 		public String password;
-		
+
 		public String validate() {
 			try {
 				UsuariosDAO usuarios = PersistenceFactory.createUsuariosDAO();
@@ -39,37 +39,37 @@ public class Application extends Controller {
 		}
 	}
 
-    public static Result index() {
-        return ok(index.render(form(Login.class)));
-    }
+	public static Result index() {
+		return ok(index.render(form(Login.class)));
+	}
 
-    public static Result authenticate() {
-	    Form<Login> loginForm = form(Login.class).bindFromRequest();
-	    if (loginForm.hasErrors())
-	    	return badRequest(index.render(loginForm));
-	    else {
-	    	session().clear();
-	    	session("userName", loginForm.get().userName);
-	    	return redirect(routes.Application.userPanel());
-	    }
-    }
-    
-    public static Result userPanel() {
-    	if (session().get("userName") != null)
-    		return ok(user_panel.render());
-    	return redirect(routes.Application.error());
-    }
+	public static Result authenticate() {
+		Form<Login> loginForm = form(Login.class).bindFromRequest();
+		if (loginForm.hasErrors())
+			return badRequest(index.render(loginForm));
+		else {
+			session().clear();
+			session("userName", loginForm.get().userName);
+			return redirect(routes.Application.userPanel());
+		}
+	}
 
-    public static Result error() {
-        return badRequest(error.render());
-    }
-    
-    public static Result logout() {
-    	session().clear();
-        return redirect(routes.Application.index());
-    }
-    
-    public static Result documents() {
-        return ok(documents.render());
-    }
+	public static Result userPanel() {
+		if (session().get("userName") != null)
+			return ok(user_panel.render());
+		return redirect(routes.Application.error());
+	}
+
+	public static Result error() {
+		return badRequest(error.render());
+	}
+
+	public static Result logout() {
+		session().clear();
+		return redirect(routes.Application.index());
+	}
+
+	public static Result documents() {
+		return ok(documents.render());
+	}
 }
