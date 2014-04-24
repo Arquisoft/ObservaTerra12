@@ -1,7 +1,8 @@
 package model;
+
 public class Observation {
-	
-	private Long idObservation = null;	
+
+	private Long idObservation = null;
 
 	private Area area = null;
 	private Indicator indicator = null;
@@ -12,6 +13,29 @@ public class Observation {
 
 	public Long getIdObservation() {
 		return idObservation;
+	}
+
+	public Observation(Area area, Indicator indicator, Measure measure,
+			Time time, Provider provider, Submission submission) {
+		super();
+		this.area = area;
+		this.indicator = indicator;
+		this.measure = measure;
+		this.time = time;
+		this.provider = provider;
+		this.submission = submission;
+	}
+
+	public Observation() {
+		super();
+	}
+
+	@Override
+	public String toString() {
+		return "Observation [idObservation=" + idObservation + ", area=" + area
+				+ ", indicator=" + indicator + ", measure=" + measure
+				+ ", time=" + time + ", provider=" + provider + ", submission="
+				+ submission + "]";
 	}
 
 	public void setIdObservation(Long idObservation) {

@@ -106,39 +106,32 @@ public class PruebaConectorWorldHealthOrganization {
 
 				// Nueva observacion
 
-				Observation obs = new Observation();
-
 				//
 
-				Country country = new Country();
-				country.setName(arrayObjetivo.get(i).getAsJsonObject()
-						.get("COUNTRY").getAsString());
+				Country country = new Country(arrayObjetivo.get(i)
+						.getAsJsonObject().get("COUNTRY").getAsString());
 				AreasJdbcDAO areasDao = new AreasJdbcDAO();
-				areasDao.crearArea(country);
-				obs.setArea(country);
+				if (areasDao.leerPais(country.getName()) != null)
+					areasDao.crearArea(country);
 
 				//
 
-				Indicator indicator = new Indicator();
-				indicator.setNombre(arrayObjetivo.get(i).getAsJsonObject()
-						.get("GHO").getAsString());
+				Indicator indicator = new Indicator(arrayObjetivo.get(i)
+						.getAsJsonObject().get("GHO").getAsString());
 				IndicadoresJdbcDAO indicatorDao = new IndicadoresJdbcDAO();
-				indicatorDao.añadirIndicador(indicator);
-				obs.setIndicator(indicator);
+				if (indicatorDao.leerIndicador(indicator.getNombre()) != null)
+					indicatorDao.añadirIndicador(indicator);
 
 				//
 
-				Measure measure = new Measure();
-				measure.setValue(arrayObjetivo.get(i).getAsJsonObject()
-						.get("Value").getAsString());
-				measure.setUnit("");
+				// TODO: Leer bien el measure.unit del JSON
+				Measure measure = new Measure(arrayObjetivo.get(i)
+						.getAsJsonObject().get("Value").getAsString(), "prueba");
+				//
 				MedidasDAO medidasDao = new MedidasJdbcDAO();
 				medidasDao.crearMedida(measure);
-				obs.setMeasure(measure);
 
 				//
-
-				Time time = new Time();
 
 				String year = arrayObjetivo.get(i).getAsJsonObject()
 						.get("YEAR").getAsString();
@@ -148,46 +141,39 @@ public class PruebaConectorWorldHealthOrganization {
 				Date endDate = new SimpleDateFormat(
 						"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 						+ "-12-31 23:59:59.000000");
-				time.setStartDate(startDate);
-				time.setEndDate(endDate);
+				Time time = new Time(startDate, endDate);
+
 				TiempoDAO tiempoDao = new TiempoJdbcDAO();
 				tiempoDao.crearIntervalo(time);
-				obs.setTime(time);
 
 				//
 
-				Provider provider = new Provider();
-				provider.setNombre("prueba");
-				provider.setCountry(country);
-				provider.setTipoOrganizacion("prueba");
+				// TODO
+				Provider provider = new Provider("nombreprueba", country,
+						"tipoorganizacionprueba");
 				OrganizacionesJdbcDAO orgDao = new OrganizacionesJdbcDAO();
-				orgDao.crearOrganizacion(provider);
-				obs.setProvider(provider);
 
-				Submission submission = new Submission();
-				submission.setDate(new Date());
+				orgDao.crearOrganizacion(provider);
+
+				// TODO
+
 				User usuario = new User();
 				usuario.setIdUser(1L);
-				submission.setUser(usuario);
-
-				obs.setSubmission(submission);
+				Submission submission = new Submission(new Date(), usuario);
 
 				// Add observacion a la base de datos
+
+				Observation obs = new Observation(country, indicator, measure,
+						time, provider, submission);
 
 				obsDao = new ObservacionesJdbcDAO();
 
 				try {
 					obsDao.insertarObservacion(obs);
+					System.out.println("Insertando observacion: " + obs);
 				} catch (SQLException e) {
 					e.printStackTrace();
 				}
-
-			}
-
-			List<Observation> lista = obsDao.listarTodasObservaciones();
-			for (int i = 0; i < lista.size(); i++) {
-				System.out.println(lista.get(i).getIdObservation() + " - "
-						+ lista.get(i).getArea());
 
 			}
 
@@ -201,8 +187,26 @@ public class PruebaConectorWorldHealthOrganization {
 			//
 			// e1.printStackTrace();
 		} catch (IOException e1) {
-
 			e1.printStackTrace();
+		}
+
+		print();
+
+	}
+
+	public static void print() {
+		ObservacionesDAO obsDao = new ObservacionesJdbcDAO();
+		List<Observation> lista;
+		System.out.println();
+		System.out.println("**** LISTADO DE OBSERVACIONES ****");
+		System.out.println();
+		try {
+			lista = obsDao.listarTodasObservaciones();
+			for (int i = 0; i < lista.size(); i++) {
+				System.out.println(lista.get(i));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 
 	}
@@ -248,8 +252,7 @@ public class PruebaConectorWorldHealthOrganization {
 						.getAsString();
 				String name = arrayPaises.get(i).getAsJsonObject()
 						.get("display").getAsString();
-				Country country = new Country();
-				country.setName(name);
+				Country country = new Country(name);
 				areasDao.crearArea(country);
 
 			}

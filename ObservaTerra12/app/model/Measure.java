@@ -1,7 +1,7 @@
 package model;
 
 public class Measure {
-	
+
 	private Long idMeasure = null;
 
 	private String value = "";
@@ -17,6 +17,22 @@ public class Measure {
 
 	public String getValue() {
 		return value;
+	}
+
+	@Override
+	public String toString() {
+		return "Measure [idMeasure=" + idMeasure + ", value=" + value
+				+ ", unit=" + unit + "]";
+	}
+
+	public Measure(String value, String unit) {
+		super();
+		this.value = value;
+		this.unit = unit;
+	}
+
+	public Measure() {
+		super();
 	}
 
 	public void setValue(String value) {
