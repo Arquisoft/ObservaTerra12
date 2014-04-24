@@ -33,8 +33,10 @@ import model.Time;
 import model.User;
 import persistencia.MedidasDAO;
 import persistencia.ObservacionesDAO;
+import persistencia.PersistenceFactory;
 import persistencia.TiempoDAO;
 import persistencia.JdbcDAOs.AreasJdbcDAO;
+import persistencia.JdbcDAOs.EntradasJdbcDAO;
 import persistencia.JdbcDAOs.IndicadoresJdbcDAO;
 import persistencia.JdbcDAOs.MedidasJdbcDAO;
 import persistencia.JdbcDAOs.ObservacionesJdbcDAO;
@@ -104,7 +106,7 @@ public class PruebaConectorWorldHealthOrganization {
 			borraTodasObservacionesDeLaBaseDeDatos();
 
 			// arrayObjetivo.size()
-			for (int i = 0; i < arrayObjetivo.size(); i++) {
+			for (int i = 0; i < 5; i++) {
 
 				// Map<String, String> map = new HashMap<String, String>();
 
@@ -164,13 +166,14 @@ public class PruebaConectorWorldHealthOrganization {
 				User usuario = new User();
 				usuario.setIdUser(1L);
 				Submission submission = new Submission(new Date(), usuario);
+				EntradasJdbcDAO entradasDao = new EntradasJdbcDAO();
+				entradasDao.crearEntrada(submission);
 
 				// Add observacion a la base de datos
 
+				obsDao = PersistenceFactory.createObservacionesDAO();
 				Observation obs = new Observation(country, indicator, measure,
 						time, provider, submission);
-
-				obsDao = new ObservacionesJdbcDAO();
 
 				try {
 					obsDao.insertarObservacion(obs);
@@ -202,7 +205,7 @@ public class PruebaConectorWorldHealthOrganization {
 	 * Metodo creado para hacer las pruebas mas rapido
 	 */
 	private static void borraTodasObservacionesDeLaBaseDeDatos() {
-		ObservacionesDAO obsDao = new ObservacionesJdbcDAO();
+		ObservacionesDAO obsDao = PersistenceFactory.createObservacionesDAO();
 		List<Observation> observaciones;
 
 		try {
@@ -216,7 +219,8 @@ public class PruebaConectorWorldHealthOrganization {
 	}
 
 	public static void print() {
-		ObservacionesDAO obsDao = new ObservacionesJdbcDAO();
+
+		ObservacionesDAO obsDao = PersistenceFactory.createObservacionesDAO();
 		List<Observation> lista;
 		System.out.println();
 		System.out.println("**** LISTADO DE OBSERVACIONES ****");
@@ -258,7 +262,7 @@ public class PruebaConectorWorldHealthOrganization {
 
 		InputStream is;
 		BufferedReader br;
-		AreasJdbcDAO areasDao;
+		AreasJdbcDAO areasDao = null;
 		JsonParser parser;
 
 		try {
@@ -284,10 +288,8 @@ public class PruebaConectorWorldHealthOrganization {
 
 			JsonArray arrayPaises = array.get(0).getAsJsonObject().get("code")
 					.getAsJsonArray();
-
+			areasDao = new AreasJdbcDAO();
 			for (int i = 1; i < arrayPaises.size(); i++) {
-
-				areasDao = new AreasJdbcDAO();
 
 				String code = arrayPaises.get(i).getAsJsonObject().get("label")
 						.getAsString();
@@ -297,6 +299,8 @@ public class PruebaConectorWorldHealthOrganization {
 				areasDao.crearArea(country);
 
 			}
+
+			System.out.println(areasDao.leerPais(new Long(5)));
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
