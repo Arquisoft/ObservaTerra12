@@ -31,11 +31,11 @@ public class EntradasJdbc {
 	}
 
 	/**
-	 * Registra una nueva entrada en el sistema. Puede incluir (o no)
-	 * el usuario que ha introducido la observacion
-	 * (Aunque debería introducirse)
+	 * Registra una nueva entrada en el sistema. Puede incluir (o no) el usuario
+	 * que ha introducido la observacion (Aunque debería introducirse)
 	 * 
-	 * @param entrada - Fecha y usuario que hizo la observación.
+	 * @param entrada
+	 *            - Fecha y usuario que hizo la observación.
 	 * @return Entrada creada, con su identificador único.
 	 * @throws SQLException
 	 */
@@ -53,15 +53,16 @@ public class EntradasJdbc {
 		pst.executeUpdate();
 
 		pst.close();
-		
+
 		entrada.setIdSubmission(idEntrada);
 		return entrada;
 	}
 
 	/**
-	 * Elimina una entrada en el sistema.
-	 * No está previsto su uso.
-	 * @param entrada - Entrada a eliminar.
+	 * Elimina una entrada en el sistema. No está previsto su uso.
+	 * 
+	 * @param entrada
+	 *            - Entrada a eliminar.
 	 * @throws SQLException
 	 */
 	public void eliminarEntrada(Submission entrada) throws SQLException {
@@ -73,44 +74,41 @@ public class EntradasJdbc {
 
 		pst.close();
 	}
-	
-	
+
 	/**
 	 * Recoge una entrada del sistema en base a su identificador único
-	 * **********************
-	 * Atención: solo devuelve el identificador del usuario que hizo la entrada,
-	 * deberá recogerse a ese usuario en capas superiores.
-	 * **********************
+	 * ********************** Atención: solo devuelve el identificador del
+	 * usuario que hizo la entrada, deberá recogerse a ese usuario en capas
+	 * superiores. **********************
 	 * 
-	 * @param idEntrada - Identificador de la entrada a recoger
+	 * @param idEntrada
+	 *            - Identificador de la entrada a recoger
 	 * @return - Entrada recogida.
 	 * @throws SQLException
 	 */
-	public Submission leerEntrada(Long idEntrada) throws SQLException
-	{
+	public Submission leerEntrada(Long idEntrada) throws SQLException {
 		String SQL = "SELECT * FROM entradas WHERE id_entrada=?";
-		
+
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idEntrada);
 		ResultSet rs = pst.executeQuery();
-		
+
 		Submission entrada = null;
-		
-		while(rs.next())
-		{
+
+		while (rs.next()) {
 			entrada = new Submission();
 			entrada.setIdSubmission(rs.getLong("id_entrada"));
 			User usuario = new User();
 			Long idUsuario = rs.getLong("id_usuario");
-			if(idUsuario != null)
+			if (idUsuario != null)
 				usuario.setIdUser(idUsuario);
 			entrada.setUser(usuario);
 			entrada.setDate(new Date(rs.getLong("fecha_entrada")));
 		}
-		
+
 		rs.close();
 		pst.close();
-		
+
 		return entrada;
 	}
 

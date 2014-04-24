@@ -157,8 +157,8 @@ public class ObservacionesJdbc {
 			Time tiempo = new Time();
 			tiempo.setIdTime(rs.getLong("id_tiempo"));
 			observacion.setTime(tiempo);
-			
-			//Entrada
+
+			// Entrada
 			Submission entrada = new Submission();
 			entrada.setIdSubmission(rs.getLong("id_entrada"));
 			observacion.setSubmission(entrada);
@@ -218,11 +218,11 @@ public class ObservacionesJdbc {
 			tiempo.setIdTime(rs.getLong("id_tiempo"));
 			observacion.setTime(tiempo);
 
-			//Entrada
+			// Entrada
 			Submission entrada = new Submission();
 			entrada.setIdSubmission(rs.getLong("id_entrada"));
 			observacion.setSubmission(entrada);
-			
+
 			observaciones.add(observacion);
 		}
 
@@ -281,8 +281,8 @@ public class ObservacionesJdbc {
 			Time tiempo = new Time();
 			tiempo.setIdTime(rs.getLong("id_tiempo"));
 			observacion.setTime(tiempo);
-			
-			//Entrada
+
+			// Entrada
 			Submission entrada = new Submission();
 			entrada.setIdSubmission(rs.getLong("id_entrada"));
 			observacion.setSubmission(entrada);
@@ -332,8 +332,8 @@ public class ObservacionesJdbc {
 			Time tiempo = new Time();
 			tiempo.setIdTime(rs.getLong("id_tiempo"));
 			observacion.setTime(tiempo);
-			
-			//Entrada
+
+			// Entrada
 			Submission entrada = new Submission();
 			entrada.setIdSubmission(rs.getLong("id_entrada"));
 			observacion.setSubmission(entrada);
@@ -345,6 +345,42 @@ public class ObservacionesJdbc {
 		pst.close();
 
 		return observaciones;
+	}
+
+	/**
+	 * Función auxiliar que recupera una observacion en base a los
+	 * identificadores de su contenido.
+	 * 
+	 * @param observacion
+	 *            - Contenido de la observacion a buscar.
+	 * @return Observacion encontrada
+	 * @throws SQLException
+	 */
+	public Observation leerObservacionPorContenido(Observation observacion)
+			throws SQLException {
+		String SQL = "SELECT * FROM observaciones WHERE id_area = ?"
+				+ " and id_indicador = ? and id_medida = ? and id_tiempo = ? "
+				+ "and id_proveedor = ?";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, observacion.getArea().getIdArea());
+		pst.setLong(2, observacion.getIndicator().getIdIndicator());
+		pst.setLong(3, observacion.getMeasure().getIdMeasure());
+		pst.setLong(4, observacion.getTime().getIdTime());
+		pst.setLong(5, observacion.getProvider().getIdOrganization());
+		ResultSet rs = pst.executeQuery();
+
+		while (rs.next()) {
+			observacion.setIdObservation(rs.getLong("id_observacion"));
+			Submission entrada = new Submission();
+			entrada.setIdSubmission(rs.getLong("id_entrada"));
+			observacion.setSubmission(entrada);
+		}
+
+		rs.close();
+		pst.close();
+
+		return observacion;
 	}
 
 }

@@ -74,10 +74,44 @@ public class ObservacionesTest {
 	@Test
 	public void test() throws SQLException {
 		testCrearObservacionYRecuperar();
+		testVolverAInsertarObservacion();
 		testLeerObservacionesDelArea();
 		testLeerObservacionesDeUnIndicador();
 		testEliminarObservacionYRecuperar();
 		testEliminarCambios();
+	}
+
+	private void testVolverAInsertarObservacion() throws SQLException 
+	{
+		//Copia el id de la observacion y los demas dtos
+		Long idObv = this.observacion.getIdObservation();
+		Long idArea = this.observacion.getArea().getIdArea();
+		Long idIndicador = this.observacion.getIndicator().getIdIndicator();
+		Long idMedida = this.observacion.getMeasure().getIdMeasure();
+		Long idProvider = this.observacion.getProvider().getIdOrganization();
+		Long idTiempo = this.observacion.getTime().getIdTime();
+		
+		//Borrar los ids
+		this.observacion.setIdObservation(null);
+		this.observacion.getArea().setIdArea(null);
+		this.observacion.getIndicator().setIdIndicator(null);
+		this.observacion.getMeasure().setIdMeasure(null);
+		this.observacion.getProvider().setIdOrganization(null);
+		this.observacion.getTime().setIdTime(null);
+		
+		// Insertar la observacion
+		ObservacionesDAO obvDAO = PersistenceFactory.createObservacionesDAO();
+		this.observacion = obvDAO.insertarObservacion(this.observacion);
+		
+		//Comprobar que se les ha asignado el mismo id
+		assertEquals(idObv, this.observacion.getIdObservation());
+		assertEquals(idArea, this.observacion.getArea().getIdArea());
+		assertEquals(idIndicador, this.observacion.getIndicator().getIdIndicator());
+		assertEquals(idProvider, this.observacion.getProvider().getIdOrganization());
+		assertEquals(idMedida, this.observacion.getMeasure().getIdMeasure());
+		assertEquals(idTiempo,this.observacion.getTime().getIdTime());
+		
+		
 	}
 
 	private void testLeerObservacionesDeUnIndicador() throws SQLException 
@@ -87,12 +121,12 @@ public class ObservacionesTest {
 		List<Observation> leidas = obvDAO.leerObservacionesDeUnIndicador("Nombre de prueba");
 
 		assertEquals(leidas.size(), 1);
-		assertEquals(leidas.get(0).getArea(), this.area);
+		assertEquals(leidas.get(0).getArea(), this.observacion.getArea());
 		assertEquals(leidas.get(0).getIndicator(), this.observacion.getIndicator());
-		assertEquals(leidas.get(0).getProvider(), this.proveedor);
-		assertEquals(leidas.get(0).getMeasure(), this.medida);
-		assertEquals(leidas.get(0).getTime(),this.intervalo);
-		assertEquals(leidas.get(0).getSubmission(), this.entrada);
+		assertEquals(leidas.get(0).getProvider(), this.observacion.getProvider());
+		assertEquals(leidas.get(0).getMeasure(), this.observacion.getMeasure());
+		assertEquals(leidas.get(0).getTime(),this.observacion.getTime());
+		assertEquals(leidas.get(0).getSubmission(), this.observacion.getSubmission());
 	}
 
 	//Busca la observacion introducida buscando por su area
@@ -100,16 +134,16 @@ public class ObservacionesTest {
 	{
 		// Recuperar la observacion
 		ObservacionesDAO obvDAO = PersistenceFactory.createObservacionesDAO();
-		List<Observation> leidas = obvDAO.leerObservacionesDeUnArea(this.area);
+		List<Observation> leidas = obvDAO.leerObservacionesDeUnArea(this.observacion.getArea());
 
 		assertEquals(leidas.size(), 1);
-		assertEquals(leidas.get(0).getArea().getIdArea(), this.area.getIdArea());
-		assertEquals(leidas.get(0).getArea(), this.area);
+		assertEquals(leidas.get(0).getArea().getIdArea(), this.observacion.getArea().getIdArea());
+		assertEquals(leidas.get(0).getArea(), this.observacion.getArea());
 		assertEquals(leidas.get(0).getIndicator(), this.observacion.getIndicator());
-		assertEquals(leidas.get(0).getProvider(), this.proveedor);
-		assertEquals(leidas.get(0).getMeasure(), this.medida);
-		assertEquals(leidas.get(0).getTime(),this.intervalo);
-		assertEquals(leidas.get(0).getSubmission(), this.entrada);
+		assertEquals(leidas.get(0).getProvider(), this.observacion.getProvider());
+		assertEquals(leidas.get(0).getMeasure(), this.observacion.getMeasure());
+		assertEquals(leidas.get(0).getTime(),this.observacion.getTime());
+		assertEquals(leidas.get(0).getSubmission(), this.observacion.getSubmission());
 	}
 
 	private void testCrearObservacionYRecuperar() throws SQLException {
@@ -122,12 +156,12 @@ public class ObservacionesTest {
 						.getIdObservation());
 
 		assertNotNull(leida);
-		assertEquals(leida.getArea(), this.area);
+		assertEquals(leida.getArea(), this.observacion.getArea());
 		assertEquals(leida.getIndicator(), this.observacion.getIndicator());
-		assertEquals(leida.getProvider(), this.proveedor);
-		assertEquals(leida.getMeasure(), this.medida);
-		assertEquals(leida.getTime(),this.intervalo);
-		assertEquals(leida.getSubmission(), this.entrada);
+		assertEquals(leida.getProvider(), this.observacion.getProvider());
+		assertEquals(leida.getMeasure(), this.observacion.getMeasure());
+		assertEquals(leida.getTime(),this.observacion.getTime());
+		assertEquals(leida.getSubmission(), this.observacion.getSubmission());
 		
 		//recuperar todas las observaciones
 		List<Observation> todas = obvDAO.listarTodasObservaciones();

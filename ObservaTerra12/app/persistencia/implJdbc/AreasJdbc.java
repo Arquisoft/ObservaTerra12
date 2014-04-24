@@ -225,10 +225,12 @@ public class AreasJdbc {
 
 		return area;
 	}
-	
+
 	/**
 	 * Recoge los datos de un pais determinado en base a su nombre.
-	 * @param nombre - Nombre del pais.
+	 * 
+	 * @param nombre
+	 *            - Nombre del pais.
 	 * @return País encontrado (si existe alguno)
 	 * @throws SQLException
 	 */
@@ -251,10 +253,12 @@ public class AreasJdbc {
 
 		return area;
 	}
-	
+
 	/**
 	 * Recoge los datos de un pais determinado en base a su identificador único.
-	 * @param idPais - Identificador del país
+	 * 
+	 * @param idPais
+	 *            - Identificador del país
 	 * @return País encontrado (si existe alguno)
 	 * @throws SQLException
 	 */
@@ -381,4 +385,40 @@ public class AreasJdbc {
 
 		pst.close();
 	}
+
+	/**
+	 * Busca un area o un pais en función de su nombre.
+	 * 
+	 * @param name
+	 *            - Nombre del area
+	 * @return Area/Pais encontrado
+	 * @throws SQLException
+	 */
+	public Area buscarAreaYPaisPorNombre(String name) throws SQLException {
+		String SQL = "SELECT * FROM areas WHERE nombre_area = ?";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setString(1, name);
+		ResultSet rs = pst.executeQuery();
+
+		Area area = null;
+
+		while (rs.next()) {
+			switch (rs.getString("es_pais").toUpperCase()) {
+			case ("SI"):
+				area = new Country();
+				break;
+			case ("NO"):
+				area = new Area();
+				break;
+			}
+			area.setIdArea(rs.getLong("id_area"));
+			area.setName(name);
+		}
+
+		rs.close();
+		pst.close();
+		return area;
+	}
+
 }

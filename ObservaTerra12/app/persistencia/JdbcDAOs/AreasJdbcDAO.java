@@ -45,8 +45,7 @@ public class AreasJdbcDAO implements AreasDAO {
 	@Override
 	public void crearArea(Area area) throws SQLException {
 		if (area == null)
-			throw new IllegalArgumentException(
-					"No se ha indicado un area a crear");
+			throw new IllegalArgumentException("No se ha indicado un area a crear");
 
 		Connection con = DBConnection.getConnection();
 		this.areasJDBC.setConnection(con);
