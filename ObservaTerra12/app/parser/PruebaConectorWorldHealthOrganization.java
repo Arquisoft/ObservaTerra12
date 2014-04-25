@@ -2,6 +2,7 @@ package parser;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -18,6 +19,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 
@@ -31,6 +33,8 @@ import model.Provider;
 import model.Submission;
 import model.Time;
 import model.User;
+import persistencia.AreasDAO;
+import persistencia.IndicadoresDAO;
 import persistencia.MedidasDAO;
 import persistencia.ObservacionesDAO;
 import persistencia.PersistenceFactory;
@@ -60,146 +64,25 @@ public class PruebaConectorWorldHealthOrganization {
 
 	public static void main(String[] args) throws SQLException, IOException {
 
-		// rellenaPaises();
-		rellenaObservacionesPrueba1();
+		ConectorWorldHealthOrganization conectorWHO = new ConectorWorldHealthOrganization();
+		conectorWHO.rellenaObservaciones("LIFE_EXPECTANCY_AT_BIRTH");
+		// conectorWHO.rellenaPaises("LIST_COUNTRIES");
+
+		printObservaciones();
 
 	}
 
-	/*
-	 * Prueba 1 de observaciones
-	 * 
-	 * La busqueda es para GHO: "Life expectancy at birth (years)"
-	 */
-	public static void rellenaObservacionesPrueba1() {
-		String url = "http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001.json?profile=simple";
-
-		BufferedReader br;
-		JsonParser parser;
-		ArrayList<String> campos = new ArrayList<String>();
-		ObservacionesDAO obsDao = null;
-
-		try {
-			// Guardando el fichero y trabajando sobre la version local
-			File file = new File(
-					"public/pruebasCrawler/observationsPrueba1WorldHealthOrganization.json");
-			// FileUtils.copyURLToFile(new URL(url), file);
-			br = new BufferedReader(new FileReader(file));
-
-			// ********************
-
-			parser = new JsonParser();
-
-			JsonObject fichero = parser.parse(br).getAsJsonObject();
-
-			JsonArray arrayCampos = fichero.getAsJsonObject().get("dimension")
-					.getAsJsonArray();
-
-			JsonArray arrayObjetivo = fichero.getAsJsonObject().get("fact")
-					.getAsJsonArray();
-
-			for (int i = 0; i < arrayCampos.size(); i++) {
-				campos.add(arrayCampos.get(i).getAsJsonObject().get("label")
-						.getAsString());
-			}
-
-			// Metodo para pruebas
-			borraTodasObservacionesDeLaBaseDeDatos();
-
-			// arrayObjetivo.size()
-			for (int i = 0; i < arrayObjetivo.size(); i++) {
-
-				Country country = new Country(arrayObjetivo.get(i)
-						.getAsJsonObject().get("COUNTRY").getAsString());
-
-				Indicator indicator = new Indicator(arrayObjetivo.get(i)
-						.getAsJsonObject().get("GHO").getAsString());
-
-				// TODO: Leer bien el measure.unit del JSON
-				Measure measure = new Measure(arrayObjetivo.get(i)
-						.getAsJsonObject().get("Value").getAsString(), "prueba");
-
-				String year = arrayObjetivo.get(i).getAsJsonObject()
-						.get("YEAR").getAsString();
-				Date startDate = new SimpleDateFormat(
-						"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-						+ "-01-01 00:00:00.000000");
-				Date endDate = new SimpleDateFormat(
-						"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-						+ "-12-31 23:59:59.000000");
-				Time time = new Time(startDate, endDate);
-
-				// TODO
-				Provider provider = new Provider("nombreprueba", country,
-						"tipoorganizacionprueba");
-
-				// TODO
-				User usuario = new User();
-				usuario.setIdUser(1L);
-				Submission submission = new Submission(new Date(), usuario);
-				EntradasJdbcDAO entradasDao = new EntradasJdbcDAO();
-				entradasDao.crearEntrada(submission);
-
-				// Add observacion a la base de datos
-
-				obsDao = PersistenceFactory.createObservacionesDAO();
-				Observation obs = new Observation(country, indicator, measure,
-						time, provider, submission);
-
-				try {
-					obsDao.insertarObservacion(obs);
-					System.out.println("Insertando observacion: " + obs);
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-
-			}
-
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} catch (ParseException e1) {
-			e1.printStackTrace();
-			// } catch (MalformedURLException e1) {
-			//
-			// e1.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-
-		print();
-
-	}
-
-	/*
-	 * Metodo creado para hacer las pruebas mas rapido
-	 */
-	private static void borraTodasObservacionesDeLaBaseDeDatos() {
-		ObservacionesDAO obsDao = PersistenceFactory.createObservacionesDAO();
-		List<Observation> observaciones;
-
-		try {
-			observaciones = obsDao.listarTodasObservaciones();
-			for (int i = 0; i < observaciones.size(); i++) {
-				obsDao.eliminarObservacion(observaciones.get(i));
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-	}
-
-	public static void print() {
+	public static void printObservaciones() {
 
 		ObservacionesDAO obsDao = PersistenceFactory.createObservacionesDAO();
+		AreasDAO areasDao = PersistenceFactory.createAreasDAO();
+		IndicadoresDAO indicatorDao = PersistenceFactory.createIndicadoresDAO();
+		MedidasDAO medidasDao = PersistenceFactory.createMedidasDAO();
+		TiempoDAO tiempoDao = PersistenceFactory.createTiempoDAO();
+
 		List<Observation> lista;
-		System.out.println();
-		System.out.println("**** LISTADO DE OBSERVACIONES ****");
-		System.out.println();
 
-		AreasJdbcDAO areasDao = new AreasJdbcDAO();
-		IndicadoresJdbcDAO indicatorDao = new IndicadoresJdbcDAO();
-		MedidasDAO medidasDao = new MedidasJdbcDAO();
-		TiempoDAO tiempoDao = new TiempoJdbcDAO();
+		System.out.println("/n**** LISTADO DE OBSERVACIONES ****/n");
 
 		try {
 			lista = obsDao.listarTodasObservaciones();
@@ -220,64 +103,6 @@ public class PruebaConectorWorldHealthOrganization {
 								.getTime().getIdTime()));
 
 			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-
-	}
-
-	public static void rellenaPaises() {
-
-		String url = "http://apps.who.int/gho/athena/api/COUNTRY?format=json";
-
-		InputStream is;
-		BufferedReader br;
-		AreasJdbcDAO areasDao = null;
-		JsonParser parser;
-
-		try {
-
-			// Trabajamos sobre la version web
-			// is = new URL(url).openStream();
-			// br = new BufferedReader(new InputStreamReader(is,
-			// Charset.forName("UTF-8")));
-
-			// Guardando el fichero y trabajando sobre la version local
-			File file = new File(
-					"public/pruebasCrawler/countriesWorldHealthOrganization.json");
-			// org.apache.commons.io.FileUtils.copyURLToFile(new URL(url),
-			// file);
-			br = new BufferedReader(new FileReader(file));
-
-			// ********************
-
-			parser = new JsonParser();
-
-			JsonArray array = parser.parse(br).getAsJsonObject()
-					.get("dimension").getAsJsonArray();
-
-			JsonArray arrayPaises = array.get(0).getAsJsonObject().get("code")
-					.getAsJsonArray();
-			areasDao = new AreasJdbcDAO();
-			for (int i = 1; i < arrayPaises.size(); i++) {
-
-				String code = arrayPaises.get(i).getAsJsonObject().get("label")
-						.getAsString();
-				String name = arrayPaises.get(i).getAsJsonObject()
-						.get("display").getAsString();
-				Country country = new Country(name);
-				areasDao.crearArea(country);
-
-			}
-
-			System.out.println(areasDao.leerPais(new Long(5)));
-
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-			// } catch (MalformedURLException e) {
-			// e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
