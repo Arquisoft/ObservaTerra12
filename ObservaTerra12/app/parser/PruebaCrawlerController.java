@@ -6,16 +6,11 @@ import edu.uci.ics.crawler4j.fetcher.PageFetcher;
 import edu.uci.ics.crawler4j.robotstxt.RobotstxtConfig;
 import edu.uci.ics.crawler4j.robotstxt.RobotstxtServer;
 
-/**
- * 
- * @author Pablo Garcia Fernandez
- * 
- */
 public class PruebaCrawlerController {
 
 	public static void main(String[] args) throws Exception {
 		PruebaCrawlerController p = new PruebaCrawlerController(5,
-				"pruebasCrawler");
+				"public/crawler/temp/");
 		p.start();
 	}
 

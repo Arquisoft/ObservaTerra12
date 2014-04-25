@@ -17,14 +17,17 @@ import edu.uci.ics.crawler4j.crawler.WebCrawler;
  */
 public class PruebaCrawlerBase extends WebCrawler {
 
+	static int i = 0;
+
 	@Override
 	public void visit(Page page) {
 		String url = page.getWebURL().getURL();
 		System.out.println("URL: " + url);
 
 		try {
-			File file = new File("public/pruebasCrawler/" + url + ".json");
+			File file = new File("public/crawler/temp/" + i + ".json");
 			FileUtils.copyURLToFile(new URL(url), file);
+			i++;
 
 		} catch (MalformedURLException e) {
 			e.printStackTrace();

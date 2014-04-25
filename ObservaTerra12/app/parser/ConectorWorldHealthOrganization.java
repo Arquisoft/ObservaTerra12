@@ -141,7 +141,11 @@ public class ConectorWorldHealthOrganization {
 
 				try {
 					obsDao.insertarObservacion(obs);
-					System.out.println("Insertando observacion: " + obs);
+					if (obs.getIdObservation() == null)
+						System.out
+								.println("Insertando observacion: FALLO al insertar");
+					else
+						System.out.println("Insertando observacion: " + obs);
 				} catch (SQLException e) {
 					e.printStackTrace();
 				}

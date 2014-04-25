@@ -40,7 +40,7 @@ public class PruebaParserJson {
 		try {
 			is = new URL(url).openStream();
 
-			File file = new File("public/pruebasCrawler/information.json");
+			File file = new File("public/crawler/temp/information.json");
 			org.apache.commons.io.FileUtils.copyURLToFile(new URL(url), file);
 
 			br = new BufferedReader(new InputStreamReader(is,
