@@ -57,7 +57,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		try {
 			con.setAutoCommit(false);
 			Observation ret = buscarContenidoObservacion(observacion, con);
-			if (ret == null) {
+			if (ret != null) {
 				con.rollback(); // Deshaz posibles cambios
 				return ret;
 			}

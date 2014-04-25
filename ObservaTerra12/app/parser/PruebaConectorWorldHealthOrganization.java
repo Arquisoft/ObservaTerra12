@@ -108,36 +108,15 @@ public class PruebaConectorWorldHealthOrganization {
 			// arrayObjetivo.size()
 			for (int i = 0; i < arrayObjetivo.size(); i++) {
 
-				// Map<String, String> map = new HashMap<String, String>();
-
-				// Nueva observacion
-
-				//
-
 				Country country = new Country(arrayObjetivo.get(i)
 						.getAsJsonObject().get("COUNTRY").getAsString());
-				AreasJdbcDAO areasDao = new AreasJdbcDAO();
-				if (areasDao.leerPais(country.getName()) != null)
-					areasDao.crearArea(country);
-
-				//
 
 				Indicator indicator = new Indicator(arrayObjetivo.get(i)
 						.getAsJsonObject().get("GHO").getAsString());
-				IndicadoresJdbcDAO indicatorDao = new IndicadoresJdbcDAO();
-				if (indicatorDao.leerIndicador(indicator.getNombre()) != null)
-					indicatorDao.añadirIndicador(indicator);
-
-				//
 
 				// TODO: Leer bien el measure.unit del JSON
 				Measure measure = new Measure(arrayObjetivo.get(i)
 						.getAsJsonObject().get("Value").getAsString(), "prueba");
-				//
-				MedidasDAO medidasDao = new MedidasJdbcDAO();
-				medidasDao.crearMedida(measure);
-
-				//
 
 				String year = arrayObjetivo.get(i).getAsJsonObject()
 						.get("YEAR").getAsString();
@@ -149,20 +128,11 @@ public class PruebaConectorWorldHealthOrganization {
 						+ "-12-31 23:59:59.000000");
 				Time time = new Time(startDate, endDate);
 
-				TiempoDAO tiempoDao = new TiempoJdbcDAO();
-				tiempoDao.crearIntervalo(time);
-
-				//
-
 				// TODO
 				Provider provider = new Provider("nombreprueba", country,
 						"tipoorganizacionprueba");
-				OrganizacionesJdbcDAO orgDao = new OrganizacionesJdbcDAO();
-
-				orgDao.crearOrganizacion(provider);
 
 				// TODO
-
 				User usuario = new User();
 				usuario.setIdUser(1L);
 				Submission submission = new Submission(new Date(), usuario);
