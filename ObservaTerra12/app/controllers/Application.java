@@ -2,6 +2,7 @@ package controllers;
 
 import static play.data.Form.form;
 
+import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
@@ -14,6 +15,8 @@ import persistencia.UsuariosDAO;
 import play.data.Form;
 import play.i18n.Messages;
 import play.mvc.Controller;
+import play.mvc.Http.MultipartFormData;
+import play.mvc.Http.MultipartFormData.FilePart;
 import play.mvc.Result;
 import views.html.documents;
 import views.html.error;
@@ -104,5 +107,30 @@ public class Application extends Controller {
 		}
 		
         return ok(documento.getFile());
+    }
+    
+    public static Result uploadFile() {
+    	MultipartFormData body = request().body().asMultipartFormData();
+		FilePart file = body.getFile("file");
+		
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+    	
+		try {
+	    	Document documento = new Document();
+	    	
+	    	documento.setFile(file.getFile());
+	    	
+	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+	    	documento.setUser(user);
+	    	
+	    	documento.setName(file.getFilename());
+	    	
+	    	documentosDao.guardarDocumento(documento);
+		} catch (SQLException | IOException e) {
+			return badRequest(error.render());
+		}
+		
+        return ok(Messages.get("documents_document_upload_successfull"));
     }
 }

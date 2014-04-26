@@ -19,3 +19,5 @@ documents_my_documents = Mis documentos
 documents_document_name = Nombre
 documents_document_extension = Tipo
 documents_document_download = Descargar
+documents_document_upload = Subir archivo
+documents_document_upload_successfull = Fichero subido con éxito

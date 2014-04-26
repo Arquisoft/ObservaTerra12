@@ -3,6 +3,17 @@
 
 @main(Messages.get("documents_title")) {
 
+	<form name="fileUploadForm" method="POST" enctype="multipart/form-data" action="@routes.Application.uploadFile()">
+	    <input type="file" name="file">
+	    
+	    <p>
+	        <input type="submit">
+	    </p>
+	</form>
+	
+	
+	<a href="#">@Messages.get("documents_document_upload")</a>
+
 	<h1>@Messages.get("documents_my_documents")</h1>
 	<table>
 		<tbody>
