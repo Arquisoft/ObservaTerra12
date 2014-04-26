@@ -2,16 +2,23 @@ package controllers;
 
 import static play.data.Form.form;
 
+import java.io.IOException;
 import java.sql.SQLException;
+import java.util.List;
 
+import model.Document;
 import model.User;
+import persistencia.DocumentosDAO;
 import persistencia.PersistenceFactory;
 import persistencia.UsuariosDAO;
 import play.data.Form;
 import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.*;
+import views.html.documents;
+import views.html.error;
+import views.html.index;
+import views.html.user_panel;
 
 public class Application extends Controller {
 	
@@ -70,6 +77,19 @@ public class Application extends Controller {
     }
     
     public static Result documents() {
-        return ok(documents.render());
+    	try {
+	    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+	    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+	    	
+	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+	    	List<Document> documentos = documentosDao.listarRepositoriosUsuario(user);
+	    	
+	        return ok(documents.render(documentos));
+	        
+    	} catch (SQLException e) {
+            return badRequest(error.render());
+    	} catch (IOException e) {
+        return badRequest(error.render());
+	}
     }
 }

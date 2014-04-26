@@ -15,3 +15,7 @@ panel_logout = Desconectarse
 panel_documents = Mis documentos compartidos
 #Documentos
 documents_title = ObservaTerra: Documentos
+documents_my_documents = Mis documentos
+documents_document_name = Nombre
+documents_document_extension = Tipo
+documents_document_download = Descargar

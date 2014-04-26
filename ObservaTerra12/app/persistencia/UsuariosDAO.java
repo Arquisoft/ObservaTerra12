@@ -61,4 +61,13 @@ public interface UsuariosDAO {
 	 */
 	public List<User> listarUsuarios() throws SQLException;
 
+
+	/**
+	 * Busca un usuario en el sistema por su nombre de usuario.
+	 * 
+	 * @param userName	el nombre del usuario
+	 * @return 	el usuario
+	 * @throws SQLException
+	 */
+	public User buscarUsuario(String userName) throws SQLException;
 }
