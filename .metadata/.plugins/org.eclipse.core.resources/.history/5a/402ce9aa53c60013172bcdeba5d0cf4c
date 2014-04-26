@@ -1,7 +1,0 @@
-#Index
-index_title = ObservaTerra: Home
-index_form_title = Login
-index_form_user_name = User
-index_form_password = Password
-index_form_login = Login
-index_form_error_login = Wrong user or password.

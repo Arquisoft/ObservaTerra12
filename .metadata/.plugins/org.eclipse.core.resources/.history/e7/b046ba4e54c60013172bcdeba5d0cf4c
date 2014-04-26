@@ -1,4 +1,0 @@
-@main("ObservaTerra: Menu") {
-
-	<a href="@routes.Application.logout()">Logout</a>
-}

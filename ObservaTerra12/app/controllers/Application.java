@@ -77,19 +77,32 @@ public class Application extends Controller {
     }
     
     public static Result documents() {
-    	try {
-	    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
-	    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
-	    	
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+    	
+    	List<Document> documentos;
+    	
+    	try {	 	    	
 	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
-	    	List<Document> documentos = documentosDao.listarRepositoriosUsuario(user);
-	    	
-	        return ok(documents.render(documentos));
-	        
-    	} catch (SQLException e) {
-            return badRequest(error.render());
-    	} catch (IOException e) {
-        return badRequest(error.render());
-	}
+	    	documentos = documentosDao.listarRepositoriosUsuario(user);
+    	} catch (SQLException | IOException e) {
+			return badRequest(error.render());
+		}
+    	
+    	return ok(documents.render(documentos));
+    }
+    
+    public static Result downloadFile(Long id) {
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	
+    	Document documento;
+    	
+		try {
+			documento = documentosDao.leerDocumento(id);
+		} catch (SQLException | IOException e) {
+			return badRequest(error.render());
+		}
+		
+        return ok(documento.getFile());
     }
 }
