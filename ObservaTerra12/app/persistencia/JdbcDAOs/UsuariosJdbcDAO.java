@@ -119,4 +119,10 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		con.close();
 		return us;
 	}
+
+	@Override
+	public User buscarUsuario(String userName) throws SQLException {
+		// TODO Hay que hacer el método, lo siguiente es solo un dummy
+		return leerUsuario("periodista1","periodista1");
+	}
 }
