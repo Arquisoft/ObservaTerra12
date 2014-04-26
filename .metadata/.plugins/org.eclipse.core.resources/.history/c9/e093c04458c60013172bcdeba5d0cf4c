@@ -1,6 +1,0 @@
-@import play.i18n._
-
-@main(Messages.get("panel_title")) {
-
-	<a href="@routes.Application.logout()">Logout</a>
-}

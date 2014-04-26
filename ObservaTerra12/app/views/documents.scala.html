@@ -16,7 +16,7 @@
 				<tr>
 					<td>@document.getName()</td>
 					<td>@document.getExtension()</td>
-					<td><a href="#">@Messages.get("documents_document_download")</a></td>
+					<td><a href="@routes.Application.downloadFile(document.getIdDocumento())">@Messages.get("documents_document_download")</a></td>
 				</tr>
 			}
 		</tbody>
