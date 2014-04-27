@@ -33,10 +33,13 @@ import model.Provider;
 import model.Submission;
 import model.Time;
 import model.User;
+import parser.conectores.ConectorUnitedNations;
+import parser.conectores.ConectorWorldHealthOrganization;
 import persistencia.AreasDAO;
 import persistencia.IndicadoresDAO;
 import persistencia.MedidasDAO;
 import persistencia.ObservacionesDAO;
+import persistencia.OrganizacionesDAO;
 import persistencia.PersistenceFactory;
 import persistencia.TiempoDAO;
 import persistencia.JdbcDAOs.AreasJdbcDAO;
@@ -60,13 +63,16 @@ import com.google.gson.JsonParser;
  * @author Pablo Garcia Fernandez
  * 
  */
-public class PruebaConectorWorldHealthOrganization {
+public class PruebaConectores {
 
 	public static void main(String[] args) throws SQLException, IOException {
 
-		ConectorWorldHealthOrganization conectorWHO = new ConectorWorldHealthOrganization();
-		conectorWHO.rellenaObservaciones("LIFE_EXPECTANCY_AT_BIRTH");
-		// conectorWHO.rellenaPaises("LIST_COUNTRIES");
+		ConectorWorldHealthOrganization conectorWHO = ConectorWorldHealthOrganization
+				.getInstance();
+		ConectorUnitedNations conectorUN = ConectorUnitedNations.getInstance();
+
+		// conectorWHO.rellenaObservaciones("LIFE_EXPECTANCY_AT_BIRTH");
+		conectorUN.rellenaObservaciones("COMPONENTS");
 
 		printObservaciones();
 
@@ -79,6 +85,8 @@ public class PruebaConectorWorldHealthOrganization {
 		IndicadoresDAO indicatorDao = PersistenceFactory.createIndicadoresDAO();
 		MedidasDAO medidasDao = PersistenceFactory.createMedidasDAO();
 		TiempoDAO tiempoDao = PersistenceFactory.createTiempoDAO();
+		OrganizacionesDAO orgsDao = PersistenceFactory
+				.createOrganizacionesDAO();
 
 		List<Observation> lista;
 
@@ -101,6 +109,9 @@ public class PruebaConectorWorldHealthOrganization {
 				System.out.println("\t"
 						+ tiempoDao.buscarIntervaloTiempo(lista.get(i)
 								.getTime().getIdTime()));
+				System.out.println("\t"
+						+ orgsDao.leerProvedor(lista.get(i).getProvider()
+								.getIdOrganization()));
 
 			}
 		} catch (SQLException e) {

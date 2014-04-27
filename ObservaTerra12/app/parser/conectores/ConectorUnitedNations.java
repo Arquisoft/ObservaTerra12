@@ -1,19 +1,16 @@
-package parser;
+package parser.conectores;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Properties;
 
 import model.Country;
 import model.Indicator;
@@ -28,7 +25,6 @@ import org.apache.commons.io.FileUtils;
 
 import persistencia.ObservacionesDAO;
 import persistencia.PersistenceFactory;
-import persistencia.JdbcDAOs.AreasJdbcDAO;
 import persistencia.JdbcDAOs.EntradasJdbcDAO;
 
 import com.google.gson.JsonArray;
@@ -37,33 +33,25 @@ import com.google.gson.JsonParser;
 
 /**
  * 
- * Prueba de un conector de nuestra aplicacion con la API de la World Health
- * Organization
+ * Prueba de un conector de nuestra aplicacion con la API de United Nations
  * 
  * 
  * @author Pablo Garcia Fernandez
  * 
  */
-public class ConectorWorldHealthOrganization {
+public class ConectorUnitedNations extends Conector {
 
-	Properties properties;
+	private static ConectorUnitedNations instance;
 
-	public ConectorWorldHealthOrganization() {
-		cargaProperties();
+	private ConectorUnitedNations() {
+		cargaProperties("public/crawler/un.properties");
 	}
 
-	private void cargaProperties() {
-		properties = new Properties();
-
-		InputStream is = null;
-
-		try {
-			is = new FileInputStream("public/crawler/who.properties");
-			properties.load(is);
-		} catch (IOException e) {
-			System.out.println(e.toString());
+	public static ConectorUnitedNations getInstance() {
+		if (instance == null) {
+			instance = new ConectorUnitedNations();
 		}
-
+		return instance;
 	}
 
 	public void rellenaObservaciones(String key) {
@@ -78,7 +66,7 @@ public class ConectorWorldHealthOrganization {
 		try {
 			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
-					"public/crawler/temp/observationsPrueba1WorldHealthOrganization.json");
+					"public/crawler/temp/observationsPrueba1UnitedNations.json");
 			FileUtils.copyURLToFile(new URL(url), file);
 			br = new BufferedReader(new FileReader(file));
 
@@ -123,7 +111,7 @@ public class ConectorWorldHealthOrganization {
 				Time time = new Time(startDate, endDate);
 
 				// TODO
-				Provider provider = new Provider("nombreprueba", country,
+				Provider provider = new Provider("United Nations", country,
 						"tipoorganizacionprueba");
 
 				// TODO
@@ -156,71 +144,14 @@ public class ConectorWorldHealthOrganization {
 			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		} catch (ParseException e1) {
-			e1.printStackTrace();
 			// } catch (MalformedURLException e1) {
 			//
 			// e1.printStackTrace();
 		} catch (IOException e1) {
 			e1.printStackTrace();
-		}
-	}
-
-	public void rellenaPaises(String key) {
-		String url = (String) properties.get(key);
-
-		InputStream is;
-		BufferedReader br;
-		AreasJdbcDAO areasDao = null;
-		JsonParser parser;
-
-		try {
-
-			// Trabajamos sobre la version web
-			// is = new URL(url).openStream();
-			// br = new BufferedReader(new InputStreamReader(is,
-			// Charset.forName("UTF-8")));
-
-			// Guardando el fichero y trabajando sobre la version local
-			File file = new File(
-					"public/crawler/temp/countriesWorldHealthOrganization.json");
-			// org.apache.commons.io.FileUtils.copyURLToFile(new URL(url),
-			// file);
-			br = new BufferedReader(new FileReader(file));
-
-			// ********************
-
-			parser = new JsonParser();
-
-			JsonArray array = parser.parse(br).getAsJsonObject()
-					.get("dimension").getAsJsonArray();
-
-			JsonArray arrayPaises = array.get(0).getAsJsonObject().get("code")
-					.getAsJsonArray();
-			areasDao = new AreasJdbcDAO();
-			for (int i = 1; i < arrayPaises.size(); i++) {
-
-				String code = arrayPaises.get(i).getAsJsonObject().get("label")
-						.getAsString();
-				String name = arrayPaises.get(i).getAsJsonObject()
-						.get("display").getAsString();
-				Country country = new Country(name);
-				areasDao.crearArea(country);
-
-			}
-
-			System.out.println(areasDao.leerPais(new Long(5)));
-
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-			// } catch (MalformedURLException e) {
-			// e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
-			e.printStackTrace();
+		} catch (ParseException e1) {
+			e1.printStackTrace();
 		}
 
 	}
-
 }
