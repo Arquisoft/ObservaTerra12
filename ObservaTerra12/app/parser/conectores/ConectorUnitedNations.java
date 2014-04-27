@@ -65,7 +65,6 @@ public class ConectorUnitedNations extends Conector {
 		ObservacionesDAO obsDao = null;
 
 		try {
-			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
 					"public/crawler/temp/observationsPrueba1UnitedNations.json");
 			// FileUtils.copyURLToFile(new URL(url), file);
