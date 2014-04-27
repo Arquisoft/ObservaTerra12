@@ -132,16 +132,12 @@ public class ConectorWorldHealthOrganization extends Conector {
 				Observation obs = new Observation(country, indicator, measure,
 						time, provider, submission);
 
-				try {
-					obsDao.insertarObservacion(obs);
-					if (obs.getIdObservation() == null)
-						System.out
-								.println("Insertando observacion: FALLO al insertar");
-					else
-						System.out.println("Insertando observacion: " + obs);
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
+				obsDao.insertarObservacion(obs);
+				if (obs.getIdObservation() == null)
+					System.out
+							.println("Insertando observacion: FALLO al insertar");
+				else
+					System.out.println("Insertando observacion: " + obs);
 
 			}
 
@@ -151,9 +147,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 			e.printStackTrace();
 		} catch (ParseException e1) {
 			e1.printStackTrace();
-			// } catch (MalformedURLException e1) {
-			//
-			// e1.printStackTrace();
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}

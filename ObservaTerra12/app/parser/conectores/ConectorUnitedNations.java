@@ -28,6 +28,7 @@ import persistencia.PersistenceFactory;
 import persistencia.JdbcDAOs.EntradasJdbcDAO;
 
 import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -67,89 +68,74 @@ public class ConectorUnitedNations extends Conector {
 			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
 					"public/crawler/temp/observationsPrueba1UnitedNations.json");
-			FileUtils.copyURLToFile(new URL(url), file);
+			// FileUtils.copyURLToFile(new URL(url), file);
 			br = new BufferedReader(new FileReader(file));
 
 			// ********************
 
 			parser = new JsonParser();
 
-			JsonObject fichero = parser.parse(br).getAsJsonObject();
+			JsonArray fichero = parser.parse(br).getAsJsonArray();
 
-			JsonArray arrayCampos = fichero.getAsJsonObject().get("dimension")
-					.getAsJsonArray();
+			// ********************************************************************************************
 
-			JsonArray arrayObjetivo = fichero.getAsJsonObject().get("fact")
-					.getAsJsonArray();
+			// fichero.size()
+			for (int i = 0; i < fichero.size(); i++) {
 
-			for (int i = 0; i < arrayCampos.size(); i++) {
-				campos.add(arrayCampos.get(i).getAsJsonObject().get("label")
-						.getAsString());
-			}
+				JsonElement value = fichero.get(i).getAsJsonObject()
+						.get("_2012_life_expectancy_at_birth");
 
-			// arrayObjetivo.size()
-			for (int i = 0; i < arrayObjetivo.size(); i++) {
+				if (value != null) {
 
-				Country country = new Country(arrayObjetivo.get(i)
-						.getAsJsonObject().get("COUNTRY").getAsString());
+					Country country = new Country(fichero.get(i)
+							.getAsJsonObject().get("name").getAsString());
 
-				Indicator indicator = new Indicator(arrayObjetivo.get(i)
-						.getAsJsonObject().get("GHO").getAsString());
+					Indicator indicator = new Indicator(
+							"Life Expectancy at birth");
 
-				// TODO: Leer bien el measure.unit del JSON
-				Measure measure = new Measure(arrayObjetivo.get(i)
-						.getAsJsonObject().get("Value").getAsString(), "prueba");
+					Measure measure = new Measure(value.getAsString(), "years");
 
-				String year = arrayObjetivo.get(i).getAsJsonObject()
-						.get("YEAR").getAsString();
-				Date startDate = new SimpleDateFormat(
-						"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-						+ "-01-01 00:00:00.000000");
-				Date endDate = new SimpleDateFormat(
-						"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-						+ "-12-31 23:59:59.000000");
-				Time time = new Time(startDate, endDate);
+					String year = "2012";
+					Date startDate = new SimpleDateFormat(
+							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
+							+ "-01-01 00:00:00.000000");
+					Date endDate = new SimpleDateFormat(
+							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
+							+ "-12-31 23:59:59.000000");
+					Time time = new Time(startDate, endDate);
 
-				// TODO
-				Provider provider = new Provider("United Nations", country,
-						"tipoorganizacionprueba");
+					Provider provider = new Provider("United Nations", country,
+							"tipoorganizacionprueba");
 
-				// TODO
-				User usuario = new User();
-				usuario.setIdUser(1L);
-				Submission submission = new Submission(new Date(), usuario);
-				EntradasJdbcDAO entradasDao = new EntradasJdbcDAO();
-				entradasDao.crearEntrada(submission);
+					User usuario = new User();
+					usuario.setIdUser(1L);
+					Submission submission = new Submission(new Date(), usuario);
+					EntradasJdbcDAO entradasDao = new EntradasJdbcDAO();
+					entradasDao.crearEntrada(submission);
 
-				// Add observacion a la base de datos
+					// Add observacion a la base de datos
 
-				obsDao = PersistenceFactory.createObservacionesDAO();
-				Observation obs = new Observation(country, indicator, measure,
-						time, provider, submission);
+					obsDao = PersistenceFactory.createObservacionesDAO();
+					Observation obs = new Observation(country, indicator,
+							measure, time, provider, submission);
 
-				try {
 					obsDao.insertarObservacion(obs);
 					if (obs.getIdObservation() == null)
 						System.out
 								.println("Insertando observacion: FALLO al insertar");
 					else
 						System.out.println("Insertando observacion: " + obs);
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
 
+				}
 			}
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
-			// } catch (MalformedURLException e1) {
-			//
-			// e1.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
 		} catch (ParseException e1) {
+			e1.printStackTrace();
+		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 
