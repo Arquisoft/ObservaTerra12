@@ -45,7 +45,7 @@ public class ConectorUnitedNations extends Conector {
 	private static ConectorUnitedNations instance;
 
 	private ConectorUnitedNations() {
-		cargaProperties("public/crawler/un.properties");
+		cargaProperties("public/crawler/configuration/un.properties");
 	}
 
 	public static ConectorUnitedNations getInstance() {
@@ -61,7 +61,6 @@ public class ConectorUnitedNations extends Conector {
 
 		BufferedReader br;
 		JsonParser parser;
-		ArrayList<String> campos = new ArrayList<String>();
 		ObservacionesDAO obsDao = null;
 
 		try {

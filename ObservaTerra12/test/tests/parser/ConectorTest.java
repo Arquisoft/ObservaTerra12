@@ -7,6 +7,7 @@ import java.util.List;
 
 import model.Country;
 import model.Observation;
+import model.Provider;
 
 import org.junit.After;
 import org.junit.Before;
@@ -55,14 +56,14 @@ public class ConectorTest {
 		this.country1 = new Country();
 		country1.setName("Australia");
 
-		conectorWHO = ConectorWorldHealthOrganization.getInstance();
+		conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
 		conectorUN = ConectorUnitedNations.getInstance();
 	}
 
 	@Test
 	public void testUN() {
 
-		// conectorUN.rellenaObservaciones("COMPONENTS");
+		conectorUN.rellenaObservaciones("COMPONENTS");
 		try {
 
 			assertTrue(areasDao.leerPais("Australia").getName()
@@ -70,8 +71,15 @@ public class ConectorTest {
 
 			assertTrue(areasDao.leerPais("Spain").getName().equals("Spain"));
 
-			assertTrue(obsDao.buscarObservacionPorIdentificador(new Long(5))
-					.getProvider().getNombre().equals("United Nations"));
+			List<Provider> lista = orgsDao.listarProveedores();
+			Provider prueba = null;
+
+			for (Provider proveedor : lista) {
+				if (proveedor.getNombre().equals("United Nations"))
+					prueba = proveedor;
+			}
+
+			assertTrue(prueba != null);
 
 			printObservations(5);
 
@@ -80,11 +88,39 @@ public class ConectorTest {
 		}
 	}
 
+	/*
+	 * CUIDADO: Este test descarga todos los JSON de la API de la World Health
+	 * Organization, los analiza e intenta insertar las observaciones. En total
+	 * son 28 JSON y mas de 1000 observaciones y le lleva un rato largo
+	 */
 	@Test
 	public void testWHO() {
-		// conectorWHO.rellenaObservaciones("LIFE_EXPECTANCY_AT_BIRTH");
+		conectorWHO.preparar();
+		conectorWHO.start();
+
+		try {
+
+			List<Provider> lista = orgsDao.listarProveedores();
+			Provider prueba = null;
+
+			for (Provider proveedor : lista) {
+				if (proveedor.getNombre().equals("World Health Organization"))
+					prueba = proveedor;
+			}
+
+			assertTrue(prueba != null);
+
+			printObservations(5);
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 
+	/*
+	 * limite: Para no imprimir todo el listado podemos especificarle un limite
+	 * e imprimira desde 0 hasta ese limite
+	 */
 	public void printObservations(int limite) {
 		List<Observation> lista;
 

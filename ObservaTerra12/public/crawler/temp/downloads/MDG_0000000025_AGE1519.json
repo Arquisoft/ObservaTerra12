@@ -1,0 +1,698 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Afghanistan",
+             "PUBLISHSTATE": "Published",
+             "Value": "56.6"
+           },
+           {
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2009",
+             "PUBLISHSTATE": "Published",
+             "Value": "55.8"
+           },
+           {
+             "COUNTRY": "Albania",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Europe",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.5"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Armenia",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "YEAR": "2006",
+             "PUBLISHSTATE": "Published",
+             "Value": "69.1"
+           },
+           {
+             "COUNTRY": "Burundi",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "70.5"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Benin",
+             "YEAR": "2006",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "74.9"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Burkina Faso",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "69.2"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2011",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Bangladesh",
+             "PUBLISHSTATE": "Published",
+             "Value": "32.3"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "75.3"
+           },
+           {
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "58.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Africa",
+             "COUNTRY": "Botswana",
+             "Value": "91.3"
+           },
+           {
+             "YEAR": "2011",
+             "REGION": "Africa",
+             "COUNTRY": "Belize",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.2"
+           },
+           {
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "60.9"
+           },
+           {
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "YEAR": "2011",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "60.6"
+           },
+           {
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "75.6"
+           },
+           {
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.1"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "Colombia",
+             "PUBLISHSTATE": "Published",
+             "Value": "73.1"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Colombia",
+             "YEAR": "2005",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.2"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Africa",
+             "COUNTRY": "Central African Republic",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "52.1"
+           },
+           {
+             "COUNTRY": "Dominican Republic",
+             "YEAR": "2007",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "95"
+           },
+           {
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2008",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "78.8"
+           },
+           {
+             "COUNTRY": "Ethiopia",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2011",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "32.8"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Gabon",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Gambia",
+             "Value": "63.5"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Ghana",
+             "PUBLISHSTATE": "Published",
+             "Value": "52.2"
+           },
+           {
+             "COUNTRY": "Guinea",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Africa",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "45.6"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Guatemala",
+             "YEAR": "2008",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.6"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "44.9"
+           },
+           {
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "52.4"
+           },
+           {
+             "YEAR": "2009",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Honduras",
+             "YEAR": "2005",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Americas",
+             "Value": "73.6"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "YEAR": "2006",
+             "PUBLISHSTATE": "Published",
+             "Value": "30.1"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2007",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Indonesia",
+             "PUBLISHSTATE": "Published",
+             "Value": "62.6"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2007",
+             "COUNTRY": "India",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "47.5"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2011",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Iraq",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.4"
+           },
+           {
+             "COUNTRY": "Jamaica",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Americas",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "98"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Jordan",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2007",
+             "Value": "97.7"
+           },
+           {
+             "YEAR": "2005",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "100"
+           },
+           {
+             "YEAR": "2009",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Kenya",
+             "PUBLISHSTATE": "Published",
+             "Value": "47.7"
+           },
+           {
+             "YEAR": "2006",
+             "REGION": "Europe",
+             "COUNTRY": "Kyrgyzstan",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "100"
+           },
+           {
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "49.3"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Liberia",
+             "PUBLISHSTATE": "Published",
+             "Value": "49.9"
+           },
+           {
+             "COUNTRY": "Sri Lanka",
+             "YEAR": "2006",
+             "REGION": "South-East Asia",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.1"
+           },
+           {
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "YEAR": "2009",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "63.7"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Morocco",
+             "YEAR": "2004",
+             "PUBLISHSTATE": "Published",
+             "Value": "70.3"
+           },
+           {
+             "YEAR": "2005",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "100"
+           },
+           {
+             "COUNTRY": "Madagascar",
+             "YEAR": "2008",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "40.2"
+           },
+           {
+             "YEAR": "2009",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Maldives",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.5"
+           },
+           {
+             "YEAR": "2006",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "52"
+           },
+           {
+             "YEAR": "2009",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Myanmar",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "59"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98"
+           },
+           {
+             "YEAR": "2011",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Mozambique",
+             "PUBLISHSTATE": "Published",
+             "Value": "61.3"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Mauritania",
+             "PUBLISHSTATE": "Published",
+             "Value": "65.5"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Malawi",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "74"
+           },
+           {
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "81.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "Value": "16.8"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Nigeria",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "24.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Americas",
+             "YEAR": "2006",
+             "COUNTRY": "Nicaragua",
+             "Value": "75.7"
+           },
+           {
+             "YEAR": "2011",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Nepal",
+             "PUBLISHSTATE": "Published",
+             "Value": "42.1"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Pakistan",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "43.3"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Peru",
+             "PUBLISHSTATE": "Published",
+             "Value": "85.8"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Philippines",
+             "PUBLISHSTATE": "Published",
+             "Value": "59"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.1"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "64.6"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "44.8"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Europe",
+             "COUNTRY": "Serbia",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.7"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "South Sudan",
+             "YEAR": "2006",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "47.8"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2008",
+             "REGION": "Africa",
+             "COUNTRY": "Sao Tome and Principe",
+             "PUBLISHSTATE": "Published",
+             "Value": "85.7"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.6"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Swaziland",
+             "PUBLISHSTATE": "Published",
+             "Value": "76.2"
+           },
+           {
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.2"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2004",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Chad",
+             "PUBLISHSTATE": "Published",
+             "Value": "19.5"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Togo",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "72.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Thailand",
+             "YEAR": "2006",
+             "REGION": "South-East Asia",
+             "Value": "98.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United Republic of Tanzania",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "Value": "56.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2011",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Africa",
+             "COUNTRY": "Uganda",
+             "Value": "67.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "Value": "98.8"
+           },
+           {
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "86"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "72.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Samoa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "YEAR": "2009",
+             "Value": "85.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Yemen",
+             "YEAR": "2006",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "REGION": "Eastern Mediterranean",
+             "Value": "37"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "COUNTRY": "Zambia",
+             "YEAR": "2007",
+             "Value": "53.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "GHO": "Births attended by skilled health personnel, among girls aged 15-19 (%)",
+             "Value": "64.8"
+           }
+          ]
+}

@@ -9540,12 +9540,12 @@
              "REGION": "Africa",
              "GHO": "Life expectancy at birth (years)",
              "SEX": "Male",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "PUBLISHSTATE": "Published",
              "Value": "50"
            },
            {
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "REGION": "Africa",
              "SEX": "Male",
              "GHO": "Life expectancy at birth (years)",
@@ -9559,7 +9559,7 @@
              "GHO": "Life expectancy at birth (years)",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "SEX": "Male",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "REGION": "Africa",
              "PUBLISHSTATE": "Published",
              "Value": "52"
@@ -9570,12 +9570,12 @@
              "GHO": "Life expectancy at birth (years)",
              "YEAR": "1990",
              "SEX": "Female",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "PUBLISHSTATE": "Published",
              "Value": "54"
            },
            {
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "SEX": "Female",
              "REGION": "Africa",
@@ -9586,7 +9586,7 @@
            },
            {
              "REGION": "Africa",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "GHO": "Life expectancy at birth (years)",
              "YEAR": "2012",
@@ -9596,7 +9596,7 @@
            },
            {
              "REGION": "Africa",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "SEX": "Both sexes",
              "GHO": "Life expectancy at birth (years)",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
@@ -9605,7 +9605,7 @@
              "Value": "51"
            },
            {
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "SEX": "Both sexes",
              "GHO": "Life expectancy at birth (years)",
              "REGION": "Africa",
@@ -9616,7 +9616,7 @@
            },
            {
              "SEX": "Both sexes",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "GHO": "Life expectancy at birth (years)",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "YEAR": "2012",
