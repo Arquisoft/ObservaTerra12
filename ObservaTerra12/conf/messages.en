@@ -19,3 +19,6 @@ documents_my_documents = My documents
 documents_document_name = Name
 documents_document_extension = Type
 documents_document_download = Download
+documents_document_upload = Upload file
+documents_document_upload_successfull = File successfully uploaded
+documents_document_upload_error = There was an error while uploading the file.

@@ -14,6 +14,8 @@ import persistencia.UsuariosDAO;
 import play.data.Form;
 import play.i18n.Messages;
 import play.mvc.Controller;
+import play.mvc.Http.MultipartFormData;
+import play.mvc.Http.MultipartFormData.FilePart;
 import play.mvc.Result;
 import views.html.documents;
 import views.html.error;
@@ -62,9 +64,10 @@ public class Application extends Controller {
     }
     
     public static Result userPanel() {
-    	if (session().get("userName") != null)
-    		return ok(user_panel.render());
-    	return redirect(routes.Application.error());
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+		return ok(user_panel.render());
     }
 
     public static Result error() {
@@ -77,6 +80,9 @@ public class Application extends Controller {
     }
     
     public static Result documents() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
     	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
     	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
     	
@@ -93,6 +99,9 @@ public class Application extends Controller {
     }
     
     public static Result downloadFile(Long id) {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
     	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
     	
     	Document documento;
@@ -104,5 +113,32 @@ public class Application extends Controller {
 		}
 		
         return ok(documento.getFile());
+    }
+    
+    public static Result uploadFile() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	MultipartFormData part = request().body().asMultipartFormData();
+    	FilePart file = part.getFile("file");
+	    
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+
+		try {
+	    	Document documento = new Document();
+
+	    	documento.setFile(file.getFile());
+	    	
+	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+	    	documento.setUser(user);
+	    	
+	    	documento.setName(file.getFilename());
+	    	
+	    	documentosDao.guardarDocumento(documento);
+		} catch (SQLException | IOException e) {
+			return badRequest(error.render());
+		}
+    	return documents();
     }
 }

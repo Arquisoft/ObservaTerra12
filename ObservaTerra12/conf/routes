@@ -16,6 +16,7 @@ GET		/user-panel/documents						controllers.Application.documents()
 
 # Menu/Documentos
 GET		/user-panel/documents/download-file/:id		controllers.Application.downloadFile(id: Long)
+POST	/user-panel/documents/upload-file			controllers.Application.uploadFile()
 
 # Visualization
 
