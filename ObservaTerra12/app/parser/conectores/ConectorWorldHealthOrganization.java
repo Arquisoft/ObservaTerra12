@@ -81,8 +81,15 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 */
 	private String construyeUrl(String label) {
 		StringBuilder str = new StringBuilder();
+
+		// Todas las url's comienzan igual, tenemos eso guardado en el fichero
+		// de properties
 		str.append((String) properties.get(key + "_INIT"));
+
+		// La etiqueta especifica de cada consulta
 		str.append(label);
+
+		// Todas las url's acaban igual tambien
 		str.append((String) properties.get(key + "_END"));
 
 		return str.toString();
