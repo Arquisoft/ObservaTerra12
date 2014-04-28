@@ -1,0 +1,3486 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.92"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.56"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.65"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Antigua and Barbuda",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Antigua and Barbuda",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.68"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.56"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.74"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.60"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.28"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.71"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.17"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.67"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.44"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.32"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.64"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.19"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.61"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.36"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.71"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.45"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.48"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.26"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.40"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.43"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.48"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.66"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.54"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.40"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.37"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.45"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.50"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.16"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.92"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.63"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.04"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.04"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.43"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.50"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.16"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.18"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.98"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.30"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.44"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.04"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.12"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.44"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.16"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.48"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.46"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.96"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.86"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.78"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.27"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.09"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.70"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.30"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.46"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.30"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.90"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.39"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.50"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.16"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.09"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.39"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.39"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.62"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.90"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.70"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.65"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.88"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.77"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.25"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.94"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.32"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.30"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.89"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.26"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.78"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.17"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.72"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.32"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.55"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.66"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.34"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.45"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.25"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.81"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.70"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.63"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.30"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.90"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.39"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.08"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.64"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.56"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.43"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Libya",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.04"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Libya",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.93"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.29"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.43"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.17"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.51"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.27"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.40"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.08"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.26"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.46"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.18"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.53"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Monaco",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Monaco",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.11"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.61"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.61"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.50"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.16"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.17"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.52"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.88"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.28"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.33"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.81"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.27"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.44"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.81"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.09"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.84"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.25"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.27"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.80"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.85"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.62"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.34"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.09"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.66"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.39"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.42"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.72"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.09"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.68"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.08"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.80"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.27"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.36"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.12"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.28"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.36"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.11"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.33"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.25"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.45"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.63"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.80"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.57"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.11"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.40"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.13"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.17"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.50"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.45"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.07"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.77"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.45"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.70"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.18"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.67"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.12"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.21"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.04"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.72"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.04"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.01"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.19"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Tuvalu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Tuvalu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.09"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.29"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.09"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.06"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.38"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.29"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.41"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.02"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.58"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.83"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.43"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.14"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.43"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.15"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.23"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.26"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.76"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.47"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.22"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.59"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.17"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.53"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.03"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.08"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.51"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.17"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Male",
+             "COUNTRY": "Tokelau",
+             "REGION": "WHO Non Members",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Point prevalence (%), drug use disorders, 15+ years",
+             "YEAR": "2004",
+             "SEX": "Female",
+             "COUNTRY": "Tokelau",
+             "REGION": "WHO Non Members",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.05"
+           }
+          ]
+}

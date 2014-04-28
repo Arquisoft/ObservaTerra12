@@ -1,0 +1,4682 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Algeria",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Benin",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Burkina Faso",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cabo Verde",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Central African Republic",
+             "YEAR": "2007",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Côte d'Ivoire",
+             "Value": "No"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Eritrea",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Gabon",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Kenya",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Mali",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritius",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Mozambique",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "Value": "No"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Niger",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "COUNTRY": "Nigeria",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Senegal",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "South Africa",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "United Republic of Tanzania",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Zambia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Argentina",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "COUNTRY": "Bahamas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Brazil",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "COUNTRY": "Canada",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Chile",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Costa Rica",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Cuba",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Dominican Republic",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "El Salvador",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Jamaica",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Nicaragua",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Peru",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Trinidad and Tobago",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Uruguay",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Djibouti",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Egypt",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Iraq",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "COUNTRY": "Jordan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Kuwait",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Lebanon",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Morocco",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Saudi Arabia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Sudan",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Tunisia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Yemen",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Albania",
+             "Value": "No"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Austria",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Belarus",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Belgium",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Croatia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Czech Republic",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Denmark",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Estonia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Finland",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Georgia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Germany",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Greece",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Hungary",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Iceland",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Ireland",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Israel",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Kazakhstan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Kyrgyzstan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Latvia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lithuania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Luxembourg",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Montenegro",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Norway",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Poland",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Portugal",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Republic of Moldova",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Romania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Serbia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Slovenia",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Spain",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Sweden",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Switzerland",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Ukraine",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Uzbekistan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2007",
+             "COUNTRY": "Bangladesh",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "India",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Maldives",
+             "YEAR": "2007",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Myanmar",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2007",
+             "COUNTRY": "Sri Lanka",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Thailand",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Australia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Cook Islands",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Fiji",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Marshall Islands",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Mongolia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Nauru",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "New Zealand",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Papua New Guinea",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Philippines",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Singapore",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Tonga",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Vanuatu",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Viet Nam",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Algeria",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Burkina Faso",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Cameroon",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Cabo Verde",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Central African Republic",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Chad",
+             "Value": "No"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Côte d'Ivoire",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Democratic Republic of the Congo",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Gabon",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Gambia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Ghana",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "Value": "No"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Kenya",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Mauritius",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Mozambique",
+             "YEAR": "2010",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Namibia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Nigeria",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Senegal",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "South Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Zambia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Zimbabwe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Argentina",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Bahamas",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "Belize",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Brazil",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Chile",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "Cuba",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Dominican Republic",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "El Salvador",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Guatemala",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Guyana",
+             "YEAR": "2010",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Honduras",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Jamaica",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Nicaragua",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Panama",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Peru",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Trinidad and Tobago",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Uruguay",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Bahrain",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Egypt",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Jordan",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lebanon",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Libya",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Morocco",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Pakistan",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "COUNTRY": "Qatar",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "COUNTRY": "Syrian Arab Republic",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Tunisia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "United Arab Emirates",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Albania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Armenia",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Austria",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Belgium",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Bulgaria",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Cyprus",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Czech Republic",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Estonia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Georgia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Germany",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Greece",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Hungary",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Iceland",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Israel",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Italy",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Kazakhstan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Kyrgyzstan",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Latvia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Montenegro",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Netherlands",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Norway",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Poland",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Republic of Moldova",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Romania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Russian Federation",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Serbia",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Slovakia",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sweden",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Switzerland",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkey",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Turkmenistan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Ukraine",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Uzbekistan",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "COUNTRY": "Bangladesh",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Bhutan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Maldives",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Myanmar",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Nepal",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Sri Lanka",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Timor-Leste",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Australia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "COUNTRY": "China",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Cook Islands",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Fiji",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Japan",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Malaysia",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Marshall Islands",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Mongolia",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Nauru",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "New Zealand",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Papua New Guinea",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Philippines",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Republic of Korea",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Burkina Faso",
+             "YEAR": "2012",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Burundi",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "Value": "No"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Cameroon",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Cabo Verde",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Chad",
+             "YEAR": "2012",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Samoa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Singapore",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Comoros",
+             "YEAR": "2012",
+             "Value": "No"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Côte d'Ivoire",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Eritrea",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Ghana",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Guinea",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Kenya",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Mali",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Mauritius",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mozambique",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Namibia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Senegal",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Seychelles",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "South Africa",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Togo",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United Republic of Tanzania",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Zimbabwe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Argentina",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "COUNTRY": "Bahamas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Belize",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Tonga",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Tuvalu",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "COUNTRY": "Vanuatu",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Canada",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "COUNTRY": "Chile",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Colombia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Dominican Republic",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "El Salvador",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Guatemala",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Viet Nam",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Honduras",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mexico",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Nicaragua",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Paraguay",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Peru",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "Value": "No"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Djibouti",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Egypt",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Jordan",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Kuwait",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Lebanon",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Libya",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Morocco",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Oman",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Pakistan",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Saudi Arabia",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "United Arab Emirates",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Yemen",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Albania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Armenia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Azerbaijan",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Belarus",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Bulgaria",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Croatia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Cyprus",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "France",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Georgia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Greece",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Hungary",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Iceland",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Ireland",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Israel",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Kazakhstan",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Kyrgyzstan",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Latvia",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Lithuania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Luxembourg",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Malta",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Montenegro",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Netherlands",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Norway",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Poland",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Republic of Moldova",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Romania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Russian Federation",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Serbia",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Slovakia",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Slovenia",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Spain",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "COUNTRY": "Sweden",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Switzerland",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Tajikistan",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Turkmenistan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Ukraine",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "United Kingdom",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Uzbekistan",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Bhutan",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "India",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "COUNTRY": "Maldives",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Myanmar",
+             "YEAR": "2012",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Nepal",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "COUNTRY": "Sri Lanka",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Thailand",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "COUNTRY": "Timor-Leste",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Australia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Brunei Darussalam",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Cambodia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "China",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cook Islands",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Japan",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Lao People's Democratic Republic",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Marshall Islands",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Mongolia",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Nauru",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "New Zealand",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "COUNTRY": "Papua New Guinea",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "COUNTRY": "Philippines",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Republic of Korea",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Samoa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "COUNTRY": "Tuvalu",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "COUNTRY": "Vanuatu",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Viet Nam",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "Value": "Yes"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Congo",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Andorra",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Niue",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Ethiopia",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "San Marino",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Haiti",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Sao Tome and Principe",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Antigua and Barbuda",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "South Sudan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Ethiopia",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mauritania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Malawi",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Suriname",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Lucia",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Antigua and Barbuda",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Malawi",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Tuvalu",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Rwanda",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Liberia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Monaco",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Mauritania",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Kiribati",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Botswana",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Angola",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Congo",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Barbados",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Somalia",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Grenada",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Kiribati",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Swaziland",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Saint Kitts and Nevis",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Sierra Leone",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Bosnia and Herzegovina",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Gambia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Chad",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Dominica",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Guinea-Bissau",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Comoros",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Niue",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Andorra",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Bhutan",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "South-East Asia",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Libya",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Samoa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "COUNTRY": "Guinea-Bissau",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "COUNTRY": "Uganda",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Afghanistan",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "San Marino",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Swaziland",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lesotho",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Guinea-Bissau",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Botswana",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "COUNTRY": "Namibia",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Solomon Islands",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Ethiopia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Afghanistan",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Sao Tome and Principe",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Andorra",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Rwanda",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Equatorial Guinea",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Uganda",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Angola",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Grenada",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Swaziland",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Monaco",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Haiti",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Botswana",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Suriname",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Monaco",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Cambodia",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Antigua and Barbuda",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Niue",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Liberia",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Somalia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Tajikistan",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "San Marino",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Kiribati",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "GHO": "Do health warnings on cigarette packaging describe the harmful effects of tobacco use on health?",
+             "COUNTRY": "Bahrain",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           }
+          ]
+}

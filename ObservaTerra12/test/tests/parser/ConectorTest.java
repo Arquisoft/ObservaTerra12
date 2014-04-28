@@ -119,7 +119,7 @@ public class ConectorTest {
 
 	/*
 	 * limite: Para no imprimir todo el listado podemos especificarle un limite
-	 * e imprimira desde 0 hasta ese limite
+	 * e imprimira desde 0 hasta ese limite. Limite = 0 => Sin limite
 	 */
 	public void printObservations(int limite) {
 		List<Observation> lista;

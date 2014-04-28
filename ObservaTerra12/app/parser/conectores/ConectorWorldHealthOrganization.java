@@ -2,11 +2,9 @@ package parser.conectores;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 import java.sql.SQLException;
 import java.text.ParseException;
@@ -17,8 +15,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Properties;
-import java.util.Set;
 
 import model.Area;
 import model.Country;
@@ -31,11 +27,9 @@ import model.Time;
 import model.User;
 
 import org.apache.commons.io.FileUtils;
-import org.json.JSONException;
 
 import persistencia.ObservacionesDAO;
 import persistencia.PersistenceFactory;
-import persistencia.JdbcDAOs.AreasJdbcDAO;
 import persistencia.JdbcDAOs.EntradasJdbcDAO;
 
 import com.google.gson.JsonArray;
@@ -110,8 +104,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 		try {
 			// Guardando el fichero y trabajando sobre la version local
 			File file = new File(
-					"public/crawler/temp/downloads/listLabelObservationsWorldHealthOrganization.json");
-			// FileUtils.copyURLToFile(new URL(url), file);
+					"public/crawler/downloads/who/listLabelObservationsWorldHealthOrganization.json");
+			FileUtils.copyURLToFile(new URL(url), file);
 			br = new BufferedReader(new FileReader(file));
 
 			parser = new JsonParser();
@@ -154,14 +148,14 @@ public class ConectorWorldHealthOrganization extends Conector {
 		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
 
 		while (it.hasNext()) {
-			Map.Entry pairs = (Map.Entry) it.next();
+			Entry pairs = (Entry) it.next();
 			String label = pairs.getKey().toString();
 			String display = pairs.getValue().toString();
 			String url = construyeUrl(label);
 
 			try {
 				// Guardando el fichero y trabajando sobre la version local
-				File file = new File("public/crawler/temp/downloads/" + label
+				File file = new File("public/crawler/downloads/who/" + label
 						+ ".json");
 				FileUtils.copyURLToFile(new URL(url), file);
 				br = new BufferedReader(new FileReader(file));

@@ -1,0 +1,1474 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "6 209"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "408"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 407"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "5 094"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "558"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 363"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "553"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 202"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "47"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "132"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "17 289"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "20"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 384"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "869"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "51"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 119"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "96"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 910"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "588"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "417"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "43 869"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "27"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "776"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 566"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 788"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 431"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 933"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 296"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "111"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "644"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 339"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 098"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "275 983"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "7 225"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "160"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "692"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "592"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 121"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "456"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "872"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "84"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "802"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 614"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "13 764"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "258"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 143"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 911"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "10 729"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 358"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "80"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "87"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "14 606"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "54"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "272"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 992"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "338"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "325"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "685"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 830"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5 407"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 385"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "958"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 956"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "472"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "210"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 425"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "908"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "231 027"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "42 434"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "25 224"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "9 962"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "212"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "352"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 371"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "319"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "6 625"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 414"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 514"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8 484"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "452"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 022"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 266"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "243"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "942"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "616"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "760"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "369"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "32"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 805"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 904"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "7 085"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 544"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "16"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "970"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "158"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "16 714"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "491"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "95"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "5 759"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 315"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "7 177"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "571"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 787"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "640"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "398"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 085"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 673"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "53 339"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "208"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "845"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "30 131"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "494"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "892"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 383"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 622"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "8 499"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 509"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 257"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "247"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "6 784"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "496"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 377"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "26 567"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 118"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "26"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "30"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "34"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "6 800"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 421"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Serbia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "813"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "13"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 323"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "259"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "515"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "146"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "79"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "15 995"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 478"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 854"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "10 935"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "103"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "277"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "278"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "327"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "4 669"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 244"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "26 312"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "162"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "219"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 037"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "224"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 974"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "8 758"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9 655"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "6 121"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "956"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "2 278"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "10 162"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "35 490"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "723"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 107"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "39"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10 791"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "21 651"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "5 698"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3 117"
+           },
+           {
+             "GHO": "Estimated number of road traffic deaths ",
+             "YEAR": "2010",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1 832"
+           }
+          ]
+}
