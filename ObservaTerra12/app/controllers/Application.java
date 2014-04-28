@@ -2,7 +2,6 @@ package controllers;
 
 import static play.data.Form.form;
 
-import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
@@ -65,9 +64,10 @@ public class Application extends Controller {
     }
     
     public static Result userPanel() {
-    	if (session().get("userName") != null)
-    		return ok(user_panel.render());
-    	return redirect(routes.Application.error());
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+		return ok(user_panel.render());
     }
 
     public static Result error() {
@@ -80,6 +80,9 @@ public class Application extends Controller {
     }
     
     public static Result documents() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
     	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
     	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
     	
@@ -96,6 +99,9 @@ public class Application extends Controller {
     }
     
     public static Result downloadFile(Long id) {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
     	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
     	
     	Document documento;
@@ -110,15 +116,18 @@ public class Application extends Controller {
     }
     
     public static Result uploadFile() {
-    	MultipartFormData body = request().body().asMultipartFormData();
-		FilePart file = body.getFile("file");
-		
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	MultipartFormData part = request().body().asMultipartFormData();
+    	FilePart file = part.getFile("file");
+	    
     	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
     	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
-    	
+
 		try {
 	    	Document documento = new Document();
-	    	
+
 	    	documento.setFile(file.getFile());
 	    	
 	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
@@ -130,7 +139,6 @@ public class Application extends Controller {
 		} catch (SQLException | IOException e) {
 			return badRequest(error.render());
 		}
-		
-        return ok(Messages.get("documents_document_upload_successfull"));
+    	return documents();
     }
 }
