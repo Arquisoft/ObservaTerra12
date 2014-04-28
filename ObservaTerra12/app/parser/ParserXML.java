@@ -1,5 +1,9 @@
 package parser;
 
-public class ParserXML implements Parser {
+public class ParserXML extends AbstractParser {
 
+	@Override
+	public void execute() {
+		
+	}
 }

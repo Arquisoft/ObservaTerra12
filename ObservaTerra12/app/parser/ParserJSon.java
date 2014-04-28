@@ -1,5 +1,10 @@
 package parser;
 
-public class ParserJSon implements Parser {
+public class ParserJSon extends AbstractParser {
+	
+	@Override
+	public void execute() {
+		
+	}
 
 }
