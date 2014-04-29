@@ -2,7 +2,9 @@
 
 @main(Messages.get("panel_title")) {
 
-	<a href="@routes.Application.logout()">@Messages.get("panel_logout")</a>
+	<ul>
+		<li><a href="@routes.Application.logout()">@Messages.get("panel_logout")</a></li>
+		<li><a href="@routes.Application.documents()">@Messages.get("panel_documents")</a></li>
+	</ul>
 
-	<a href="@routes.Application.documents()">@Messages.get("panel_documents")</a>
 }

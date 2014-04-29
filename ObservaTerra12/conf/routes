@@ -16,6 +16,8 @@ GET		/user-panel/documents						controllers.Application.documents()
 
 # Menu/Documentos
 GET		/user-panel/documents/download-file/:id		controllers.Application.downloadFile(id: Long)
+GET		/user-panel/documents/remove-file/:id		controllers.Application.removeFile(id: Long)
+GET		/user-panel/documents/unshare-file/:id		controllers.Application.unshareFile(id: Long)
 POST	/user-panel/documents/upload-file			controllers.Application.uploadFile()
 
 # Visualization
