@@ -119,10 +119,24 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		con.close();
 		return us;
 	}
-
+	
+	/**
+	 * Busca un usuario en el sistema por su nombre de usuario.
+	 * 
+	 * @param userName	el nombre del usuario
+	 * @return 	el usuario
+	 * @throws SQLException
+	 */
 	@Override
-	public User buscarUsuario(String userName) throws SQLException {
-		// TODO Hay que hacer el método, lo siguiente es solo un dummy
-		return leerUsuario("periodista1","periodista1");
+	public User buscarUsuario(String nombreUsuario) throws SQLException
+	{
+		if (nombreUsuario == null || nombreUsuario.isEmpty())
+			throw new IllegalArgumentException("Nombre de usuario malformado.");
+
+		Connection con = DBConnection.getConnection();
+		this.usuariosJDBC.setConnection(con);
+		User us = this.usuariosJDBC.leerUsuario(nombreUsuario);
+		con.close();
+		return us;		
 	}
 }

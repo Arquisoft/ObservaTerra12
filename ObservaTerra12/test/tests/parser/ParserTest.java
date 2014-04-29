@@ -49,7 +49,6 @@ public class ParserTest {
 								.getName());
 
 			}
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
