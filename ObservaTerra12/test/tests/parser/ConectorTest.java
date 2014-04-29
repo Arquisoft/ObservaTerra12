@@ -81,8 +81,6 @@ public class ConectorTest {
 
 			assertTrue(prueba != null);
 
-			printObservations(5);
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -109,12 +107,15 @@ public class ConectorTest {
 			}
 
 			assertTrue(prueba != null);
-
-			printObservations(5);
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
+
+	@After
+	public void after() {
+
+		printObservations(0);
 	}
 
 	/*

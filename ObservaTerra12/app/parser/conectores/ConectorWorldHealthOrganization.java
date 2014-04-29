@@ -28,9 +28,12 @@ import model.User;
 
 import org.apache.commons.io.FileUtils;
 
+import persistencia.AreasDAO;
+import persistencia.EntradasDAO;
 import persistencia.ObservacionesDAO;
+import persistencia.OrganizacionesDAO;
 import persistencia.PersistenceFactory;
-import persistencia.JdbcDAOs.EntradasJdbcDAO;
+import persistencia.UsuariosDAO;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -143,12 +146,15 @@ public class ConectorWorldHealthOrganization extends Conector {
 		BufferedReader br;
 		JsonParser parser;
 		ArrayList<String> campos = new ArrayList<String>();
-		ObservacionesDAO obsDao = null;
+		ObservacionesDAO obsDao;
+		AreasDAO areasDao;
+		EntradasDAO entradasDao;
+		OrganizacionesDAO organizacionesDao;
 
 		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
 
 		while (it.hasNext()) {
-			Entry pairs = (Entry) it.next();
+			Entry<String, String> pairs = (Entry<String, String>) it.next();
 			String label = pairs.getKey().toString();
 			String display = pairs.getValue().toString();
 			String url = construyeUrl(label);
@@ -178,6 +184,9 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 					try {
 						Area area;
+						Indicator indicator = new Indicator(display);
+
+						// Comprobamos los dos posibles casos de ficheros de WHO
 
 						JsonElement countryElement = (arrayObjetivo.get(i)
 								.getAsJsonObject().get("COUNTRY"));
@@ -191,8 +200,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 									.getAsJsonObject().get("MGHEREG")
 									.getAsString());
 						}
-
-						Indicator indicator = new Indicator(display);
 
 						// TODO: Leer bien el measure.unit del JSON
 						Measure measure = new Measure(arrayObjetivo.get(i)
@@ -209,20 +216,38 @@ public class ConectorWorldHealthOrganization extends Conector {
 								+ "-12-31 23:59:59.000000");
 						Time time = new Time(startDate, endDate);
 
-						// TODO: Rellenar aqui bien los datos de la World Health
-						// Organization
-						Country country = new Country();
-						Provider provider = new Provider(
-								"World Health Organization", country,
-								"tipoorganizacionprueba");
+						areasDao = PersistenceFactory.createAreasDAO();
+						Country country = areasDao.leerPais("Switzerland");
+						if (country == null) {
+							areasDao.crearPais(new Country("Switzerland"));
+							country = areasDao.leerPais("Switzerland");
+						}
+						organizacionesDao = PersistenceFactory
+								.createOrganizacionesDAO();
 
-						// TODO: Crear usuario "Crawler" en la base de datos e
-						// indicar aqui que es el quien hace estas inserciones
-						User usuario = new User();
-						usuario.setIdUser(1L);
+						Provider provider = organizacionesDao
+								.leerProvedor((long) 3);
+						// TODO: En espera de que Jose cree el metodo
+						// leerProvider en la capa de persistencia
+						// Provider provider = organizacionesDao
+						// .leerProvider("World Health Organization");
+						// if (provider == null) {
+						// organizacionesDao
+						// .crearProveedor(new Provider(
+						// "World Health Organization",
+						// country, "ONG"));
+						// provider = organizacionesDao
+						// .leerProvider("World Health Organization");
+						// }
+
+						UsuariosDAO usersDao = PersistenceFactory
+								.createUsuariosDAO();
+						User usuario = usersDao.leerUsuario("crawler",
+								"crawler");
+
 						Submission submission = new Submission(new Date(),
 								usuario);
-						EntradasJdbcDAO entradasDao = new EntradasJdbcDAO();
+						entradasDao = PersistenceFactory.createEntradasDAO();
 						entradasDao.crearEntrada(submission);
 
 						// Add observacion a la base de datos
@@ -246,6 +271,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 					}
 
 				}
+
+				// TODO: Tratamiento de excepciones
 
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();

@@ -1,0 +1,257 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cambodia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "China",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Egypt",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "29"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Indonesia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Viet Nam",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "39"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "11.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.00"
+           },
+           {
+             "GHO": "H5N1 influenza - number of reported cases",
+             "YEAR": "2012",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Upper-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.00"
+           }
+          ]
+}
