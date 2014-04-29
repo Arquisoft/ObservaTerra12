@@ -348,4 +348,46 @@ public class UsuariosJdbc {
 		return usuarios;
 	}
 
+	/**
+	 * Busca un usuario en el sistema por su nombre de usuario.
+	 * 
+	 * @param userName	el nombre del usuario
+	 * @return 	el usuario
+	 * @throws SQLException
+	 */
+	public User leerUsuario(String nombreUsuario) throws SQLException {
+		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES natural join "
+				+ "ORGANIZACION WHERE nombre_usuario = ?";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setString(1, nombreUsuario);
+		ResultSet rs = pst.executeQuery();
+
+		User usuario = null;
+
+		while (rs.next()) {
+			// Organización
+			Organization org = new Organization();
+			org.setIdOrganization(rs.getLong("id_organizacion"));
+			org.setNombre(rs.getString("nombre_organizacion"));
+			org.setTipoOrganizacion(rs.getString("tipo"));
+
+			// Usuario
+			usuario = new User();
+			usuario.setIdUser(rs.getLong("id_usuario"));
+			usuario.setUserName(nombreUsuario);
+			usuario.setPassword(rs.getString("clave"));
+			usuario.setName(rs.getString("nombre"));
+			usuario.setSurname(rs.getString("apellidos"));
+			usuario.setEmail(rs.getString("email"));
+			usuario.setRol(rs.getString("rol"));
+			usuario.setOrganization(org);
+		}
+
+		rs.close();
+		pst.close();
+
+		return usuario;
+	}
+
 }

@@ -56,7 +56,7 @@ public class DocumentosJdbc {
 	 * @return Identificador del archivo guardado en la base de datos, necesario
 	 *         para poder recuperarlo mas tarde.
 	 */
-	public long guardarDocumento(User usuario, File file) throws SQLException,
+	public long guardarDocumento(User usuario, File file, String nombreDocumento) throws SQLException,
 			IOException {
 
 		// Crea la consulta
@@ -76,7 +76,7 @@ public class DocumentosJdbc {
 
 		// Almacena el nombre del fichero, necesario para poder restaurarlo mas
 		// tarde
-		pst.setString(3, file.getName());
+		pst.setString(3, nombreDocumento);
 
 		// Inserta el archivo y recupera su identificador.
 		pst.executeUpdate();
@@ -137,8 +137,8 @@ public class DocumentosJdbc {
 		String nombre = null;
 		User usuario = null;
 		while (rs.next()) {
-			// Crea el documento y añade el prefijo 'download'
-			image = new File("(download)" + rs.getString("nombre_documento"));
+			// Crea el documento 
+			image = new File(rs.getString("nombre_documento"));
 			FileOutputStream fos = new FileOutputStream(image);
 			InputStream inputStream = rs.getBinaryStream("documento");
 			// Carga de datos del chorro de bytes

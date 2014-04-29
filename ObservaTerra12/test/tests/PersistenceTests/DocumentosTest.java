@@ -33,6 +33,7 @@ public class DocumentosTest {
 		this.documento = new Document();
 		this.documento.setFile(new File("readme"));
 		this.documento.setUser(usuario);
+		this.documento.setName("1readme");
 	}
 
 	/**
@@ -71,7 +72,7 @@ public class DocumentosTest {
 
 		// Insertar documento
 		guardarFicheroTexto();
-
+		
 		// Intento de borrado de otro usuario
 		User user = new User();
 		user.setIdUser(34L);
@@ -81,6 +82,9 @@ public class DocumentosTest {
 			documentosDAO.borrarDocumento(d1);
 		} finally {
 			// Borrar el fichero
+			User usuario = new User();
+			usuario.setIdUser(1L);
+			this.documento.setUser(usuario);
 			borrarFicheroTexto();
 		}
 		

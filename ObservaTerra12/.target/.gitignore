@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 /controllers
+/crawler
 /model
+/parser
 /persistencia
 /tests
 /utils
 /views
-=======
-/views
-/controllers
->>>>>>> master

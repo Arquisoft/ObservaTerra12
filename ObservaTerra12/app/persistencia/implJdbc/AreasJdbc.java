@@ -54,7 +54,6 @@ public class AreasJdbc {
 			con.commit();
 		} catch (SQLException e) {
 			con.rollback();
-			e.printStackTrace();
 			throw new SQLException("Error creando el area", e.getMessage());
 		}
 	}

@@ -1,4 +1,5 @@
 package tests.PersistenceTests;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
@@ -46,7 +47,8 @@ public class OrganizacionesTest {
 		this.organizacion = orgDAO.crearOrganizacion(this.organizacion);
 
 		// Probar a recuperarlo individualmente
-		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion.getIdOrganization());
+		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion
+				.getIdOrganization());
 
 		assertNotNull(orgLeida);
 		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
@@ -74,7 +76,8 @@ public class OrganizacionesTest {
 		orgDAO.actualizarOrganizacion(this.organizacion);
 
 		// Probar a recuperarlo individualmente
-		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion.getIdOrganization());
+		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion
+				.getIdOrganization());
 
 		assertNotNull(orgLeida);
 		assertEquals("org-0001", orgLeida.getNombre());
@@ -92,7 +95,8 @@ public class OrganizacionesTest {
 		orgDAO.borrarOrganizacion(this.organizacion);
 
 		// Probar a recuperarlo individualmente
-		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion.getIdOrganization());
+		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion
+				.getIdOrganization());
 
 		assertNull(orgLeida);
 
@@ -101,37 +105,41 @@ public class OrganizacionesTest {
 
 		assertFalse(orgns.contains(this.organizacion));
 	}
-	
-	
+
 	@Test
-	public void testProveedores() throws SQLException
-	{
+	public void testProveedores() throws SQLException {
 		Provider proveedor = new Provider();
 		proveedor.setNombre("pruebaProveedores");
 		proveedor.setTipoOrganizacion("No gubernamental");
-		
-		//Crear proveedor
+
+		// Crear proveedor
 		OrganizacionesDAO orgDAO = PersistenceFactory.createOrganizacionesDAO();
 		proveedor = orgDAO.crearProveedor(proveedor);
-		
-		//Leer el proveedor
+
+		// Leer el proveedor
 		Provider leido = orgDAO.leerProvedor(proveedor.getIdOrganization());
 		assertNotNull(leido);
 		assertEquals(leido, proveedor);
-		
-		//Leer como area
-		Organization or = orgDAO.leerOrganizacion(proveedor.getIdOrganization());
+
+		// Leer como area
+		Organization or = orgDAO
+				.leerOrganizacion(proveedor.getIdOrganization());
 		assertNull(or);
-		
-		//Listar proveedor
+
+		// Probar a recuperar por nombre
+		leido = orgDAO.leerProvedor("pruebaProveedores");
+		assertNotNull(leido);
+		assertEquals(leido, proveedor);
+
+		// Listar proveedor
 		List<Provider> proveedores = orgDAO.listarProveedores();
 		assertTrue(proveedores.size() > 0);
 		assertTrue(proveedores.contains(proveedor));
-		
-		//Eliminar el proveedor
+
+		// Eliminar el proveedor
 		orgDAO.borrarOrganizacion(proveedor);
-		
-		//Buscarlo a ver
+
+		// Buscarlo a ver
 		leido = orgDAO.leerProvedor(proveedor.getIdOrganization());
 		assertNull(leido);
 	}

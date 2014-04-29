@@ -17,6 +17,16 @@ public interface OrganizacionesDAO {
 	 * @throws SQLException 
 	 */
 	public Provider leerProvedor(Long idProveedor) throws SQLException;
+	
+	
+	/**
+	 * Recoge un proveedor del sistema en base a su nombre
+	 * 
+	 * @param nombreProveedor - Nombre del proveedor.
+	 * @return Proveedor encontrado
+	 * @throws SQLException 
+	 */
+	public Provider leerProvedor(String nombreProveedor) throws SQLException;
 
 	/**
 	 * Registra una organización como proveedor de datos para el sistema.

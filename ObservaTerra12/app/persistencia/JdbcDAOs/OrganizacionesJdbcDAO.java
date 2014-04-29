@@ -180,4 +180,23 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		con.close();
 		return org;
 	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * persistencia.JdbcDAOs.OrganizacionesDAO#leerProveedor(java.lang.String)
+	 */
+	@Override
+	public Provider leerProvedor(String nombreProveedor) throws SQLException {
+		if (nombreProveedor == null || nombreProveedor.isEmpty())
+			throw new IllegalArgumentException(
+					"No se ha indicado el nombre del proveedor a recuperar.");
+
+		Connection con = DBConnection.getConnection();
+		this.organizacionesJDBC.setConnection(con);
+		Provider org = this.organizacionesJDBC.leerProveedor(nombreProveedor);
+		con.close();
+		return org;
+	}
 }

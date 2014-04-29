@@ -50,7 +50,7 @@ public class DocumentosJdbcDAO implements DocumentosDAO {
 			con = DBConnection.getConnection();
 			con.setAutoCommit(false);
 			this.documentosJDBC.setConnection(con);
-			idDocumento = this.documentosJDBC.guardarDocumento(documento.getUser(), documento.getFile());
+			idDocumento = this.documentosJDBC.guardarDocumento(documento.getUser(), documento.getFile(), documento.getName());
 			documento.setIdDocumento(idDocumento);
 			con.commit();
 		} catch (SQLException e) 
@@ -78,6 +78,8 @@ public class DocumentosJdbcDAO implements DocumentosDAO {
 		Connection con = DBConnection.getConnection();
 		this.documentosJDBC.setConnection(con);
 		Document doc = this.documentosJDBC.leerDocumento(idDocumento);
+		
+		doc.setName(doc.getName());
 		
 		//Buscar al usuario
 		UsuariosJdbc usuariosJDBC = new UsuariosJdbc();
