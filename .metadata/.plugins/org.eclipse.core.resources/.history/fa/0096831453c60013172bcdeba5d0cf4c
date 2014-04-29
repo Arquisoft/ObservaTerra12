@@ -1,6 +1,0 @@
-package utils;
-
-@SuppressWarnings("serial")
-public class InternalException extends RuntimeException {
-
-}

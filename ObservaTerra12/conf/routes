@@ -3,18 +3,24 @@
 # ~~~~
 
 # Index
-GET     /                           controllers.Application.index()
-POST	/							controllers.Application.authenticate()
+GET     /                          					controllers.Application.index()
+POST	/											controllers.Application.authenticate()
 
 # Error
-GET     /error                      controllers.Application.error()
+GET     /error                      				controllers.Application.error()
 
 # Menu
-GET     /user-panel                 controllers.Application.userPanel()
-GET		/logout						controllers.Application.logout()
-GET		/user-panel/documents		controllers.Application.documents()
+GET     /user-panel                 				controllers.Application.userPanel()
+GET		/logout										controllers.Application.logout()
+GET		/user-panel/documents						controllers.Application.documents()
+
+# Menu/Documentos
+GET		/user-panel/documents/download-file/:id		controllers.Application.downloadFile(id: Long)
+GET		/user-panel/documents/remove-file/:id		controllers.Application.removeFile(id: Long)
+GET		/user-panel/documents/unshare-file/:id		controllers.Application.unshareFile(id: Long)
+POST	/user-panel/documents/upload-file			controllers.Application.uploadFile()
 
 # Visualization
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.at(path="/public", file)
+GET     /assets/*file               				controllers.Assets.at(path="/public", file)

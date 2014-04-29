@@ -41,6 +41,13 @@ public class Document {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public String getExtension() {
+		String[] separado = name.split(".");
+		if(separado.length == 0)
+			return "";
+		return separado[separado.length - 1];
+	}
 
 	@Override
 	public int hashCode() {

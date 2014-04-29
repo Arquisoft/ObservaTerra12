@@ -1,4 +1,0 @@
-@main("Messages.get("error_title")") {
-
-	<h1>�Qu� haces? Deja las rutas tranquilas.</h1>
-}
