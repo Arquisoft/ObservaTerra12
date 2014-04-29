@@ -16,9 +16,12 @@ panel_documents = Mis documentos compartidos
 #Documentos
 documents_title = ObservaTerra: Documentos
 documents_my_documents = Mis documentos
+documents_shared_documents = Mis documentos compartidos
 documents_document_name = Nombre
 documents_document_extension = Tipo
 documents_document_download = Descargar
+documents_document_remove = Eliminar
+documents_document_unshare = Eliminar
 documents_document_upload = Subir archivo
 documents_document_upload_successfull = Fichero subido con éxito
 documents_document_upload_error = Ocurrió un error al subir el fichero

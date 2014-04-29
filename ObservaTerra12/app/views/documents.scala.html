@@ -1,4 +1,4 @@
-@(documents:List[model.Document])
+@(documents:List[model.Document])(shared:List[model.Document])
 @import play.i18n._
 
 @main(Messages.get("documents_title")) {
@@ -21,6 +21,7 @@
 				<th>@Messages.get("documents_document_name")</th>
 				<th>@Messages.get("documents_document_extension")</th>
 				<th>@Messages.get("documents_document_download")</th>
+				<th>@Messages.get("documents_document_remove")</th>
 			</tr>
 		
 			@for(document <- documents) {
@@ -28,6 +29,29 @@
 					<td>@document.getName()</td>
 					<td>@document.getExtension()</td>
 					<td><a href="@routes.Application.downloadFile(document.getIdDocumento())">@Messages.get("documents_document_download")</a></td>
+					<td><a href="@routes.Application.removeFile(document.getIdDocumento())">@Messages.get("documents_document_remove")</a></td>
+				</tr>
+			}
+		</tbody>
+	</table>
+
+	<h1>@Messages.get("documents_shared_documents")</h1>
+
+	<table>
+		<tbody>
+			<tr>
+				<th>@Messages.get("documents_document_name")</th>
+				<th>@Messages.get("documents_document_extension")</th>
+				<th>@Messages.get("documents_document_download")</th>
+				<th>@Messages.get("documents_document_remove")</th>
+			</tr>
+		
+			@for(document <- shared) {
+				<tr>
+					<td>@document.getName()</td>
+					<td>@document.getExtension()</td>
+					<td><a href="@routes.Application.downloadFile(document.getIdDocumento())">@Messages.get("documents_document_download")</a></td>
+					<td><a href="@routes.Application.unshareFile(document.getIdDocumento())">@Messages.get("documents_document_unshare")</a></td>
 				</tr>
 			}
 		</tbody>

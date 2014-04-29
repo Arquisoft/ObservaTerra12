@@ -1,6 +1,2 @@
-/controllers
-/model
-/persistencia
-/tests
-/utils
 /views
+/controllers
