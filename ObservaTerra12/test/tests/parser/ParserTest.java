@@ -42,11 +42,8 @@ public class ParserTest {
 
 			for (int i = 1; i < 500; i++) {
 
-				System.out.println("Area "
-						+ i
-						+ " - "
-						+ areasDao.buscarArea(Integer.toUnsignedLong(i))
-								.getName());
+				System.out.println("Area " + i + " - "
+						+ areasDao.buscarArea((long) i).getName());
 
 			}
 		} catch (SQLException e) {
