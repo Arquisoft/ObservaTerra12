@@ -226,19 +226,15 @@ public class ConectorWorldHealthOrganization extends Conector {
 								.createOrganizacionesDAO();
 
 						Provider provider = organizacionesDao
-								.leerProvedor((long) 3);
-						// TODO: En espera de que Jose cree el metodo
-						// leerProvider en la capa de persistencia
-						// Provider provider = organizacionesDao
-						// .leerProvider("World Health Organization");
-						// if (provider == null) {
-						// organizacionesDao
-						// .crearProveedor(new Provider(
-						// "World Health Organization",
-						// country, "ONG"));
-						// provider = organizacionesDao
-						// .leerProvider("World Health Organization");
-						// }
+								.leerProvedor("World Health Organization");
+						if (provider == null) {
+							organizacionesDao
+									.crearProveedor(new Provider(
+											"World Health Organization",
+											country, "ONG"));
+							provider = organizacionesDao
+									.leerProvedor("World Health Organization");
+						}
 
 						UsuariosDAO usersDao = PersistenceFactory
 								.createUsuariosDAO();
