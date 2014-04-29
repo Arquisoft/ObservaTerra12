@@ -1,0 +1,147 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2005",
+             "COUNTRY": "Belgium",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.09"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2011",
+             "COUNTRY": "Barbados",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "73"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2011",
+             "COUNTRY": "Costa Rica",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "37.0"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "Estonia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "34"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "Finland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "36"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "Indonesia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "23.2"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "India",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "72"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "Morocco",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "28.8"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "Panama",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "43"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2010",
+             "COUNTRY": "Portugal",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "19.07"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2005",
+             "COUNTRY": "Turkey",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "35"
+           },
+           {
+             "GHO": "Market share of generic pharmaceuticals by value (%) ",
+             "YEAR": "2009",
+             "COUNTRY": "Ukraine",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "34"
+           }
+          ]
+}

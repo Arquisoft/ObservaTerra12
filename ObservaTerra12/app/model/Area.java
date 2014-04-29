@@ -5,7 +5,7 @@ import java.util.List;
 public class Area {
 
 	private Long idArea;
-	
+
 	private String name = "";
 	private List<Area> areas = null;
 
@@ -15,6 +15,11 @@ public class Area {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Area [idArea=" + idArea + ", name=" + name + "]";
 	}
 
 	public void addArea(Area area) {
@@ -27,6 +32,15 @@ public class Area {
 
 	public Long getIdArea() {
 		return idArea;
+	}
+
+	public Area(String name) {
+		super();
+		this.name = name;
+	}
+
+	public Area() {
+
 	}
 
 	public void setIdArea(Long idArea) {

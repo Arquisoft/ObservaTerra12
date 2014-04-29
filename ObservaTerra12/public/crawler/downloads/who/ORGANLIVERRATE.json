@@ -1,0 +1,34 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "DONORTYPE",
+                   "display": "Donor type"
+                 }
+               ],
+  "fact": [
+          ]
+}

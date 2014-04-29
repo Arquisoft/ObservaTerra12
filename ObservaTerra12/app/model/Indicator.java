@@ -17,6 +17,21 @@ public class Indicator {
 		return nombre;
 	}
 
+	public Indicator(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+	@Override
+	public String toString() {
+		return "Indicator [idIndicator=" + idIndicator + ", nombre=" + nombre
+				+ "]";
+	}
+
+	public Indicator() {
+
+	}
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}

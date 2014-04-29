@@ -1,0 +1,3670 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Algeria",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Andorra",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Antigua and Barbuda",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Argentina",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Australia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Austria",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bahamas",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bahrain",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Barbados",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Belarus",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Belgium",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Belize",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Benin",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bhutan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Brazil",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "46"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Brunei Darussalam",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bulgaria",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Burkina Faso",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Burundi",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cameroon",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Canada",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cabo Verde",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Central African Republic",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "29"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Chad",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Chile",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Colombia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Comoros",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Congo",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Costa Rica",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Croatia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cuba",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cyprus",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Czech Republic",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Côte d'Ivoire",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "22"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Djibouti",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Dominica",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Dominican Republic",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ecuador",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "El Salvador",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Equatorial Guinea",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Estonia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Fiji",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Finland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "France",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Gabon",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Gambia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Georgia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ghana",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Greece",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Grenada",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guatemala",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea-Bissau",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guyana",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Haiti",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Honduras",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Hungary",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Iceland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Indonesia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ireland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Israel",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Italy",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Jamaica",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Japan",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Jordan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Kazakhstan",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Kiribati",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Latvia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lebanon",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lesotho",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Liberia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Libya",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lithuania",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Luxembourg",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Madagascar",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Malaysia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Maldives",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mali",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Malta",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Marshall Islands",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mauritius",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mexico",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mongolia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Namibia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "New Zealand",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nicaragua",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Niger",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nigeria",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Norway",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Oman",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Palau",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Montenegro",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Panama",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Paraguay",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Peru",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Philippines",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Poland",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Qatar",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Republic of Korea",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Romania",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Saint Lucia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Samoa",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "San Marino",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sao Tome and Principe",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Saudi Arabia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Senegal",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Seychelles",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sierra Leone",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Singapore",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Slovakia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Slovenia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Solomon Islands",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "South Africa",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Spain",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sri Lanka",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Suriname",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Swaziland",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sweden",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Switzerland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Syrian Arab Republic",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Thailand",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Timor-Leste",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Togo",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Tonga",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Trinidad and Tobago",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Turkey",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Uganda",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "United Kingdom",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "United States of America",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Uruguay",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Uzbekistan",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Yemen",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zambia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Antigua and Barbuda",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "49"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "16"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "289"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "155"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "18"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "79"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "106"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "10.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1024.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "387.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "29.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "188.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "66.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "20.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "122.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Antigua and Barbuda",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "361.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "13.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "30.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "128.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "195.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "76"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "59"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2009",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "59"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2446.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "17.00"
+           },
+           {
+             "GHO": "Yellow fever - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "High-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.00"
+           }
+          ]
+}

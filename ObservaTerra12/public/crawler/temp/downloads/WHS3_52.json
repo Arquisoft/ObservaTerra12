@@ -1,0 +1,307 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "China",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "152"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Madagascar",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "313"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Peru",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "27"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "United Republic of Tanzania",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "United States of America",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Tuvalu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.00"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "256.00"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "131.00"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.00"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2012",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.00"
+           },
+           {
+             "GHO": "Plague - number of reported cases",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           }
+          ]
+}

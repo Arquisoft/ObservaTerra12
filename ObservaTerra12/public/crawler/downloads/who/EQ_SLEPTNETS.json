@@ -1,0 +1,42 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "AGEGROUP",
+                   "display": "Age Group"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 },
+                 {
+                   "label": "RESIDENCEAREATYPE",
+                   "display": "Residence Area Type"
+                 },
+                 {
+                   "label": "WEALTHQUINTILE",
+                   "display": "Wealth Quintile"
+                 }
+               ],
+  "fact": [
+          ]
+}

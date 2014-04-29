@@ -3,8 +3,8 @@ package model;
 import java.util.List;
 
 public class Organization {
-	
-	//No se puede inicializar,
+
+	// No se puede inicializar,
 	private Long idOrganization = null;
 
 	private String nombre = "";
@@ -14,6 +14,24 @@ public class Organization {
 
 	public Long getIdOrganization() {
 		return idOrganization;
+	}
+
+	@Override
+	public String toString() {
+		return "Organization [idOrganization=" + idOrganization + ", nombre="
+				+ nombre + ", country=" + country + ", tipoOrganizacion="
+				+ tipoOrganizacion + "]";
+	}
+
+	public Organization(String nombre, Country country, String tipoOrganizacion) {
+		super();
+		this.nombre = nombre;
+		this.country = country;
+		this.tipoOrganizacion = tipoOrganizacion;
+	}
+
+	public Organization() {
+		super();
 	}
 
 	public void setIdOrganization(Long idOrganization) {

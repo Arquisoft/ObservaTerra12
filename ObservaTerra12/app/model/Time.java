@@ -3,7 +3,7 @@ package model;
 import java.util.Date;
 
 public class Time {
-	
+
 	private Long idTime = null;
 
 	private Date startDate = null;
@@ -17,8 +17,23 @@ public class Time {
 		this.startDate = startDate;
 	}
 
+	public Time(Date startDate, Date endDate) {
+		super();
+		this.startDate = startDate;
+		this.endDate = endDate;
+	}
+
 	public Date getEndDate() {
 		return endDate;
+	}
+
+	@Override
+	public String toString() {
+		return "Time [idTime=" + idTime + "]";
+	}
+
+	public Time() {
+		super();
 	}
 
 	public void setEndDate(Date endDate) {

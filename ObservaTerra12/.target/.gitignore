@@ -1,2 +1,11 @@
+<<<<<<< HEAD
+/controllers
+/model
+/persistencia
+/tests
+/utils
+/views
+=======
 /views
 /controllers
+>>>>>>> master

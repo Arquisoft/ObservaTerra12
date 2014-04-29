@@ -1,14 +1,14 @@
 package model;
+
 import java.util.Date;
 
-
 public class Submission {
-	
+
 	private Long idSubmission = null;
-	
+
 	private Date date = null;
 	private User user = null;
-	
+
 	public Long getIdSubmission() {
 		return idSubmission;
 	}
@@ -17,18 +17,34 @@ public class Submission {
 		this.idSubmission = idSubmission;
 	}
 
+	@Override
+	public String toString() {
+		return "Submission [idSubmission=" + idSubmission + ", date=" + date
+				+ ", user=" + user + "]";
+	}
+
 	public Date getDate() {
 		return date;
 	}
-	
+
+	public Submission() {
+		super();
+	}
+
+	public Submission(Date date, User user) {
+		super();
+		this.date = date;
+		this.user = user;
+	}
+
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	
+
 	public User getUser() {
 		return user;
 	}
-	
+
 	public void setUser(User user) {
 		this.user = user;
 	}
