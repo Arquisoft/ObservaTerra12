@@ -1,0 +1,63 @@
+@(documents:List[model.Document])(shared:List[model.Document])
+@import play.i18n._
+
+@main(Messages.get("documents_title")) {
+
+	<h1>@Messages.get("documents_my_documents")</h1>
+
+	<form name="fileUploadForm" method="POST" enctype="multipart/form-data" action="@routes.Application.uploadFile()">
+		<h2>@Messages.get("documents_document_upload")</h2>
+	    <p>
+	    	<input type="file" name="file">
+	    </p>
+	    <p>
+	        <input type="submit">
+	    </p>
+	</form>
+
+	<form name="shareForm" method="POST" enctype="multipart/form-data" action="@routes.Application.shareFile()">
+		<table>
+			<tbody>
+				<tr>
+					<th>@Messages.get("documents_document_name")</th>
+					<th>@Messages.get("documents_document_extension")</th>
+					<th>@Messages.get("documents_document_download")</th>
+					<th>@Messages.get("documents_document_remove")</th>
+					<th>@Messages.get("documents_document_share")</th>
+				</tr>
+			
+				@for(document <- documents) {
+					<tr>
+						<td>@document.getName()</td>
+						<td>@document.getExtension()</td>
+						<td><a href="@routes.Application.downloadFile(document.getIdDocumento())">@Messages.get("documents_document_download")</a></td>
+						<td><a href="@routes.Application.removeFile(document.getIdDocumento())">@Messages.get("documents_document_remove")</a></td>
+						<td></td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</form>
+
+	<h1>@Messages.get("documents_shared_documents")</h1>
+
+	<table>
+		<tbody>
+			<tr>
+				<th>@Messages.get("documents_document_name")</th>
+				<th>@Messages.get("documents_document_extension")</th>
+				<th>@Messages.get("documents_document_download")</th>
+				<th>@Messages.get("documents_document_remove")</th>
+			</tr>
+		
+			@for(document <- shared) {
+				<tr>
+					<td>@document.getName()</td>
+					<td>@document.getExtension()</td>
+					<td><a href="@routes.Application.downloadFile(document.getIdDocumento())">@Messages.get("documents_document_download")</a></td>
+					<td><a href="@routes.Application.unshareFile(document.getIdDocumento())">@Messages.get("documents_document_unshare")</a></td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
