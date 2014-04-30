@@ -199,4 +199,10 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		con.close();
 		return org;
 	}
+
+	@Override
+	public Organization buscarOrganizacionPorNombre(String nombreOrganizacion) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

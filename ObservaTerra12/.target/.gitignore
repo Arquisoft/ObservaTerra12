@@ -1,2 +1,5 @@
-/views
+/tests
 /controllers
+/views
+/model
+/persistencia
