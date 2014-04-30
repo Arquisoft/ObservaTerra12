@@ -62,8 +62,9 @@ public class OrganizacionesJdbc {
 
 			pst.executeUpdate();
 			con.commit();
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			con.rollback();
+			throw e;
 		} finally {
 			pst.close();
 		}

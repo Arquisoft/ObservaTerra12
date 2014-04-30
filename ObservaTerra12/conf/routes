@@ -5,6 +5,8 @@
 # Index
 GET     /                          					controllers.Application.index()
 POST	/											controllers.Application.authenticate()
+GET		/register									controllers.Application.register()
+POST	/register									controllers.Application.registerUser()
 
 # Error
 GET     /error                      				controllers.Application.error()
