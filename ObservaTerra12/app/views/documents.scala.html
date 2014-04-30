@@ -1,4 +1,4 @@
-@(documents:List[model.Document])(shared:List[model.Document])
+@(form: Form[Application.Share])(documents:List[model.Document])(shared:List[model.Document])
 @import play.i18n._
 
 @main(Messages.get("documents_title")) {
@@ -15,25 +15,35 @@
 	    </p>
 	</form>
 
-	<table>
-		<tbody>
-			<tr>
-				<th>@Messages.get("documents_document_name")</th>
-				<th>@Messages.get("documents_document_extension")</th>
-				<th>@Messages.get("documents_document_download")</th>
-				<th>@Messages.get("documents_document_remove")</th>
-			</tr>
-		
-			@for(document <- documents) {
+	@helper.form(routes.Application.shareFile) {
+		<table>
+			<tbody>
 				<tr>
-					<td>@document.getName()</td>
-					<td>@document.getExtension()</td>
-					<td><a href="@routes.Application.downloadFile(document.getIdDocumento())">@Messages.get("documents_document_download")</a></td>
-					<td><a href="@routes.Application.removeFile(document.getIdDocumento())">@Messages.get("documents_document_remove")</a></td>
+					<th>@Messages.get("documents_document_name")</th>
+					<th>@Messages.get("documents_document_extension")</th>
+					<th>@Messages.get("documents_document_download")</th>
+					<th>@Messages.get("documents_document_remove")</th>
+					<th>@Messages.get("documents_document_share")</th>
 				</tr>
-			}
-		</tbody>
-	</table>
+			
+				@for((document, index) <- documents.zipWithIndex) {
+					<tr>
+						<td>@document.getName()</td>
+						<td>@document.getExtension()</td>
+						<td><a href="@routes.Application.downloadFile(document.getIdDocumento())">@Messages.get("documents_document_download")</a></td>
+						<td><a href="@routes.Application.removeFile(document.getIdDocumento())">@Messages.get("documents_document_remove")</a></td>
+						<td><input type="checkbox" name="compartidos[@index]" value="@document.getIdDocumento()"></td>
+					</tr>
+				}
+			</tbody>
+		</table>
+		<h2>Compartir documentos seleccionados.</h2>
+		<p>@Messages.get("documents_form_share_info")</p>
+		<p>
+			<input type="text" name="userNames" placeholder="@Messages.get("documents_form_user_name")">
+			<button type="submit">@Messages.get("documents_form_share")</button>
+		</p>
+	}
 
 	<h1>@Messages.get("documents_shared_documents")</h1>
 

@@ -19,6 +19,7 @@ GET		/user-panel/documents/download-file/:id		controllers.Application.downloadFi
 GET		/user-panel/documents/remove-file/:id		controllers.Application.removeFile(id: Long)
 GET		/user-panel/documents/unshare-file/:id		controllers.Application.unshareFile(id: Long)
 POST	/user-panel/documents/upload-file			controllers.Application.uploadFile()
+POST	/user-panel/documents/share-file			controllers.Application.shareFile()
 
 # Visualization
 

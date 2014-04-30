@@ -5,6 +5,9 @@ import static play.data.Form.form;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import model.Document;
@@ -48,6 +51,17 @@ public class Application extends Controller {
 			}
 		}
 	}
+	
+    /**
+     * Clase utilizada para el formulario de compartición de documentos.
+     * 
+     * @author Manuel & Nacho
+     */
+    public static class Share {
+    	
+    	public String userNames;
+    	public List<String> compartidos;
+    }
 
     public static Result index() {
         return ok(index.render(form(Login.class)));
@@ -100,7 +114,7 @@ public class Application extends Controller {
 			return badRequest(error.render());
 		}
     	
-    	return ok(documents.render(documentos, compartidos));
+    	return ok(documents.render(form(Share.class), documentos, compartidos));
     }
     
     public static Result downloadFile(Long id) {
@@ -201,5 +215,49 @@ public class Application extends Controller {
 			return badRequest(error.render());
 		}
     	return documents();
+    }
+    
+    public static Result shareFile() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+	    Form<Share> shareForm = form(Share.class).bindFromRequest();
+	    String[] nombres = shareForm.get().userNames.split(",");
+    	
+	    if(shareForm.get().compartidos == null || shareForm.get().compartidos.isEmpty())
+	    	return documents();
+	    	
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+    	
+		try {
+	    	User usuario = usuariosDao.buscarUsuario(session().get("userName"));
+			
+			List<User> usuarios = new ArrayList<User>();
+			for (String nombre : nombres) {
+				if(nombre == null || nombre == "")
+					continue;
+				User user = usuariosDao.buscarUsuario(nombre);
+				if (user != null)
+					usuarios.add(user);
+			}
+
+			List<Document> documentos = new ArrayList<Document>();
+			shareForm.get().compartidos.removeAll(Collections.singleton(null));
+			for (String identificador : shareForm.get().compartidos) {
+				Document document = documentosDao.leerDocumento(Long.valueOf(identificador));
+				if (document != null && document.getUser().equals(usuario))
+					documentos.add(document);
+			}
+			
+			for (User user : usuarios)
+				for (Document document : documentos)
+					documentosDao.compartirRepositorioConUsuario(document, user);
+			
+		} catch (SQLException | IOException e) {
+			return badRequest(error.render());
+		}
+		
+        return documents();
     }
 }
