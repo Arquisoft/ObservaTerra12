@@ -11,4 +11,10 @@ public class Country extends Area {
 		super();
 	}
 
+	@Override
+	public String toString() {
+		return "Country [getName()=" + getName() + ", getIdArea()="
+				+ getIdArea() + "]";
+	}
+
 }

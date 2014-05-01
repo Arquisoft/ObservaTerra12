@@ -1,34 +1,24 @@
 package parser;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
-import java.net.URL;
-import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
+import model.Area;
+import model.Country;
+import model.Measure;
+import model.Observation;
+import model.Time;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-
-import model.Area;
-import model.Country;
-import model.Indicator;
-import model.Measure;
-import model.Observation;
-import model.Provider;
-import model.Submission;
-import model.Time;
-import model.User;
 
 /**
  * 
@@ -76,7 +66,7 @@ public class ParserJson extends AbstractParser {
 					// TODO: Leer bien el measure.unit del JSON
 					Measure measure = new Measure(arrayJsonDatosObservaciones
 							.get(i).getAsJsonObject().get("Value")
-							.getAsString(), "prueba");
+							.getAsString(), "*");
 
 					String year = arrayJsonDatosObservaciones.get(i)
 							.getAsJsonObject().get("YEAR").getAsString();

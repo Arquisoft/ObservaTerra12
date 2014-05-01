@@ -158,6 +158,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 			String url = construyeUrl(label);
 
 			try {
+				System.out.println("Trabajando con el fichero: " + label);
 				// Guardando el fichero y trabajando sobre la version local
 				File file = new File("public/crawler/downloads/who/" + label
 						+ ".json");
