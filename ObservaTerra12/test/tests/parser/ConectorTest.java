@@ -94,7 +94,7 @@ public class ConectorTest {
 	/*
 	 * CUIDADO: Este test descarga todos los JSON de la API de la World Health
 	 * Organization, los analiza e intenta insertar las observaciones. En total
-	 * son 28 JSON y mas de 1000 observaciones y le lleva un rato largo
+	 * son mas de 50 JSON y mas de 1000 observaciones y le lleva un rato largo
 	 */
 	@Test
 	public void testWHO() {

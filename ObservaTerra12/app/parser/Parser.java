@@ -13,7 +13,7 @@ public interface Parser {
 	void setFile(File file);
 
 	void setTags(String countryTag, String indicatorTag, String measureTag,
-			String timeTag, String providerTag, String submissionTag);
+			String timeTag);
 
 	List<Observation> getParsedObservations();
 

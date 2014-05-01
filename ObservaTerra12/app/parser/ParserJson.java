@@ -50,35 +50,35 @@ public class ParserJson extends AbstractParser {
 			br = new BufferedReader(new FileReader(file));
 			parser = new JsonParser();
 
-			JsonObject fichero = parser.parse(br).getAsJsonObject();
+			JsonObject ficheroJsonOriginal = parser.parse(br).getAsJsonObject();
 
-			JsonArray arrayObjetivo = fichero.getAsJsonObject().get(keySearch)
+			JsonArray arrayJsonDatosObservaciones = ficheroJsonOriginal.getAsJsonObject().get(keySearch)
 					.getAsJsonArray();
 
-			for (int i = 0; i < arrayObjetivo.size(); i++) {
+			for (int i = 0; i < arrayJsonDatosObservaciones.size(); i++) {
 
 				try {
 					Area area;
 
 					// Comprobamos los dos posibles casos de ficheros de WHO
 
-					JsonElement countryElement = (arrayObjetivo.get(i)
+					JsonElement countryElement = (arrayJsonDatosObservaciones.get(i)
 							.getAsJsonObject().get("COUNTRY"));
 
 					if (countryElement != null) {
-						area = new Country(arrayObjetivo.get(i)
+						area = new Country(arrayJsonDatosObservaciones.get(i)
 								.getAsJsonObject().get("COUNTRY").getAsString());
 					} else {
-						area = new Area(arrayObjetivo.get(i).getAsJsonObject()
+						area = new Area(arrayJsonDatosObservaciones.get(i).getAsJsonObject()
 								.get("MGHEREG").getAsString());
 					}
 
 					// TODO: Leer bien el measure.unit del JSON
-					Measure measure = new Measure(arrayObjetivo.get(i)
+					Measure measure = new Measure(arrayJsonDatosObservaciones.get(i)
 							.getAsJsonObject().get("Value").getAsString(),
 							"prueba");
 
-					String year = arrayObjetivo.get(i).getAsJsonObject()
+					String year = arrayJsonDatosObservaciones.get(i).getAsJsonObject()
 							.get("YEAR").getAsString();
 					Date startDate;
 
@@ -99,11 +99,6 @@ public class ParserJson extends AbstractParser {
 					observations.add(obs);
 
 					// TODO: Quitar estos System.out de pruebas
-					if (obs.getIdObservation() == null)
-						System.out
-								.println("Insertando observacion: FALLO al insertar (La observacion ya existe)");
-					else
-						System.out.println("Insertando observacion: " + obs);
 				} catch (NullPointerException e) {
 					System.out
 							.println("Insertando observacion: FALLO al insertar (Formato no compatible)");

@@ -20,8 +20,6 @@ public abstract class AbstractParser implements Parser {
 	String indicatorTag;
 	String measureTag;
 	String timeTag;
-	String providerTag;
-	String submissionTag;
 
 	@Override
 	public void setKeySearch(String keySearch) {
@@ -56,8 +54,6 @@ public abstract class AbstractParser implements Parser {
 		this.indicatorTag = indicatorTag;
 		this.measureTag = measureTag;
 		this.timeTag = timeTag;
-		this.providerTag = providerTag;
-		this.submissionTag = submissionTag;
 	}
 
 }

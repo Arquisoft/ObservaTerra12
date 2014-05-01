@@ -145,8 +145,9 @@ public class ConectorWorldHealthOrganization extends Conector {
 	}
 
 	/**
-	 * Vamos guardando en local cada JSON de la lista de consultas, lo parseamos
-	 * e insertamos en la base de datos las observaciones
+	 * Vamos guardando en local cada JSON de la lista de consultas Luego
+	 * llamamos al parseador para que nos devuelva las observaciones ya listas e
+	 * invocamos a insertaObservaciones()
 	 */
 	public void start() {
 		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
@@ -188,6 +189,11 @@ public class ConectorWorldHealthOrganization extends Conector {
 		}
 	}
 
+	/**
+	 * Inserta cada observacion de la lista en nuestra base de datos
+	 * 
+	 * @throws SQLException
+	 */
 	private void insertaObservaciones() throws SQLException {
 		for (Observation observacion : observations) {
 			entradasDao.crearEntrada(observacion.getSubmission());
