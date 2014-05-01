@@ -6,6 +6,7 @@ import java.util.List;
 
 import model.User;
 import persistencia.UsuariosDAO;
+import persistencia.implJdbc.OrganizacionesJdbc;
 import persistencia.implJdbc.UsuariosJdbc;
 import utils.DBConnection;
 
@@ -82,6 +83,15 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		Connection con = DBConnection.getConnection();
 		this.usuariosJDBC.setConnection(con);
 		User us = this.usuariosJDBC.leerUsuario(nombreUsuario, claveUsuario);
+
+		// Buscar la organizacion
+		if (us != null && us.getOrganization() != null) {
+			OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
+			orgJDBC.setConnection(con);
+			us.setOrganization(orgJDBC.leerOrganizacionOProveedor(us
+					.getOrganization().getIdOrganization()));
+		}
+
 		con.close();
 		return us;
 	}
@@ -119,24 +129,31 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		con.close();
 		return us;
 	}
-	
+
 	/**
 	 * Busca un usuario en el sistema por su nombre de usuario.
 	 * 
-	 * @param userName	el nombre del usuario
-	 * @return 	el usuario
+	 * @param userName
+	 *            el nombre del usuario
+	 * @return el usuario
 	 * @throws SQLException
 	 */
 	@Override
-	public User buscarUsuario(String nombreUsuario) throws SQLException
-	{
+	public User buscarUsuario(String nombreUsuario) throws SQLException {
 		if (nombreUsuario == null || nombreUsuario.isEmpty())
 			throw new IllegalArgumentException("Nombre de usuario malformado.");
 
 		Connection con = DBConnection.getConnection();
 		this.usuariosJDBC.setConnection(con);
 		User us = this.usuariosJDBC.leerUsuario(nombreUsuario);
+		// Buscar la organizacion
+		if (us != null && us.getOrganization() != null) {
+			OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
+			orgJDBC.setConnection(con);
+			us.setOrganization(orgJDBC.leerOrganizacionOProveedor(us
+					.getOrganization().getIdOrganization()));
+		}
 		con.close();
-		return us;		
+		return us;
 	}
 }

@@ -41,7 +41,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public User crearUsuario(User usuario) throws SQLException {
-				
+
 		// Intentar ejecutar la transaccion
 		try {
 			con.setAutoCommit(false);
@@ -123,13 +123,13 @@ public class UsuariosJdbc {
 		pst.setLong(1, usuario.getIdUser());
 		pst.setString(2, usuario.getUserName());
 		pst.setString(3, usuario.getPassword());
-		
-		//Un usuario puede no pertenecer a una organizacion
-		if (usuario.getOrganization() != null) 
+
+		// Un usuario puede no pertenecer a una organizacion
+		if (usuario.getOrganization() != null)
 			pst.setLong(4, usuario.getOrganization().getIdOrganization());
 		else
 			pst.setNull(4, java.sql.Types.INTEGER);
-		
+
 		pst.executeUpdate();
 
 		pst.close();
@@ -180,8 +180,7 @@ public class UsuariosJdbc {
 	 */
 	public User leerUsuario(String nombreUsuario, String claveUsuario)
 			throws SQLException {
-		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES natural join "
-				+ "ORGANIZACION WHERE nombre_usuario = ? and clave = ? ";
+		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES WHERE nombre_usuario = ? and clave = ? ";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreUsuario);
@@ -191,11 +190,16 @@ public class UsuariosJdbc {
 		User usuario = null;
 
 		while (rs.next()) {
+			usuario = new User();
+
 			// Organización
-			Organization org = new Organization();
-			org.setIdOrganization(rs.getLong("id_organizacion"));
-			org.setNombre(rs.getString("nombre_organizacion"));
-			org.setTipoOrganizacion(rs.getString("tipo"));
+			Organization org;
+			Long idOrg = rs.getLong("id_organizacion");
+			if (idOrg == null) {
+				org = new Organization();
+				org.setIdOrganization(rs.getLong("id_organizacion"));
+				usuario.setOrganization(org);
+			}
 
 			// Usuario
 			usuario = new User();
@@ -206,7 +210,6 @@ public class UsuariosJdbc {
 			usuario.setSurname(rs.getString("apellidos"));
 			usuario.setEmail(rs.getString("email"));
 			usuario.setRol(rs.getString("rol"));
-			usuario.setOrganization(org);
 		}
 
 		rs.close();
@@ -216,8 +219,7 @@ public class UsuariosJdbc {
 	}
 
 	public User leerUsuario(Long idUsuario) throws SQLException {
-		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES natural join "
-				+ "ORGANIZACION WHERE id_usuario=? ";
+		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES WHERE id_usuario=? ";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idUsuario);
@@ -226,11 +228,16 @@ public class UsuariosJdbc {
 		User usuario = null;
 
 		while (rs.next()) {
+			usuario = new User();
+
 			// Organización
-			Organization org = new Organization();
-			org.setIdOrganization(rs.getLong("id_organizacion"));
-			org.setNombre(rs.getString("nombre_organizacion"));
-			org.setTipoOrganizacion(rs.getString("tipo"));
+			Organization org;
+			Long idOrg = rs.getLong("id_organizacion");
+			if (idOrg == null) {
+				org = new Organization();
+				org.setIdOrganization(rs.getLong("id_organizacion"));
+				usuario.setOrganization(org);
+			}
 
 			// Usuario
 			usuario = new User();
@@ -241,7 +248,6 @@ public class UsuariosJdbc {
 			usuario.setSurname(rs.getString("apellidos"));
 			usuario.setEmail(rs.getString("email"));
 			usuario.setRol(rs.getString("rol"));
-			usuario.setOrganization(org);
 		}
 
 		rs.close();
@@ -356,8 +362,9 @@ public class UsuariosJdbc {
 	/**
 	 * Busca un usuario en el sistema por su nombre de usuario.
 	 * 
-	 * @param userName	el nombre del usuario
-	 * @return 	el usuario
+	 * @param userName
+	 *            el nombre del usuario
+	 * @return el usuario
 	 * @throws SQLException
 	 */
 	public User leerUsuario(String nombreUsuario) throws SQLException {
@@ -371,20 +378,17 @@ public class UsuariosJdbc {
 
 		while (rs.next()) {
 			usuario = new User();
-			
+
 			// Organización
 			Organization org;
 			Long idOrg = rs.getLong("id_organizacion");
-			if (idOrg == null) 
-			{
+			if (idOrg == null) {
 				org = new Organization();
 				org.setIdOrganization(rs.getLong("id_organizacion"));
-				org.setNombre(rs.getString("nombre_organizacion"));
-				org.setTipoOrganizacion(rs.getString("tipo"));
 				usuario.setOrganization(org);
 			}
-			
-			// Usuario			
+
+			// Usuario
 			usuario.setIdUser(rs.getLong("id_usuario"));
 			usuario.setUserName(nombreUsuario);
 			usuario.setPassword(rs.getString("clave"));

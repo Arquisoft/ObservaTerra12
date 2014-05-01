@@ -6,6 +6,7 @@ import java.sql.SQLException;
 import model.Submission;
 import persistencia.EntradasDAO;
 import persistencia.implJdbc.EntradasJdbc;
+import persistencia.implJdbc.UsuariosJdbc;
 import utils.DBConnection;
 
 public class EntradasJdbcDAO implements EntradasDAO {
@@ -67,9 +68,17 @@ public class EntradasJdbcDAO implements EntradasDAO {
 					"La entrada no tiene identificador único");
 
 		Connection con = DBConnection.getConnection();
-		this.entradasJDBC.setConnection(con);
-		this.entradasJDBC.eliminarEntrada(entrada);
-		con.close();
+		try {
+			con.setAutoCommit(false);
+			this.entradasJDBC.setConnection(con);
+			this.entradasJDBC.eliminarEntrada(entrada);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 	}
 
 	/*
@@ -85,8 +94,22 @@ public class EntradasJdbcDAO implements EntradasDAO {
 
 		Connection con = DBConnection.getConnection();
 		this.entradasJDBC.setConnection(con);
+		//Leer la entrada
 		Submission entrada = this.entradasJDBC.leerEntrada(idEntrada);
+
+		// Leer el usuario si lo trae
+		if (entrada != null && entrada.getUser().getIdUser() != null) {
+			UsuariosJdbc usuariosJDBC = new UsuariosJdbc();
+			usuariosJDBC.setConnection(con);
+			entrada.setUser(usuariosJDBC.leerUsuario(entrada.getUser()
+					.getIdUser()));
+		} else if(entrada != null) {
+			entrada.setUser(null);
+		}
+		
+		//Cerrar la conexión
 		con.close();
+
 		return entrada;
 	}
 

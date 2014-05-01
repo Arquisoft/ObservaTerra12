@@ -201,9 +201,6 @@ public class DocumentosJdbc {
 	}
 
 	/**
-	 *********************************************** 
-	 *** ESTE METODO REQUIERE UNA CONEXIÓN ABIERTA **
-	 *********************************************** 
 	 * Método que comprueba si un usuario es el propietario de un repositorio.
 	 * 
 	 * @param user

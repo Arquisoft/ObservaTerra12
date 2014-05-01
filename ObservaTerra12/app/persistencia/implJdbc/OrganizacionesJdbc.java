@@ -458,4 +458,43 @@ public class OrganizacionesJdbc {
 		return org;
 	}
 
+	public Organization leerOrganizacionOProveedor(Long idOrganization) throws SQLException {
+		String SQL = "SELECT * FROM organizacion WHERE id_organizacion=?";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idOrganization);
+		ResultSet rs = pst.executeQuery();
+
+		Organization org = null;
+
+		while (rs.next()) {
+			// Comprueba si es proveedora o no
+			String esProveedor = rs.getString("es_proveedor");
+			switch (esProveedor.toUpperCase()) {
+			case ("SI"):
+				org = new Provider();
+				break;
+			case ("NO"):
+				org = new Organization();
+				break;
+			}
+
+			org.setIdOrganization(rs.getLong("id_organizacion"));
+			org.setNombre(rs.getString("nombre_organizacion"));
+			org.setTipoOrganizacion(rs.getString("tipo"));
+
+			// País
+			Long idPais = rs.getLong("id_pais");
+			if (idPais != null) {
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
+		}
+
+		pst.close();
+		rs.close();
+
+		return org;
+	}
+
 }

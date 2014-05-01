@@ -48,8 +48,15 @@ public class UsuariosTest {
 		UsuariosDAO usuariosDAO = PersistenceFactory.createUsuariosDAO();
 		usuario = usuariosDAO.crearUsuario(usuario);
 		
-		//Probar a recuperlo
+		//Probar a recuperarlo
 		User usuarioLeido = usuariosDAO.buscarUsuario("username");
+				
+		assertNotNull(usuarioLeido);
+		assertNull(usuarioLeido.getOrganization());
+		assertEquals(usuarioLeido, usuario);
+		
+		//Probar a recuperarlo
+		usuarioLeido = usuariosDAO.leerUsuario("username", "password");
 				
 		assertNotNull(usuarioLeido);
 		assertNull(usuarioLeido.getOrganization());
