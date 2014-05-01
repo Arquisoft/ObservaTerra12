@@ -91,8 +91,10 @@ public abstract class Conector {
 		if (provider == null) {
 			Country providerCountry = areasDao.leerPais(providerCountryName);
 			if (providerCountry == null) {
-				areasDao.crearPais(new Country(providerCountryName));
+				providerCountry = new Country(providerCountryName);
+				areasDao.crearArea(providerCountry);
 				providerCountry = areasDao.leerPais(providerCountryName);
+				System.out.println(providerCountry);
 			}
 			organizacionesDao.crearProveedor(new Provider(providerName,
 					providerCountry, providerTipo));

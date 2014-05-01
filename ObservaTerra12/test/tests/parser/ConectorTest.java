@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
+import model.Area;
 import model.Country;
 import model.Observation;
 import model.Provider;
@@ -14,6 +15,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import parser.conectores.Conector;
 import parser.conectores.ConectorUnitedNations;
 import parser.conectores.ConectorWorldHealthOrganization;
 import persistencia.AreasDAO;
@@ -35,9 +37,9 @@ import persistencia.JdbcDAOs.AreasJdbcDAO;
  */
 public class ConectorTest {
 
-	private Country country1;
-	ConectorWorldHealthOrganization conectorWHO;
-	ConectorUnitedNations conectorUN;
+	Area country1;
+	Conector conectorWHO;
+	Conector conectorUN;
 	AreasDAO areasDao;
 	ObservacionesDAO obsDao;
 	IndicadoresDAO indicatorDao;
@@ -132,7 +134,7 @@ public class ConectorTest {
 	public void printObservations(int limite) {
 		List<Observation> lista;
 
-		System.out.println("/n**** LISTADO DE OBSERVACIONES ****/n");
+		System.out.println("**** LISTADO DE OBSERVACIONES ****");
 
 		try {
 			lista = obsDao.listarTodasObservaciones();

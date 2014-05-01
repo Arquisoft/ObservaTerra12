@@ -681,7 +681,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "RESIDENCEAREATYPE": "Urban",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -691,7 +691,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "RESIDENCEAREATYPE": "Rural",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -701,7 +701,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "RESIDENCEAREATYPE": "Urban",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -711,7 +711,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "RESIDENCEAREATYPE": "Rural",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -4201,7 +4201,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q1 (Poorest)",
@@ -4211,7 +4211,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q2",
@@ -4221,7 +4221,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q3",
@@ -4231,7 +4231,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q4",
@@ -4241,7 +4241,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q5 (Richest)",
@@ -4251,7 +4251,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q1 (Poorest)",
@@ -4261,7 +4261,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q2",
@@ -4271,7 +4271,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q3",
@@ -4281,7 +4281,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q4",
@@ -4291,7 +4291,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q5 (Richest)",
@@ -9911,7 +9911,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "None",
@@ -9921,7 +9921,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Primary",
@@ -9931,7 +9931,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1994",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Secondary or higher",
@@ -9941,7 +9941,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "None",
@@ -9951,7 +9951,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Primary",
@@ -9961,7 +9961,7 @@
            {
              "GHO": "Prevalence of obesity in non-pregnant women aged 15 - 49 years, BMI >=  30 (%)",
              "YEAR": "1998",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Secondary or higher",
