@@ -56,20 +56,18 @@ public class ConectorTest {
 
 		this.country1 = new Country();
 		country1.setName("Australia");
+	}
 
-		try {
-			conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
-			conectorUN = ConectorUnitedNations.getInstance("COMPONENTS");
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+	@Test
+	public void testPruebaBorrar() {
 	}
 
 	@Test
 	public void testUN() {
-
-		conectorUN.start();
 		try {
+			conectorUN = ConectorUnitedNations.getInstance("COMPONENTS");
+
+			conectorUN.start();
 
 			assertTrue(areasDao.leerPais("Australia").getName()
 					.equals(country1.getName()));
@@ -88,6 +86,8 @@ public class ConectorTest {
 
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
 		}
 	}
 
@@ -98,10 +98,10 @@ public class ConectorTest {
 	 */
 	@Test
 	public void testWHO() {
-		conectorWHO.preparar();
-		conectorWHO.start();
-
 		try {
+			conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
+			conectorWHO.preparar();
+			conectorWHO.start();
 
 			List<Provider> lista = orgsDao.listarProveedores();
 			Provider prueba = null;
@@ -113,6 +113,8 @@ public class ConectorTest {
 
 			assertTrue(prueba != null);
 		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

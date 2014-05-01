@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.SQLException;
 import java.text.ParseException;
@@ -13,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -26,6 +28,8 @@ import model.Submission;
 import model.Time;
 
 import org.apache.commons.io.FileUtils;
+
+import parser.ParserJsonCasia;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -45,10 +49,11 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private static ConectorWorldHealthOrganization instance;
 	private String key;
 	private Map<String, String> disponibles;
+	private ParserJsonCasia miParser;
+	List<Observation> observations;
 
 	private ConectorWorldHealthOrganization(String key) throws IOException {
 		preparaConector("public/crawler/configuration/conector.properties");
-		disponibles = new HashMap<String, String>(); // Label - Display
 		this.key = key;
 	}
 
@@ -92,6 +97,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 */
 	public void preparar() {
 		String url = (String) properties.get(key + "_LIST");
+		disponibles = new HashMap<String, String>(); // Label - Display
 		BufferedReader br;
 		JsonParser parser;
 
@@ -141,8 +147,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 * e insertamos en la base de datos las observaciones
 	 */
 	public void start() {
-		BufferedReader br;
-		JsonParser parser;
 		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
 
 		while (it.hasNext()) {
@@ -155,90 +159,33 @@ public class ConectorWorldHealthOrganization extends Conector {
 				// Guardando el fichero y trabajando sobre la version local
 				File file = new File("public/crawler/downloads/who/" + label
 						+ ".json");
+
 				FileUtils.copyURLToFile(new URL(url), file);
-				br = new BufferedReader(new FileReader(file));
-				parser = new JsonParser();
 
-				JsonObject fichero = parser.parse(br).getAsJsonObject();
+				Provider provider = getProvider("World Health Organization",
+						"Switzerland", "ONG");
+				Submission submission = new Submission(new Date(), user);
 
-				JsonArray arrayObjetivo = fichero.getAsJsonObject().get("fact")
-						.getAsJsonArray();
+				Indicator indicator = new Indicator(display);
+				miParser = new ParserJsonCasia(file, "fact", provider,
+						submission, indicator);
 
-				for (int i = 0; i < arrayObjetivo.size(); i++) {
+				observations = miParser.parsea();
+				insertaObservaciones();
 
-					try {
-						Area area;
-						Indicator indicator = new Indicator(display);
-
-						// Comprobamos los dos posibles casos de ficheros de WHO
-
-						JsonElement countryElement = (arrayObjetivo.get(i)
-								.getAsJsonObject().get("COUNTRY"));
-
-						if (countryElement != null) {
-							area = new Country(arrayObjetivo.get(i)
-									.getAsJsonObject().get("COUNTRY")
-									.getAsString());
-						} else {
-							area = new Area(arrayObjetivo.get(i)
-									.getAsJsonObject().get("MGHEREG")
-									.getAsString());
-						}
-
-						// TODO: Leer bien el measure.unit del JSON
-						Measure measure = new Measure(arrayObjetivo.get(i)
-								.getAsJsonObject().get("Value").getAsString(),
-								"prueba");
-
-						String year = arrayObjetivo.get(i).getAsJsonObject()
-								.get("YEAR").getAsString();
-						Date startDate = new SimpleDateFormat(
-								"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-								+ "-01-01 00:00:00.000000");
-						Date endDate = new SimpleDateFormat(
-								"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-								+ "-12-31 23:59:59.000000");
-						Time time = new Time(startDate, endDate);
-
-						Provider provider = getProvider(
-								"World Health Organization", "Switzerland",
-								"ONG");
-
-						Submission submission = new Submission(new Date(), user);
-						entradasDao.crearEntrada(submission);
-
-						// Add observacion a la base de datos
-
-						Observation obs = new Observation(area, indicator,
-								measure, time, provider, submission);
-
-						observacionesDao.insertarObservacion(obs);
-
-						// TODO: Quitar estos System.out de pruebas
-						if (obs.getIdObservation() == null)
-							System.out
-									.println("Insertando observacion: FALLO al insertar (La observacion ya existe)");
-						else
-							System.out
-									.println("Insertando observacion: " + obs);
-					} catch (NullPointerException e) {
-						System.out
-								.println("Insertando observacion: FALLO al insertar (Formato no compatible)");
-					}
-
-				}
-
-				// TODO: Tratamiento de excepciones
-
-			} catch (FileNotFoundException e) {
+			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (SQLException e) {
 				e.printStackTrace();
-			} catch (ParseException e1) {
-				e1.printStackTrace();
-			} catch (IOException e1) {
-				e1.printStackTrace();
 			}
+
+		}
+	}
+
+	private void insertaObservaciones() throws SQLException {
+		for (Observation observacion : observations) {
+			entradasDao.crearEntrada(observacion.getSubmission());
+			observacionesDao.insertarObservacion(observacion);
 		}
 	}
 
