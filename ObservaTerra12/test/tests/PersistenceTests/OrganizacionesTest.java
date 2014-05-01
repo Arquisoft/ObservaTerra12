@@ -66,6 +66,14 @@ public class OrganizacionesTest {
 		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
 		assertEquals(this.organizacion.getTipoOrganizacion(),	orgLeida.getTipoOrganizacion());
 		assertEquals(this.organizacion, orgLeida);
+		
+		//Probar a recuperar una organización inexistente
+		orgLeida = orgDAO.buscarOrganizacionPorNombre("etwertwertwertwertw56twregfsdf");
+		assertNull(orgLeida);
+		
+		//Probar a recuperar una organización inexistente
+		orgLeida = orgDAO.buscarOrganizacionOProveedorPorNombre("sdfasdfajsdfioapjdsifoajdsf");
+		assertNull(orgLeida);
 
 		// Probar a listar todos
 		List<Organization> orgns = orgDAO.listarOrganizaciones();
@@ -94,6 +102,11 @@ public class OrganizacionesTest {
 		assertNotNull(orgLeida);
 		assertEquals("org-0001", orgLeida.getNombre());
 		assertEquals("No religiosa", orgLeida.getTipoOrganizacion());
+		assertEquals(this.organizacion, orgLeida);
+		
+		//Probar a recuperarla 
+		orgLeida = orgDAO.buscarOrganizacionOProveedorPorNombre("org-0001");
+		assertTrue(orgLeida instanceof Organization);
 		assertEquals(this.organizacion, orgLeida);
 
 		// Probar a listar todos
@@ -135,6 +148,10 @@ public class OrganizacionesTest {
 		assertNotNull(leido);
 		assertEquals(leido, proveedor);
 
+		//Probar a recuperarlo
+		leido = (Provider) orgDAO.buscarOrganizacionOProveedorPorNombre("pruebaProveedores");
+		assertEquals(leido, proveedor);
+				
 		// Leer como area
 		Organization or = orgDAO.leerOrganizacion(proveedor.getIdOrganization());
 		assertNull(or);

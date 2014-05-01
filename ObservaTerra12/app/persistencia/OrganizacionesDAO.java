@@ -108,4 +108,15 @@ public interface OrganizacionesDAO {
 	 */
 	public Organization buscarOrganizacionPorNombre(String nombreOrganizacion) throws SQLException;
 
+
+	/**
+	 * Recupera una organización o un proveedor de la base de datos en base a su
+	 * nombre.
+	 * 
+	 * @param nombreOrganizacion - Nombre de la organización a buscar.
+	 * @return - Organización encontrada.
+	 * @throws SQLException
+	 */
+	public Organization buscarOrganizacionOProveedorPorNombre(String nombre) throws SQLException;
+	
 }

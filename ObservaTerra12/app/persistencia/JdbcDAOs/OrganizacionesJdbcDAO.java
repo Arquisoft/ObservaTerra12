@@ -275,4 +275,33 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		con.close();
 		return org;
 	}
+
+	/**
+	 * Recupera una organización o un proveedor de la base de datos en base a su
+	 * nombre.
+	 * 
+	 * @param nombreOrganizacion - Nombre de la organización a buscar.
+	 * @return - Organización encontrada.
+	 * @throws SQLException
+	 */
+	@Override
+	public Organization buscarOrganizacionOProveedorPorNombre(String nombreOrganizacion) throws SQLException {
+		if (nombreOrganizacion == null || nombreOrganizacion.isEmpty())
+			throw new IllegalArgumentException(
+					"No se ha indicado el nombre de la organizacion a recuperar.");
+
+		Connection con = DBConnection.getConnection();
+		this.organizacionesJDBC.setConnection(con);
+		Organization org = this.organizacionesJDBC.buscarOrganizacionOProveedorPorNombre(nombreOrganizacion);
+
+		if (org != null && org.getCountry() != null) // Si tiene país, recogerlo
+		{
+			AreasJdbc areaJDBC = new AreasJdbc();
+			areaJDBC.setConnection(con);
+			org.setCountry(areaJDBC.leerPais(org.getCountry().getIdArea()));
+		}
+
+		con.close();
+		return org;
+	}
 }

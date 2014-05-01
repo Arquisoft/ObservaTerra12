@@ -37,6 +37,31 @@ public class UsuariosTest {
 	}
 
 	@Test
+	public void testCrearUsuarioSinOrganizacion() throws SQLException
+	{
+		User usuario = new User();
+		usuario.setUserName("username");
+		usuario.setPassword("password");
+		usuario.setRol("ADMINISTRADOR");
+		usuario.setName("admin001");
+		
+		UsuariosDAO usuariosDAO = PersistenceFactory.createUsuariosDAO();
+		usuario = usuariosDAO.crearUsuario(usuario);
+		
+		//Probar a recuperlo
+		User usuarioLeido = usuariosDAO.buscarUsuario("username");
+				
+		assertNotNull(usuarioLeido);
+		assertNull(usuarioLeido.getOrganization());
+		assertEquals(usuarioLeido, usuario);
+		
+		//Borrarlo
+		usuariosDAO.eliminarUsuario(usuario);
+	}
+	
+	
+	
+	@Test
 	public void test() throws SQLException {
 		testCrearUsuario();
 		testActualizarUsuario();
