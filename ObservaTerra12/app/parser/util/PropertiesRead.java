@@ -1,25 +1,26 @@
-package parser;
+package parser.util;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class PropertiesRead {
 
-	public final int URL = 0;
-	public final int FORMAT = 1;
-	public final int AREA = 2;
-	public final int INDICATOR = 3;
-	public final int MEASURE = 4;
-	public final int TIME = 5;
-	public final int PROVIDER = 6;
-	public final int SUBMISSION = 7;
+	private final int URL = 0;
+	private final int FORMAT = 1;
+	private final int AREA = 2;
+	private final int INDICATOR = 3;
+	private final int MEASURE = 4;
+	private final int TIME = 5;
+	private final int PROVIDER = 6;
+	private final int SUBMISSION = 7;
 
 	private BufferedReader in;
-	private List<String[]> sitesProperties;
+	private List<FileEntry> entries;
 
 	private int numberOfLines;
 
@@ -37,7 +38,7 @@ public class PropertiesRead {
 					.println("ERROR: No se encuentra el archivo de propiedades");
 			e.printStackTrace();
 		}
-		this.sitesProperties = new ArrayList<String[]>();
+		this.entries = new ArrayList<FileEntry>();
 		this.numberOfLines = 0;
 	}
 
@@ -46,26 +47,10 @@ public class PropertiesRead {
 	 * las entradas del fichero de propiedades y las almacena en una lista.
 	 */
 	public void extractData() {
-		String line;
-		String[] tags;
 		try {
-			line = in.readLine(); // Se consume la linea de ejemplo
-			this.numberOfLines++;
-			while ((line = in.readLine()) != null) {
-				line = line.replaceAll("\\s+", ""); // Elimina todos los
-													// caracteres basura de la
-													// entrada.
-				tags = line.split("@"); // Separa la direccion del recurso y
-										// cada una de las etiquetas.
-
-				if (tags.length != 7)
-					throw new IllegalArgumentException("A la entrada "
-							+ (numberOfLines + 1)
-							+ " le falta alguna etiqueta por especificar.");
-
-				this.sitesProperties.add(line.split("@")); // Almacena la
-															// entrada ya
-															// troceada
+			readTrush();
+			while (in.ready()) {
+				insertEntry(in.readLine());
 				this.numberOfLines++;
 			}
 		} catch (IOException e) {
@@ -75,14 +60,45 @@ public class PropertiesRead {
 		}
 	}
 
+	private void insertEntry(String line) {
+		String[] tags;
+		
+		tags = line.replaceAll("\\s+", "").split("@"); // Elimina todos los
+														// caracteres basura de
+														// la entrada y separa
+														// la direccion del
+														// recurso y cada una de
+														// las etiquetas.
+		if (tags.length != 8)
+			this.entries.add(null);
+		else
+			this.entries.add(new FileEntry(tags[URL], tags[FORMAT], tags[AREA],
+					tags[INDICATOR], tags[MEASURE], tags[TIME], tags[PROVIDER],
+					tags[SUBMISSION])); // Almacena la entrada ya troceada
+	}
+
+	/**
+	 * Metodo que consume la primera linea de ejemplo.
+	 * 
+	 * @throws IOException
+	 */
+	private void readTrush() throws IOException {
+		in.readLine();
+		this.numberOfLines++;
+	}
+
+	public List<FileEntry> getEntries() {
+		return Collections.unmodifiableList(entries);
+	}
+
 	/**
 	 * @param pageIndex
 	 *            El numero de linea en el fichero de propiedades de la entrada.
-	 * @return La URL y las etiquetas de la entrada.
+	 * @return Un objeto FileEntry con la URL y las etiquetas de la entrada.
 	 */
-	public String[] getSiteProperties(int pageIndex) {
+	public FileEntry getSiteProperties(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex);
+		return this.entries.get(pageIndex);
 	}
 
 	/**
@@ -92,7 +108,7 @@ public class PropertiesRead {
 	 */
 	public String getURL(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[URL];
+		return this.entries.get(pageIndex).getUrl();
 	}
 
 	/**
@@ -102,7 +118,7 @@ public class PropertiesRead {
 	 */
 	public String getFormat(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[FORMAT];
+		return this.entries.get(pageIndex).getFormatTag();
 	}
 
 	/**
@@ -112,7 +128,7 @@ public class PropertiesRead {
 	 */
 	public String getArea(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[AREA];
+		return this.entries.get(pageIndex).getAreaTag();
 	}
 
 	/**
@@ -122,7 +138,7 @@ public class PropertiesRead {
 	 */
 	public String getIndicator(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[INDICATOR];
+		return this.entries.get(pageIndex).getIndicatorTag();
 	}
 
 	/**
@@ -132,7 +148,7 @@ public class PropertiesRead {
 	 */
 	public String getMeasure(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[MEASURE];
+		return this.entries.get(pageIndex).getMeasureTag();
 	}
 
 	/**
@@ -142,7 +158,7 @@ public class PropertiesRead {
 	 */
 	public String getTime(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[TIME];
+		return this.entries.get(pageIndex).getTimeTag();
 	}
 
 	/**
@@ -152,7 +168,7 @@ public class PropertiesRead {
 	 */
 	public String getProvider(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[PROVIDER];
+		return this.entries.get(pageIndex).getProviderTag();
 	}
 
 	/**
@@ -162,7 +178,7 @@ public class PropertiesRead {
 	 */
 	public String getSubmission(int pageIndex) {
 		checkRangeAccess(pageIndex);
-		return this.sitesProperties.get(pageIndex)[SUBMISSION];
+		return this.entries.get(pageIndex).getSubmissionTag();
 	}
 
 	private void checkRangeAccess(int index) {
