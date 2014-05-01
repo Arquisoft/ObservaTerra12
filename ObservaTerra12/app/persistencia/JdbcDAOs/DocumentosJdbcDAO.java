@@ -109,10 +109,21 @@ public class DocumentosJdbcDAO implements DocumentosDAO {
 			throw new IllegalArgumentException("Se requiere al usuario propietario del documento");
 				
 		Connection con = DBConnection.getConnection();
-		this.documentosJDBC.setConnection(con);
-		this.documentosJDBC.borrarDocumento(documento.getUser(),
-				documento.getIdDocumento());
-		con.close();
+		try {
+			con.setAutoCommit(false);
+			this.documentosJDBC.setConnection(con);
+			this.documentosJDBC.anularComparticionesDocumento(documento);
+			this.documentosJDBC.borrarDocumento(documento.getUser(), documento.getIdDocumento());
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} catch (SecurityException e) {
+			con.rollback();
+			throw e;
+		}finally{
+			con.close();
+		}
 	}
 
 	/*

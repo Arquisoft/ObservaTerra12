@@ -62,9 +62,8 @@ public class OrganizacionesJdbc {
 
 			pst.executeUpdate();
 			con.commit();
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			con.rollback();
-			throw e;
 		} finally {
 			pst.close();
 		}
@@ -310,6 +309,36 @@ public class OrganizacionesJdbc {
 
 		while (rs.next()) {
 			org = new Provider();
+			org.setIdOrganization(rs.getLong("id_organizacion"));
+			org.setNombre(rs.getString("nombre_organizacion"));
+			org.setTipoOrganizacion(rs.getString("tipo"));
+		}
+
+		pst.close();
+		rs.close();
+
+		return org;
+	}
+
+	/**
+	 * Recupera una organización de la base de datos en base a su nombre.
+	 * 
+	 * @param nombreOrganizacion
+	 *            - Nombre de la organización a buscar.
+	 * @return - Organización encontrada.
+	 * @throws SQLException
+	 */
+	public Organization buscarOrganizacionPorNombre(String nombreOrganizacion) throws SQLException {
+		String SQL = "SELECT * FROM organizacion WHERE nombre_organizacion=? AND es_proveedor='NO' ";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setString(1, nombreOrganizacion);
+		ResultSet rs = pst.executeQuery();
+
+		Organization org = null;
+
+		while (rs.next()) {
+			org = new Organization();
 			org.setIdOrganization(rs.getLong("id_organizacion"));
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));

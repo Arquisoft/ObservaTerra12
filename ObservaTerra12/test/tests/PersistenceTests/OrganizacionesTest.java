@@ -54,6 +54,15 @@ public class OrganizacionesTest {
 		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
 		assertEquals(this.organizacion.getTipoOrganizacion(),
 				orgLeida.getTipoOrganizacion());
+		
+		//Probar a recuperla por nombre
+		orgLeida = orgDAO.buscarOrganizacionPorNombre("ONG-Prueba");
+		assertNotNull(orgLeida);
+		assertTrue(orgLeida instanceof Organization);
+		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
+		assertEquals(this.organizacion.getTipoOrganizacion(),
+				orgLeida.getTipoOrganizacion());
+		assertEquals(this.organizacion, orgLeida);
 
 		// Probar a listar todos
 		List<Organization> orgns = orgDAO.listarOrganizaciones();
@@ -118,6 +127,7 @@ public class OrganizacionesTest {
 
 		// Leer el proveedor
 		Provider leido = orgDAO.leerProvedor(proveedor.getIdOrganization());
+		assertTrue(leido instanceof Provider);
 		assertNotNull(leido);
 		assertEquals(leido, proveedor);
 

@@ -146,6 +146,35 @@ public class DocumentosTest {
 		// borra fichero
 		borrarFicheroTexto();
 	}
+	
+	
+	/**
+	 * Realiza pruebas con las operaciones de compartir un documento y la de
+	 * anular todas las comparticiones del mismo.
+	 */
+	@Test
+	public void testAnularComparticionDocumento() throws SQLException, IOException {
+		// Insertar un documento
+		guardarFicheroTexto();
+
+		// Establecer la conexión
+		DocumentosDAO documentosDAO = PersistenceFactory.createDocumentosDAO();
+
+		User usuario2 = new User();
+		usuario2.setIdUser(2L);
+
+		// Compartir el recurso con el usuario dos
+		documentosDAO.compartirRepositorioConUsuario(this.documento, usuario2);
+
+		// Comprueba que el fichero se ha compartido
+		comprobarFicheroCompartido(usuario2);
+
+		//Borra el documento, arrastrando así sus comparticiones
+		documentosDAO.borrarDocumento(this.documento);
+
+		// Comprueba que el fichero se ha compartido
+		comprobarFicheroNoCompartido(usuario2);
+	}
 
 	/**
 	 ************************ 
