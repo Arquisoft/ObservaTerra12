@@ -408,7 +408,7 @@
              "PUBLISHSTATE": "Published",
              "REGION": "Africa",
              "GHO": "Tested TB patients HIV-positive (%)",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "YEAR": "2003",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "Value": "42"
@@ -419,13 +419,13 @@
              "GHO": "Tested TB patients HIV-positive (%)",
              "YEAR": "2004",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "Value": "41"
            },
            {
              "PUBLISHSTATE": "Published",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "YEAR": "2005",
              "REGION": "Africa",
              "GHO": "Tested TB patients HIV-positive (%)",
@@ -435,14 +435,14 @@
              "PUBLISHSTATE": "Published",
              "REGION": "Africa",
              "YEAR": "2006",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "GHO": "Tested TB patients HIV-positive (%)",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "Value": "37"
            },
            {
              "PUBLISHSTATE": "Published",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "REGION": "Africa",
              "YEAR": "2007",
@@ -454,7 +454,7 @@
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "REGION": "Africa",
              "YEAR": "2008",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "GHO": "Tested TB patients HIV-positive (%)",
              "Value": "29"
            },
@@ -464,7 +464,7 @@
              "YEAR": "2009",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "GHO": "Tested TB patients HIV-positive (%)",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "Value": "30"
            },
            {
@@ -473,12 +473,12 @@
              "GHO": "Tested TB patients HIV-positive (%)",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "REGION": "Africa",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "Value": "24"
            },
            {
              "PUBLISHSTATE": "Published",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "YEAR": "2011",
              "GHO": "Tested TB patients HIV-positive (%)",
              "REGION": "Africa",
@@ -491,7 +491,7 @@
              "REGION": "Africa",
              "YEAR": "2012",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
-             "COUNTRY": "C?te d'Ivoire",
+             "COUNTRY": "Côte d'Ivoire",
              "Value": "27"
            },
            {
