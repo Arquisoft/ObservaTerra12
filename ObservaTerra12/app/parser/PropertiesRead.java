@@ -29,7 +29,7 @@ public class PropertiesRead {
 	 * @param propFilePath
 	 *            La ruta del fichero de propiedades desde el que se leera.
 	 */
-	public ReadProperties(String propFilePath) {
+	public PropertiesRead(String propFilePath) {
 		try {
 			this.in = new BufferedReader(new FileReader(propFilePath));
 		} catch (FileNotFoundException e) {
@@ -62,7 +62,7 @@ public class PropertiesRead {
 					throw new IllegalArgumentException("A la entrada "
 							+ (numberOfLines + 1)
 							+ " le falta alguna etiqueta por especificar.");
-				
+
 				this.sitesProperties.add(line.split("@")); // Almacena la
 															// entrada ya
 															// troceada
