@@ -192,6 +192,12 @@ public class ConectorWorldHealthOrganization extends Conector {
 		for (Observation observacion : observations) {
 			entradasDao.crearEntrada(observacion.getSubmission());
 			observacionesDao.insertarObservacion(observacion);
+			// TODO: Quitar estos System.out de pruebas
+			if (observacion.getIdObservation() == null)
+				System.out
+						.println("Insertando observacion: FALLO al insertar (La observacion ya existe)");
+			else
+				System.out.println("Insertando observacion: " + observacion);
 		}
 	}
 

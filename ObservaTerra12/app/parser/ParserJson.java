@@ -30,6 +30,11 @@ import model.Submission;
 import model.Time;
 import model.User;
 
+/**
+ * 
+ * @author Pablo Garcia Fernandez
+ * 
+ */
 public class ParserJson extends AbstractParser {
 
 	BufferedReader br;
