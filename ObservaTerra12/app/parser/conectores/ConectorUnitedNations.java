@@ -97,7 +97,7 @@ public class ConectorUnitedNations extends Conector {
 					Provider provider = getProvider("United Nations",
 							"United States of America", "ONG");
 
-					Submission submission = new Submission(new Date(), usuario);
+					Submission submission = new Submission(new Date(), user);
 					entradasDao.crearEntrada(submission);
 
 					// Add observacion a la base de datos
@@ -105,7 +105,7 @@ public class ConectorUnitedNations extends Conector {
 					Observation obs = new Observation(country, indicator,
 							measure, time, provider, submission);
 
-					obsDao.insertarObservacion(obs);
+					observacionesDao.insertarObservacion(obs);
 					if (obs.getIdObservation() == null)
 						System.out
 								.println("Insertando observacion: FALLO al insertar");

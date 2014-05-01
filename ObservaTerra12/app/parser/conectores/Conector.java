@@ -31,8 +31,8 @@ public abstract class Conector {
 	protected OrganizacionesDAO organizacionesDao;
 	protected EntradasDAO entradasDao;
 	protected UsuariosDAO usersDao;
-	protected ObservacionesDAO obsDao;
-	protected User usuario;
+	protected ObservacionesDAO observacionesDao;
+	protected User user;
 
 	protected void preparaConector(String propertiesFileLocation)
 			throws IOException {
@@ -41,8 +41,8 @@ public abstract class Conector {
 		organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
 		areasDao = PersistenceFactory.createAreasDAO();
 		entradasDao = PersistenceFactory.createEntradasDAO();
-		obsDao = PersistenceFactory.createObservacionesDAO();
-		usuario = getCrawlerUser();
+		observacionesDao = PersistenceFactory.createObservacionesDAO();
+		user = getCrawlerUser();
 	}
 
 	/**
@@ -73,18 +73,18 @@ public abstract class Conector {
 	 * @return
 	 * @throws SQLException
 	 */
-	protected Provider getProvider(String nombre, String pais, String tipo)
+	protected Provider getProvider(String providerName, String providerCountryName, String providerTipo)
 			throws SQLException {
-		Provider provider = organizacionesDao.leerProvedor(nombre);
+		Provider provider = organizacionesDao.leerProvedor(providerName);
 		if (provider == null) {
-			Country country = areasDao.leerPais(pais);
-			if (country == null) {
-				areasDao.crearPais(new Country(pais));
-				country = areasDao.leerPais(pais);
+			Country providerCountry = areasDao.leerPais(providerCountryName);
+			if (providerCountry == null) {
+				areasDao.crearPais(new Country(providerCountryName));
+				providerCountry = areasDao.leerPais(providerCountryName);
 			}
 			organizacionesDao
-					.crearProveedor(new Provider(nombre, country, tipo));
-			provider = organizacionesDao.leerProvedor(nombre);
+					.crearProveedor(new Provider(providerName, providerCountry, providerTipo));
+			provider = organizacionesDao.leerProvedor(providerName);
 		}
 
 		return provider;
@@ -92,11 +92,11 @@ public abstract class Conector {
 
 	private User getCrawlerUser() {
 		try {
-			usuario = usersDao.leerUsuario("crawler", "crawler");
+			user = usersDao.leerUsuario("crawler", "crawler");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return usuario;
+		return user;
 	}
 
 }

@@ -25,11 +25,14 @@ public class PruebaCrawlerBase extends WebCrawler {
 			downloadJSON(page);
 		} else {
 			String url = page.getWebURL().getURL();
-			System.out.println("URL: " + url);
+
+			String url2 = url.substring(0, url.length() - 3);
+
+			System.out.println("URL: " + url2);
 
 			try {
-				File file = new File("public/crawler/temp/downloads/1.xml");
-				FileUtils.copyURLToFile(new URL(url), file);
+				File file = new File("public/crawler/temp/downloads/PRUEBA.xls");
+				FileUtils.copyURLToFile(new URL(url2), file);
 
 			} catch (MalformedURLException e) {
 				e.printStackTrace();

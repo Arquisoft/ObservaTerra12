@@ -215,7 +215,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 								"ONG");
 
 						Submission submission = new Submission(new Date(),
-								usuario);
+								user);
 						entradasDao.crearEntrada(submission);
 
 						// Add observacion a la base de datos
@@ -223,7 +223,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 						Observation obs = new Observation(area, indicator,
 								measure, time, provider, submission);
 
-						obsDao.insertarObservacion(obs);
+						observacionesDao.insertarObservacion(obs);
 
 						// TODO: Quitar estos System.out de pruebas
 						if (obs.getIdObservation() == null)

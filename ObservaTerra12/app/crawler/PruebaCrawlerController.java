@@ -77,6 +77,8 @@ public class PruebaCrawlerController {
 		 * which are found in these pages
 		 */
 
+		controller
+				.addSeed("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");
 		// controller.addSeed("http://api.worldbank.org/v2/en/topic/1?downloadformat=xml");
 		// controller.addSeed("http://www.ics.uci.edu/~lopes/");
 		// controller.addSeed("http://www.ics.uci.edu/~welling/");
