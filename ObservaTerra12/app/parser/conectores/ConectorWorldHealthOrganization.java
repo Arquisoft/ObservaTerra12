@@ -42,8 +42,7 @@ import com.google.gson.JsonParser;
 
 /**
  * 
- * Prueba de un conector de nuestra aplicacion con la API de la World Health
- * Organization
+ * Clase conector con la API de la World Health Organization
  * 
  * 
  * @author Pablo Garcia Fernandez
@@ -55,13 +54,14 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private String key;
 	private Map<String, String> disponibles;
 
-	private ConectorWorldHealthOrganization(String key) {
+	private ConectorWorldHealthOrganization(String key) throws IOException {
 		cargaProperties("public/crawler/configuration/conector.properties");
 		disponibles = new HashMap<String, String>(); // Label - Display
 		this.key = key;
 	}
 
-	public static ConectorWorldHealthOrganization getInstance(String key) {
+	public static ConectorWorldHealthOrganization getInstance(String key)
+			throws IOException {
 		if (instance == null) {
 			instance = new ConectorWorldHealthOrganization(key);
 		}
@@ -122,6 +122,12 @@ public class ConectorWorldHealthOrganization extends Conector {
 					.get("code").getAsJsonArray();
 
 			for (int i = 0; i < arrayCode.size(); i++) {
+
+				/*
+				 * De cada consulta disponible nos quedamos con su "label"
+				 * (clave a añadir en la url para hacer la consulta a la API) y
+				 * su "display" (nuestro indicador)
+				 */
 
 				disponibles.put(arrayCode.get(i).getAsJsonObject().get("label")
 						.getAsString(),

@@ -7,6 +7,8 @@ import java.util.Properties;
 
 /**
  * 
+ * Clase abstracta que modela un conector con una API externa de la que
+ * obtenemos datos
  * 
  * @author Pablo Garcia Fernandez
  * 
@@ -15,7 +17,14 @@ public abstract class Conector {
 
 	protected Properties properties;
 
-	protected void cargaProperties(String propertiesFileLocation) {
+	/**
+	 * Carga el fichero de properties donde tenemos las consultas a la API
+	 * 
+	 * @param propertiesFileLocation
+	 * @throws IOException
+	 */
+	protected void cargaProperties(String propertiesFileLocation)
+			throws IOException {
 		properties = new Properties();
 
 		InputStream is = null;
@@ -24,7 +33,7 @@ public abstract class Conector {
 			is = new FileInputStream(propertiesFileLocation);
 			properties.load(is);
 		} catch (IOException e) {
-			System.out.println(e.toString());
+			throw new IOException("Fichero de propiedades no encontrado");
 		}
 
 	}

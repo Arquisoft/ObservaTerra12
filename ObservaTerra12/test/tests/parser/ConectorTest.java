@@ -2,6 +2,7 @@ package tests.parser;
 
 import static org.junit.Assert.assertTrue;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -56,7 +57,11 @@ public class ConectorTest {
 		this.country1 = new Country();
 		country1.setName("Australia");
 
-		conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
+		try {
+			conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		conectorUN = ConectorUnitedNations.getInstance();
 	}
 
