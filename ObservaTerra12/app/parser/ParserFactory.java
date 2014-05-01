@@ -23,7 +23,7 @@ public class ParserFactory {
 		if (formato.equalsIgnoreCase(JSON))
 			return new ParserJson();
 		if (formato.equalsIgnoreCase(XML))
-			return new ParserXML();
+			return new ParserXLS();
 		throw new IllegalArgumentException("Formato no reconocido");
 
 	}
