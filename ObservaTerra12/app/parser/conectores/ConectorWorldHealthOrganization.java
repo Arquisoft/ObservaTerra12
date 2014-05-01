@@ -171,7 +171,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 				Submission submission = new Submission(new Date(), user);
 
 				Indicator indicator = new Indicator(display);
-				miParser = ParserFactory.getParser("json");
+				miParser = ParserFactory.getParser((String) properties.get(key
+						+ "_FORMAT"));
 				miParser.setFile(file);
 				miParser.setKeySearch((String) properties.get(key + "_KEY"));
 				miParser.setIndicator(indicator);

@@ -91,7 +91,7 @@ public class ParserJson extends AbstractParser {
 							+ "-12-31 23:59:59.000000");
 					Time time = new Time(startDate, endDate);
 
-					// Add observacion a la base de datos
+					// Add observacion al listado
 
 					Observation obs = new Observation(area, indicator, measure,
 							time, provider, submission);
