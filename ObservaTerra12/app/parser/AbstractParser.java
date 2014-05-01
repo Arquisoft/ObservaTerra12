@@ -48,8 +48,7 @@ public abstract class AbstractParser implements Parser {
 
 	@Override
 	public void setTags(String countryTag, String indicatorTag,
-			String measureTag, String timeTag, String providerTag,
-			String submissionTag) {
+			String measureTag, String timeTag) {
 		this.countryTag = countryTag;
 		this.indicatorTag = indicatorTag;
 		this.measureTag = measureTag;

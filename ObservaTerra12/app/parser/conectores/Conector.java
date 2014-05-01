@@ -4,11 +4,14 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.Properties;
 
 import model.Country;
+import model.Observation;
 import model.Provider;
 import model.User;
+import parser.Parser;
 import persistencia.AreasDAO;
 import persistencia.EntradasDAO;
 import persistencia.ObservacionesDAO;
@@ -26,23 +29,32 @@ import persistencia.UsuariosDAO;
  */
 public abstract class Conector {
 
-	protected Properties properties;
-	protected AreasDAO areasDao;
-	protected OrganizacionesDAO organizacionesDao;
-	protected EntradasDAO entradasDao;
-	protected UsuariosDAO usersDao;
-	protected ObservacionesDAO observacionesDao;
-	protected User user;
+	Properties properties;
+	AreasDAO areasDao;
+	OrganizacionesDAO organizacionesDao;
+	EntradasDAO entradasDao;
+	UsuariosDAO usersDao;
+	ObservacionesDAO observacionesDao;
+	User user;
+	Parser miParser;
+	String key;
+	List<Observation> observations;
+	static final String PROPERTIES = "public/crawler/configuration/conector.properties";
 
-	protected void preparaConector(String propertiesFileLocation)
-			throws IOException {
-		cargaProperties(propertiesFileLocation);
+	protected void inicializaConector() throws IOException {
+		cargaProperties();
 		usersDao = PersistenceFactory.createUsuariosDAO();
 		organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
 		areasDao = PersistenceFactory.createAreasDAO();
 		entradasDao = PersistenceFactory.createEntradasDAO();
 		observacionesDao = PersistenceFactory.createObservacionesDAO();
-		user = getCrawlerUser();
+		setUser();
+	}
+
+	public void preparar() {
+	}
+
+	public void start() {
 	}
 
 	/**
@@ -51,14 +63,13 @@ public abstract class Conector {
 	 * @param propertiesFileLocation
 	 * @throws IOException
 	 */
-	private void cargaProperties(String propertiesFileLocation)
-			throws IOException {
+	private void cargaProperties() throws IOException {
 		properties = new Properties();
 
 		InputStream is = null;
 
 		try {
-			is = new FileInputStream(propertiesFileLocation);
+			is = new FileInputStream(PROPERTIES);
 			properties.load(is);
 		} catch (IOException e) {
 			throw new IOException("Fichero de propiedades no encontrado");
@@ -73,7 +84,8 @@ public abstract class Conector {
 	 * @return
 	 * @throws SQLException
 	 */
-	protected Provider getProvider(String providerName, String providerCountryName, String providerTipo)
+	protected Provider getProvider(String providerName,
+			String providerCountryName, String providerTipo)
 			throws SQLException {
 		Provider provider = organizacionesDao.leerProvedor(providerName);
 		if (provider == null) {
@@ -82,21 +94,42 @@ public abstract class Conector {
 				areasDao.crearPais(new Country(providerCountryName));
 				providerCountry = areasDao.leerPais(providerCountryName);
 			}
-			organizacionesDao
-					.crearProveedor(new Provider(providerName, providerCountry, providerTipo));
+			organizacionesDao.crearProveedor(new Provider(providerName,
+					providerCountry, providerTipo));
 			provider = organizacionesDao.leerProvedor(providerName);
 		}
 
 		return provider;
 	}
 
-	private User getCrawlerUser() {
+	/**
+	 * Inserta cada observacion de la lista en nuestra base de datos
+	 * 
+	 * @throws SQLException
+	 */
+	protected void insertaObservaciones() throws SQLException {
+		for (Observation observacion : observations) {
+			entradasDao.crearEntrada(observacion.getSubmission());
+			observacionesDao.insertarObservacion(observacion);
+			// TODO: Quitar estos System.out de pruebas
+			if (observacion.getIdObservation() == null)
+				System.out
+						.println("Insertando observacion: FALLO al insertar (La observacion ya existe)");
+			else
+				System.out.println("Insertando observacion: " + observacion);
+		}
+	}
+
+	/**
+	 * Recupera el usuario del Crawler para insertar datos
+	 * 
+	 */
+	private void setUser() {
 		try {
 			user = usersDao.leerUsuario("crawler", "crawler");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return user;
 	}
 
 }

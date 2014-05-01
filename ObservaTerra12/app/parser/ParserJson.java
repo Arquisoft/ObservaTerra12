@@ -52,8 +52,8 @@ public class ParserJson extends AbstractParser {
 
 			JsonObject ficheroJsonOriginal = parser.parse(br).getAsJsonObject();
 
-			JsonArray arrayJsonDatosObservaciones = ficheroJsonOriginal.getAsJsonObject().get(keySearch)
-					.getAsJsonArray();
+			JsonArray arrayJsonDatosObservaciones = ficheroJsonOriginal
+					.getAsJsonObject().get(keySearch).getAsJsonArray();
 
 			for (int i = 0; i < arrayJsonDatosObservaciones.size(); i++) {
 
@@ -62,24 +62,24 @@ public class ParserJson extends AbstractParser {
 
 					// Comprobamos los dos posibles casos de ficheros de WHO
 
-					JsonElement countryElement = (arrayJsonDatosObservaciones.get(i)
-							.getAsJsonObject().get("COUNTRY"));
+					JsonElement countryElement = (arrayJsonDatosObservaciones
+							.get(i).getAsJsonObject().get("COUNTRY"));
 
 					if (countryElement != null) {
 						area = new Country(arrayJsonDatosObservaciones.get(i)
 								.getAsJsonObject().get("COUNTRY").getAsString());
 					} else {
-						area = new Area(arrayJsonDatosObservaciones.get(i).getAsJsonObject()
-								.get("MGHEREG").getAsString());
+						area = new Area(arrayJsonDatosObservaciones.get(i)
+								.getAsJsonObject().get("MGHEREG").getAsString());
 					}
 
 					// TODO: Leer bien el measure.unit del JSON
-					Measure measure = new Measure(arrayJsonDatosObservaciones.get(i)
-							.getAsJsonObject().get("Value").getAsString(),
-							"prueba");
+					Measure measure = new Measure(arrayJsonDatosObservaciones
+							.get(i).getAsJsonObject().get("Value")
+							.getAsString(), "prueba");
 
-					String year = arrayJsonDatosObservaciones.get(i).getAsJsonObject()
-							.get("YEAR").getAsString();
+					String year = arrayJsonDatosObservaciones.get(i)
+							.getAsJsonObject().get("YEAR").getAsString();
 					Date startDate;
 
 					startDate = new SimpleDateFormat(
@@ -111,6 +111,13 @@ public class ParserJson extends AbstractParser {
 			e1.printStackTrace();
 		}
 		return observations;
+	}
+
+	@Override
+	public void setTags(String countryTag, String indicatorTag,
+			String measureTag, String timeTag) {
+		// TODO Auto-generated method stub
+
 	}
 
 }

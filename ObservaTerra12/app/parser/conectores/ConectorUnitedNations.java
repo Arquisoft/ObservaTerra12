@@ -36,7 +36,7 @@ public class ConectorUnitedNations extends Conector {
 	private static ConectorUnitedNations instance;
 
 	private ConectorUnitedNations(String key) throws IOException {
-		preparaConector("public/crawler/configuration/conector.properties");
+		inicializaConector();
 	}
 
 	public static ConectorUnitedNations getInstance(String key)
@@ -47,9 +47,11 @@ public class ConectorUnitedNations extends Conector {
 		return instance;
 	}
 
+	@Override
 	public void preparar() {
 	}
 
+	@Override
 	public void start() {
 
 		BufferedReader br;

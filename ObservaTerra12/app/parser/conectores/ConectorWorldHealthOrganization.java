@@ -49,13 +49,10 @@ import com.google.gson.JsonParser;
 public class ConectorWorldHealthOrganization extends Conector {
 
 	private static ConectorWorldHealthOrganization instance;
-	private String key;
-	private Map<String, String> disponibles;
-	private Parser miParser;
-	List<Observation> observations;
+	private Map<String, String> consultasDisponibles;
 
 	private ConectorWorldHealthOrganization(String key) throws IOException {
-		preparaConector("public/crawler/configuration/conector.properties");
+		inicializaConector();
 		this.key = key;
 	}
 
@@ -80,13 +77,13 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 		// Todas las url's comienzan igual, tenemos eso guardado en el fichero
 		// de properties
-		str.append((String) properties.get(key + "_INIT"));
+		str.append((String) properties.get(key + "_URL_INIT"));
 
 		// La etiqueta especifica de cada consulta
 		str.append(label);
 
 		// Todas las url's acaban igual tambien
-		str.append((String) properties.get(key + "_END"));
+		str.append((String) properties.get(key + "_URL_END"));
 
 		return str.toString();
 	}
@@ -97,9 +94,10 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 * con la etiqueta (label) para hacer la llamada y el indicador (display) de
 	 * esas observaciones
 	 */
+	@Override
 	public void preparar() {
 		String url = (String) properties.get(key + "_LIST");
-		disponibles = new HashMap<String, String>(); // Label - Display
+		consultasDisponibles = new HashMap<String, String>(); // Label - Display
 		BufferedReader br;
 		JsonParser parser;
 
@@ -129,10 +127,9 @@ public class ConectorWorldHealthOrganization extends Conector {
 				 * su "display" (nuestro indicador)
 				 */
 
-				disponibles.put(arrayCode.get(i).getAsJsonObject().get("label")
-						.getAsString(),
-						arrayCode.get(i).getAsJsonObject().get("display")
-								.getAsString());
+				consultasDisponibles.put(arrayCode.get(i).getAsJsonObject()
+						.get("label").getAsString(), arrayCode.get(i)
+						.getAsJsonObject().get("display").getAsString());
 
 			}
 
@@ -149,8 +146,10 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 * llamamos al parseador para que nos devuelva las observaciones ya listas e
 	 * invocamos a insertaObservaciones()
 	 */
+	@Override
 	public void start() {
-		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
+		Iterator<Entry<String, String>> it = consultasDisponibles.entrySet()
+				.iterator();
 
 		while (it.hasNext()) {
 			Entry<String, String> pairs = (Entry<String, String>) it.next();
@@ -165,14 +164,16 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 				FileUtils.copyURLToFile(new URL(url), file);
 
-				Provider provider = getProvider("World Health Organization",
-						"Switzerland", "ONG");
+				Provider provider = getProvider(
+						(String) properties.get(key + "_NAME"),
+						(String) properties.get(key + "_COUNTRY"),
+						(String) properties.get(key + "_TYPE"));
 				Submission submission = new Submission(new Date(), user);
 
 				Indicator indicator = new Indicator(display);
 				miParser = ParserFactory.getParser("json");
 				miParser.setFile(file);
-				miParser.setKeySearch("fact");
+				miParser.setKeySearch((String) properties.get(key + "_KEY"));
 				miParser.setIndicator(indicator);
 				miParser.setProvider(provider);
 				miParser.setSubmission(submission);
@@ -186,24 +187,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 				e.printStackTrace();
 			}
 
-		}
-	}
-
-	/**
-	 * Inserta cada observacion de la lista en nuestra base de datos
-	 * 
-	 * @throws SQLException
-	 */
-	private void insertaObservaciones() throws SQLException {
-		for (Observation observacion : observations) {
-			entradasDao.crearEntrada(observacion.getSubmission());
-			observacionesDao.insertarObservacion(observacion);
-			// TODO: Quitar estos System.out de pruebas
-			if (observacion.getIdObservation() == null)
-				System.out
-						.println("Insertando observacion: FALLO al insertar (La observacion ya existe)");
-			else
-				System.out.println("Insertando observacion: " + observacion);
 		}
 	}
 
