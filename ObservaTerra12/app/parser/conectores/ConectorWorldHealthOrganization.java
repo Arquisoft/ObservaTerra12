@@ -24,16 +24,8 @@ import model.Observation;
 import model.Provider;
 import model.Submission;
 import model.Time;
-import model.User;
 
 import org.apache.commons.io.FileUtils;
-
-import persistencia.AreasDAO;
-import persistencia.EntradasDAO;
-import persistencia.ObservacionesDAO;
-import persistencia.OrganizacionesDAO;
-import persistencia.PersistenceFactory;
-import persistencia.UsuariosDAO;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -55,7 +47,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private Map<String, String> disponibles;
 
 	private ConectorWorldHealthOrganization(String key) throws IOException {
-		cargaProperties("public/crawler/configuration/conector.properties");
+		preparaConector("public/crawler/configuration/conector.properties");
 		disponibles = new HashMap<String, String>(); // Label - Display
 		this.key = key;
 	}
@@ -152,10 +144,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 		BufferedReader br;
 		JsonParser parser;
 		ArrayList<String> campos = new ArrayList<String>();
-		ObservacionesDAO obsDao;
-		AreasDAO areasDao;
-		EntradasDAO entradasDao;
-		OrganizacionesDAO organizacionesDao;
 
 		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
 
@@ -222,39 +210,16 @@ public class ConectorWorldHealthOrganization extends Conector {
 								+ "-12-31 23:59:59.000000");
 						Time time = new Time(startDate, endDate);
 
-						areasDao = PersistenceFactory.createAreasDAO();
-						Country country = areasDao.leerPais("Switzerland");
-						if (country == null) {
-							areasDao.crearPais(new Country("Switzerland"));
-							country = areasDao.leerPais("Switzerland");
-						}
-						organizacionesDao = PersistenceFactory
-								.createOrganizacionesDAO();
-
-						Provider provider = organizacionesDao
-								.leerProvedor("World Health Organization");
-						if (provider == null) {
-							organizacionesDao
-									.crearProveedor(new Provider(
-											"World Health Organization",
-											country, "ONG"));
-							provider = organizacionesDao
-									.leerProvedor("World Health Organization");
-						}
-
-						UsuariosDAO usersDao = PersistenceFactory
-								.createUsuariosDAO();
-						User usuario = usersDao.leerUsuario("crawler",
-								"crawler");
+						Provider provider = getProvider(
+								"World Health Organization", "Switzerland",
+								"ONG");
 
 						Submission submission = new Submission(new Date(),
 								usuario);
-						entradasDao = PersistenceFactory.createEntradasDAO();
 						entradasDao.crearEntrada(submission);
 
 						// Add observacion a la base de datos
 
-						obsDao = PersistenceFactory.createObservacionesDAO();
 						Observation obs = new Observation(area, indicator,
 								measure, time, provider, submission);
 
@@ -287,4 +252,5 @@ public class ConectorWorldHealthOrganization extends Conector {
 			}
 		}
 	}
+
 }

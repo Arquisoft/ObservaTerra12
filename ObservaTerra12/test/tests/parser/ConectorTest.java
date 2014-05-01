@@ -59,16 +59,16 @@ public class ConectorTest {
 
 		try {
 			conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
+			conectorUN = ConectorUnitedNations.getInstance("COMPONENTS");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		conectorUN = ConectorUnitedNations.getInstance();
 	}
 
 	@Test
 	public void testUN() {
 
-		conectorUN.rellenaObservaciones("COMPONENTS");
+		conectorUN.start();
 		try {
 
 			assertTrue(areasDao.leerPais("Australia").getName()

@@ -5,13 +5,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URL;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 
+import persistencia.PersistenceFactory;
 import model.Country;
 import model.Indicator;
 import model.Measure;
@@ -19,17 +18,9 @@ import model.Observation;
 import model.Provider;
 import model.Submission;
 import model.Time;
-import model.User;
-
-import org.apache.commons.io.FileUtils;
-
-import persistencia.ObservacionesDAO;
-import persistencia.PersistenceFactory;
-import persistencia.JdbcDAOs.EntradasJdbcDAO;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 /**
@@ -44,24 +35,25 @@ public class ConectorUnitedNations extends Conector {
 
 	private static ConectorUnitedNations instance;
 
-	private ConectorUnitedNations() {
-		cargaProperties("public/crawler/configuration/un.properties");
+	private ConectorUnitedNations(String key) throws IOException {
+		preparaConector("public/crawler/configuration/conector.properties");
 	}
 
-	public static ConectorUnitedNations getInstance() {
+	public static ConectorUnitedNations getInstance(String key)
+			throws IOException {
 		if (instance == null) {
-			instance = new ConectorUnitedNations();
+			instance = new ConectorUnitedNations(key);
 		}
 		return instance;
 	}
 
-	public void rellenaObservaciones(String key) {
+	public void preparar() {
+	}
 
-		String url = (String) properties.get(key);
+	public void start() {
 
 		BufferedReader br;
 		JsonParser parser;
-		ObservacionesDAO obsDao = null;
 
 		try {
 			File file = new File(
@@ -102,18 +94,14 @@ public class ConectorUnitedNations extends Conector {
 							+ "-12-31 23:59:59.000000");
 					Time time = new Time(startDate, endDate);
 
-					Provider provider = new Provider("United Nations", country,
-							"tipoorganizacionprueba");
+					Provider provider = getProvider("United Nations",
+							"United States of America", "ONG");
 
-					User usuario = new User();
-					usuario.setIdUser(1L);
 					Submission submission = new Submission(new Date(), usuario);
-					EntradasJdbcDAO entradasDao = new EntradasJdbcDAO();
 					entradasDao.crearEntrada(submission);
 
 					// Add observacion a la base de datos
 
-					obsDao = PersistenceFactory.createObservacionesDAO();
 					Observation obs = new Observation(country, indicator,
 							measure, time, provider, submission);
 
