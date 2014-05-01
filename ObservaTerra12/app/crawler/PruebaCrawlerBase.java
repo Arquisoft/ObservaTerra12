@@ -21,33 +21,47 @@ public class PruebaCrawlerBase extends WebCrawler {
 	public void visit(Page page) {
 		if (page.getWebURL().toString().contains("json")
 				|| page.getWebURL().toString().contains("JSON")) {
-			System.out.println("Hol.aaaaaaaaaaaaaaaaaaaaa");
+			System.out.println("Prueba JSON");
 			downloadJSON(page);
+		} else if (page.getWebURL().toString().contains("excel")
+				|| page.getWebURL().toString().contains("EXCEL")) {
+
+			System.out.println("Prueba EXCEL");
+			downloadExcel(page);
 		} else {
-			String url = page.getWebURL().getURL();
-
-			String url2 = url.substring(0, url.length() - 3);
-
-			System.out.println("URL: " + url2);
-
-			try {
-				File file = new File("public/crawler/temp/downloads/PRUEBA.xls");
-				FileUtils.copyURLToFile(new URL(url2), file);
-
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+			System.out.println("Web no compatible");
 		}
 	}
 
-	public void downloadJSON(Page page) {
-		String url = page.getWebURL().getURL();
+	private void downloadExcel(Page page) {
+
+		String urlSinCortar = page.getWebURL().getURL();
+
+		String url = urlSinCortar.substring(0, urlSinCortar.length() - 3);
+
 		System.out.println("URL: " + url);
 
 		try {
-			File file = new File("public/crawler/temp/downloads/1.json");
+			File file = new File("public/crawler/temp/downloads/PRUEBA.xls");
+			FileUtils.copyURLToFile(new URL(url), file);
+
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	private void downloadJSON(Page page) {
+		String urlSinCortar = page.getWebURL().getURL();
+
+		String url = urlSinCortar.substring(0, urlSinCortar.length() - 3);
+
+		System.out.println("URL: " + url);
+
+		try {
+			File file = new File("public/crawler/temp/downloads/PRUEBA.json");
 			FileUtils.copyURLToFile(new URL(url), file);
 
 		} catch (MalformedURLException e) {
