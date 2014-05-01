@@ -9,6 +9,7 @@ import static org.junit.Assert.assertTrue;
 import java.sql.SQLException;
 import java.util.List;
 
+import model.Country;
 import model.Organization;
 import model.Provider;
 
@@ -27,6 +28,9 @@ public class OrganizacionesTest {
 		this.organizacion = new Organization();
 		this.organizacion.setNombre("ONG-Prueba");
 		this.organizacion.setTipoOrganizacion("RELIGIOSA");
+		Country count = new Country();
+		count.setIdArea(1L);
+		this.organizacion.setCountry(count);
 	}
 
 	@Test
@@ -52,16 +56,15 @@ public class OrganizacionesTest {
 
 		assertNotNull(orgLeida);
 		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
-		assertEquals(this.organizacion.getTipoOrganizacion(),
-				orgLeida.getTipoOrganizacion());
+		assertEquals(this.organizacion.getTipoOrganizacion(),orgLeida.getTipoOrganizacion());
+		assertEquals(this.organizacion, orgLeida);
 		
 		//Probar a recuperla por nombre
 		orgLeida = orgDAO.buscarOrganizacionPorNombre("ONG-Prueba");
 		assertNotNull(orgLeida);
 		assertTrue(orgLeida instanceof Organization);
 		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
-		assertEquals(this.organizacion.getTipoOrganizacion(),
-				orgLeida.getTipoOrganizacion());
+		assertEquals(this.organizacion.getTipoOrganizacion(),	orgLeida.getTipoOrganizacion());
 		assertEquals(this.organizacion, orgLeida);
 
 		// Probar a listar todos
@@ -91,6 +94,7 @@ public class OrganizacionesTest {
 		assertNotNull(orgLeida);
 		assertEquals("org-0001", orgLeida.getNombre());
 		assertEquals("No religiosa", orgLeida.getTipoOrganizacion());
+		assertEquals(this.organizacion, orgLeida);
 
 		// Probar a listar todos
 		List<Organization> orgns = orgDAO.listarOrganizaciones();
@@ -132,8 +136,7 @@ public class OrganizacionesTest {
 		assertEquals(leido, proveedor);
 
 		// Leer como area
-		Organization or = orgDAO
-				.leerOrganizacion(proveedor.getIdOrganization());
+		Organization or = orgDAO.leerOrganizacion(proveedor.getIdOrganization());
 		assertNull(or);
 
 		// Probar a recuperar por nombre

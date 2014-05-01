@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.Country;
 import model.Organization;
 import model.Provider;
 
@@ -41,7 +42,7 @@ public class OrganizacionesJdbc {
 	 */
 	public Organization crearOrganizacion(Organization organizacion)
 			throws SQLException {
-		String SQL = "INSERT INTO ORGANIZACION (ID_ORGANIZACION,NOMBRE_ORGANIZACION,TIPO,ES_PROVEEDOR) VALUES (?,?,?,?)";
+		String SQL = "INSERT INTO ORGANIZACION (ID_ORGANIZACION,NOMBRE_ORGANIZACION,TIPO,ES_PROVEEDOR,ID_PAIS) VALUES (?,?,?,?,?)";
 
 		PreparedStatement pst = null;
 		try {
@@ -59,6 +60,12 @@ public class OrganizacionesJdbc {
 				pst.setString(4, "SI");
 			else
 				pst.setString(4, "NO");
+			
+			//PAIS
+			if(organizacion.getCountry() != null && organizacion.getCountry().getIdArea() != null)
+				pst.setLong(5, organizacion.getCountry().getIdArea());
+			else
+				pst.setNull(5, java.sql.Types.INTEGER);
 
 			pst.executeUpdate();
 			con.commit();
@@ -130,6 +137,14 @@ public class OrganizacionesJdbc {
 			org.setIdOrganization(idOrganizacion);
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
+			
+			//País
+			Long idPais = rs.getLong("id_pais");
+			if(idPais != null)
+			{
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
 		}
 
 		pst.close();
@@ -208,6 +223,15 @@ public class OrganizacionesJdbc {
 			org.setIdOrganization(rs.getLong("id_organizacion"));
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
+			
+			//País
+			Long idPais = rs.getLong("id_pais");
+			if(idPais != null)
+			{
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
+			
 			organizaciones.add(org);
 		}
 
@@ -230,6 +254,15 @@ public class OrganizacionesJdbc {
 			org.setIdOrganization(rs.getLong("id_organizacion"));
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
+			
+			//País
+			Long idPais = rs.getLong("id_pais");
+			if(idPais != null)
+			{
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
+			
 			proveedores.add(org);
 		}
 
@@ -253,6 +286,14 @@ public class OrganizacionesJdbc {
 			org.setIdOrganization(idProveedor);
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
+			
+			//País
+			Long idPais = rs.getLong("id_pais");
+			if(idPais != null)
+			{
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
 		}
 
 		pst.close();
@@ -282,6 +323,14 @@ public class OrganizacionesJdbc {
 			org.setIdOrganization(rs.getLong("id_organizacion"));
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
+			
+			//País
+			Long idPais = rs.getLong("id_pais");
+			if(idPais != null)
+			{
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
 		}
 
 		rs.close();
@@ -312,6 +361,14 @@ public class OrganizacionesJdbc {
 			org.setIdOrganization(rs.getLong("id_organizacion"));
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
+			
+			//País
+			Long idPais = rs.getLong("id_pais");
+			if(idPais != null)
+			{
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
 		}
 
 		pst.close();
@@ -342,6 +399,14 @@ public class OrganizacionesJdbc {
 			org.setIdOrganization(rs.getLong("id_organizacion"));
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
+			
+			//País
+			Long idPais = rs.getLong("id_pais");
+			if(idPais != null)
+			{
+				Country c = new Country();
+				c.setIdArea(idPais);
+			}
 		}
 
 		pst.close();
