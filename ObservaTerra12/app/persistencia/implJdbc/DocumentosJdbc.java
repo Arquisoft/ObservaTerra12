@@ -175,7 +175,7 @@ public class DocumentosJdbc {
 	 * 
 	 * @param idDocumento
 	 *            - Identificador del documento en la base de datos.
-	 * @param usuario
+	 * @param user
 	 *            - Usuario que va a realizar la operación
 	 * @throws SecurityException
 	 *             - El usuario propietario no coincide con el registrado en la

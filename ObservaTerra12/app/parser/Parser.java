@@ -1,11 +1,27 @@
 package parser;
 
+import java.io.File;
+import java.util.List;
+
+import model.Indicator;
+import model.Observation;
+import model.Provider;
+import model.Submission;
+
 public interface Parser {
 
-	void setUrl(String url);
+	void setFile(File file);
 
 	void setTags(String countryTag, String indicatorTag, String measureTag,
-			String timeTag, String providerTag, String submissionTag);
+			String timeTag);
 
-	void execute();
+	List<Observation> getParsedObservations();
+
+	void setIndicator(Indicator indicator);
+
+	void setKeySearch(String keySearch);
+
+	void setProvider(Provider provider);
+
+	void setSubmission(Submission submission);
 }

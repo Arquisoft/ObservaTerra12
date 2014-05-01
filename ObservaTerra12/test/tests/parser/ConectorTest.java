@@ -2,6 +2,7 @@ package tests.parser;
 
 import static org.junit.Assert.assertTrue;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -55,16 +56,18 @@ public class ConectorTest {
 
 		this.country1 = new Country();
 		country1.setName("Australia");
+	}
 
-		conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
-		conectorUN = ConectorUnitedNations.getInstance();
+	@Test
+	public void testPruebaBorrar() {
 	}
 
 	@Test
 	public void testUN() {
-
-		conectorUN.rellenaObservaciones("COMPONENTS");
 		try {
+			conectorUN = ConectorUnitedNations.getInstance("COMPONENTS");
+
+			conectorUN.start();
 
 			assertTrue(areasDao.leerPais("Australia").getName()
 					.equals(country1.getName()));
@@ -83,20 +86,22 @@ public class ConectorTest {
 
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
 		}
 	}
 
 	/*
 	 * CUIDADO: Este test descarga todos los JSON de la API de la World Health
 	 * Organization, los analiza e intenta insertar las observaciones. En total
-	 * son 28 JSON y mas de 1000 observaciones y le lleva un rato largo
+	 * son mas de 50 JSON y mas de 1000 observaciones y le lleva un rato largo
 	 */
 	@Test
 	public void testWHO() {
-		conectorWHO.preparar();
-		conectorWHO.start();
-
 		try {
+			conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
+			conectorWHO.preparar();
+			conectorWHO.start();
 
 			List<Provider> lista = orgsDao.listarProveedores();
 			Provider prueba = null;
@@ -108,6 +113,8 @@ public class ConectorTest {
 
 			assertTrue(prueba != null);
 		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

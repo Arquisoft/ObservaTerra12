@@ -1,30 +1,58 @@
 package parser;
 
+import java.io.File;
+import java.util.List;
+
+import model.Indicator;
+import model.Observation;
+import model.Provider;
+import model.Submission;
+
 public abstract class AbstractParser implements Parser {
 
-	private String url;
-	private String countryTag;
-	private String indicatorTag;
-	private String measureTag;
-	private String timeTag;
-	private String providerTag;
-	private String submissionTag;
-	
+	File file;
+	String keySearch;
+	Provider provider;
+	Submission submission;
+	Indicator indicator;
+	List<Observation> observations;
+	String countryTag;
+	String indicatorTag;
+	String measureTag;
+	String timeTag;
+
 	@Override
-	public void setUrl(String url) {
-		this.url = url;
+	public void setKeySearch(String keySearch) {
+		this.keySearch = keySearch;
+	}
+
+	@Override
+	public void setProvider(Provider provider) {
+		this.provider = provider;
+	}
+
+	@Override
+	public void setSubmission(Submission submission) {
+		this.submission = submission;
+	}
+
+	@Override
+	public void setIndicator(Indicator indicator) {
+		this.indicator = indicator;
+	}
+
+	@Override
+	public void setFile(File file) {
+		this.file = file;
 	}
 
 	@Override
 	public void setTags(String countryTag, String indicatorTag,
-			String measureTag, String timeTag, String providerTag,
-			String submissionTag) {
+			String measureTag, String timeTag) {
 		this.countryTag = countryTag;
 		this.indicatorTag = indicatorTag;
 		this.measureTag = measureTag;
 		this.timeTag = timeTag;
-		this.providerTag = providerTag;
-		this.submissionTag = submissionTag;
 	}
 
 }

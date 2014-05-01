@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.SQLException;
 import java.text.ParseException;
@@ -13,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -24,16 +26,12 @@ import model.Observation;
 import model.Provider;
 import model.Submission;
 import model.Time;
-import model.User;
 
 import org.apache.commons.io.FileUtils;
 
-import persistencia.AreasDAO;
-import persistencia.EntradasDAO;
-import persistencia.ObservacionesDAO;
-import persistencia.OrganizacionesDAO;
-import persistencia.PersistenceFactory;
-import persistencia.UsuariosDAO;
+import parser.Parser;
+import parser.ParserFactory;
+import parser.ParserJson;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -42,8 +40,7 @@ import com.google.gson.JsonParser;
 
 /**
  * 
- * Prueba de un conector de nuestra aplicacion con la API de la World Health
- * Organization
+ * Clase conector con la API de la World Health Organization
  * 
  * 
  * @author Pablo Garcia Fernandez
@@ -52,16 +49,15 @@ import com.google.gson.JsonParser;
 public class ConectorWorldHealthOrganization extends Conector {
 
 	private static ConectorWorldHealthOrganization instance;
-	private String key;
-	private Map<String, String> disponibles;
+	private Map<String, String> consultasDisponibles;
 
-	private ConectorWorldHealthOrganization(String key) {
-		cargaProperties("public/crawler/configuration/conector.properties");
-		disponibles = new HashMap<String, String>(); // Label - Display
+	private ConectorWorldHealthOrganization(String key) throws IOException {
+		inicializaConector();
 		this.key = key;
 	}
 
-	public static ConectorWorldHealthOrganization getInstance(String key) {
+	public static ConectorWorldHealthOrganization getInstance(String key)
+			throws IOException {
 		if (instance == null) {
 			instance = new ConectorWorldHealthOrganization(key);
 		}
@@ -81,13 +77,13 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 		// Todas las url's comienzan igual, tenemos eso guardado en el fichero
 		// de properties
-		str.append((String) properties.get(key + "_INIT"));
+		str.append((String) properties.get(key + "_URL_INIT"));
 
 		// La etiqueta especifica de cada consulta
 		str.append(label);
 
 		// Todas las url's acaban igual tambien
-		str.append((String) properties.get(key + "_END"));
+		str.append((String) properties.get(key + "_URL_END"));
 
 		return str.toString();
 	}
@@ -98,8 +94,10 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 * con la etiqueta (label) para hacer la llamada y el indicador (display) de
 	 * esas observaciones
 	 */
+	@Override
 	public void preparar() {
 		String url = (String) properties.get(key + "_LIST");
+		consultasDisponibles = new HashMap<String, String>(); // Label - Display
 		BufferedReader br;
 		JsonParser parser;
 
@@ -123,10 +121,15 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 			for (int i = 0; i < arrayCode.size(); i++) {
 
-				disponibles.put(arrayCode.get(i).getAsJsonObject().get("label")
-						.getAsString(),
-						arrayCode.get(i).getAsJsonObject().get("display")
-								.getAsString());
+				/*
+				 * De cada consulta disponible nos quedamos con su "label"
+				 * (clave a añadir en la url para hacer la consulta a la API) y
+				 * su "display" (nuestro indicador)
+				 */
+
+				consultasDisponibles.put(arrayCode.get(i).getAsJsonObject()
+						.get("label").getAsString(), arrayCode.get(i)
+						.getAsJsonObject().get("display").getAsString());
 
 			}
 
@@ -139,19 +142,14 @@ public class ConectorWorldHealthOrganization extends Conector {
 	}
 
 	/**
-	 * Vamos guardando en local cada JSON de la lista de consultas, lo parseamos
-	 * e insertamos en la base de datos las observaciones
+	 * Vamos guardando en local cada JSON de la lista de consultas Luego
+	 * llamamos al parseador para que nos devuelva las observaciones ya listas e
+	 * invocamos a insertaObservaciones()
 	 */
+	@Override
 	public void start() {
-		BufferedReader br;
-		JsonParser parser;
-		ArrayList<String> campos = new ArrayList<String>();
-		ObservacionesDAO obsDao;
-		AreasDAO areasDao;
-		EntradasDAO entradasDao;
-		OrganizacionesDAO organizacionesDao;
-
-		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
+		Iterator<Entry<String, String>> it = consultasDisponibles.entrySet()
+				.iterator();
 
 		while (it.hasNext()) {
 			Entry<String, String> pairs = (Entry<String, String>) it.next();
@@ -163,122 +161,34 @@ public class ConectorWorldHealthOrganization extends Conector {
 				// Guardando el fichero y trabajando sobre la version local
 				File file = new File("public/crawler/downloads/who/" + label
 						+ ".json");
+
 				FileUtils.copyURLToFile(new URL(url), file);
-				br = new BufferedReader(new FileReader(file));
-				parser = new JsonParser();
 
-				JsonObject fichero = parser.parse(br).getAsJsonObject();
+				Provider provider = getProvider(
+						(String) properties.get(key + "_NAME"),
+						(String) properties.get(key + "_COUNTRY"),
+						(String) properties.get(key + "_TYPE"));
+				Submission submission = new Submission(new Date(), user);
 
-				JsonArray arrayCampos = fichero.getAsJsonObject()
-						.get("dimension").getAsJsonArray();
+				Indicator indicator = new Indicator(display);
+				miParser = ParserFactory.getParser((String) properties.get(key
+						+ "_FORMAT"));
+				miParser.setFile(file);
+				miParser.setKeySearch((String) properties.get(key + "_KEY"));
+				miParser.setIndicator(indicator);
+				miParser.setProvider(provider);
+				miParser.setSubmission(submission);
 
-				JsonArray arrayObjetivo = fichero.getAsJsonObject().get("fact")
-						.getAsJsonArray();
+				observations = miParser.getParsedObservations();
+				insertaObservaciones();
 
-				for (int i = 0; i < arrayCampos.size(); i++) {
-					campos.add(arrayCampos.get(i).getAsJsonObject()
-							.get("label").getAsString());
-				}
-
-				for (int i = 0; i < arrayObjetivo.size(); i++) {
-
-					try {
-						Area area;
-						Indicator indicator = new Indicator(display);
-
-						// Comprobamos los dos posibles casos de ficheros de WHO
-
-						JsonElement countryElement = (arrayObjetivo.get(i)
-								.getAsJsonObject().get("COUNTRY"));
-
-						if (countryElement != null) {
-							area = new Country(arrayObjetivo.get(i)
-									.getAsJsonObject().get("COUNTRY")
-									.getAsString());
-						} else {
-							area = new Area(arrayObjetivo.get(i)
-									.getAsJsonObject().get("MGHEREG")
-									.getAsString());
-						}
-
-						// TODO: Leer bien el measure.unit del JSON
-						Measure measure = new Measure(arrayObjetivo.get(i)
-								.getAsJsonObject().get("Value").getAsString(),
-								"prueba");
-
-						String year = arrayObjetivo.get(i).getAsJsonObject()
-								.get("YEAR").getAsString();
-						Date startDate = new SimpleDateFormat(
-								"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-								+ "-01-01 00:00:00.000000");
-						Date endDate = new SimpleDateFormat(
-								"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
-								+ "-12-31 23:59:59.000000");
-						Time time = new Time(startDate, endDate);
-
-						areasDao = PersistenceFactory.createAreasDAO();
-						Country country = areasDao.leerPais("Switzerland");
-						if (country == null) {
-							areasDao.crearPais(new Country("Switzerland"));
-							country = areasDao.leerPais("Switzerland");
-						}
-						organizacionesDao = PersistenceFactory
-								.createOrganizacionesDAO();
-
-						Provider provider = organizacionesDao
-								.leerProvedor("World Health Organization");
-						if (provider == null) {
-							organizacionesDao
-									.crearProveedor(new Provider(
-											"World Health Organization",
-											country, "ONG"));
-							provider = organizacionesDao
-									.leerProvedor("World Health Organization");
-						}
-
-						UsuariosDAO usersDao = PersistenceFactory
-								.createUsuariosDAO();
-						User usuario = usersDao.leerUsuario("crawler",
-								"crawler");
-
-						Submission submission = new Submission(new Date(),
-								usuario);
-						entradasDao = PersistenceFactory.createEntradasDAO();
-						entradasDao.crearEntrada(submission);
-
-						// Add observacion a la base de datos
-
-						obsDao = PersistenceFactory.createObservacionesDAO();
-						Observation obs = new Observation(area, indicator,
-								measure, time, provider, submission);
-
-						obsDao.insertarObservacion(obs);
-
-						// TODO: Quitar estos System.out de pruebas
-						if (obs.getIdObservation() == null)
-							System.out
-									.println("Insertando observacion: FALLO al insertar (La observacion ya existe)");
-						else
-							System.out
-									.println("Insertando observacion: " + obs);
-					} catch (NullPointerException e) {
-						System.out
-								.println("Insertando observacion: FALLO al insertar (Formato no compatible)");
-					}
-
-				}
-
-				// TODO: Tratamiento de excepciones
-
-			} catch (FileNotFoundException e) {
+			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (SQLException e) {
 				e.printStackTrace();
-			} catch (ParseException e1) {
-				e1.printStackTrace();
-			} catch (IOException e1) {
-				e1.printStackTrace();
 			}
+
 		}
 	}
+
 }
