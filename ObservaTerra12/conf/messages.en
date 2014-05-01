@@ -1,14 +1,35 @@
 #Error
-error_title = Observaterra: Error
+error_title = ObservaTerra: Error
 error_message = It seems we had a problem...
+error_bd = Internal error.
 #Index
 index_title = ObservaTerra: Home
 index_form_title = Login
 index_form_user_name = User
+index_form_error_user_name_required = Required
 index_form_password = Password
+index_form_error_password_required = Required
 index_form_login = Login
 index_form_error_login = Wrong user or password.
-index_form_error_bd = Internal error
+index_register = Register
+#Register
+register_title = ObservaTerra: Register
+register_form_title = Register
+register_form_register = Register
+register_form_error_already_in_use = User name already in use.
+register_form_user_name = User name
+register_form_error_user_name_required = Required
+register_form_password = Password
+register_form_error_password_required = Required
+register_form_name = Name
+register_form_error_name_required = Required
+register_form_surname = Surname
+register_form_error_surname_required = Required
+register_form_email = Email
+register_form_error_email_required = Required
+register_form_error_email_invalid = Invalid format => user@server.domain
+register_form_organization = Organization
+register_form_error_user_name_required = Required
 #User panel
 panel_title = ObservaTerra: User panel.
 panel_logout = Logout
@@ -21,6 +42,11 @@ documents_document_name = Name
 documents_document_extension = Type
 documents_document_download = Download
 documents_document_remove = Remove
+documents_document_share = Share
+documents_form_share_tittle = Share selected documents
+documents_form_share_info = Select the users which you'd like to share the documents (split by , without gaps).
+documents_form_user_name = User name(s)
+documents_form_share = Share
 documents_document_unshare = Unshare
 documents_document_upload = Upload file
 documents_document_upload_successfull = File successfully uploaded

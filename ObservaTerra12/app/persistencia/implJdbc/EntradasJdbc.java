@@ -45,10 +45,13 @@ public class EntradasJdbc {
 		PreparedStatement pst = con.prepareStatement(SQL);
 		Long idEntrada = leerProximoIdentificador();
 		pst.setLong(1, idEntrada);
+		
+		//Distinguir si trae o no usuario		
 		if (entrada.getUser() != null) {
 			pst.setLong(2, entrada.getUser().getIdUser());
 		} else
 			pst.setNull(3, java.sql.Types.INTEGER);
+		
 		pst.setLong(3, entrada.getDate().getTime());
 		pst.executeUpdate();
 
@@ -77,9 +80,11 @@ public class EntradasJdbc {
 
 	/**
 	 * Recoge una entrada del sistema en base a su identificador único
-	 * ********************** Atención: solo devuelve el identificador del
+	 * ********************** 
+	 * Atención: solo devuelve el identificador del
 	 * usuario que hizo la entrada, deberá recogerse a ese usuario en capas
-	 * superiores. **********************
+	 * superiores. 
+	 * **********************
 	 * 
 	 * @param idEntrada
 	 *            - Identificador de la entrada a recoger

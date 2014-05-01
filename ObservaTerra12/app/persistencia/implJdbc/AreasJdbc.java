@@ -40,21 +40,17 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public void crearAreaySubAreas(Area area) throws SQLException {
-		try {
-			con.setAutoCommit(false);
-			Long identificadorArea = calcularProximoIdentificadorArea();
-			crearArea(area, identificadorArea);
-			if (area.getAreas() != null && !area.getAreas().isEmpty()) {
-				for (Area areas : area.getAreas()) {
-					identificadorArea++;
-					crearArea(areas, identificadorArea);
-					asociarSubarea(area, areas);
-				}
+		// Calcula el próximo identificador
+		Long identificadorArea = calcularProximoIdentificadorArea();
+		// Crea el area principal
+		crearArea(area, identificadorArea);
+		// Si tiene subareas asociadas, las itera creándolas.
+		if (area.getAreas() != null && !area.getAreas().isEmpty()) {
+			for (Area areas : area.getAreas()) {
+				identificadorArea++;
+				crearArea(areas, identificadorArea);
+				asociarSubarea(area, areas);
 			}
-			con.commit();
-		} catch (SQLException e) {
-			con.rollback();
-			throw new SQLException("Error creando el area", e.getMessage());
 		}
 	}
 
@@ -77,6 +73,7 @@ public class AreasJdbc {
 		pst.setLong(1, area.getIdArea());
 		pst.setString(2, area.getName());
 
+		// Diferenciar si es un país o no
 		if (area instanceof Country) {
 			pst.setString(3, "SI");
 		} else {
@@ -84,9 +81,7 @@ public class AreasJdbc {
 		}
 
 		pst.executeUpdate();
-
 		pst.close();
-
 		return area;
 	}
 
@@ -123,21 +118,15 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public void eliminarArea(Area area) throws SQLException {
-		try {
-			con.setAutoCommit(false);
-			if (area.getAreas() != null && !area.getAreas().isEmpty()) {
-				for (Area areas : area.getAreas()) {
-					eliminarReferenciaSubarea(areas.getIdArea(),
-							area.getIdArea());
-					eliminarSubarea(areas.getIdArea());
-				}
+		// Si tiene subareas, las itera borrándolas
+		if (area.getAreas() != null && !area.getAreas().isEmpty()) {
+			for (Area areas : area.getAreas()) {
+				eliminarReferenciaSubarea(areas.getIdArea(), area.getIdArea());
+				eliminarSubarea(areas.getIdArea());
 			}
-			eliminarSubarea(area.getIdArea());
-			con.commit();
-		} catch (SQLException e) {
-			con.rollback();
-			throw new SQLException("Error eliminando el area", e.getMessage());
 		}
+		// Elimina el área principal
+		eliminarSubarea(area.getIdArea());
 	}
 
 	/**
@@ -201,8 +190,7 @@ public class AreasJdbc {
 	 * Recoge los datos de un area determinado de la base de datos en base a su
 	 * nombre.
 	 * 
-	 * @param nombre
-	 *            - Nombre del area.
+	 * @param nombre  - Nombre del area.
 	 * @return - Area encontrado.
 	 * @throws SQLException
 	 */
@@ -242,7 +230,8 @@ public class AreasJdbc {
 		ResultSet rs = pst.executeQuery();
 
 		Country area = null;
-		while (rs.next()) {
+		while (rs.next()) 
+		{
 			area = new Country();
 			area.setIdArea(rs.getLong("id_area"));
 			area.setName(rs.getString("nombre_area"));
@@ -374,8 +363,7 @@ public class AreasJdbc {
 	 *            - Subarea asociada al area referenciada.
 	 * @throws SQLException
 	 */
-	public void anularAsociacionSubarea(Area areaPertenece, Area subarea)
-			throws SQLException {
+	public void anularAsociacionSubarea(Area areaPertenece, Area subarea) throws SQLException {
 		String SQL = "DELETE FROM PERTENECE WHERE id_area_referenciada=? and id_area_pertenece=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);

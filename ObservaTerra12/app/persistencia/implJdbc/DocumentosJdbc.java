@@ -201,9 +201,6 @@ public class DocumentosJdbc {
 	}
 
 	/**
-	 *********************************************** 
-	 *** ESTE METODO REQUIERE UNA CONEXIÓN ABIERTA **
-	 *********************************************** 
 	 * Método que comprueba si un usuario es el propietario de un repositorio.
 	 * 
 	 * @param user
@@ -384,5 +381,30 @@ public class DocumentosJdbc {
 
 		// Cierre de recursos
 		pst.close();
+	}
+
+	/**
+	 * Borra todas las comparticiones de un documento de una tacada.
+	 * @param documento - Documento seleccionado
+	 * @throws SQLException 
+	 */
+	public void anularComparticionesDocumento(Document documento) throws SQLException 
+	{
+		if(documento == null || documento.getIdDocumento() == null || documento.getUser() == null)
+			throw new IllegalArgumentException("Faltan argumentos en el documento.");
+		if (!esPropietario(documento.getUser(), documento.getIdDocumento()))
+			throw new SecurityException("No es el propietario del documento: petición denegada.");
+
+		// Definición de la consulta
+		String SQL = "DELETE FROM COMPARTE WHERE ID_REPOSITORIO = ?";
+
+		// Carga de la consulta y ejecución
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, documento.getIdDocumento());
+		pst.executeUpdate();
+
+		// Cierre de recursos
+		pst.close();
+		
 	}
 }

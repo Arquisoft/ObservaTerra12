@@ -43,8 +43,8 @@ public class Document {
 	}
 	
 	public String getExtension() {
-		String[] separado = name.split(".");
-		if(separado.length == 0)
+		String[] separado = name.split("\\.");
+		if(separado.length <= 1)
 			return "";
 		return separado[separado.length - 1];
 	}

@@ -7,6 +7,7 @@ import java.util.List;
 import model.Organization;
 import model.Provider;
 import persistencia.OrganizacionesDAO;
+import persistencia.implJdbc.AreasJdbc;
 import persistencia.implJdbc.OrganizacionesJdbc;
 import utils.DBConnection;
 
@@ -37,13 +38,11 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 	public Organization crearOrganizacion(Organization organizacion)
 			throws SQLException {
 		if (organizacion == null)
-			throw new IllegalArgumentException(
-					"No se ha indicado la organización a crear");
+			throw new IllegalArgumentException("No se ha indicado la organización a crear");
 
 		Connection con = DBConnection.getConnection();
 		this.organizacionesJDBC.setConnection(con);
-		Organization org = this.organizacionesJDBC
-				.crearOrganizacion(organizacion);
+		Organization org = this.organizacionesJDBC.crearOrganizacion(organizacion);
 		con.close();
 		return org;
 	}
@@ -65,6 +64,14 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		this.organizacionesJDBC.setConnection(con);
 		Organization org = this.organizacionesJDBC
 				.leerOrganizacion(idOrganizacion);
+
+		if (org != null && org.getCountry() != null) // Si tiene país, recogerlo
+		{
+			AreasJdbc areaJDBC = new AreasJdbc();
+			areaJDBC.setConnection(con);
+			org.setCountry(areaJDBC.leerPais(org.getCountry().getIdArea()));
+		}
+
 		con.close();
 		return org;
 	}
@@ -125,6 +132,17 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		Connection con = DBConnection.getConnection();
 		this.organizacionesJDBC.setConnection(con);
 		List<Organization> org = this.organizacionesJDBC.listarOrganizaciones();
+
+		for (Organization organiz : org) {
+			if (organiz.getCountry() != null) // Si tiene país, recogerlo
+			{
+				AreasJdbc areaJDBC = new AreasJdbc();
+				areaJDBC.setConnection(con);
+				organiz.setCountry(areaJDBC.leerPais(organiz.getCountry()
+						.getIdArea()));
+			}
+		}
+
 		con.close();
 		return org;
 	}
@@ -144,6 +162,14 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		Connection con = DBConnection.getConnection();
 		this.organizacionesJDBC.setConnection(con);
 		Provider org = this.organizacionesJDBC.leerProveedor(idProveedor);
+
+		if (org != null && org.getCountry() != null) // Si tiene país, recogerlo
+		{
+			AreasJdbc areaJDBC = new AreasJdbc();
+			areaJDBC.setConnection(con);
+			org.setCountry(areaJDBC.leerPais(org.getCountry().getIdArea()));
+		}
+
 		con.close();
 		return org;
 	}
@@ -162,7 +188,8 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 
 		Connection con = DBConnection.getConnection();
 		this.organizacionesJDBC.setConnection(con);
-		Provider org = (Provider) this.organizacionesJDBC.crearOrganizacion(proveedor);
+		Provider org = (Provider) this.organizacionesJDBC
+				.crearOrganizacion(proveedor);
 		con.close();
 		return org;
 	}
@@ -177,6 +204,17 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		Connection con = DBConnection.getConnection();
 		this.organizacionesJDBC.setConnection(con);
 		List<Provider> org = this.organizacionesJDBC.listarProveedores();
+
+		for (Organization organiz : org) {
+			if (organiz.getCountry() != null) // Si tiene país, recogerlo
+			{
+				AreasJdbc areaJDBC = new AreasJdbc();
+				areaJDBC.setConnection(con);
+				organiz.setCountry(areaJDBC.leerPais(organiz.getCountry()
+						.getIdArea()));
+			}
+		}
+
 		con.close();
 		return org;
 	}
@@ -196,6 +234,73 @@ public class OrganizacionesJdbcDAO implements OrganizacionesDAO {
 		Connection con = DBConnection.getConnection();
 		this.organizacionesJDBC.setConnection(con);
 		Provider org = this.organizacionesJDBC.leerProveedor(nombreProveedor);
+
+		if (org != null && org.getCountry() != null) // Si tiene país, recogerlo
+		{
+			AreasJdbc areaJDBC = new AreasJdbc();
+			areaJDBC.setConnection(con);
+			org.setCountry(areaJDBC.leerPais(org.getCountry().getIdArea()));
+		}
+
+		con.close();
+		return org;
+	}
+
+	/**
+	 * Recupera una organización de la base de datos en base a su nombre.
+	 * 
+	 * @param nombreOrganizacion
+	 *            - Nombre de la organización a buscar.
+	 * @return - Organización encontrada.
+	 * @throws SQLException
+	 */
+	public Organization buscarOrganizacionPorNombre(String nombreOrganizacion)
+			throws SQLException {
+		if (nombreOrganizacion == null || nombreOrganizacion.isEmpty())
+			throw new IllegalArgumentException(
+					"No se ha indicado el nombre de la organizacion a recuperar.");
+
+		Connection con = DBConnection.getConnection();
+		this.organizacionesJDBC.setConnection(con);
+		Organization org = this.organizacionesJDBC
+				.buscarOrganizacionPorNombre(nombreOrganizacion);
+
+		if (org != null && org.getCountry() != null) // Si tiene país, recogerlo
+		{
+			AreasJdbc areaJDBC = new AreasJdbc();
+			areaJDBC.setConnection(con);
+			org.setCountry(areaJDBC.leerPais(org.getCountry().getIdArea()));
+		}
+
+		con.close();
+		return org;
+	}
+
+	/**
+	 * Recupera una organización o un proveedor de la base de datos en base a su
+	 * nombre.
+	 * 
+	 * @param nombreOrganizacion - Nombre de la organización a buscar.
+	 * @return - Organización encontrada.
+	 * @throws SQLException
+	 */
+	@Override
+	public Organization buscarOrganizacionOProveedorPorNombre(String nombreOrganizacion) throws SQLException {
+		if (nombreOrganizacion == null || nombreOrganizacion.isEmpty())
+			throw new IllegalArgumentException(
+					"No se ha indicado el nombre de la organizacion a recuperar.");
+
+		Connection con = DBConnection.getConnection();
+		this.organizacionesJDBC.setConnection(con);
+		Organization org = this.organizacionesJDBC.buscarOrganizacionOProveedorPorNombre(nombreOrganizacion);
+
+		if (org != null && org.getCountry() != null) // Si tiene país, recogerlo
+		{
+			AreasJdbc areaJDBC = new AreasJdbc();
+			areaJDBC.setConnection(con);
+			org.setCountry(areaJDBC.leerPais(org.getCountry().getIdArea()));
+		}
+
 		con.close();
 		return org;
 	}
