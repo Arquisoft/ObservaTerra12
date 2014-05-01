@@ -18756,4 +18756,5224 @@
              "Value": "1"
            },
            {
-             "GBDCHILD
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "MGHEREG": "South-eastern Asia",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2001",
+             "MGHEREG": "Region of the Americas",
+             "GBDCHILDCAUSES": "Malaria",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "MGHEREG": "African Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2011",
+             "MGHEREG": "Eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2004",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "Southern Asia excluding India",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "South Asia",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2009",
+             "PUBLISHSTATE": "Published",
+             "Value": "32.5"
+           },
+           {
+             "YEAR": "2001",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Measles",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "High-income countries",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "World",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2007",
+             "Value": "0.5"
+           },
+           {
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Northern Africa",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "East Asia and Pacific",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "11.7"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2000",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.4"
+           },
+           {
+             "MGHEREG": "Eastern Asia excluding China",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "YEAR": "2003",
+             "MGHEREG": "Upper-middle-income",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.8"
+           },
+           {
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2004",
+             "MGHEREG": "Latin America and Caribbean",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.1"
+           },
+           {
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "YEAR": "2000",
+             "PUBLISHSTATE": "Published",
+             "Value": "47.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2010",
+             "MGHEREG": "European Region",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2005",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2005",
+             "MGHEREG": "European Region (LMIC)",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Developed regions",
+             "YEAR": "2008",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Injuries",
+             "Value": "0.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Pertussis",
+             "YEAR": "2005",
+             "MGHEREG": "Northern Africa",
+             "Value": "0.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "High-income countries",
+             "YEAR": "2011",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "Value": "7.4"
+           },
+           {
+             "MGHEREG": "Caucasus and Central Asia",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "Value": "3.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2005",
+             "MGHEREG": "Caucasus and Central Asia",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "Value": "6"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "High-income",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2011",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "MGHEREG": "East Asia and Pacific",
+             "Value": "0.8"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "MGHEREG": "Europe and Central Asia",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High income",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "Sub-Saharan Africa",
+             "YEAR": "2007",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "5.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Pertussis",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Lower-middle-income",
+             "YEAR": "2004",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "Value": "5.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Lower-middle-income",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "Value": "1.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "MGHEREG": "East Asia and Pacific",
+             "Value": "14.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Middle East and North Africa",
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Tetanus",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Middle East and North Africa",
+             "YEAR": "2003",
+             "Value": "0.6"
+           },
+           {
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2009",
+             "MGHEREG": "Northern Africa",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income",
+             "YEAR": "2005",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "South-East Asia Region",
+             "Value": "12.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "YEAR": "2010",
+             "MGHEREG": "South-East Asia Region",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "European Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.3"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Caucasus and Central Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Injuries",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Asia",
+             "YEAR": "2008",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "Value": "0.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Low-income",
+             "Value": "10"
+           },
+           {
+             "MGHEREG": "Latin America and Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2004",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "European Region",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Pertussis",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South-East Asia Region",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "YEAR": "2006",
+             "MGHEREG": "Developed regions",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Tetanus",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "YEAR": "2004",
+             "MGHEREG": "Eastern Asia excluding China",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "Value": "1.8"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "African Region (LMIC)",
+             "YEAR": "2004",
+             "PUBLISHSTATE": "Published",
+             "Value": "22.3"
+           },
+           {
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "YEAR": "2003",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "Value": "2.3"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2005",
+             "MGHEREG": "World",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.3"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Tetanus",
+             "MGHEREG": "Northern Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Western Pacific Region",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.6"
+           },
+           {
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GBDCHILDCAUSES": "Prematurity",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Caucasus and Central Asia",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "1-59 months",
+             "Value": "6.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Asia excluding China",
+             "YEAR": "2010",
+             "Value": "0.9"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Oceania",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "South-eastern Asia",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "MGHEREG": "Sub-Saharan Africa",
+             "Value": "15.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-4 years",
+             "Value": "4.6"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2000",
+             "MGHEREG": "European Region",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Pertussis",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Pacific Region",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Measles",
+             "MGHEREG": "African Region (LMIC)",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region (LMIC)",
+             "GBDCHILDCAUSES": "Malaria",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2006",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.3"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "MGHEREG": "South-eastern Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.7"
+           },
+           {
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2002",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Western Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "38.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Tetanus",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Lower-middle-income",
+             "Value": "0.5"
+           },
+           {
+             "YEAR": "2006",
+             "MGHEREG": "South Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Measles",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "Region of the Americas",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Prematurity",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2002",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Pacific Region",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GBDCHILDCAUSES": "Injuries",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.4"
+           },
+           {
+             "MGHEREG": "Southern Asia excluding India",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "31"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "Eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.6"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "MGHEREG": "South-eastern Asia",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2002",
+             "PUBLISHSTATE": "Published",
+             "Value": "41.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Southern Asia excluding India",
+             "YEAR": "2006",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "Value": "34.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Lower-middle-income",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Measles",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "European Region (LMIC)",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Caucasus and Central Asia",
+             "YEAR": "2004",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "52.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2008",
+             "MGHEREG": "Eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "1-59 months",
+             "Value": "8.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "High-income",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "YEAR": "2006",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "4.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Region of the Americas",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "Value": "1.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "European Region",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Latin America and Caribbean",
+             "GBDCHILDCAUSES": "Pertussis",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2003",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Region of the Americas",
+             "YEAR": "2004",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "Value": "0.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region",
+             "Value": "2"
+           },
+           {
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "World",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.5"
+           },
+           {
+             "MGHEREG": "Northern Africa",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Measles",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "South-eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Europe and Central Asia",
+             "YEAR": "2006",
+             "Value": "0.8"
+           },
+           {
+             "YEAR": "2009",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Latin America and Caribbean",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.4"
+           },
+           {
+             "MGHEREG": "European Region",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "African Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "Value": "5.7"
+           },
+           {
+             "GBDCHILDCAUSES": "Tetanus",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Asia",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2004",
+             "MGHEREG": "Latin America and Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "MGHEREG": "European Region (LMIC)",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "World",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Prematurity",
+             "AGEGROUP": "0-27 day",
+             "Value": "8.1"
+           },
+           {
+             "MGHEREG": "Oceania",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "50.7"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "YEAR": "2002",
+             "MGHEREG": "Sub-Saharan Africa",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "8.9"
+           },
+           {
+             "YEAR": "2007",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "African Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "14.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "Sub-Saharan Africa",
+             "Value": "10.6"
+           },
+           {
+             "MGHEREG": "Upper-middle-income",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "MGHEREG": "Latin America and Caribbean",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2005",
+             "MGHEREG": "Region of the Americas",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "European Region",
+             "YEAR": "2004",
+             "AGEGROUP": "0-27 day",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.6"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South Asia",
+             "YEAR": "2011",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Pertussis",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "3.5"
+           },
+           {
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Region of the Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.5"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "African Region (LMIC)",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Asia excluding China",
+             "GBDCHILDCAUSES": "Prematurity",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2003",
+             "Value": "4.4"
+           },
+           {
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Europe and Central Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "South Asia",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "Tetanus",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Region of the Americas",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "Southern Asia",
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Southern Asia excluding India",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Malaria",
+             "Value": "22.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "YEAR": "2002",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "High-income",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Low-income",
+             "Value": "9.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Lower-middle-income",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "AGEGROUP": "1-59 months",
+             "Value": "1.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "MGHEREG": "Upper-middle-income",
+             "YEAR": "2004",
+             "AGEGROUP": "1-59 months",
+             "Value": "1.4"
+           },
+           {
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "Europe and Central Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2003",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "MGHEREG": "Europe and Central Asia",
+             "YEAR": "2004",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "YEAR": "2005",
+             "MGHEREG": "Sub-Saharan Africa",
+             "Value": "3.9"
+           },
+           {
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "MGHEREG": "Region of the Americas",
+             "YEAR": "2009",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "South-eastern Asia",
+             "YEAR": "2003",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "MGHEREG": "Southern Asia excluding India",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "Value": "3.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "Lower-middle-income",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Upper-middle-income",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "MGHEREG": "East Asia and Pacific",
+             "YEAR": "2008",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Europe and Central Asia",
+             "YEAR": "2001",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Malaria",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Europe and Central Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2000",
+             "MGHEREG": "Latin America and Caribbean",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Western Pacific Region",
+             "GBDCHILDCAUSES": "Tetanus",
+             "YEAR": "2009",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Pertussis",
+             "MGHEREG": "Northern Africa",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2008",
+             "MGHEREG": "High-income",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "East Asia and Pacific",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2005",
+             "Value": "1.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Middle East and North Africa",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "5.4"
+           },
+           {
+             "YEAR": "2001",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Pacific Region",
+             "YEAR": "2010",
+             "Value": "0.6"
+           },
+           {
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Asia excluding China",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Northern Africa",
+             "YEAR": "2001",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Measles",
+             "Value": "0.8"
+           },
+           {
+             "YEAR": "2011",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Oceania",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "YEAR": "2007",
+             "AGEGROUP": "1-59 months",
+             "Value": "0.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Lower-middle-income",
+             "GBDCHILDCAUSES": "Malaria",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "East Asia and Pacific",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "High income",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2001",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Middle East and North Africa",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.5"
+           },
+           {
+             "MGHEREG": "Sub-Saharan Africa",
+             "YEAR": "2000",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "18.7"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "African Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2005",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GBDCHILDCAUSES": "Tetanus",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "Caucasus and Central Asia",
+             "YEAR": "2008",
+             "Value": "6.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2006",
+             "MGHEREG": "Eastern Asia",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "AGEGROUP": "0-4 years",
+             "Value": "5.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Measles",
+             "MGHEREG": "Western Asia",
+             "YEAR": "2011",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Low-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "AGEGROUP": "1-59 months",
+             "Value": "1.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Region of the Americas",
+             "GBDCHILDCAUSES": "Tetanus",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "European Region (LMIC)",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2011",
+             "MGHEREG": "High-income countries",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "Value": "0.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8.5"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "MGHEREG": "World",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2006",
+             "MGHEREG": "Caucasus and Central Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "Value": "1.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "YEAR": "2007",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.2"
+           },
+           {
+             "YEAR": "2005",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Pertussis",
+             "MGHEREG": "Developed regions",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "South-eastern Asia",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Southern Asia",
+             "YEAR": "2009",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "Value": "7.4"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "YEAR": "2004",
+             "MGHEREG": "Middle East and North Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GBDCHILDCAUSES": "Pertussis",
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region (LMIC)",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "Measles",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2001",
+             "MGHEREG": "Oceania",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "Value": "1.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Western Asia",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "Value": "1.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Low-income",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "Value": "0.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Latin America and Caribbean",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "Value": "32"
+           },
+           {
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "South Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2006",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "MGHEREG": "Western Pacific Region",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "European Region (LMIC)",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "High-income",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "High income",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "AGEGROUP": "0-27 day",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2003",
+             "MGHEREG": "Caucasus and Central Asia",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Measles",
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2000",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Oceania",
+             "YEAR": "2002",
+             "Value": "6.8"
+           },
+           {
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "YEAR": "2004",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "World",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "Value": "8.7"
+           },
+           {
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "MGHEREG": "Eastern Asia excluding China",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "Sub-Saharan Africa",
+             "YEAR": "2006",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "14.6"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "69.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Lower-middle-income",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2003",
+             "Value": "4.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Lower-middle-income",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Tetanus",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "Value": "59.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "MGHEREG": "High-income countries",
+             "YEAR": "2002",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.5"
+           },
+           {
+             "GBDCHILDCAUSES": "Injuries",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "World",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Eastern Asia",
+             "GBDCHILDCAUSES": "Pertussis",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Western Pacific Region",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "Value": "8.5"
+           },
+           {
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "YEAR": "2009",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.1"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "World",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "8.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Asia excluding China",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2005",
+             "Value": "1.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "2.3"
+           },
+           {
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Northern Africa",
+             "YEAR": "2010",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.4"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "MGHEREG": "Western Pacific Region",
+             "GBDCHILDCAUSES": "Malaria",
+             "AGEGROUP": "1-59 months",
+             "Value": "0.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "High-income countries",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "2.3"
+           },
+           {
+             "GBDCHILDCAUSES": "Injuries",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.4"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Latin America and the Caribbean",
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "Northern Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Western Asia",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "South Asia",
+             "YEAR": "2001",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "South-East Asia Region",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Injuries",
+             "YEAR": "2009",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Pacific Region",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "YEAR": "2003",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GBDCHILDCAUSES": "Injuries",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Pertussis",
+             "MGHEREG": "Developed regions",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "MGHEREG": "Developed regions",
+             "YEAR": "2007",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Northern Africa",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2004",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "MGHEREG": "Southern Asia excluding India",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2008",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Africa Region",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "Value": "5.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "South-East Asia Region",
+             "YEAR": "2005",
+             "AGEGROUP": "0-27 day",
+             "Value": "0.1"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "YEAR": "2004",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.7"
+           },
+           {
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "Eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2003",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Oceania",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "MGHEREG": "Southern Asia excluding India",
+             "Value": "5.5"
+           },
+           {
+             "MGHEREG": "Low-income",
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Pertussis",
+             "YEAR": "2000",
+             "MGHEREG": "Africa Region",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Malaria",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "European Region",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2006",
+             "Value": "1.6"
+           },
+           {
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GBDCHILDCAUSES": "Injuries",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2002",
+             "MGHEREG": "World",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "0.1"
+           },
+           {
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "MGHEREG": "Developed regions",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "MGHEREG": "Eastern Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "YEAR": "2009",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Latin America and the Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "Oceania",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Southern Asia",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "AGEGROUP": "0-27 day",
+             "Value": "34.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "MGHEREG": "South-East Asia Region",
+             "GBDCHILDCAUSES": "Prematurity",
+             "Value": "1.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "African Region (LMIC)",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2010",
+             "Value": "0.1"
+           },
+           {
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "High-income countries",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "East Asia and Pacific",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "Value": "1.5"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "High income",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "YEAR": "2005",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Middle East and North Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Sub-Saharan Africa",
+             "Value": "5.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Region of the Americas",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2000",
+             "MGHEREG": "European Region",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "1.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Southern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "AGEGROUP": "0-27 day",
+             "Value": "1.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "East Asia and Pacific",
+             "GBDCHILDCAUSES": "Injuries",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "Value": "0.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Tetanus",
+             "MGHEREG": "South Asia",
+             "Value": "0.7"
+           },
+           {
+             "MGHEREG": "Eastern Mediterranean Region",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.5"
+           },
+           {
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2009",
+             "MGHEREG": "Developed regions",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "13"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2000",
+             "MGHEREG": "Region of the Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.5"
+           },
+           {
+             "YEAR": "2003",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.3"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Low-income",
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "16.1"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "South Asia",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2008",
+             "MGHEREG": "High-income countries",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Malaria",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "MGHEREG": "Developed regions",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "YEAR": "2004",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Tetanus",
+             "MGHEREG": "Northern Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Low-income",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Injuries",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Latin America and the Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "2.1"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South-eastern Asia",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.7"
+           },
+           {
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Pertussis",
+             "MGHEREG": "Southern Asia excluding India",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2011",
+             "MGHEREG": "High-income",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Africa Region",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "10.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "MGHEREG": "European Region",
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "2.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Western Pacific Region",
+             "Value": "10"
+           },
+           {
+             "MGHEREG": "Eastern Asia excluding China",
+             "YEAR": "2004",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "MGHEREG": "Northern Africa",
+             "Value": "2.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Tetanus",
+             "MGHEREG": "Sub-Saharan Africa",
+             "Value": "1.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "Region of the Americas",
+             "Value": "0.5"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2006",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "Value": "1.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "YEAR": "2011",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Northern Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "4.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "MGHEREG": "South-eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Malaria",
+             "Value": "0.3"
+           },
+           {
+             "GBDCHILDCAUSES": "Tetanus",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Southern Asia",
+             "YEAR": "2000",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Southern Asia excluding India",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Western Asia",
+             "YEAR": "2003",
+             "AGEGROUP": "0-4 years",
+             "Value": "2.1"
+           },
+           {
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "European Region",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GBDCHILDCAUSES": "Pertussis",
+             "Value": "0.1"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Oceania",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Pertussis",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "MGHEREG": "South-eastern Asia",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Southern Asia",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Region of the Americas",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Tetanus",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "South-East Asia Region",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South-East Asia Region",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Lower-middle-income",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2010",
+             "Value": "1.3"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2011",
+             "MGHEREG": "Region of the Americas",
+             "GBDCHILDCAUSES": "Injuries",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.3"
+           },
+           {
+             "YEAR": "2011",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.7"
+           },
+           {
+             "MGHEREG": "Eastern Asia excluding China",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "YEAR": "2006",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Upper-middle-income",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "Europe and Central Asia",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "2.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "1-59 months",
+             "Value": "11"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2002",
+             "MGHEREG": "African Region (LMIC)",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "2.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2008",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "Value": "2.2"
+           },
+           {
+             "MGHEREG": "Caucasus and Central Asia",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "YEAR": "2011",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Asia",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "MGHEREG": "Lower-middle-income",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.8"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Africa Region",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "127.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "YEAR": "2010",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "Value": "2.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Asia excluding China",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.9"
+           },
+           {
+             "MGHEREG": "African Region (LMIC)",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "YEAR": "2003",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2002",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "High-income countries",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2003",
+             "MGHEREG": "Caucasus and Central Asia",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "Value": "20.2"
+           },
+           {
+             "MGHEREG": "Europe and Central Asia",
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2006",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Latin America and Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "European Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "Value": "0.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "World",
+             "GBDCHILDCAUSES": "Malaria",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2005",
+             "Value": "4.9"
+           },
+           {
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Developed regions",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Lower-middle-income",
+             "YEAR": "2006",
+             "Value": "7.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2004",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "East Asia and Pacific",
+             "GBDCHILDCAUSES": "Tetanus",
+             "Value": "0.1"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "High income",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "MGHEREG": "Middle East and North Africa",
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.6"
+           },
+           {
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Injuries",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Sub-Saharan Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "High-income countries",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "YEAR": "2003",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Caucasus and Central Asia",
+             "AGEGROUP": "0-27 day",
+             "Value": "0.1"
+           },
+           {
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Prematurity",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Upper-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.4"
+           },
+           {
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Europe and Central Asia",
+             "YEAR": "2000",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Europe and Central Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Pertussis",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "High income",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "MGHEREG": "Middle East and North Africa",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "Value": "15.9"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.3"
+           },
+           {
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "Developed regions",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "East Asia and Pacific",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "South Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "6.6"
+           },
+           {
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Injuries",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "South-eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "Value": "2.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Upper-middle-income",
+             "GBDCHILDCAUSES": "Malaria",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "YEAR": "2004",
+             "Value": "0.9"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GBDCHILDCAUSES": "Malaria",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "European Region (LMIC)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Latin America and Caribbean",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "YEAR": "2009",
+             "AGEGROUP": "1-59 months",
+             "Value": "0.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "MGHEREG": "Africa Region",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "European Region",
+             "YEAR": "2010",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Prematurity",
+             "Value": "0.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Developed regions",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Southern Asia",
+             "Value": "3.1"
+           },
+           {
+             "MGHEREG": "High-income",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Pertussis",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2004",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Pertussis",
+             "MGHEREG": "South-East Asia Region",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "MGHEREG": "South-East Asia Region",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "YEAR": "2008",
+             "MGHEREG": "Eastern Asia",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Pertussis",
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2001",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Oceania",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2001",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "Oceania",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2005",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South-eastern Asia",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "YEAR": "2006",
+             "Value": "2.2"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Southern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2003",
+             "PUBLISHSTATE": "Published",
+             "Value": "77.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Region of the Americas",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "MGHEREG": "South-East Asia Region",
+             "YEAR": "2001",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Western Pacific Region",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Prematurity",
+             "Value": "4.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Western Pacific Region",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Measles",
+             "Value": "0.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2004",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Southern Asia excluding India",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "YEAR": "2010",
+             "MGHEREG": "Southern Asia excluding India",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2009",
+             "MGHEREG": "Western Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "Value": "1.2"
+           },
+           {
+             "MGHEREG": "Low-income",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Prematurity",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "South Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.7"
+           },
+           {
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2004",
+             "MGHEREG": "Africa Region",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "38.6"
+           },
+           {
+             "MGHEREG": "Northern Africa",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Prematurity",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Northern Africa",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Southern Asia",
+             "AGEGROUP": "0-27 day",
+             "Value": "2.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "YEAR": "2007",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "19.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Sub-Saharan Africa",
+             "Value": "11"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Africa Region",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "Value": "2.7"
+           },
+           {
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Malaria",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "Value": "6.1"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2005",
+             "MGHEREG": "African Region (LMIC)",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "MGHEREG": "African Region (LMIC)",
+             "Value": "2.7"
+           },
+           {
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "37.3"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "High-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "YEAR": "2011",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Latin America and Caribbean",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Middle East and North Africa",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.3"
+           },
+           {
+             "YEAR": "2011",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.7"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Pertussis",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "YEAR": "2004",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Northern Africa",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "High-income",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Middle East and North Africa",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "Value": "2.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "YEAR": "2008",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "World",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "World",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Asia excluding China",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "Value": "16.9"
+           },
+           {
+             "MGHEREG": "Lower-middle-income",
+             "YEAR": "2003",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Lower-middle-income",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2008",
+             "Value": "1.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2000",
+             "MGHEREG": "High income",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "7.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High income",
+             "YEAR": "2005",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "Value": "1.7"
+           },
+           {
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "MGHEREG": "South Asia",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income countries",
+             "GBDCHILDCAUSES": "Prematurity",
+             "YEAR": "2006",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2011",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "World",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Asia excluding China",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2008",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "Sub-Saharan Africa",
+             "Value": "1.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "MGHEREG": "Lower-middle-income",
+             "YEAR": "2000",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "MGHEREG": "Europe and Central Asia",
+             "AGEGROUP": "0-4 years",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High income",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2005",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "Value": "9.2"
+           },
+           {
+             "YEAR": "2000",
+             "MGHEREG": "African Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "European Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2004",
+             "MGHEREG": "Caucasus and Central Asia",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.6"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "Eastern Asia",
+             "YEAR": "2003",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2001",
+             "MGHEREG": "Latin America and the Caribbean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Asia",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "Value": "4.1"
+           },
+           {
+             "YEAR": "2007",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Low-income",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2005",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Upper-middle-income",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Europe and Central Asia",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2004",
+             "Value": "3.6"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "YEAR": "2003",
+             "MGHEREG": "Latin America and Caribbean",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "European Region (LMIC)",
+             "YEAR": "2004",
+             "Value": "4.5"
+           },
+           {
+             "YEAR": "2003",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Injuries",
+             "YEAR": "2006",
+             "MGHEREG": "Developed regions",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.9"
+           },
+           {
+             "MGHEREG": "Upper-middle-income",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Africa Region",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Injuries",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.3"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Tetanus",
+             "MGHEREG": "World",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Southern Asia",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "3.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Western Asia",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "MGHEREG": "Low-income",
+             "YEAR": "2004",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "East Asia and Pacific",
+             "YEAR": "2010",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-27 day",
+             "Value": "0.2"
+           },
+           {
+             "YEAR": "2005",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "African Region (LMIC)",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Tetanus",
+             "YEAR": "2010",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "MGHEREG": "Developed regions",
+             "YEAR": "2006",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Oceania",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "YEAR": "2006",
+             "Value": "0.9"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "High income",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "MGHEREG": "Africa Region",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "South-East Asia Region",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Tetanus",
+             "Value": "0.6"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Western Pacific Region",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.5"
+           },
+           {
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "MGHEREG": "High-income countries",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2001",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "MGHEREG": "World",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Southern Asia",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "East Asia and Pacific",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2006",
+             "Value": "0.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region",
+             "YEAR": "2003",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "Value": "2"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Western Pacific Region",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.6"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2011",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.7"
+           },
+           {
+             "YEAR": "2008",
+             "MGHEREG": "Caucasus and Central Asia",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Northern Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "Southern Asia excluding India",
+             "Value": "0.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "East Asia and Pacific",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "YEAR": "2000",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "MGHEREG": "Latin America and Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.1"
+           },
+           {
+             "YEAR": "2006",
+             "GBDCHILDCAUSES": "Pertussis",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Region of the Americas",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "MGHEREG": "South-East Asia Region",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.8"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "YEAR": "2009",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.8"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Southern Asia excluding India",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.4"
+           },
+           {
+             "MGHEREG": "East Asia and Pacific",
+             "GBDCHILDCAUSES": "Malaria",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2000",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Middle East and North Africa",
+             "Value": "3.3"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "Pertussis",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "YEAR": "2004",
+             "AGEGROUP": "1-59 months",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Latin America and the Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2003",
+             "Value": "14.1"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Asia",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Low-income",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "11.8"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "South Asia",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GBDCHILDCAUSES": "Malaria",
+             "AGEGROUP": "0-4 years",
+             "Value": "15.4"
+           },
+           {
+             "YEAR": "2003",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "European Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.5"
+           },
+           {
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Measles",
+             "MGHEREG": "World",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2004",
+             "MGHEREG": "South-eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.9"
+           },
+           {
+             "MGHEREG": "Europe and Central Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "YEAR": "2005",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "AGEGROUP": "0-27 day",
+             "Value": "2.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Caucasus and Central Asia",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Asia",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "AGEGROUP": "1-59 months",
+             "Value": "0.2"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Oceania",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Measles",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Western Asia",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2001",
+             "PUBLISHSTATE": "Published",
+             "Value": "19.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Lower-middle-income",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "Value": "2.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "High income",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "Value": "0"
+           },
+           {
+             "MGHEREG": "Africa Region",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Pertussis",
+             "YEAR": "2001",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Region of the Americas",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "European Region (LMIC)",
+             "AGEGROUP": "0-27 day",
+             "Value": "2.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "World",
+             "YEAR": "2011",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2005",
+             "MGHEREG": "South-eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Southern Asia",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "PUBLISHSTATE": "Published",
+             "Value": "36.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Southern Asia excluding India",
+             "YEAR": "2003",
+             "Value": "2.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Upper-middle-income",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2011",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "East Asia and Pacific",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-4 years",
+             "Value": "2.4"
+           },
+           {
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Europe and Central Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2004",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2011",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "African Region (LMIC)",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "1.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Developed regions",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "AGEGROUP": "1-59 months",
+             "Value": "3.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Measles",
+             "YEAR": "2001",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "East Asia and Pacific",
+             "Value": "1.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Africa Region",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "YEAR": "2007",
+             "Value": "4.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2005",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Asia",
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Tetanus",
+             "MGHEREG": "Latin America and the Caribbean",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Southern Asia excluding India",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "Value": "3.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Western Asia",
+             "YEAR": "2006",
+             "Value": "0.6"
+           },
+           {
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "MGHEREG": "Low-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Upper-middle-income",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2003",
+             "PUBLISHSTATE": "Published",
+             "Value": "17.4"
+           },
+           {
+             "GBDCHILDCAUSES": "Prematurity",
+             "YEAR": "2003",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "South Asia",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "MGHEREG": "Sub-Saharan Africa",
+             "YEAR": "2009",
+             "Value": "15"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "YEAR": "2000",
+             "Value": "0.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2007",
+             "MGHEREG": "Eastern Asia",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Prematurity",
+             "MGHEREG": "South-eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Tetanus",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Europe and Central Asia",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2008",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GBDCHILDCAUSES": "Prematurity",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.4"
+           },
+           {
+             "MGHEREG": "European Region (LMIC)",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Tetanus",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Injuries",
+             "YEAR": "2004",
+             "MGHEREG": "Latin America and the Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "MGHEREG": "Northern Africa",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "2.5"
+           },
+           {
+             "YEAR": "2004",
+             "GBDCHILDCAUSES": "Injuries",
+             "MGHEREG": "Latin America and Caribbean",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.8"
+           },
+           {
+             "YEAR": "2010",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Middle East and North Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "African Region (LMIC)",
+             "GBDCHILDCAUSES": "Prematurity",
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "12.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "Value": "0.3"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "World",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "YEAR": "2000",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.7"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "World",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "Malaria",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Latin America and the Caribbean",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "YEAR": "2008",
+             "Value": "1.2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2006",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Northern Africa",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Western Asia",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Lower-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2008",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "3.2"
+           },
+           {
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "YEAR": "2007",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Latin America and Caribbean",
+             "GBDCHILDCAUSES": "Other communicable, perinatal and nutritional conditions",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "MGHEREG": "Middle East and North Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Eastern Mediterranean Region",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "Value": "1.7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region",
+             "GBDCHILDCAUSES": "Injuries",
+             "Value": "1.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "African Region (LMIC)",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Eastern Mediterranean Region (LMIC)",
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Prematurity",
+             "YEAR": "2009",
+             "MGHEREG": "Caucasus and Central Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.8"
+           },
+           {
+             "MGHEREG": "Eastern Asia excluding China",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Oceania",
+             "GBDCHILDCAUSES": "Malaria",
+             "YEAR": "2005",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Other noncommunicable diseases",
+             "MGHEREG": "South-eastern Asia",
+             "YEAR": "2002",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "2.8"
+           },
+           {
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Southern Asia excluding India",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2005",
+             "GBDCHILDCAUSES": "Tetanus",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.2"
+           },
+           {
+             "GBDCHILDCAUSES": "Prematurity",
+             "YEAR": "2010",
+             "MGHEREG": "Upper-middle-income",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income countries",
+             "YEAR": "2000",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "High-income countries",
+             "YEAR": "2010",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Injuries",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "MGHEREG": "High income",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2009",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "High income",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "AGEGROUP": "0-4 years",
+             "Value": "0.1"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "South Asia",
+             "YEAR": "2005",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Region of the Americas",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Tetanus",
+             "YEAR": "2005",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "South-East Asia Region",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "HIV/AIDS",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2005",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "GBDCHILDCAUSES": "Prematurity",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.3"
+           },
+           {
+             "YEAR": "2000",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "MGHEREG": "Eastern Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "MGHEREG": "Southern Asia",
+             "Value": "11.2"
+           },
+           {
+             "MGHEREG": "Western Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Malaria",
+             "MGHEREG": "Low-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "14.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Europe and Central Asia",
+             "YEAR": "2000",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Africa Region",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2003",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "South-East Asia Region",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Meningitis/encephalitis",
+             "YEAR": "2000",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-4 years",
+             "GBDCHILDCAUSES": "Malaria",
+             "YEAR": "2003",
+             "MGHEREG": "Western Pacific Region",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "European Region (LMIC)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.6"
+           },
+           {
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Malaria",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "MGHEREG": "Eastern Asia excluding China",
+             "GBDCHILDCAUSES": "Measles",
+             "AGEGROUP": "0-4 years",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Oceania",
+             "YEAR": "2004",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "Value": "1.5"
+           },
+           {
+             "MGHEREG": "Western Asia",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2004",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "Low-income",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2010",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "PUBLISHSTATE": "Published",
+             "Value": "61.8"
+           },
+           {
+             "MGHEREG": "High income",
+             "AGEGROUP": "0-27 day",
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2011",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2004",
+             "MGHEREG": "South Asia",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "11.5"
+           },
+           {
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-27 day",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "European Region",
+             "YEAR": "2005",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Western Pacific Region",
+             "Value": "17.4"
+           },
+           {
+             "MGHEREG": "High-income countries",
+             "YEAR": "2011",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Measles",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "High-income countries",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2003",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "AGEGROUP": "1-59 months",
+             "MGHEREG": "South-East Asia Region",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "YEAR": "2006",
+             "PUBLISHSTATE": "Published",
+             "Value": "32.8"
+           },
+           {
+             "MGHEREG": "African Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2004",
+             "PUBLISHSTATE": "Published",
+             "Value": "11.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "AGEGROUP": "1-59 months",
+             "Value": "8.2"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2000",
+             "MGHEREG": "Caucasus and Central Asia",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "PUBLISHSTATE": "Published",
+             "Value": "6.8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2008",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Eastern Asia",
+             "AGEGROUP": "1-59 months",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "MGHEREG": "Latin America and the Caribbean",
+             "YEAR": "2006",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "0-4 years",
+             "Value": "4.3"
+           },
+           {
+             "MGHEREG": "Northern Africa",
+             "AGEGROUP": "0-27 day",
+             "YEAR": "2008",
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.9"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "MGHEREG": "South-eastern Asia",
+             "AGEGROUP": "1-59 months",
+             "YEAR": "2006",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GHO": "Deaths per 1 000 live births",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "YEAR": "2002",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Congenital anomalies",
+             "AGEGROUP": "1-59 months",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2007",
+             "MGHEREG": "South-East Asia Region (LMIC)",
+             "Value": "1.5"
+           },
+           {
+             "GBDCHILDCAUSES": "ALL CAUSES",
+             "GHO": "Deaths per 1 000 live births",
+             "MGHEREG": "Western Pacific Region (LMIC)",
+             "AGEGROUP": "0-4 years",
+             "YEAR": "2008",
+             "PUBLISHSTATE": "Published",
+             "Value": "21.2"
+           },
+           {
+             "YEAR": "2006",
+             "AGEGROUP": "0-4 years",
+             "MGHEREG": "Sub-Saharan Africa",
+             "GBDCHILDCAUSES": "Birth asphyxia and birth trauma",
+             "GHO": "Deaths per 1 000 live births",
+             "PUBLISHSTATE": "Published",
+             "Value": "11.1"
+           },
+           {
+             "MGHEREG": "Eastern Mediterranean Region",
+             "GBDCHILDCAUSES": "Sepsis and other infectious conditions of the newborn",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2002",
+             "AGEGROUP": "0-4 years",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.4"
+           },
+           {
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Measles",
+             "MGHEREG": "South-East Asia Region",
+             "AGEGROUP": "1-59 months",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "Western Pacific Region",
+             "YEAR": "2002",
+             "AGEGROUP": "1-59 months",
+             "GBDCHILDCAUSES": "Acute lower respiratory infections",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "Region of the Americas (LMIC)",
+             "YEAR": "2001",
+             "GBDCHILDCAUSES": "Diarrhoeal diseases",
+             "GHO": "Deaths per 1 000 live births",
+             "Value": "0.1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "MGHEREG": "European Region (LMIC)",
+             "GBDCHILDCAUSES": "Pertussis",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2009",
+             "AGEGROUP": "0-27 day",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GBDCHILDCAUSES": "Measles",
+             "GHO": "Deaths per 1 000 live births",
+             "YEAR": "2001",
+             "AGEGROUP": "0-27 day",
+             "MGHEREG": "High-income",
+             "Value": "0"
+           },
+           {
+             "Y

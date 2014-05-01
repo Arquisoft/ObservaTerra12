@@ -143,8 +143,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 	public void start() {
 		BufferedReader br;
 		JsonParser parser;
-		ArrayList<String> campos = new ArrayList<String>();
-
 		Iterator<Entry<String, String>> it = disponibles.entrySet().iterator();
 
 		while (it.hasNext()) {
@@ -163,16 +161,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 				JsonObject fichero = parser.parse(br).getAsJsonObject();
 
-				JsonArray arrayCampos = fichero.getAsJsonObject()
-						.get("dimension").getAsJsonArray();
-
 				JsonArray arrayObjetivo = fichero.getAsJsonObject().get("fact")
 						.getAsJsonArray();
-
-				for (int i = 0; i < arrayCampos.size(); i++) {
-					campos.add(arrayCampos.get(i).getAsJsonObject()
-							.get("label").getAsString());
-				}
 
 				for (int i = 0; i < arrayObjetivo.size(); i++) {
 
@@ -214,8 +204,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 								"World Health Organization", "Switzerland",
 								"ONG");
 
-						Submission submission = new Submission(new Date(),
-								user);
+						Submission submission = new Submission(new Date(), user);
 						entradasDao.crearEntrada(submission);
 
 						// Add observacion a la base de datos

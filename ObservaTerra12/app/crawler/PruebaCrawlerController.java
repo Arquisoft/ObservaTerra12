@@ -76,13 +76,10 @@ public class PruebaCrawlerController {
 		 * URLs that are fetched and then the crawler starts following links
 		 * which are found in these pages
 		 */
-
+		controller
+				.addSeed("http://apps.who.int/gho/athena/api/COUNTRY?format=json/");
 		controller
 				.addSeed("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");
-		// controller.addSeed("http://api.worldbank.org/v2/en/topic/1?downloadformat=xml");
-		// controller.addSeed("http://www.ics.uci.edu/~lopes/");
-		// controller.addSeed("http://www.ics.uci.edu/~welling/");
-		// controller.addSeed("http://apps.who.int/gho/athena/api/COUNTRY?format=json");
 
 		/*
 		 * Start the crawl. This is a blocking operation, meaning that your code
