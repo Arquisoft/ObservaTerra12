@@ -21,7 +21,7 @@ public class ParserFactory {
 	 */
 	public static Parser getParser(String formato) {
 		if (formato.equalsIgnoreCase(JSON))
-			return new ParserJSon();
+			return new ParserJson();
 		if (formato.equalsIgnoreCase(XML))
 			return new ParserXML();
 		throw new IllegalArgumentException("Formato no reconocido");

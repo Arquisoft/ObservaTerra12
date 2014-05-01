@@ -29,7 +29,9 @@ import model.Time;
 
 import org.apache.commons.io.FileUtils;
 
-import parser.ParserJsonCasia;
+import parser.Parser;
+import parser.ParserFactory;
+import parser.ParserJson;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -49,7 +51,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private static ConectorWorldHealthOrganization instance;
 	private String key;
 	private Map<String, String> disponibles;
-	private ParserJsonCasia miParser;
+	private Parser miParser;
 	List<Observation> observations;
 
 	private ConectorWorldHealthOrganization(String key) throws IOException {
@@ -167,10 +169,14 @@ public class ConectorWorldHealthOrganization extends Conector {
 				Submission submission = new Submission(new Date(), user);
 
 				Indicator indicator = new Indicator(display);
-				miParser = new ParserJsonCasia(file, "fact", provider,
-						submission, indicator);
+				miParser = ParserFactory.getParser("json");
+				miParser.setFile(file);
+				miParser.setKeySearch("fact");
+				miParser.setIndicator(indicator);
+				miParser.setProvider(provider);
+				miParser.setSubmission(submission);
 
-				observations = miParser.parsea();
+				observations = miParser.getParsedObservations();
 				insertaObservaciones();
 
 			} catch (IOException e) {

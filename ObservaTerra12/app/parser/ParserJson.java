@@ -30,28 +30,17 @@ import model.Submission;
 import model.Time;
 import model.User;
 
-public class ParserJsonCasia {
+public class ParserJson extends AbstractParser {
 
-	File file;
-	String keySearch;
-	Provider provider;
-	Submission submission;
-	Indicator indicator;
-	List<Observation> observations;
 	BufferedReader br;
 	JsonParser parser;
 
-	public ParserJsonCasia(File file, String keySearch, Provider provider,
-			Submission submission, Indicator indicator) {
-		this.submission = submission;
-		this.indicator = indicator;
-		this.provider = provider;
-		this.file = file;
-		this.keySearch = keySearch;
+	public ParserJson() {
 		observations = new ArrayList<Observation>();
 	}
 
-	public List<Observation> parsea() {
+	@Override
+	public List<Observation> getParsedObservations() {
 		try {
 			br = new BufferedReader(new FileReader(file));
 			parser = new JsonParser();
