@@ -10,6 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 import model.Document;
+import model.Observation;
 import model.Organization;
 import model.User;
 import persistencia.DocumentosDAO;
@@ -176,6 +177,15 @@ public class Application extends Controller {
 	    	session("userName", loginForm.get().userName);
 	    	return redirect(routes.Application.userPanel());
 	    }
+    }
+    
+    /**
+     * Clase utilizada para el formulario de filtrado de observaciones.
+     * 
+     * @author Manuel & Nacho
+     */
+    public static class FilterObservations {
+    	// TODO
     }
 
     public static Result register() {
@@ -445,6 +455,13 @@ public class Application extends Controller {
     }
     
     public static Result searchObservations() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	return ok(search_observations.render(form(FilterObservations.class), new ArrayList<Observation>()));
+    }
+    
+    public static Result filterObservations() {
     	//TODO
     	return TODO;
     }
