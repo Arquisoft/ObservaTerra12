@@ -14,7 +14,11 @@ GET     /error                      				controllers.Application.error()
 # Menu
 GET     /user-panel                 				controllers.Application.userPanel()
 GET		/logout										controllers.Application.logout()
+GET		/user-panel/change-data						controllers.Application.changeData()
+POST	/user-panel/change-data						controllers.Application.changeUserData()
 GET		/user-panel/documents						controllers.Application.documents()
+GET		/user-panel/search-observations				controllers.Application.searchObservations()
+GET		/user-panel/compare-observations			controllers.Application.compareObservations()
 
 # Menu/Documentos
 GET		/user-panel/documents/download-file/:id		controllers.Application.downloadFile(id: Long)

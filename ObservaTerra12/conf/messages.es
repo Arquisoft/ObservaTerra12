@@ -16,9 +16,9 @@ index_register = Registrarse
 register_title = ObservaTerra: Registrarse
 register_form_title = Registrarse
 register_form_register = Registrarse
-register_form_error_already_in_use = Nombre de usuario en uso.
 register_form_user_name = Nombre de usuario
 register_form_error_user_name_required = Campo requerido
+register_form_error_user_name_already_in_use = Nombre de usuario en uso.
 register_form_password = Contraseña
 register_form_error_password_required = Campo requerido
 register_form_name = Nombre
@@ -30,11 +30,29 @@ register_form_error_email_required = Campo requerido
 register_form_error_email_invalid = Formato incorrecto => usuario@servidor.dominio
 register_form_organization = Organización
 register_form_error_organization_required = Campo requerido
-register_form_error_organization_no_exists = Esa organización no existe
+register_form_error_organization_no_exists = La organización no existe
 #Panel de usuario
 panel_title = ObservaTerra: Panel de usuario
 panel_logout = Desconectarse
 panel_documents = Mis documentos compartidos
+panel_change_data = Configuración
+panel_search_observations = Buscar observaciones
+panel_compare_observations = Comparar observaciones
+#Cambiar datos
+change_data_title = ObservaTerra: Configuración
+change_data_form_title = Cambiar Datos personales
+change_data_form_change_data = Modificar
+change_data_form_password = Contraseña
+change_data_form_error_password_required = Campo requerido
+change_data_form_name = Nombre
+change_data_form_error_name_required = Campo requerido
+change_data_form_surname = Apellidos
+change_data_form_error_surname_required = Campo requerido
+change_data_form_email = Dirección de correo electrónico
+change_data_form_error_email_required = Campo requerido
+change_data_form_error_email_invalid = Formato incorrecto => usuario@servidor.dominio
+change_data_form_organization = Organización
+change_data_error_organization_no_exists = La organización no existe
 #Documentos
 documents_title = ObservaTerra: Documentos
 documents_my_documents = Mis documentos
