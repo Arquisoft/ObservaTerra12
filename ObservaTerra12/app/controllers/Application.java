@@ -82,12 +82,66 @@ public class Application extends Controller {
 				
 				User user = usuariosDao.buscarUsuario(userName);
 				if (user != null)
-					return Messages.get("register_form_error_already_in_use");
+					return Messages.get("register_form_error_user_name_already_in_use");
 				
 				if (organization != null && organization != "") {
 	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(organization);
 			    	if (organizacion == null)
 						return Messages.get("register_form_error_organization_no_exists");
+				}
+		    	
+				return null;
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return Messages.get("error_bd");
+			}
+		}
+	}
+	
+	/**
+	 * Clase utilizada para el formulario de cambio de datos.
+	 * 
+	 * @author Nacho & Manuel
+	 */
+	public static class ChangeData {
+		
+		public String password;
+
+		@Required(message="change_data_form_error_name_required")
+		public String name;
+		@Required(message="change_data_form_error_surname_required")
+		public String surname;
+		@Required(message="change_data_form_error_email_required")
+		@Email(message="change_data_form_error_email_invalid")
+		public String email;
+		public String organization;
+		
+		public static ChangeData configure() {
+			// Carga los datos del usuario actual
+			UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+			ChangeData cd = new ChangeData();
+			
+			try {
+				User usuario = usuariosDao.buscarUsuario(session().get("userName"));
+				cd.name = usuario.getName();
+				cd.surname = usuario.getSurname();
+				cd.email = usuario.getEmail();
+				if (usuario.getOrganization() != null)
+					cd.organization = usuario.getOrganization().getNombre();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			return cd;
+		}
+		
+		public String validate() {
+			try {
+				OrganizacionesDAO organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
+				
+				if (organization != null && organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(organization);
+			    	if (organizacion == null)
+						return Messages.get("change_data_error_organization_no_exists");
 				}
 		    	
 				return null;
@@ -179,6 +233,48 @@ public class Application extends Controller {
     public static Result logout() {
     	session().clear();
         return redirect(routes.Application.index());
+    }
+
+    public static Result changeData() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+        return ok(change_data.render(form(ChangeData.class).fill(ChangeData.configure())));
+    }
+
+    public static Result changeUserData() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+	    Form<ChangeData> changeDataForm = form(ChangeData.class).bindFromRequest();
+	    if (changeDataForm.hasErrors())
+	    	return badRequest(change_data.render(changeDataForm));
+	    else {
+			UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+	    	OrganizacionesDAO organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
+
+	    	try {
+		    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+		    	
+		    	if (changeDataForm.get().password != null && changeDataForm.get().password != "")
+		    		user.setPassword(changeDataForm.get().password);
+	
+		    	user.setName(changeDataForm.get().name);
+		    	user.setSurname(changeDataForm.get().surname);
+		    	user.setEmail(changeDataForm.get().email);
+	    	
+	    		if (changeDataForm.get().organization != null && changeDataForm.get().organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(changeDataForm.get().organization);
+			    	user.setOrganization(organizacion);
+	    		}
+		    	
+		    	usuariosDao.actualizarUsuario(user);
+			} catch (SQLException e) {
+				return badRequest(error.render());
+			}
+	    	
+	    	return redirect(routes.Application.userPanel());
+	    }
     }
     
     public static Result documents() {
@@ -346,5 +442,15 @@ public class Application extends Controller {
 		}
 		
         return documents();
+    }
+    
+    public static Result searchObservations() {
+    	//TODO
+    	return TODO;
+    }
+    
+    public static Result compareObservations() {
+    	//TODO
+    	return TODO;
     }
 }
