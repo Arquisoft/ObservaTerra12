@@ -69,7 +69,7 @@ public class ConectorTest {
 	@Test
 	public void testUN() {
 		try {
-			conectorUN = ConectorUnitedNations.getInstance("COMPONENTS");
+			conectorUN = ConectorUnitedNations.getInstance("UN");
 			conectorUN.preparar();
 			conectorUN.start();
 

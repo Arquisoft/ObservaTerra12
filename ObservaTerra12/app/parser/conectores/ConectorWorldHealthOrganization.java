@@ -25,6 +25,9 @@ import com.google.gson.JsonParser;
  * Clase conector con la API de la World Health Organization
  * 
  * 
+ * VERSION PRELIMINAR
+ * 
+ * 
  * @author Pablo Garcia Fernandez
  * 
  */

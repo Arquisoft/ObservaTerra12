@@ -3,12 +3,14 @@ package parser;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import persistencia.implJdbc.TiempoJdbc;
 import model.Area;
 import model.Country;
 import model.Indicator;
@@ -67,7 +69,11 @@ public class ParserJsonUN extends AbstractParser {
 					Date endDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-12-31 23:59:59.000000");
-					Time time = new Time(startDate, endDate);
+					TiempoJdbc tiempoDao = new TiempoJdbc();
+					Time time = tiempoDao.buscarIntervaloTiempo(startDate,
+							endDate);
+					if (time == null)
+						time = new Time(startDate, endDate);
 
 					Observation obs = new Observation(area, indicator, measure,
 							time, provider, submission);
@@ -83,6 +89,9 @@ public class ParserJsonUN extends AbstractParser {
 			e.printStackTrace();
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		return observations;
 	}
