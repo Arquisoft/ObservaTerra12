@@ -1,15 +1,19 @@
 package parser.conectores;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.sql.SQLException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
+
+import org.apache.commons.io.FileUtils;
 
 import model.Indicator;
 import model.Provider;
@@ -89,14 +93,11 @@ public class ConectorWorldHealthOrganization extends Conector {
 		// ********************
 		try {
 			// Guardando el fichero y trabajando sobre la version local
-			// File file = new File(
-			// "public/crawler/downloads/who/listLabelObservationsWorldHealthOrganization.json");
-			// FileUtils.copyURLToFile(new URL(url), file);
+			File fileListado = new File(
+					"public/crawler/downloads/WHO/listLabelObservationsWorldHealthOrganization.json");
+			FileUtils.copyURLToFile(new URL(url), fileListado);
 
-			descargaFicheroJson(url,
-					"listLabelObservationsWorldHealthOrganization");
-
-			br = new BufferedReader(new FileReader(file));
+			br = new BufferedReader(new FileReader(fileListado));
 
 			parser = new JsonParser();
 
@@ -144,14 +145,9 @@ public class ConectorWorldHealthOrganization extends Conector {
 			Entry<String, String> pairs = (Entry<String, String>) it.next();
 			String label = pairs.getKey().toString();
 			String display = pairs.getValue().toString();
-			// String url = construyeUrl(label);
 
 			try {
 				// Guardando el fichero y trabajando sobre la version local
-				// File file = new File("public/crawler/downloads/who/" + label
-				// + ".json");
-				//
-				// FileUtils.copyURLToFile(new URL(url), file);
 
 				descargaFicheroJson(construyeUrl(label), label);
 
