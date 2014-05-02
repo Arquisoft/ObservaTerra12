@@ -14,11 +14,8 @@
     	<div class="wrapper">
     		<div class="nav">
     			<ul>
-    				<l1><a href="#">Opción A</a></l1>
-    				<l1><a href="#">Opción B</a></l1>
-    				<l1><a href="#">Opción C</a></l1>
-    				<l1><a href="#">Opción D</a></l1>
-    			</ul>
+    			
+    			
     		</div>
     		
         	@content

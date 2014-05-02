@@ -1,7 +1,7 @@
 @(form: Form[Application.Login])
 @import play.i18n._
 
-@home(Messages.get("index_title")) {
+@main(Messages.get("index_title")) {
 	
 	<br>
 	<center><h1 class="logo">LOGO TODO</h1></center>
@@ -13,23 +13,23 @@
 		@helper.form(routes.Application.authenticate) {
 			@if(form.hasGlobalErrors) {
 				<span class="error">@form.globalError.message</p></span>
-			}
+		}
 		
-			<span class="validationError">
+		<span class="validationError">
 			@if(!form.field("userName").errors().isEmpty()) {
 				@Messages.get(form.field("userName").errors().get(0).message())
 			}
-			</span>
-			<input type="text" name="userName" placeholder="@Messages.get("index_form_user_name")" value='@form("userName").value'/>
+		</span>
+		<input type="text" name="userName" placeholder="@Messages.get("index_form_user_name")" value='@form("userName").value'/>
 
-			<span class="validationError">
+		<span class="validationError">
 			@if(!form.field("password").errors().isEmpty()) {
 				@Messages.get(form.field("password").errors().get(0).message())
 			}
-			</span>
-			<input type="password" name="password" placeholder="@Messages.get("index_form_password")"/>
+		</span>
+		<input type="password" name="password" placeholder="@Messages.get("index_form_password")"/>
 
-			<button type="submit">@Messages.get("index_form_login")</button>	
+		<button type="submit">@Messages.get("index_form_login")</button>	
 		}
 	</div>
 		

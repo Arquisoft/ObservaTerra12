@@ -14,10 +14,10 @@
     	<div class="wrapper">
     		<div class="nav">
     			<ul>
-    				<l1><a href="#">Opción A</a></l1>
-    				<l1><a href="#">Opción B</a></l1>
-    				<l1><a href="#">Opción C</a></l1>
-    				<l1><a href="#">Opción D</a></l1>
+    				<l1>A</l1>
+    				<l1>B</l1>
+    				<l1>C</l1>
+    				<l1>D</l1>
     			</ul>
     		</div>
     		
