@@ -30,6 +30,7 @@ register_form_error_email_required = Campo requerido
 register_form_error_email_invalid = Formato incorrecto => usuario@servidor.dominio
 register_form_organization = Organización
 register_form_error_organization_required = Campo requerido
+register_form_error_organization_no_exists = Esa organización no existe
 #Panel de usuario
 panel_title = ObservaTerra: Panel de usuario
 panel_logout = Desconectarse

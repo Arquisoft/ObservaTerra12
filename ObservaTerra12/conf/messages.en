@@ -29,7 +29,8 @@ register_form_email = Email
 register_form_error_email_required = Required
 register_form_error_email_invalid = Invalid format => user@server.domain
 register_form_organization = Organization
-register_form_error_user_name_required = Required
+register_form_error_organization_required = Required
+register_form_error_organization_no_exists = That organization doesn't exist
 #User panel
 panel_title = ObservaTerra: User panel.
 panel_logout = Logout

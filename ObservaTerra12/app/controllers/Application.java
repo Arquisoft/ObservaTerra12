@@ -73,15 +73,23 @@ public class Application extends Controller {
 		@Required(message="register_form_error_email_required")
 		@Email(message="register_form_error_email_invalid")
 		public String email;
-		@Required(message="register_form_error_organization_required")
 		public String organization;
 		
 		public String validate() {
 			try {
 				UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+				OrganizacionesDAO organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
+				
 				User user = usuariosDao.buscarUsuario(userName);
 				if (user != null)
 					return Messages.get("register_form_error_already_in_use");
+				
+				if (organization != null && organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(organization);
+			    	if (organizacion == null)
+						return Messages.get("register_form_error_organization_no_exists");
+				}
+		    	
 				return null;
 			} catch (SQLException e) {
 				e.printStackTrace();
@@ -139,15 +147,11 @@ public class Application extends Controller {
 	    	
 	    	user.setRol("PENDIENTE");
 	    	
-	    	try {
-		    	// Comprueba las organizaciones	
-		    	Organization organizacion = organizacionesDao.buscarOrganizacionPorNombre(registerForm.get().organization);
-		    	if (organizacion == null) {
-		    		organizacion = new Organization();
-		    		organizacion.setNombre(registerForm.get().organization);
-		    		organizacion = organizacionesDao.crearOrganizacion(organizacion);
-		    	}
-		    	user.setOrganization(organizacion);
+	    	try {	    		
+	    		if (registerForm.get().organization != null && registerForm.get().organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(registerForm.get().organization);
+			    	user.setOrganization(organizacion);
+	    		}
 		    	
 		    	user = usuariosDao.crearUsuario(user);
 			} catch (SQLException e) {
