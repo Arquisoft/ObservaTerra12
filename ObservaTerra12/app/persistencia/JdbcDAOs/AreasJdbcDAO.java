@@ -292,4 +292,35 @@ public class AreasJdbcDAO implements AreasDAO {
 		return leida;
 	}
 
+	@Override
+	public Area buscarAreaYPaisPorNombre(String name) throws SQLException {
+		if (name == null || name.isEmpty())
+			throw new IllegalArgumentException("Parámetro malformado");
+
+		Connection con = DBConnection.getConnection();
+		this.areasJDBC.setConnection(con);
+		Area a = this.areasJDBC.buscarAreaYPaisPorNombre(name);
+		con.close();
+		return a;
+	}
+
+	/**
+	 * Busca un area o un pais en función de su identificador.
+	 * 
+	 * @param idArea - Identificador único.
+	 * @return Area/Pais encontrado
+	 * @throws SQLException
+	 */
+	@Override
+	public Area buscarAreaYPaisPorId(Long idArea) throws SQLException
+	{
+		if (idArea == null)
+			throw new IllegalArgumentException("Parámetro malformado");
+
+		Connection con = DBConnection.getConnection();
+		this.areasJDBC.setConnection(con);
+		Area a = this.areasJDBC.buscarAreaYPaisPorId(idArea);
+		con.close();
+		return a;
+	}
 }

@@ -35,9 +35,18 @@ public class TiempoJdbcDAO implements TiempoDAO {
 					"No se ha indicado el intervalo a crear.");
 
 		Connection con = DBConnection.getConnection();
-		this.tiempoJDBC.setConnection(con);
-		Time t = this.tiempoJDBC.crearIntervalo(intervalo);
-		con.close();
+		Time t = null;
+		try {
+			con.setAutoCommit(false);
+			this.tiempoJDBC.setConnection(con);
+			t = this.tiempoJDBC.crearIntervalo(intervalo);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 		return t;
 	}
 
@@ -56,9 +65,17 @@ public class TiempoJdbcDAO implements TiempoDAO {
 					"No se puede borrar el intervalo sin su identificador único.");
 
 		Connection con = DBConnection.getConnection();
-		this.tiempoJDBC.setConnection(con);
-		this.tiempoJDBC.borrarIntervalo(intervalo);
-		con.close();
+		try {
+			con.setAutoCommit(false);
+			this.tiempoJDBC.setConnection(con);
+			this.tiempoJDBC.borrarIntervalo(intervalo);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 	}
 
 	/*

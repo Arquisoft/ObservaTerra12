@@ -32,7 +32,9 @@ public class IndicadoresJdbc {
 
 	/**
 	 * Añade un nuevo indicador a la base de datos.
-	 * @param indicador - Indicador a guardar.
+	 * 
+	 * @param indicador
+	 *            - Indicador a guardar.
 	 * @return - Indicador guardado, con su nuevo identificador único.
 	 * @throws SQLException
 	 */
@@ -49,7 +51,6 @@ public class IndicadoresJdbc {
 
 		indicador.setIdIndicator(proximoID);
 		return indicador;
-
 	}
 
 	/**
@@ -75,9 +76,11 @@ public class IndicadoresJdbc {
 	}
 
 	/**
-	 * Recupera un indicador de la base de datos en función de su 
-	 * identificador único.
-	 * @param idIndicador - Identificador único del indicador.
+	 * Recupera un indicador de la base de datos en función de su identificador
+	 * único.
+	 * 
+	 * @param idIndicador
+	 *            - Identificador único del indicador.
 	 * @return Identificador encontrado (si se encontró)
 	 * @throws SQLException
 	 */
@@ -103,7 +106,9 @@ public class IndicadoresJdbc {
 
 	/**
 	 * Recoge un indicador de la base de datos en función de su nombre.
-	 * @param nombreIndicador - Nombre del indicador a recoger
+	 * 
+	 * @param nombreIndicador
+	 *            - Nombre del indicador a recoger
 	 * @return Indicador encontrado.
 	 * @throws SQLException
 	 */
@@ -129,13 +134,13 @@ public class IndicadoresJdbc {
 
 	/**
 	 * Elabora un listado con todos los indicadores registrados en el sistema.
+	 * 
 	 * @return Listado de indicadores registrados en el sistema
 	 * @throws SQLException
 	 */
-	public List<Indicator> listarTodosLosIndicadores() throws SQLException 
-	{
+	public List<Indicator> listarTodosLosIndicadores() throws SQLException {
 		String SQL = "SELECT * FROM indicadores";
-		
+
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
 
@@ -155,35 +160,37 @@ public class IndicadoresJdbc {
 
 	/**
 	 * Elimina un indicador del sistema, en base a su identificador único.
-	 * @param indicador - Identificador a eliminar.
+	 * 
+	 * @param indicador
+	 *            - Identificador a eliminar.
 	 * @throws SQLException
 	 */
-	public void eliminarIndicador(Indicator indicador) throws SQLException 
-	{
+	public void eliminarIndicador(Indicator indicador) throws SQLException {
 		String SQL = "DELETE FROM indicadores WHERE id_indicador=?";
-		
+
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, indicador.getIdIndicator());
 		pst.executeUpdate();
-		
+
 		pst.close();
 	}
 
 	/**
 	 * Actualiza un indicador de la base de datos.
-	 * @param indicador - Identificador a actualizar.
+	 * 
+	 * @param indicador
+	 *            - Identificador a actualizar.
 	 * @throws SQLException
 	 */
-	public void actualizarIndicador(Indicator indicador) throws SQLException 
-	{
+	public void actualizarIndicador(Indicator indicador) throws SQLException {
 		String SQL = "UPDATE INDICADORES SET nombre = ? WHERE id_indicador =?";
-	
+
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, indicador.getNombre());
 		pst.setLong(2, indicador.getIdIndicator());
 		pst.executeUpdate();
-		
-		pst.close();		
+
+		pst.close();
 	}
 
 }

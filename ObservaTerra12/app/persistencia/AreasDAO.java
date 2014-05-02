@@ -131,5 +131,24 @@ public interface AreasDAO {
 	 */
 	public void anularAsociacionSubarea(Area areaPertenece, Area subarea)
 			throws SQLException;
+	
+	/**
+	 * Busca un area o un pais en función de su nombre.
+	 * 
+	 * @param name
+	 *            - Nombre del area
+	 * @return Area/Pais encontrado
+	 * @throws SQLException
+	 */
+	public Area buscarAreaYPaisPorNombre(String name) throws SQLException;
+
+	/**
+	 * Busca un area o un pais en función de su identificador.
+	 * 
+	 * @param idArea - Identificador único.
+	 * @return Area/Pais encontrado
+	 * @throws SQLException
+	 */
+	public Area buscarAreaYPaisPorId(Long idArea) throws SQLException;
 
 }

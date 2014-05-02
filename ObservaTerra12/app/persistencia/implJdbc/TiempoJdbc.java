@@ -45,6 +45,7 @@ public class TiempoJdbc {
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, id);
 		pst.setLong(2, intervalo.getStartDate().getTime());
+		// Si tiene fecha de fin de intervalo
 		if (intervalo.getEndDate() != null) {
 			pst.setLong(3, intervalo.getEndDate().getTime());
 		} else {
@@ -144,11 +145,11 @@ public class TiempoJdbc {
 		ResultSet rs = null;
 		PreparedStatement pst = null;
 
-		if (endDate == null) {
+		if (endDate == null) { // Si solo tiene fecha de principio
 			pst = con.prepareStatement(SQL_SOLO_START_DATE);
 			pst.setLong(1, startDate.getTime());
 			rs = pst.executeQuery();
-		} else {
+		} else { // Si también tiene fecha de fin
 			pst = con.prepareStatement(SQL);
 			pst.setLong(1, startDate.getTime());
 			pst.setLong(2, endDate.getTime());

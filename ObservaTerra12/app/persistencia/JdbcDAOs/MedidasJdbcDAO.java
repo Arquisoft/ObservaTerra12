@@ -35,9 +35,17 @@ public class MedidasJdbcDAO implements MedidasDAO {
 			throw new IllegalArgumentException("Parámetro malformado");
 
 		Connection con = DBConnection.getConnection();
-		this.medidasJDBC.setConnection(con);
-		Measure m = this.medidasJDBC.crearMedida(measure);
-		con.close();
+		Measure m = null;
+		try {
+			this.medidasJDBC.setConnection(con);
+			m = this.medidasJDBC.crearMedida(measure);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 		return m;
 	}
 
@@ -51,12 +59,20 @@ public class MedidasJdbcDAO implements MedidasDAO {
 		if (medida == null)
 			throw new IllegalArgumentException("Parámetro malformado");
 		else if (medida.getIdMeasure() == null)
-			throw new IllegalArgumentException("No se puede borrar sin el identificador único.");
+			throw new IllegalArgumentException(
+					"No se puede borrar sin el identificador único.");
 
 		Connection con = DBConnection.getConnection();
-		this.medidasJDBC.setConnection(con);
-		this.medidasJDBC.borrarMedida(medida);
-		con.close();
+		try {
+			this.medidasJDBC.setConnection(con);
+			this.medidasJDBC.borrarMedida(medida);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 	}
 
 	/*
@@ -70,12 +86,12 @@ public class MedidasJdbcDAO implements MedidasDAO {
 	public Measure buscarMedidaPorIdentificador(Long identificador)
 			throws SQLException {
 		if (identificador == null)
-			throw new IllegalArgumentException("No se ha indicado el identificador.");
+			throw new IllegalArgumentException(
+					"No se ha indicado el identificador.");
 
 		Connection con = DBConnection.getConnection();
 		this.medidasJDBC.setConnection(con);
-		Measure m = this.medidasJDBC
-				.buscarMedidaPorIdentificador(identificador);
+		Measure m = this.medidasJDBC.buscarMedidaPorIdentificador(identificador);
 		con.close();
 		return m;
 	}
