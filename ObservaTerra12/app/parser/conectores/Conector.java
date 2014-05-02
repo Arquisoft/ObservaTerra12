@@ -41,12 +41,20 @@ public abstract class Conector {
 	List<Observation> observations;
 	static final String PROPERTIES = "public/crawler/configuration/conector.properties";
 
+	/**
+	 * Inicializa todos los parametros necesarios antes de la ejecucion
+	 * 
+	 * @throws IOException
+	 */
 	public void preparar() throws IOException {
 		cargaProperties();
 		startDaos();
-		setCrawlerUser();
+		setUser();
 	}
 
+	/**
+	 * Comienza la ejecucion del conector
+	 */
 	public void start() {
 	}
 
@@ -85,7 +93,7 @@ public abstract class Conector {
 	 * @return
 	 * @throws SQLException
 	 */
-	protected Provider getProvider(String providerName,
+	protected Provider generarProvider(String providerName,
 			String providerCountryName, String providerTipo)
 			throws SQLException {
 		Provider provider = organizacionesDao.leerProvedor(providerName);
@@ -127,7 +135,7 @@ public abstract class Conector {
 	 * Recupera el usuario del Crawler para insertar datos
 	 * 
 	 */
-	private void setCrawlerUser() {
+	private void setUser() {
 		try {
 			user = usersDao.leerUsuario("crawler", "crawler");
 		} catch (SQLException e) {

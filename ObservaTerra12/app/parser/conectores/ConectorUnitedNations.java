@@ -36,7 +36,7 @@ public class ConectorUnitedNations extends Conector {
 	private static ConectorUnitedNations instance;
 
 	private ConectorUnitedNations(String key) {
-
+		this.key = key;
 	}
 
 	public static ConectorUnitedNations getInstance(String key)
@@ -97,7 +97,7 @@ public class ConectorUnitedNations extends Conector {
 							+ "-12-31 23:59:59.000000");
 					Time time = new Time(startDate, endDate);
 
-					Provider provider = getProvider("United Nations",
+					Provider provider = generarProvider("United Nations",
 							"United States of America", "ONG");
 
 					Submission submission = new Submission(new Date(), user);

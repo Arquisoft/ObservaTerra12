@@ -70,7 +70,7 @@ public class ConectorTest {
 	public void testUN() {
 		try {
 			conectorUN = ConectorUnitedNations.getInstance("COMPONENTS");
-
+			conectorUN.preparar();
 			conectorUN.start();
 
 			assertTrue(areasDao.leerPais("Australia").getName()

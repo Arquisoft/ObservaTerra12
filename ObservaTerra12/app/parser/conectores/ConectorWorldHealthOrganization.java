@@ -148,6 +148,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 */
 	@Override
 	public void start() {
+		super.start();
 		Iterator<Entry<String, String>> it = consultasDisponibles.entrySet()
 				.iterator();
 
@@ -165,7 +166,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 				FileUtils.copyURLToFile(new URL(url), file);
 
-				Provider provider = getProvider(
+				Provider provider = generarProvider(
 						(String) properties.get(key + "_NAME"),
 						(String) properties.get(key + "_COUNTRY"),
 						(String) properties.get(key + "_TYPE"));
