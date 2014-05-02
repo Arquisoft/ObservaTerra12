@@ -41,20 +41,21 @@ public abstract class Conector {
 	List<Observation> observations;
 	static final String PROPERTIES = "public/crawler/configuration/conector.properties";
 
-	protected void inicializaConector() throws IOException {
+	public void preparar() throws IOException {
 		cargaProperties();
+		startDaos();
+		setCrawlerUser();
+	}
+
+	public void start() {
+	}
+
+	private void startDaos() {
 		usersDao = PersistenceFactory.createUsuariosDAO();
 		organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
 		areasDao = PersistenceFactory.createAreasDAO();
 		entradasDao = PersistenceFactory.createEntradasDAO();
 		observacionesDao = PersistenceFactory.createObservacionesDAO();
-		setUser();
-	}
-
-	public void preparar() {
-	}
-
-	public void start() {
 	}
 
 	/**
@@ -126,7 +127,7 @@ public abstract class Conector {
 	 * Recupera el usuario del Crawler para insertar datos
 	 * 
 	 */
-	private void setUser() {
+	private void setCrawlerUser() {
 		try {
 			user = usersDao.leerUsuario("crawler", "crawler");
 		} catch (SQLException e) {

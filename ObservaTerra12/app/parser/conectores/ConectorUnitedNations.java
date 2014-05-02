@@ -35,8 +35,8 @@ public class ConectorUnitedNations extends Conector {
 
 	private static ConectorUnitedNations instance;
 
-	private ConectorUnitedNations(String key) throws IOException {
-		inicializaConector();
+	private ConectorUnitedNations(String key) {
+
 	}
 
 	public static ConectorUnitedNations getInstance(String key)
@@ -48,7 +48,8 @@ public class ConectorUnitedNations extends Conector {
 	}
 
 	@Override
-	public void preparar() {
+	public void preparar() throws IOException {
+		super.preparar();
 	}
 
 	@Override
@@ -122,8 +123,6 @@ public class ConectorUnitedNations extends Conector {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (ParseException e1) {
-			e1.printStackTrace();
-		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 

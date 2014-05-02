@@ -52,7 +52,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private Map<String, String> consultasDisponibles;
 
 	private ConectorWorldHealthOrganization(String key) throws IOException {
-		inicializaConector();
 		this.key = key;
 	}
 
@@ -95,7 +94,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 * esas observaciones
 	 */
 	@Override
-	public void preparar() {
+	public void preparar() throws IOException {
+		super.preparar();
 		String url = (String) properties.get(key + "_LIST");
 		consultasDisponibles = new HashMap<String, String>(); // Label - Display
 		BufferedReader br;
