@@ -123,9 +123,17 @@ public class IndicadoresJdbcDAO implements IndicadoresDAO {
 					"No se puede eliminar sin el identificador único.");
 
 		Connection con = DBConnection.getConnection();
-		this.indicadoresJDBC.setConnection(con);
-		this.indicadoresJDBC.eliminarIndicador(indicador);
-		con.close();
+		try {
+			con.setAutoCommit(false);
+			this.indicadoresJDBC.setConnection(con);
+			this.indicadoresJDBC.eliminarIndicador(indicador);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 	}
 
 	/*
@@ -144,9 +152,16 @@ public class IndicadoresJdbcDAO implements IndicadoresDAO {
 					"No se puede actualizar sin el identificador único.");
 
 		Connection con = DBConnection.getConnection();
-		this.indicadoresJDBC.setConnection(con);
-		this.indicadoresJDBC.actualizarIndicador(indicador);
-		con.close();
+		try {
+			this.indicadoresJDBC.setConnection(con);
+			this.indicadoresJDBC.actualizarIndicador(indicador);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 	}
 
 }

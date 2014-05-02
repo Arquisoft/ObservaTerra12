@@ -56,21 +56,18 @@ public class AreasTest {
 		//Recuperarla por nombre
 		Area leida = areasDAO.leerArea("Area principal");
 		
-		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
-		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
+		org.junit.Assert.assertEquals(leida, this.area);
 				
 		//Recuperarla por id
 		org.junit.Assert.assertNotNull(this.area.getIdArea());
 		leida = areasDAO.buscarArea(this.area.getIdArea());
 		
-		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
-		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
+		org.junit.Assert.assertEquals(leida, this.area);
 		
 		//Leer subareas
 		leida = areasDAO.leerSubAreas(this.area);
 		
-		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
-		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
+		org.junit.Assert.assertEquals(leida, this.area);
 		
 		for(int i=0; i<leida.getAreas().size(); i++)
 		{
@@ -90,8 +87,7 @@ public class AreasTest {
 		//Recuperarla por nombre
 		Area leida = areasDAO.leerArea("nombreArea00001");
 		
-		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
-		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());	
+		org.junit.Assert.assertEquals(leida, this.area);
 	}
 
 	
@@ -108,8 +104,7 @@ public class AreasTest {
 		//Comprobar subareas
 		Area leida = areasDAO.leerSubAreas(this.area);
 		
-		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
-		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
+		org.junit.Assert.assertEquals(leida, this.area);
 		
 		for(int i=0; i<leida.getAreas().size(); i++)
 		{
@@ -130,8 +125,7 @@ public class AreasTest {
 		//Comprobar subareas
 		Area leida = areasDAO.leerSubAreas(this.area);
 		
-		org.junit.Assert.assertTrue(leida.getIdArea() == this.area.getIdArea());
-		org.junit.Assert.assertEquals(leida.getName(), this.area.getName());
+		org.junit.Assert.assertEquals(leida, this.area);
 		
 		for(int i=0; i<leida.getAreas().size(); i++)
 		{

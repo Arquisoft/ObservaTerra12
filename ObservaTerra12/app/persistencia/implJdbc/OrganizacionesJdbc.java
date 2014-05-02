@@ -45,36 +45,30 @@ public class OrganizacionesJdbc {
 		String SQL = "INSERT INTO ORGANIZACION (ID_ORGANIZACION,NOMBRE_ORGANIZACION,TIPO,ES_PROVEEDOR,ID_PAIS) VALUES (?,?,?,?,?)";
 
 		PreparedStatement pst = null;
-		try {
-			con.setAutoCommit(false);
-			// Calcular el proximo identificador
-			organizacion.setIdOrganization(proximoIdentificadorOrganizacion());
-			// Guardar la organización nueva
-			pst = con.prepareStatement(SQL);
-			pst.setLong(1, organizacion.getIdOrganization());
-			pst.setString(2, organizacion.getNombre());
-			pst.setString(3, organizacion.getTipoOrganizacion());
 
-			// registrar como proveedor o no
-			if (organizacion instanceof Provider)
-				pst.setString(4, "SI");
-			else
-				pst.setString(4, "NO");
+		// Calcular el proximo identificador
+		organizacion.setIdOrganization(proximoIdentificadorOrganizacion());
+		// Guardar la organización nueva
+		pst = con.prepareStatement(SQL);
+		pst.setLong(1, organizacion.getIdOrganization());
+		pst.setString(2, organizacion.getNombre());
+		pst.setString(3, organizacion.getTipoOrganizacion());
 
-			// PAIS
-			if (organizacion.getCountry() != null
-					&& organizacion.getCountry().getIdArea() != null)
-				pst.setLong(5, organizacion.getCountry().getIdArea());
-			else
-				pst.setNull(5, java.sql.Types.INTEGER);
+		// registrar como proveedor o no
+		if (organizacion instanceof Provider)
+			pst.setString(4, "SI");
+		else
+			pst.setString(4, "NO");
 
-			pst.executeUpdate();
-			con.commit();
-		} catch (Exception e) {
-			con.rollback();
-		} finally {
-			pst.close();
-		}
+		// PAIS
+		if (organizacion.getCountry() != null
+				&& organizacion.getCountry().getIdArea() != null)
+			pst.setLong(5, organizacion.getCountry().getIdArea());
+		else
+			pst.setNull(5, java.sql.Types.INTEGER);
+
+		pst.executeUpdate();
+		pst.close();
 
 		return organizacion;
 	}
@@ -124,17 +118,7 @@ public class OrganizacionesJdbc {
 		Organization org = null;
 
 		while (rs.next()) {
-			// Comprueba si es proveedora o no
-			String esProveedor = rs.getString("es_proveedor");
-			switch (esProveedor.toUpperCase()) {
-			case ("SI"):
-				org = new Provider();
-				break;
-			case ("NO"):
-				org = new Organization();
-				break;
-			}
-
+			org = new Organization();
 			org.setIdOrganization(idOrganizacion);
 			org.setNombre(rs.getString("nombre_organizacion"));
 			org.setTipoOrganizacion(rs.getString("tipo"));
@@ -144,13 +128,42 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(idOrganizacion));
 		}
 
 		pst.close();
 		rs.close();
 
 		return org;
+	}
+	
+	/**
+	 * Función auxiliar que recupera las suborganizaciones de una en concreto.
+	 * @param idOrganizacion - Organizacion encontrada,
+	 * @return suborganizaciones
+	 * @throws SQLException
+	 */
+	private List<Organization> leerSuborganizaciones(Long idOrganizacion) throws SQLException
+	{
+		String SQL = "SELECT * FROM compuestade WHERE id_organizacion_pertenece = ?";
+		
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idOrganizacion);
+		ResultSet rs = pst.executeQuery();
+		
+		List<Organization> lista = new ArrayList<Organization>();
+		
+		while(rs.next())
+		{
+			Long idOrg = rs.getLong("id_organizacion_referenciada");
+			Organization subOrganization = this.leerOrganizacionOProveedor(idOrg);
+			lista.add(subOrganization);
+		}
+		
+		return lista;
 	}
 
 	/**
@@ -229,8 +242,12 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
-
+			
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
+			
 			organizaciones.add(org);
 		}
 
@@ -259,7 +276,11 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
 
 			proveedores.add(org);
 		}
@@ -290,7 +311,11 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
 		}
 
 		pst.close();
@@ -326,7 +351,10 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
 		}
 
 		rs.close();
@@ -363,7 +391,10 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
 		}
 
 		pst.close();
@@ -401,7 +432,10 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
 		}
 
 		pst.close();
@@ -414,7 +448,8 @@ public class OrganizacionesJdbc {
 	 * Recupera una organización o un proveedor de la base de datos en base a su
 	 * nombre.
 	 * 
-	 * @param nombreOrganizacion - Nombre de la organización a buscar.
+	 * @param nombreOrganizacion
+	 *            - Nombre de la organización a buscar.
 	 * @return - Organización encontrada.
 	 * @throws SQLException
 	 */
@@ -449,7 +484,10 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
 		}
 
 		pst.close();
@@ -458,7 +496,8 @@ public class OrganizacionesJdbc {
 		return org;
 	}
 
-	public Organization leerOrganizacionOProveedor(Long idOrganization) throws SQLException {
+	public Organization leerOrganizacionOProveedor(Long idOrganization)
+			throws SQLException {
 		String SQL = "SELECT * FROM organizacion WHERE id_organizacion=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -488,7 +527,10 @@ public class OrganizacionesJdbc {
 			if (idPais != null) {
 				Country c = new Country();
 				c.setIdArea(idPais);
+				org.setCountry(c);
 			}
+			//Leer las suborganizaciones
+			org.setOrganizations(this.leerSuborganizaciones(rs.getLong("id_organizacion")));
 		}
 
 		pst.close();
