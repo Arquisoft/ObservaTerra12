@@ -39,9 +39,18 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 					"No se ha indicado el usuario a crear.");
 
 		Connection con = DBConnection.getConnection();
-		this.usuariosJDBC.setConnection(con);
-		User us = this.usuariosJDBC.crearUsuario(usuario);
-		con.close();
+		User us = null;
+		try {
+			con.setAutoCommit(false);
+			this.usuariosJDBC.setConnection(con);
+			us = this.usuariosJDBC.crearUsuario(usuario);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 		return us;
 	}
 
@@ -61,9 +70,17 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 					"No se ha indicado el identificador del usuario.");
 
 		Connection con = DBConnection.getConnection();
-		this.usuariosJDBC.setConnection(con);
-		this.usuariosJDBC.eliminarUsuario(usuario);
-		con.close();
+		try {
+			con.setAutoCommit(false);
+			this.usuariosJDBC.setConnection(con);
+			this.usuariosJDBC.eliminarUsuario(usuario);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 	}
 
 	/*
@@ -84,7 +101,7 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 		this.usuariosJDBC.setConnection(con);
 		User us = this.usuariosJDBC.leerUsuario(nombreUsuario, claveUsuario);
 
-		// Buscar la organizacion
+		// Buscar y recuperar la organizacion
 		if (us != null && us.getOrganization() != null) {
 			OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
 			orgJDBC.setConnection(con);
@@ -111,9 +128,17 @@ public class UsuariosJdbcDAO implements UsuariosDAO {
 					"No se ha indicado el identificador del usuario.");
 
 		Connection con = DBConnection.getConnection();
-		this.usuariosJDBC.setConnection(con);
-		this.usuariosJDBC.actualizarUsuario(usuario);
-		con.close();
+		try {
+			con.setAutoCommit(false);
+			this.usuariosJDBC.setConnection(con);
+			this.usuariosJDBC.actualizarUsuario(usuario);
+			con.commit();
+		} catch (SQLException e) {
+			con.rollback();
+			throw e;
+		} finally {
+			con.close();
+		}
 	}
 
 	/*

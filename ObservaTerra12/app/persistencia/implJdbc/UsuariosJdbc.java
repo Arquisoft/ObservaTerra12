@@ -41,24 +41,17 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public User crearUsuario(User usuario) throws SQLException {
+		// Computa el siguiente id de usuario
+		Long id = leerSiguienteIdUsuario();
+		usuario.setIdUser(id);
+		// Inserta los datos de inicio de sesión
+		insertarUsuario(usuario);
+		// Inserta los datos de personales
+		insertarDatosPersonales(usuario);
+		// Ejecuta la transaccion
+		con.commit();
+		return usuario;
 
-		// Intentar ejecutar la transaccion
-		try {
-			con.setAutoCommit(false);
-			// Computa el siguiente id de usuario
-			Long id = leerSiguienteIdUsuario();
-			usuario.setIdUser(id);
-			// Inserta los datos de inicio de sesión
-			insertarUsuario(usuario);
-			// Inserta los datos de personales
-			insertarDatosPersonales(usuario);
-			// Ejecuta la transaccion
-			con.commit();
-			return usuario;
-		} catch (SQLException e) {
-			con.rollback();
-			throw new SQLException("Error creando el usuario", e);
-		}
 	}
 
 	/**
@@ -149,22 +142,20 @@ public class UsuariosJdbc {
 
 		PreparedStatement pst = null;
 		PreparedStatement pst2 = null;
-		try {
-			con.setAutoCommit(false);
-			pst = con.prepareStatement(SQL1);
-			pst.setLong(1, usuario.getIdUser());
-			pst.executeUpdate();
-			pst2 = con.prepareStatement(SQL2);
-			pst2.setLong(1, usuario.getIdUser());
-			pst2.executeUpdate();
-			con.commit();
-		} catch (SQLException e) {
-			con.rollback();
-			throw new SQLException("Eliminar usuario", e);
-		} finally {
-			pst.close();
-			pst2.close();
-		}
+
+		// aCTUALIZAR DATOS PERSONALES
+		pst = con.prepareStatement(SQL1);
+		pst.setLong(1, usuario.getIdUser());
+		pst.executeUpdate();
+		// aCTUALIZAR DATOS INICIO SESIÓN
+		pst2 = con.prepareStatement(SQL2);
+		pst2.setLong(1, usuario.getIdUser());
+		pst2.executeUpdate();
+		con.commit();
+
+		pst.close();
+		pst2.close();
+
 	}
 
 	/**
@@ -265,16 +256,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public void actualizarUsuario(User usuario) throws SQLException {
-		// Intentar ejecutar la transaccion
-		try {
-			con.setAutoCommit(false);
-			actualizarDatosUsuario(usuario);
-			actualizarDatosPersonales(usuario);
-			con.commit();
-		} catch (Exception e) {
-			con.rollback();
-			throw new SQLException("Actualizar usuario", e);
-		}
+		actualizarDatosUsuario(usuario);
+		actualizarDatosPersonales(usuario);
 	}
 
 	/**

@@ -409,4 +409,39 @@ public class AreasJdbc {
 		return area;
 	}
 
+	/**
+	 * Busca un area o un pais en función de su identificador.
+	 * 
+	 * @param idArea - Identificador único.
+	 * @return Area/Pais encontrado
+	 * @throws SQLException
+	 */
+	public Area buscarAreaYPaisPorId(Long idArea) throws SQLException {
+		String SQL = "SELECT * FROM areas WHERE id_area = ?";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idArea);
+		ResultSet rs = pst.executeQuery();
+
+		Area area = null;
+
+		while (rs.next()) {
+			switch (rs.getString("es_pais").toUpperCase()) {
+			case ("SI"):
+				area = new Country();
+				break;
+			case ("NO"):
+				area = new Area();
+				break;
+			}
+			area.setIdArea(rs.getLong("id_area"));
+			area.setName(rs.getString("nombre_area"));
+		}
+
+		rs.close();
+		pst.close();
+		return area;
+	
+	}
+
 }
