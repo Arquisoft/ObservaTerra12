@@ -62,6 +62,8 @@ public class ConectorTest {
 
 	@Test
 	public void testPruebaBorrar() {
+		// Test vacio para que se ejecute el "after" e imprimir todas las
+		// observaciones
 	}
 
 	@Test
