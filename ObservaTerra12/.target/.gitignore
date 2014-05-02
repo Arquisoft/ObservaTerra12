@@ -1,3 +1,6 @@
-/tests
 /controllers
-/views
+/crawler
+/model
+/parser
+/persistencia
+/tests
