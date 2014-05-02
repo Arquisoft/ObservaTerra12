@@ -25,12 +25,12 @@ import com.google.gson.JsonParser;
  * @author Pablo Garcia Fernandez
  * 
  */
-public class ParserJson extends AbstractParser {
+public class ParserJsonWHO extends AbstractParser {
 
 	BufferedReader br;
 	JsonParser parser;
 
-	public ParserJson() {
+	public ParserJsonWHO() {
 		observations = new ArrayList<Observation>();
 	}
 
@@ -91,7 +91,7 @@ public class ParserJson extends AbstractParser {
 					// TODO: Quitar estos System.out de pruebas
 				} catch (NullPointerException e) {
 					System.out
-							.println("Insertando observacion: FALLO al insertar (Formato no compatible)");
+							.println("Problema con la observacion (Formato no compatible)");
 				}
 			}
 

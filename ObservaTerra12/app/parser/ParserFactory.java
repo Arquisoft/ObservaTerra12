@@ -9,7 +9,7 @@ package parser;
 public class ParserFactory {
 
 	private final static String JSON = "json";
-	private final static String XML = "xml";
+	private final static String XLS = "xls";
 
 	/**
 	 * Este metodo crea y devuelve el objeto parser necesario para tratar el
@@ -17,12 +17,15 @@ public class ParserFactory {
 	 * 
 	 * @param formato
 	 *            El formato que se ecesita tratar.
+	 * @param string
 	 * @return Un objeto parser para tratar el determinado formato.
 	 */
-	public static Parser getParser(String formato) {
-		if (formato.equalsIgnoreCase(JSON))
-			return new ParserJson();
-		if (formato.equalsIgnoreCase(XML))
+	public static Parser getParser(String key, String formato) {
+		if (formato.equalsIgnoreCase(JSON) && key.equalsIgnoreCase("WHO"))
+			return new ParserJsonWHO();
+		if (formato.equalsIgnoreCase(JSON) && key.equalsIgnoreCase("UN"))
+			return new ParserJsonUN();
+		if (formato.equalsIgnoreCase(XLS))
 			return new ParserXLS();
 		throw new IllegalArgumentException("Formato no reconocido");
 

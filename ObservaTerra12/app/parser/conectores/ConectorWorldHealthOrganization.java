@@ -1,40 +1,22 @@
 package parser.conectores;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import model.Area;
-import model.Country;
 import model.Indicator;
-import model.Measure;
-import model.Observation;
 import model.Provider;
 import model.Submission;
-import model.Time;
-
-import org.apache.commons.io.FileUtils;
-
-import parser.Parser;
 import parser.ParserFactory;
-import parser.ParserJson;
 
 import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -104,9 +86,13 @@ public class ConectorWorldHealthOrganization extends Conector {
 		// ********************
 		try {
 			// Guardando el fichero y trabajando sobre la version local
-			File file = new File(
-					"public/crawler/downloads/who/listLabelObservationsWorldHealthOrganization.json");
-			FileUtils.copyURLToFile(new URL(url), file);
+			// File file = new File(
+			// "public/crawler/downloads/who/listLabelObservationsWorldHealthOrganization.json");
+			// FileUtils.copyURLToFile(new URL(url), file);
+
+			descargaFicheroJson(url,
+					"listLabelObservationsWorldHealthOrganization");
+
 			br = new BufferedReader(new FileReader(file));
 
 			parser = new JsonParser();
@@ -135,8 +121,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
 		}
 
 	}
@@ -149,6 +133,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 	@Override
 	public void start() {
 		super.start();
+
 		Iterator<Entry<String, String>> it = consultasDisponibles.entrySet()
 				.iterator();
 
@@ -156,15 +141,16 @@ public class ConectorWorldHealthOrganization extends Conector {
 			Entry<String, String> pairs = (Entry<String, String>) it.next();
 			String label = pairs.getKey().toString();
 			String display = pairs.getValue().toString();
-			String url = construyeUrl(label);
+			// String url = construyeUrl(label);
 
 			try {
-				System.out.println("Trabajando con el fichero: " + label);
 				// Guardando el fichero y trabajando sobre la version local
-				File file = new File("public/crawler/downloads/who/" + label
-						+ ".json");
+				// File file = new File("public/crawler/downloads/who/" + label
+				// + ".json");
+				//
+				// FileUtils.copyURLToFile(new URL(url), file);
 
-				FileUtils.copyURLToFile(new URL(url), file);
+				descargaFicheroJson(construyeUrl(label), label);
 
 				Provider provider = generarProvider(
 						(String) properties.get(key + "_NAME"),
@@ -173,8 +159,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 				Submission submission = new Submission(new Date(), user);
 
 				Indicator indicator = new Indicator(display);
-				miParser = ParserFactory.getParser((String) properties.get(key
-						+ "_FORMAT"));
+				miParser = ParserFactory.getParser(key,
+						(String) properties.get(key + "_FORMAT"));
 				miParser.setFile(file);
 				miParser.setKeySearch((String) properties.get(key + "_KEY"));
 				miParser.setIndicator(indicator);
@@ -184,8 +170,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 				observations = miParser.getParsedObservations();
 				insertaObservaciones();
 
-			} catch (IOException e) {
-				e.printStackTrace();
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
