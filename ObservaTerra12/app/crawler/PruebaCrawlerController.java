@@ -13,32 +13,142 @@ public class PruebaCrawlerController {
 	public static void main(String[] args) throws Exception {
 		PruebaCrawlerController p = new PruebaCrawlerController(5,
 				"public/crawler/temp/");
-		p.start();
+		p.start("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");
 	}
 
 	private int numberOfCrawlers;
 	private String crawlerFolder;
+	private CrawlConfig config;
 
 	/**
+	 * Constructor de la clase. Determina el numero de crawlers a 1 por defecto.
+	 * La carpeta de destino de las descargas la establece por defecto en
+	 * "public/crawler/temp/".
+	 */
+	public PruebaCrawlerController() {
+		this.numberOfCrawlers = 1;
+		this.crawlerFolder = "public/crawler/temp/";
+		this.config = new CrawlConfig();
+	}
+
+	/**
+	 * Constructor de la clase. Determina el numero de crawlers a 1 por defecto.
+	 * La carpeta de destino de las descargas la establece por defecto en
+	 * "public/crawler/temp/".
+	 * 
+	 * @param config
+	 *            Determina la configuracion del crawler.
+	 */
+	public PruebaCrawlerController(CrawlConfig config) {
+		this.numberOfCrawlers = 1;
+		this.crawlerFolder = "public/crawler/temp/";
+		this.config = config;
+	}
+
+	/**
+	 * Constructor de la clase.
 	 * 
 	 * @param numberOfCrawlers
+	 *            Numero de crawler a usar.
 	 * @param crawlerFolder
+	 *            Carpeta de destino de las descargas.
 	 */
 	public PruebaCrawlerController(int numberOfCrawlers, String crawlerFolder) {
 		this.crawlerFolder = crawlerFolder;
 		this.numberOfCrawlers = numberOfCrawlers;
+		this.config = new CrawlConfig();
 	}
 
-	public void start() throws Exception {
-		CrawlConfig config = new CrawlConfig();
+	/**
+	 * @param numberOfCrawlers
+	 *            Numero de crawler a usar.
+	 * @param crawlerFolder
+	 *            Carpeta de destino de las descargas.
+	 * @param config
+	 *            Determina la configuracion del crawler.
+	 */
+	public PruebaCrawlerController(int numberOfCrawlers, String crawlerFolder,
+			CrawlConfig config) {
+		this.numberOfCrawlers = numberOfCrawlers;
+		this.crawlerFolder = crawlerFolder;
+		this.config = config;
+	}
 
-		config.setCrawlStorageFolder(crawlerFolder);
+	/**
+	 * @return El numero de crawlers que se estan usando.
+	 */
+	public int getNumberOfCrawlers() {
+		return numberOfCrawlers;
+	}
+
+	/**
+	 * @param numberOfCrawlers Determina el nuevo numero de crawlers.
+	 */
+	public void setNumberOfCrawlers(int numberOfCrawlers) {
+		this.numberOfCrawlers = numberOfCrawlers;
+	}
+
+	/**
+	 * @return La carpeta de destino de las descargas.
+	 */
+	public String getCrawlerFolder() {
+		return crawlerFolder;
+	}
+
+	/**
+	 * @param crawlerFolder Determina la nueva carpeta de destino de las descargas.
+	 */
+	public void setCrawlerFolder(String crawlerFolder) {
+		this.crawlerFolder = crawlerFolder;
+	}
+
+	/**
+	 * @return La configuracion del crawler.
+	 */
+	public CrawlConfig getConfig() {
+		return config;
+	}
+
+	/**
+	 * @param config Determina la nueva configuracion del crawler.
+	 */
+	public void setConfig(CrawlConfig config) {
+		this.config = config;
+	}
+	
+	public void setCrawlStorageFolder(String crawlStorageFolder) {
+		this.config.setCrawlStorageFolder(crawlStorageFolder);
+	}
+	
+	public void setPolitenessDelay(int politenessDelay) {
+		this.config.setPolitenessDelay(politenessDelay);
+	}
+	
+	public void setMaxPagesToFetch(int maxPagesToFetch) {
+		this.config.setMaxPagesToFetch(maxPagesToFetch);
+	}
+	
+	public void setResumableCrawling(boolean resumableCrawling) {
+		this.config.setResumableCrawling(resumableCrawling);
+	}
+
+
+	/**
+	 * Metodo que pone en ejecucion el crawler
+	 * 
+	 * @param url
+	 *            Direccion de la pagina a descargar
+	 * @throws Exception
+	 */
+	public void start(String url) throws Exception {
+
+		setCrawlStorageFolder(crawlerFolder);
 
 		/*
 		 * Be polite: Make sure that we don't send more than 1 request per
 		 * second (1000 milliseconds between requests).
 		 */
-		config.setPolitenessDelay(1000);
+		setPolitenessDelay(1000);
 
 		/*
 		 * You can set the maximum crawl depth here. The default value is -1 for
@@ -50,7 +160,7 @@ public class PruebaCrawlerController {
 		 * You can set the maximum number of pages to crawl. The default value
 		 * is -1 for unlimited number of pages
 		 */
-		config.setMaxPagesToFetch(1000);
+		setMaxPagesToFetch(1000);
 
 		/*
 		 * This config parameter can be used to set your crawl to be resumable
@@ -59,7 +169,7 @@ public class PruebaCrawlerController {
 		 * want to start a fresh crawl, you need to delete the contents of
 		 * rootFolder manually.
 		 */
-		config.setResumableCrawling(false);
+		setResumableCrawling(false);
 
 		/*
 		 * Instantiate the controller for this crawl.
@@ -76,10 +186,9 @@ public class PruebaCrawlerController {
 		 * URLs that are fetched and then the crawler starts following links
 		 * which are found in these pages
 		 */
-		controller
-				.addSeed("http://apps.who.int/gho/athena/api/COUNTRY?format=json/");
-		controller
-				.addSeed("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");
+		/*controller.addSeed("http://apps.who.int/gho/athena/api/COUNTRY?format=json/");
+		controller.addSeed("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");*/
+		controller.addSeed(url);
 
 		/*
 		 * Start the crawl. This is a blocking operation, meaning that your code
