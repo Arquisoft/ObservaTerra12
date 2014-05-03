@@ -85,7 +85,6 @@ public interface ObservacionesDAO {
 	 * @return Listado de observaciones encontradas.
 	 * @throws SQLException
 	 */
-	public List<Observation> leerObservacionesDeUnIndicador(
-			String nombreIndicador) throws SQLException;
+	public List<Observation> leerObservacionesDeUnIndicador(String nombreIndicador) throws SQLException;
 
 }

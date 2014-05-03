@@ -1,6 +1,7 @@
 package persistencia;
 
 import java.sql.SQLException;
+import java.util.Date;
 
 import model.Time;
 
@@ -35,5 +36,16 @@ public interface TiempoDAO {
 	 */
 	public  Time buscarIntervaloTiempo(Long idIntervalo)
 			throws SQLException;
+	
+	
+	/**
+	 * Busca un intervalo de tiempo según su contenido.
+	 * 
+	 * @param startDate - Fecha de inicio
+	 * @param endDate - Fecha de fin
+	 * @return Tiempo encontrado
+	 * @throws SQLException
+	 */
+	public Time buscarIntervaloTiempo(Date startDate, Date endDate)	throws SQLException;
 
 }

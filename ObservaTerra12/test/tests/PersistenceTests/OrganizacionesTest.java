@@ -34,7 +34,7 @@ public class OrganizacionesTest {
 	}
 
 	@Test
-	public void test() throws SQLException {
+	public void testOrganizaciones() throws SQLException {
 		testCrearOrganizacion();
 		testActualizarOrganizacion();
 		testSuprimirOrganizacion();
@@ -51,20 +51,13 @@ public class OrganizacionesTest {
 		this.organizacion = orgDAO.crearOrganizacion(this.organizacion);
 
 		// Probar a recuperarlo individualmente
-		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion
-				.getIdOrganization());
-
+		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion.getIdOrganization());
 		assertNotNull(orgLeida);
-		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
-		assertEquals(this.organizacion.getTipoOrganizacion(),orgLeida.getTipoOrganizacion());
 		assertEquals(this.organizacion, orgLeida);
 		
 		//Probar a recuperla por nombre
 		orgLeida = orgDAO.buscarOrganizacionPorNombre("ONG-Prueba");
 		assertNotNull(orgLeida);
-		assertTrue(orgLeida instanceof Organization);
-		assertEquals(this.organizacion.getNombre(), orgLeida.getNombre());
-		assertEquals(this.organizacion.getTipoOrganizacion(),	orgLeida.getTipoOrganizacion());
 		assertEquals(this.organizacion, orgLeida);
 		
 		//Probar a recuperar una organización inexistente
@@ -74,6 +67,11 @@ public class OrganizacionesTest {
 		//Probar a recuperar una organización inexistente
 		orgLeida = orgDAO.buscarOrganizacionOProveedorPorNombre("sdfasdfajsdfioapjdsifoajdsf");
 		assertNull(orgLeida);
+		
+		//Probar a recuperar otra vez
+		orgLeida = orgDAO.buscarOrganizacionOProveedorPorNombre("ONG-Prueba");
+		assertNotNull(orgLeida);
+		assertEquals(this.organizacion, orgLeida);
 
 		// Probar a listar todos
 		List<Organization> orgns = orgDAO.listarOrganizaciones();
@@ -100,13 +98,10 @@ public class OrganizacionesTest {
 				.getIdOrganization());
 
 		assertNotNull(orgLeida);
-		assertEquals("org-0001", orgLeida.getNombre());
-		assertEquals("No religiosa", orgLeida.getTipoOrganizacion());
 		assertEquals(this.organizacion, orgLeida);
 		
 		//Probar a recuperarla 
 		orgLeida = orgDAO.buscarOrganizacionOProveedorPorNombre("org-0001");
-		assertTrue(orgLeida instanceof Organization);
 		assertEquals(this.organizacion, orgLeida);
 
 		// Probar a listar todos
@@ -121,8 +116,7 @@ public class OrganizacionesTest {
 		orgDAO.borrarOrganizacion(this.organizacion);
 
 		// Probar a recuperarlo individualmente
-		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion
-				.getIdOrganization());
+		Organization orgLeida = orgDAO.leerOrganizacion(this.organizacion.getIdOrganization());
 
 		assertNull(orgLeida);
 
