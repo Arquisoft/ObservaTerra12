@@ -27,5 +27,11 @@ public class Crawler {
 		timer.schedule(new CrawlerConectores(), date.getTime(), 1000 * 60 * 60
 				* 24 * 7);
 
+		WebCrawlerController crawlerWebsController = new WebCrawlerController(
+				5, "public/crawler/temp/");
+		// crawlerWebsController
+		// .start("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");
+
 	}
+
 }

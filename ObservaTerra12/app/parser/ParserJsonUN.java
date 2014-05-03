@@ -71,11 +71,7 @@ public class ParserJsonUN extends AbstractParser {
 					Date endDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-12-31 23:59:59.000000");
-					TiempoDAO tiempoDao = PersistenceFactory.createTiempoDAO();
-					Time time = tiempoDao.buscarIntervaloTiempo(startDate,
-							endDate);
-					if (time == null)
-						time = new Time(startDate, endDate);
+					Time time = new Time(startDate, endDate);
 
 					Observation obs = new Observation(area, indicator, measure,
 							time, provider, submission);
@@ -91,9 +87,6 @@ public class ParserJsonUN extends AbstractParser {
 			e.printStackTrace();
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 		return observations;
 	}
