@@ -57,11 +57,11 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		try {
 			con.setAutoCommit(false);
 			// Busca una observación seguún su contenido
-			Observation ret = buscarContenidoObservacion(observacion, con);
-			if (ret != null) {
-				con.rollback(); // Deshaz posibles cambios
-				return ret;
-			}
+			boolean found = buscarContenidoObservacion(observacion, con);
+			
+			if(found)
+				return observacion;
+			
 			// No se ha encontrado. Proceder a crearla.
 			Observation obv = insertarContenidoObservacion(observacion, con);
 			con.commit();
@@ -87,8 +87,10 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 	 * @return
 	 * @throws SQLException
 	 */
-	private Observation buscarContenidoObservacion(Observation observacion,
+	private boolean buscarContenidoObservacion(Observation observacion,
 			Connection con) throws SQLException {
+		boolean obvRepetida = true;
+		
 		// Buscar el area o el país
 		AreasJdbc areaJDBC = new AreasJdbc();
 		areaJDBC.setConnection(con);
@@ -97,7 +99,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		if (leida != null) // Si no se encontró el area
 			observacion.setArea(leida);
 		else
-			return null;
+			obvRepetida = false;
 
 		// Buscar el indicador
 		IndicadoresJdbc indicadoresJDBC = new IndicadoresJdbc();
@@ -107,7 +109,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		if (inLeido != null)
 			observacion.setIndicator(inLeido);
 		else
-			return null;
+			obvRepetida = false;
 
 		// Buscar la medida
 		MedidasJdbc medidasJDBC = new MedidasJdbc();
@@ -117,7 +119,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		if (mLeido != null)
 			observacion.setMeasure(mLeido);
 		else
-			return null;
+			obvRepetida = false;
 
 		// Buscar el tiempo
 		TiempoJdbc tiempoJDBC = new TiempoJdbc();
@@ -127,7 +129,7 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		if (tLeido != null)
 			observacion.setTime(tLeido);
 		else
-			return null;
+			obvRepetida = false;
 
 		// Buscar la organizacion
 		OrganizacionesJdbc orgJDBC = new OrganizacionesJdbc();
@@ -137,23 +139,28 @@ public class ObservacionesJdbcDAO implements ObservacionesDAO {
 		if (orgLeida != null)
 			observacion.setProvider(orgLeida);
 		else
-			return null;
+			obvRepetida = false;
 
 		// No se busca la entrada: es el dato menos
 		// significativo y se lee directamente
 
-		// Llegó hasta aquí: todo es correcto - buscar su identificador
-		this.observacionesJDBC.setConnection(con);
-		observacion = this.observacionesJDBC
-				.leerObservacionPorContenido(observacion);
-
-		// Leer la entrada
-		EntradasJdbc entradasJDBC = new EntradasJdbc();
-		entradasJDBC.setConnection(con);
-		Submission entrada = entradasJDBC.leerEntrada(observacion
-				.getSubmission().getIdSubmission());
-		observacion.setSubmission(entrada);
-		return observacion;
+		if (obvRepetida) 
+		{
+			// Llegó hasta aquí: todo es correcto - buscar su identificador
+			this.observacionesJDBC.setConnection(con);
+			observacion = this.observacionesJDBC.leerObservacionPorContenido(observacion);
+			
+			// Leer la entrada
+			EntradasJdbc entradasJDBC = new EntradasJdbc();
+			entradasJDBC.setConnection(con);
+			Submission entrada = entradasJDBC.leerEntrada(observacion
+					.getSubmission().getIdSubmission());
+			observacion.setSubmission(entrada);
+			
+			return true;
+		}
+	
+		return false;
 	}
 
 	/**
