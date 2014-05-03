@@ -136,17 +136,16 @@ public abstract class Conector {
 
 			Time time = tiempoDao.buscarIntervaloTiempo(startDate, endDate);
 			if (time != null)
-				observacion.setTime(time);// time = new Time(startDate,
-											// endDate);
+				observacion.setTime(time);
 
 			entradasDao.crearEntrada(observacion.getSubmission());
 			observacionesDao.insertarObservacion(observacion);
+
 			// TODO: Quitar estos System.out de pruebas
 			if (observacion.getIdObservation() == null)
-				System.out
-						.println("Insertando observacion: FALLO al insertar (La observacion ya existe)");
+				System.out.println("Insertando observacion: FALLO al insertar");
 			else
-				System.out.println("Insertando observacion: " + observacion);
+				System.out.println("Insertada observacion: " + observacion);
 		}
 	}
 
@@ -169,10 +168,8 @@ public abstract class Conector {
 
 			FileUtils.copyURLToFile(new URL(url), file);
 		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

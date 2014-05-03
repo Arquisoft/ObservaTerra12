@@ -3,31 +3,30 @@ package parser;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import persistencia.PersistenceFactory;
-import persistencia.TiempoDAO;
-import persistencia.implJdbc.TiempoJdbc;
 import model.Area;
 import model.Country;
-import model.Indicator;
 import model.Measure;
 import model.Observation;
-import model.Provider;
-import model.Submission;
 import model.Time;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 /**
+ * 
+ * Parseador del formato JSON con los campos usados por la API de United Nations
+ * a nuestro formato
+ * 
+ * 
+ * VERSION FINAL
+ * 
  * 
  * @author Pablo Garcia Fernandez
  * 
@@ -49,9 +48,6 @@ public class ParserJsonUN extends AbstractParser {
 
 			JsonArray arrayJsonOriginal = parser.parse(br).getAsJsonArray();
 
-			// ********************************************************************************************
-
-			// fichero.size()
 			for (int i = 0; i < arrayJsonOriginal.size(); i++) {
 
 				JsonElement value = arrayJsonOriginal.get(i).getAsJsonObject()
@@ -64,12 +60,11 @@ public class ParserJsonUN extends AbstractParser {
 
 					Measure measure = new Measure(value.getAsString(), "years");
 
-					String year = timeTag;
 					Date startDate = new SimpleDateFormat(
-							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
+							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(timeTag
 							+ "-01-01 00:00:00.000000");
 					Date endDate = new SimpleDateFormat(
-							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
+							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(timeTag
 							+ "-12-31 23:59:59.000000");
 					Time time = new Time(startDate, endDate);
 

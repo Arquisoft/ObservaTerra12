@@ -3,17 +3,12 @@ package parser;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import persistencia.PersistenceFactory;
-import persistencia.TiempoDAO;
-import persistencia.JdbcDAOs.TiempoJdbcDAO;
-import persistencia.implJdbc.TiempoJdbc;
 import model.Area;
 import model.Country;
 import model.Measure;
@@ -26,6 +21,10 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 /**
+ * Parseador de JSON de la API de la World Health Organization
+ * 
+ * VERSION PRELIMINAR
+ * 
  * 
  * @author Pablo Garcia Fernandez
  * 
@@ -90,10 +89,8 @@ public class ParserJsonWHO extends AbstractParser {
 
 					observations.add(obs);
 
-					// TODO: Quitar estos System.out de pruebas
 				} catch (NullPointerException e) {
-					System.out
-							.println("Problema con la observacion (Formato no compatible)");
+					// Problema con la observacion (Formato no compatible)
 				}
 			}
 

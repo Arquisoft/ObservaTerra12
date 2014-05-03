@@ -66,7 +66,6 @@ public class ConectorTest {
 		// observaciones
 	}
 
-	// Numero de observaciones: 207
 	@Test
 	public void testUN() {
 		try {
