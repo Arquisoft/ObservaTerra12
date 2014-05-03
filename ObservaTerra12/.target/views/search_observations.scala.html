@@ -2,30 +2,31 @@
 @import play.i18n._
 
 @main(Messages.get("search_observation_title")) {
-
-	<h2>@Messages.get("search_observation_form_title")</h2>
-
-	@helper.form(routes.Application.filterObservations) {
-		<table>
-			<tbody>
-				<tr>
-					<th>@Messages.get("search_observations_form_header_area")</th>
-					<th>@Messages.get("search_observations_form_header_indicator")</th>
-					<th>@Messages.get("search_observations_form_header_start_date")</th>
-					<th>@Messages.get("search_observations_form_header_end_date")</th>
-				</tr>
-				<tr>
-					<td>
-						
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<h2>@Messages.get("documents_form_share_tittle")</h2>
-		<p>@Messages.get("documents_form_share_info")</p>
-		<p>
-			<input type="text" name="userNames" placeholder="@Messages.get("documents_form_user_name")">
-			<button type="submit">@Messages.get("documents_form_share")</button>
-		</p>
-	}
+	<div class="search_observations">
+		<h2>@Messages.get("search_observation_form_title")</h2>
+	
+		@helper.form(routes.Application.filterObservations) {
+			<table>
+				<tbody>
+					<tr>
+						<th>@Messages.get("search_observations_form_header_area")</th>
+						<th>@Messages.get("search_observations_form_header_indicator")</th>
+						<th>@Messages.get("search_observations_form_header_start_date")</th>
+						<th>@Messages.get("search_observations_form_header_end_date")</th>
+					</tr>
+					<tr>
+						<td>
+							
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>@Messages.get("documents_form_share_tittle")</h2>
+			<p>@Messages.get("documents_form_share_info")</p>
+			<p>
+				<input type="text" name="userNames" placeholder="@Messages.get("documents_form_user_name")">
+				<button type="submit">@Messages.get("documents_form_share")</button>
+			</p>
+		}
+	</div>
 }

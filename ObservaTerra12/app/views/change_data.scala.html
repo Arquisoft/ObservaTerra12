@@ -3,58 +3,62 @@
 
 @main(Messages.get("change_data_title")) {
 
-	@helper.form(routes.Application.changeUserData) {
+	<div class="config">
 		<h1>@Messages.get("change_data_form_title")</h1>
-
-		@if(form.hasGlobalErrors) {
-			<p class="error">
-				@form.globalError.message
-			</p>
-		}
-	
-		<p>
-			<input type="password" name="password" placeholder="@Messages.get("change_data_form_password")"/>
-			<span class="validationError">
-				@if(!form.field("password").errors().isEmpty()) {
-						@Messages.get(form.field("password").errors().get(0).message())
+		
+		<div class="content_block">
+			@helper.form(routes.Application.changeUserData) {
+				@if(form.hasGlobalErrors) {
+					<p class="error">
+						@form.globalError.message
+					</p>
 				}
-			</span>
-		</p>
-		<br>
-		<p>
-			<input type="text" name="name" placeholder="@Messages.get("change_data_form_name")" value='@form("name").value'/>
-			<span class="validationError">
-				@if(!form.field("name").errors().isEmpty()) {
-						@Messages.get(form.field("name").errors().get(0).message())
-				}
-			</span>
-		</p>
-		<p>
-			<input type="text" name="surname" placeholder="@Messages.get("change_data_form_surname")" value='@form("surname").value'/>
-			<span class="validationError">
-				@if(!form.field("surname").errors().isEmpty()) {
-						@Messages.get(form.field("surname").errors().get(0).message())
-				}
-			</span>
-		</p>
-		<p>
-			<input type="text" name="email" placeholder="@Messages.get("change_data_form_email")" value='@form("email").value'/>
-			<span class="validationError">
-				@if(!form.field("email").errors().isEmpty()) {
-						@Messages.get(form.field("email").errors().get(0).message())
-				}
-			</span>
-		</p>
-		<p>
-			<input type="text" name="organization" placeholder="@Messages.get("change_data_form_organization")" value='@form("organization").value'/>
-			<span class="validationError">
-				@if(!form.field("organization").errors().isEmpty()) {
-						@Messages.get(form.field("organization").errors().get(0).message())
-				}
-			</span>
-		</p>
-		<p>
-			<button type="submit">@Messages.get("change_data_form_change_data")</button>
-		</p>
-	}
+			
+				<p>
+					<input type="password" name="password" placeholder="@Messages.get("change_data_form_password")"/>
+					<span class="validationError">
+						@if(!form.field("password").errors().isEmpty()) {
+								@Messages.get(form.field("password").errors().get(0).message())
+						}
+					</span>
+				</p>
+				<br>
+				<p>
+					<input type="text" name="name" placeholder="@Messages.get("change_data_form_name")" value='@form("name").value'/>
+					<span class="validationError">
+						@if(!form.field("name").errors().isEmpty()) {
+								@Messages.get(form.field("name").errors().get(0).message())
+						}
+					</span>
+				</p>
+				<p>
+					<input type="text" name="surname" placeholder="@Messages.get("change_data_form_surname")" value='@form("surname").value'/>
+					<span class="validationError">
+						@if(!form.field("surname").errors().isEmpty()) {
+								@Messages.get(form.field("surname").errors().get(0).message())
+						}
+					</span>
+				</p>
+				<p>
+					<input type="text" name="email" placeholder="@Messages.get("change_data_form_email")" value='@form("email").value'/>
+					<span class="validationError">
+						@if(!form.field("email").errors().isEmpty()) {
+								@Messages.get(form.field("email").errors().get(0).message())
+						}
+					</span>
+				</p>
+				<p>
+					<input type="text" name="organization" placeholder="@Messages.get("change_data_form_organization")" value='@form("organization").value'/>
+					<span class="validationError">
+						@if(!form.field("organization").errors().isEmpty()) {
+								@Messages.get(form.field("organization").errors().get(0).message())
+						}
+					</span>
+				</p>
+				<p>
+					<button type="submit">@Messages.get("change_data_form_change_data")</button>
+				</p>
+			}
+		</div>
+	</div>
 }
