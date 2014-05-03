@@ -3,12 +3,17 @@ package parser;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import persistencia.PersistenceFactory;
+import persistencia.TiempoDAO;
+import persistencia.JdbcDAOs.TiempoJdbcDAO;
+import persistencia.implJdbc.TiempoJdbc;
 import model.Area;
 import model.Country;
 import model.Measure;
@@ -25,12 +30,12 @@ import com.google.gson.JsonParser;
  * @author Pablo Garcia Fernandez
  * 
  */
-public class ParserJson extends AbstractParser {
+public class ParserJsonWHO extends AbstractParser {
 
 	BufferedReader br;
 	JsonParser parser;
 
-	public ParserJson() {
+	public ParserJsonWHO() {
 		observations = new ArrayList<Observation>();
 	}
 
@@ -70,16 +75,17 @@ public class ParserJson extends AbstractParser {
 
 					String year = arrayJsonDatosObservaciones.get(i)
 							.getAsJsonObject().get("YEAR").getAsString();
-					Date startDate;
-
-					startDate = new SimpleDateFormat(
+					Date startDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-01-01 00:00:00.000000");
-
 					Date endDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-12-31 23:59:59.000000");
-					Time time = new Time(startDate, endDate);
+					TiempoJdbc tiempoDao = new TiempoJdbc();
+					Time time = tiempoDao.buscarIntervaloTiempo(startDate,
+							endDate);
+					if (time == null)
+						time = new Time(startDate, endDate);
 
 					// Add observacion al listado
 
@@ -91,7 +97,10 @@ public class ParserJson extends AbstractParser {
 					// TODO: Quitar estos System.out de pruebas
 				} catch (NullPointerException e) {
 					System.out
-							.println("Insertando observacion: FALLO al insertar (Formato no compatible)");
+							.println("Problema con la observacion (Formato no compatible)");
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
 				}
 			}
 

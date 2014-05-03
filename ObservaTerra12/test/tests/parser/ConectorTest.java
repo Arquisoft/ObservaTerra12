@@ -62,13 +62,15 @@ public class ConectorTest {
 
 	@Test
 	public void testPruebaBorrar() {
+		// Test vacio para que se ejecute el "after" e imprimir todas las
+		// observaciones
 	}
 
 	@Test
 	public void testUN() {
 		try {
-			conectorUN = ConectorUnitedNations.getInstance("COMPONENTS");
-
+			conectorUN = ConectorUnitedNations.getInstance("UN");
+			conectorUN.preparar();
 			conectorUN.start();
 
 			assertTrue(areasDao.leerPais("Australia").getName()
@@ -96,7 +98,7 @@ public class ConectorTest {
 	/*
 	 * CUIDADO: Este test descarga todos los JSON de la API de la World Health
 	 * Organization, los analiza e intenta insertar las observaciones. En total
-	 * son mas de 50 JSON y mas de 1000 observaciones y le lleva un rato largo
+	 * son mas de 100 JSON y miles de observaciones y le lleva un rato largo
 	 */
 	@Test
 	public void testWHO() {
@@ -123,7 +125,6 @@ public class ConectorTest {
 
 	@After
 	public void after() {
-
 		printObservations(0);
 	}
 

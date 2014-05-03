@@ -721,7 +721,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "RESIDENCEAREATYPE": "Urban",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -731,7 +731,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "RESIDENCEAREATYPE": "Rural",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -741,7 +741,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "RESIDENCEAREATYPE": "Urban",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -751,7 +751,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "RESIDENCEAREATYPE": "Rural",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
@@ -4721,7 +4721,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q1 (Poorest)",
@@ -4731,7 +4731,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q2",
@@ -4741,7 +4741,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q3",
@@ -4751,7 +4751,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q4",
@@ -4761,7 +4761,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q5 (Richest)",
@@ -4771,7 +4771,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q1 (Poorest)",
@@ -4781,7 +4781,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q2",
@@ -4791,7 +4791,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q3",
@@ -4801,7 +4801,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q4",
@@ -4811,7 +4811,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q5 (Richest)",
@@ -11281,7 +11281,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "None",
@@ -11291,7 +11291,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Primary",
@@ -11301,7 +11301,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1994",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Secondary or higher",
@@ -11311,7 +11311,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "None",
@@ -11321,7 +11321,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Primary",
@@ -11331,7 +11331,7 @@
            {
              "GHO": "Total fertility rate (per woman)",
              "YEAR": "1998",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "DHS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Secondary or higher",

@@ -1,5 +1,10 @@
 package parser.util;
 
+/**
+ * Esta clase representa una entrada en el fichero de propiedades.
+ * @author Pato
+ *
+ */
 public class FileEntry {
 
 	private String url;
