@@ -628,7 +628,7 @@
 },
 {
 "label": "WHOSIS_000010",
-"display": "Adults aged ≥ 20 years who are obese (%)",
+"display": "Adults aged ? 20 years who are obese (%)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2389",
 "attr":
@@ -637,7 +637,7 @@
 },
 {
 "label": "WHOSIS_000011",
-"display": "Alcohol consumption among adults aged ≥15 years (litres of pure alcohol per person per year)",
+"display": "Alcohol consumption among adults aged ?15 years (litres of pure alcohol per person per year)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=462",
 "attr":
@@ -646,7 +646,7 @@
 },
 {
 "label": "WHOSIS_000012",
-"display": "Prevalence of smoking any tobacco product among adults (≥15 years) (%)",
+"display": "Prevalence of smoking any tobacco product among adults (?15 years) (%)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=128",
 "attr":
@@ -4471,7 +4471,7 @@
 },
 {
 "label": "NUTRITION_565",
-"display": "Prevalence of adults aged ≥ 15 years who are pre-obese (%) (BMI 25.0-29.99)",
+"display": "Prevalence of adults aged ? 15 years who are pre-obese (%) (BMI 25.0-29.99)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=303",
 "attr":
@@ -4480,7 +4480,7 @@
 },
 {
 "label": "NUTRITION_566",
-"display": "Prevalence of adults aged ≥ 15 years who are overweight (%) (BMI ≥ 25.0)",
+"display": "Prevalence of adults aged ? 15 years who are overweight (%) (BMI ? 25.0)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=369",
 "attr":
@@ -4489,7 +4489,7 @@
 },
 {
 "label": "NUTRITION_567",
-"display": "Prevalence of adults aged ≥ 15 years who are in normal range (%) (BMI 18.5-24.99)",
+"display": "Prevalence of adults aged ? 15 years who are in normal range (%) (BMI 18.5-24.99)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=371",
 "attr":
@@ -4498,7 +4498,7 @@
 },
 {
 "label": "NUTRITION_568",
-"display": "Prevalence of adults aged ≥ 15 years who are underweight (%) (BMI <18.5)",
+"display": "Prevalence of adults aged ? 15 years who are underweight (%) (BMI <18.5)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=370",
 "attr":
@@ -5605,7 +5605,7 @@
 },
 {
 "label": "NUTRITION_0",
-"display": "Prevalence of adults aged ≥ 15 years who are moderately and severely thin (BMI <17.0)",
+"display": "Prevalence of adults aged ? 15 years who are moderately and severely thin (BMI <17.0)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=370",
 "attr":
@@ -5614,7 +5614,7 @@
 },
 {
 "label": "NUTRITION_1",
-"display": "Prevalence of adults aged ≥ 15 years who are severely thin (BMI <16.0)",
+"display": "Prevalence of adults aged ? 15 years who are severely thin (BMI <16.0)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=370",
 "attr":
@@ -5623,7 +5623,7 @@
 },
 {
 "label": "NUTRITION_2",
-"display": "Prevalence of adults aged ≥ 15 years who are mildly thin (BMI 17.0-18.49)",
+"display": "Prevalence of adults aged ? 15 years who are mildly thin (BMI 17.0-18.49)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=370",
 "attr":
@@ -5632,7 +5632,7 @@
 },
 {
 "label": "NUTRITION_3",
-"display": "Prevalence of adults aged ≥ 15 years who are moderately thin (BMI 16.0-16.99)",
+"display": "Prevalence of adults aged ? 15 years who are moderately thin (BMI 16.0-16.99)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=370",
 "attr":
@@ -7135,7 +7135,7 @@
 },
 {
 "label": "NCD_BMI_25A",
-"display": "BMI ≥ 25 (age-standardized estimate)",
+"display": "BMI ? 25 (age-standardized estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2390",
 "attr":
@@ -7144,7 +7144,7 @@
 },
 {
 "label": "NCD_BMI_25C",
-"display": "BMI ≥ 25 (crude estimate)",
+"display": "BMI ? 25 (crude estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2390",
 "attr":
@@ -7153,7 +7153,7 @@
 },
 {
 "label": "NCD_BMI_30A",
-"display": "BMI ≥ 30 (age-standardized estimate)",
+"display": "BMI ? 30 (age-standardized estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2389",
 "attr":
@@ -7162,7 +7162,7 @@
 },
 {
 "label": "NCD_BMI_30C",
-"display": "BMI ≥ 30 (crude estimate)",
+"display": "BMI ? 30 (crude estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2389",
 "attr":
@@ -8323,7 +8323,7 @@
 },
 {
 "label": "BP_01",
-"display": "Raised blood pressure (SBP≥140 OR DBP≥90 OR on medication) (crude estimate)",
+"display": "Raised blood pressure (SBP?140 OR DBP?90 OR on medication) (crude estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2385",
 "attr":
@@ -8332,7 +8332,7 @@
 },
 {
 "label": "BP_02",
-"display": "Raised blood pressure (SBP≥140 OR DBP≥90 OR on medication) (age-standardized estimate)",
+"display": "Raised blood pressure (SBP?140 OR DBP?90 OR on medication) (age-standardized estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2385",
 "attr":
@@ -8341,7 +8341,7 @@
 },
 {
 "label": "BP_03",
-"display": "Raised blood pressure (SBP≥140 OR DBP≥90) (crude estimate)",
+"display": "Raised blood pressure (SBP?140 OR DBP?90) (crude estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2386",
 "attr":
@@ -8350,7 +8350,7 @@
 },
 {
 "label": "BP_04",
-"display": "Raised blood pressure (SBP≥140 OR DBP≥90) (age-standardized estimate)",
+"display": "Raised blood pressure (SBP?140 OR DBP?90) (age-standardized estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2386",
 "attr":
@@ -8377,7 +8377,7 @@
 },
 {
 "label": "CHOL_01",
-"display": "Raised total cholesterol (≥ 5.0 mmol/L) (crude estimate)",
+"display": "Raised total cholesterol (? 5.0 mmol/L) (crude estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2382",
 "attr":
@@ -8386,7 +8386,7 @@
 },
 {
 "label": "CHOL_02",
-"display": "Raised total cholesterol (≥ 5.0 mmol/L) (age-standardized estimate)",
+"display": "Raised total cholesterol (? 5.0 mmol/L) (age-standardized estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2382",
 "attr":
@@ -8476,7 +8476,7 @@
 },
 {
 "label": "CHOL_05",
-"display": "Raised total cholesterol (≥ 6.2 mmol/L) (age-standardized estimate)",
+"display": "Raised total cholesterol (? 6.2 mmol/L) (age-standardized estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2383",
 "attr":
@@ -8485,7 +8485,7 @@
 },
 {
 "label": "CHOL_06",
-"display": "Raised total cholesterol (≥ 6.2 mmol/L) (crude estimate)",
+"display": "Raised total cholesterol (? 6.2 mmol/L) (crude estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2383",
 "attr":
@@ -8521,7 +8521,7 @@
 },
 {
 "label": "NCD_GLUC_03",
-"display": "Raised fasting blood glucose (≥ 7.0 mmol/L or on medication) (crude estimate)",
+"display": "Raised fasting blood glucose (? 7.0 mmol/L or on medication) (crude estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2379",
 "attr":
@@ -8530,7 +8530,7 @@
 },
 {
 "label": "NCD_GLUC_04",
-"display": "Raised fasting blood glucose (≥ 7.0 mmol/L or on medication)(age-standardized estimate)",
+"display": "Raised fasting blood glucose (? 7.0 mmol/L or on medication)(age-standardized estimate)",
 "display_sequence": 0,
 "url": "http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2379",
 "attr":
@@ -18853,7 +18853,7 @@
 },
 {
 "label": "NHAOOPSTHE",
-"display": "Out-of-Pocket expenditure on health as percentage of total health expenditure��",
+"display": "Out-of-Pocket expenditure on health as percentage of total health expenditure??",
 "display_sequence": 0,
 "url": "",
 "attr":
@@ -18862,7 +18862,7 @@
 },
 {
 "label": "NHAPREPAIDTHE",
-"display": "Prepaid plans as percentage of total health expenditure�",
+"display": "Prepaid plans as percentage of total health expenditure?",
 "display_sequence": 0,
 "url": "",
 "attr":

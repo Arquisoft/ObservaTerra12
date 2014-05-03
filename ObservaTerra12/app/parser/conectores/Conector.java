@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
@@ -15,6 +16,7 @@ import org.apache.commons.io.FileUtils;
 import model.Country;
 import model.Observation;
 import model.Provider;
+import model.Time;
 import model.User;
 import parser.Parser;
 import persistencia.AreasDAO;
@@ -22,6 +24,7 @@ import persistencia.EntradasDAO;
 import persistencia.ObservacionesDAO;
 import persistencia.OrganizacionesDAO;
 import persistencia.PersistenceFactory;
+import persistencia.TiempoDAO;
 import persistencia.UsuariosDAO;
 
 /**
@@ -125,6 +128,17 @@ public abstract class Conector {
 	 */
 	protected void insertaObservaciones() throws SQLException {
 		for (Observation observacion : observations) {
+
+			TiempoDAO tiempoDao = PersistenceFactory.createTiempoDAO();
+
+			Date startDate = observacion.getTime().getStartDate();
+			Date endDate = observacion.getTime().getEndDate();
+
+			Time time = tiempoDao.buscarIntervaloTiempo(startDate, endDate);
+			if (time != null)
+				observacion.setTime(time);// time = new Time(startDate,
+											// endDate);
+
 			entradasDao.crearEntrada(observacion.getSubmission());
 			observacionesDao.insertarObservacion(observacion);
 			// TODO: Quitar estos System.out de pruebas
