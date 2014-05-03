@@ -45,8 +45,8 @@ public class WebCrawlerBase extends WebCrawler {
 			File file = new File(
 					"public/crawler/downloads/pruebaCrawler/PRUEBA.xls");
 			FileUtils.copyURLToFile(new URL(url), file);
-			
-			//deleteTempFile(file);
+
+			// deleteTempFile(file);
 
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
@@ -67,8 +67,8 @@ public class WebCrawlerBase extends WebCrawler {
 			File file = new File(
 					"public/crawler/downloads/pruebaCrawler/PRUEBA.json");
 			FileUtils.copyURLToFile(new URL(url), file);
-			
-			//deleteTempFile(file);
+
+			// deleteTempFile(file);
 
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
@@ -77,11 +77,15 @@ public class WebCrawlerBase extends WebCrawler {
 		}
 
 	}
-	
-	private void deleteTempFile(File file) {		
-		if(file.delete())
-			System.out.println("Operacion de borrado completada cobre el fichero %s. \no", file.getName());
+
+	private void deleteTempFile(File file) {
+		if (file.delete())
+			System.out.printf(
+					"Operacion de borrado completada sobre el fichero %s. \no",
+					file.getName());
 		else
-			System.out.printf("Operacion de borrado fallida sobre el fichero %s. \n", file.getName());
+			System.out.printf(
+					"Operacion de borrado fallida sobre el fichero %s. \n",
+					file.getName());
 	}
 }
