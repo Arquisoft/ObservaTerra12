@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.QueryReader;
+
 import model.Organization;
 import model.User;
 
@@ -62,7 +64,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void insertarDatosPersonales(User usuario) throws SQLException {
-		String SQL = "INSERT INTO DATOSPERSONALES (ID_USUARIO,NOMBRE,APELLIDOS,EMAIL,ROL) VALUES (?,?,?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_DATOS_PERSONALES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, usuario.getIdUser());
@@ -84,7 +86,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private Long leerSiguienteIdUsuario() throws SQLException {
-		String SQL = "SELECT max(id_usuario) as maximo FROM usuarios";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_USUARIOS");
 
 		Long maxID = null;
 
@@ -110,7 +112,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void insertarUsuario(User usuario) throws SQLException {
-		String SQL = "INSERT INTO USUARIOS (ID_USUARIO, NOMBRE_USUARIO,CLAVE,ID_ORGANIZACION) VALUES (?,?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("INSERTAR_USUARIOS");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, usuario.getIdUser());
@@ -137,8 +139,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public void eliminarUsuario(User usuario) throws SQLException {
-		String SQL1 = "DELETE FROM datospersonales WHERE id_usuario = ?";
-		String SQL2 = "DELETE FROM usuarios WHERE id_usuario = ?";
+		String SQL1 = QueryReader.instanciar().leerPropiedad("BORRAR_DATOS_PERSONALES");
+		String SQL2 = QueryReader.instanciar().leerPropiedad("BORRAR_USUARIOS");
 
 		PreparedStatement pst = null;
 		PreparedStatement pst2 = null;
@@ -171,7 +173,7 @@ public class UsuariosJdbc {
 	 */
 	public User leerUsuario(String nombreUsuario, String claveUsuario)
 			throws SQLException {
-		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES WHERE nombre_usuario = ? and clave = ? ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_USUARIO");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreUsuario);
@@ -210,7 +212,7 @@ public class UsuariosJdbc {
 	}
 
 	public User leerUsuario(Long idUsuario) throws SQLException {
-		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES WHERE id_usuario=? ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_USUARIO_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idUsuario);
@@ -270,7 +272,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void actualizarDatosPersonales(User usuario) throws SQLException {
-		String SQL = "UPDATE datospersonales SET nombre = ?,apellidos = ?,email = ?,rol = ? WHERE id_usuario = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ACTUALIZAR_DATOS_PERSONALES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getName());
@@ -294,7 +296,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void actualizarDatosUsuario(User usuario) throws SQLException {
-		String SQL = "UPDATE usuarios SET nombre_usuario=?,clave=?,id_organizacion=? WHERE id_usuario=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ACTUALIZAR_DATOS_USUARIO");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getUserName());
@@ -315,7 +317,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public List<User> listarUsuarios() throws SQLException {
-		String SQL = "SELECT * FROM usuarios natural join datospersonales";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTADO_USUARIOS");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -351,7 +353,7 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public User leerUsuario(String nombreUsuario) throws SQLException {
-		String SQL = "SELECT * FROM USUARIOS natural join DATOSPERSONALES WHERE nombre_usuario = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_USUARIO_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreUsuario);

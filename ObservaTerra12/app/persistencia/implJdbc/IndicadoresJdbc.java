@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.QueryReader;
+
 import model.Indicator;
 
 public class IndicadoresJdbc {
@@ -21,8 +23,7 @@ public class IndicadoresJdbc {
 	 */
 	public void setConnection(Connection con) throws SQLException {
 		if (con == null)
-			throw new IllegalArgumentException(
-					"Conexión invalida - parámetro null.");
+			throw new IllegalArgumentException("Conexión invalida - parámetro null.");
 
 		if (con.isClosed())
 			throw new IllegalArgumentException("La conexión no está activa");
@@ -39,7 +40,7 @@ public class IndicadoresJdbc {
 	 * @throws SQLException
 	 */
 	public Indicator añadirIndicador(Indicator indicador) throws SQLException {
-		String SQL = "INSERT INTO INDICADORES (ID_INDICADOR,NOMBRE) VALUES (?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_INDICADOR");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		Long proximoID = leerProximoIdentificador();
@@ -61,7 +62,7 @@ public class IndicadoresJdbc {
 	 * @throws SQLException
 	 */
 	private Long leerProximoIdentificador() throws SQLException {
-		String SQL = "SELECT max(id_indicador) as maximo FROM indicadores";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_INDICADOR");
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
 		Long resultado = null;
@@ -85,7 +86,7 @@ public class IndicadoresJdbc {
 	 * @throws SQLException
 	 */
 	public Indicator leerIndicador(Long idIndicador) throws SQLException {
-		String SQL = "SELECT * FROM indicadores WHERE id_indicador=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_INDICADOR_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idIndicador);
@@ -113,7 +114,7 @@ public class IndicadoresJdbc {
 	 * @throws SQLException
 	 */
 	public Indicator leerIndicador(String nombreIndicador) throws SQLException {
-		String SQL = "SELECT * FROM indicadores WHERE nombre=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_INDICADOR_POR_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreIndicador);
@@ -139,7 +140,7 @@ public class IndicadoresJdbc {
 	 * @throws SQLException
 	 */
 	public List<Indicator> listarTodosLosIndicadores() throws SQLException {
-		String SQL = "SELECT * FROM indicadores";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTADO_INDICADORES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -166,7 +167,7 @@ public class IndicadoresJdbc {
 	 * @throws SQLException
 	 */
 	public void eliminarIndicador(Indicator indicador) throws SQLException {
-		String SQL = "DELETE FROM indicadores WHERE id_indicador=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ELIMINAR_INDICADOR");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, indicador.getIdIndicator());
@@ -183,7 +184,7 @@ public class IndicadoresJdbc {
 	 * @throws SQLException
 	 */
 	public void actualizarIndicador(Indicator indicador) throws SQLException {
-		String SQL = "UPDATE INDICADORES SET nombre = ? WHERE id_indicador =?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ACTUALIZAR_INDICADOR");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, indicador.getNombre());

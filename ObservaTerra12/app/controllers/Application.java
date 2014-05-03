@@ -29,6 +29,18 @@ import views.html.*;
 
 public class Application extends Controller {
 	
+	 /**
+		 * Este metodo responde a las peticiones
+		 * con una URI incorrecta, mostrando un mensaje
+		 * de error y un 404.
+		 * @param url - URL de la peticion
+		 * @return Error 404
+		 */
+		public static Result throwNotFound(String url)
+		{
+			return notFound("Route " + url + " is not on this server.");
+		}
+	
 	/**
 	 * Clase utilizada para el formulario de acceso a la aplicación.
 	 * 

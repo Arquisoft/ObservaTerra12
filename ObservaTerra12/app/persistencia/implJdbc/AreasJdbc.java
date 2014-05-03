@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.QueryReader;
+
 import model.Area;
 import model.Country;
 
@@ -64,7 +66,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	private Area crearArea(Area area, Long idNuevaArea) throws SQLException {
-		String SQL = "INSERT INTO AREAS (ID_AREA, NOMBRE_AREA, ES_PAIS) VALUES (?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_AREA");
 
 		PreparedStatement pst = null;
 
@@ -93,7 +95,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	private Long calcularProximoIdentificadorArea() throws SQLException {
-		String SQL = "SELECT max(id_area) as maximo FROM areas";
+		String SQL = QueryReader.instanciar().leerPropiedad("MAX_ID_AREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -140,7 +142,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	private void eliminarParteArea(Long idArea) throws SQLException {
-		String SQL = "DELETE FROM pertenece WHERE id_area_referenciada=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BORRAR_PERTENECE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idArea);
@@ -157,7 +159,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	private void eliminarSubarea(Long idSubarea) throws SQLException {
-		String SQL = "DELETE FROM areas WHERE id_area=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ELIMINAR_AREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idSubarea);
@@ -177,7 +179,7 @@ public class AreasJdbc {
 	 */
 	private void eliminarReferenciaSubarea(Long idAreaReferenciada,
 			Long idAreaPertenece) throws SQLException {
-		String SQL = "DELETE FROM pertenece WHERE id_area_referenciada=? AND id_area_pertenece=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ELIMINAR_REFERENCIA_SUBAREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idAreaReferenciada);
@@ -195,7 +197,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public void actualizarArea(Area area) throws SQLException {
-		String SQL = "UPDATE AREAS SET nombre_area=? WHERE id_area=? ";
+		String SQL = QueryReader.instanciar().leerPropiedad("ACTUALIZAR_AREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, area.getName());
@@ -215,7 +217,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Area leerArea(String nombre) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE nombre_area=? and es_pais='NO' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_AREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombre);
@@ -243,7 +245,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Country leerPais(String nombre) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE nombre_area=? and es_pais='SI' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_PAIS_POR_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombre);
@@ -271,7 +273,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Country leerPais(Long idPais) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE id_area=? and es_pais='SI' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_PAIS_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idPais);
@@ -300,7 +302,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Area buscarArea(Long idArea) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE id_area=? and es_pais='NO' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_AREA_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idArea);
@@ -329,7 +331,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Area leerSubAreas(Area area) throws SQLException {
-		String SQL = "SELECT * FROM pertenece WHERE id_area_pertenece=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_SUBAREAS");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, area.getIdArea());
@@ -362,7 +364,7 @@ public class AreasJdbc {
 	 */
 	public void asociarSubarea(Area areaPertenece, Area subarea)
 			throws SQLException {
-		String SQL = "INSERT INTO PERTENECE (ID_AREA_REFERENCIADA,ID_AREA_PERTENECE) VALUES (?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("ASOCIAR_SUBAREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, subarea.getIdArea());
@@ -384,7 +386,7 @@ public class AreasJdbc {
 	 */
 	public void anularAsociacionSubarea(Area areaPertenece, Area subarea)
 			throws SQLException {
-		String SQL = "DELETE FROM PERTENECE WHERE id_area_referenciada=? and id_area_pertenece=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ANULAR_ASOCIACION_SUBAREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, subarea.getIdArea());
@@ -403,7 +405,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Area buscarAreaYPaisPorNombre(String name) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE nombre_area = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_AREA_POR_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, name);
@@ -438,7 +440,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public Area buscarAreaYPaisPorId(Long idArea) throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE id_area = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_AREA_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idArea);
@@ -472,7 +474,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public List<Area> listadoAreas() throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE es_pais='NO'";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTADO_AREAS");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -496,7 +498,7 @@ public class AreasJdbc {
 	 * @throws SQLException
 	 */
 	public List<Country> listadoPaises() throws SQLException {
-		String SQL = "SELECT * FROM areas WHERE es_pais='SI'";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTADO_PAISES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -520,7 +522,7 @@ public class AreasJdbc {
 	 * @throws SQLException 
 	 */
 	public List<Area> listadoAreasYPaises() throws SQLException {
-		String SQL = "SELECT * FROM areas";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTADO_AREAS_Y_PAISES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();

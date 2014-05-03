@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Date;
 
+import utils.QueryReader;
+
 import model.Time;
 
 public class TiempoJdbc {
@@ -37,7 +39,7 @@ public class TiempoJdbc {
 	 * @throws SQLException
 	 */
 	public Time crearIntervalo(Time intervalo) throws SQLException {
-		String SQL = "INSERT INTO INTERVALOTIEMPO (ID_INTERVALO,FECHA_PRINCIPIO,FECHA_FIN) VALUES (?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_INTERVALO");
 
 		Long id = leerProximoIdentificador();
 		intervalo.setIdTime(id);
@@ -66,7 +68,7 @@ public class TiempoJdbc {
 	 * @throws SQLException
 	 */
 	private Long leerProximoIdentificador() throws SQLException {
-		String SQL = "SELECT max(id_intervalo) as maximo FROM intervalotiempo";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_INTERVALO");
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
 		Long resultado = null;
@@ -88,7 +90,7 @@ public class TiempoJdbc {
 	 * @throws SQLException
 	 */
 	public void borrarIntervalo(Time intervalo) throws SQLException {
-		String SQL = "DELETE FROM intervalotiempo WHERE id_intervalo=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BORRAR_INTERVALO");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, intervalo.getIdTime());
@@ -106,7 +108,7 @@ public class TiempoJdbc {
 	 * @throws SQLException
 	 */
 	public Time buscarIntervaloTiempo(Long idIntervalo) throws SQLException {
-		String SQL = "SELECT * FROM intervalotiempo WHERE id_intervalo=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_INTERVALO_TIEMPO_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idIntervalo);
@@ -139,8 +141,8 @@ public class TiempoJdbc {
 	 */
 	public Time buscarIntervaloTiempo(Date startDate, Date endDate)
 			throws SQLException {
-		String SQL = "SELECT * FROM intervalotiempo WHERE fecha_principio = ? and fecha_fin = ?";
-		String SQL_SOLO_START_DATE = "SELECT * FROM intervalotiempo WHERE fecha_principio = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_INTERVALO_FECHAS");
+		String SQL_SOLO_START_DATE = QueryReader.instanciar().leerPropiedad("BUSCAR_INTERVALO_UNA_FECHA");
 
 		ResultSet rs = null;
 		PreparedStatement pst = null;

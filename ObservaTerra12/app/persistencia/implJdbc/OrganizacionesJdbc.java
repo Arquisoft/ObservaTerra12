@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.QueryReader;
+
 import model.Country;
 import model.Organization;
 import model.Provider;
@@ -42,8 +44,7 @@ public class OrganizacionesJdbc {
 	 */
 	public Organization crearOrganizacion(Organization organizacion)
 			throws SQLException {
-		String SQL = "INSERT INTO ORGANIZACION (ID_ORGANIZACION,NOMBRE_ORGANIZACION,TIPO,ES_PROVEEDOR,ID_PAIS) VALUES (?,?,?,?,?)";
-
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_ORGANIZACION");
 		PreparedStatement pst = null;
 
 		// Calcular el proximo identificador
@@ -82,7 +83,7 @@ public class OrganizacionesJdbc {
 	 * @throws SQLException
 	 */
 	private Long proximoIdentificadorOrganizacion() throws SQLException {
-		String SQL = "SELECT max(id_organizacion) as maximo FROM organizacion";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_ORGANIZACION");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -109,7 +110,7 @@ public class OrganizacionesJdbc {
 	 */
 	public Organization leerOrganizacion(Long idOrganizacion)
 			throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE id_organizacion = ? and es_proveedor='NO' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_ORGANIZACION");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idOrganizacion);
@@ -148,7 +149,7 @@ public class OrganizacionesJdbc {
 	 */
 	private List<Organization> leerSuborganizaciones(Long idOrganizacion) throws SQLException
 	{
-		String SQL = "SELECT * FROM compuestade WHERE id_organizacion_pertenece = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_SUBORGANIZACIONES");
 		
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idOrganizacion);
@@ -176,7 +177,7 @@ public class OrganizacionesJdbc {
 	 */
 	public void borrarOrganizacion(Organization organizacion)
 			throws SQLException {
-		String SQL = "DELETE FROM organizacion WHERE id_organizacion=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BORRAR_ORGANIZACION");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, organizacion.getIdOrganization());
@@ -195,7 +196,7 @@ public class OrganizacionesJdbc {
 	 */
 	public void actualizarOrganizacion(Organization organizacion)
 			throws SQLException {
-		String SQL = "UPDATE ORGANIZACION SET nombre_organizacion=?,tipo=? WHERE id_organizacion=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ACTUALIZAR_ORGANIZACION");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, organizacion.getNombre());
@@ -214,7 +215,7 @@ public class OrganizacionesJdbc {
 	 * @throws SQLException
 	 */
 	public List<Organization> listarOrganizaciones() throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE es_proveedor='NO' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTAR_ORGANIZACIONES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -258,7 +259,7 @@ public class OrganizacionesJdbc {
 	}
 
 	public List<Provider> listarProveedores() throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE es_proveedor='SI' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTAR_PROVEEDORES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -292,7 +293,7 @@ public class OrganizacionesJdbc {
 	}
 
 	public Provider leerProveedor(Long idProveedor) throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE id_organizacion=? AND es_proveedor='SI' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_PROVEEDOR_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idProveedor);
@@ -333,7 +334,7 @@ public class OrganizacionesJdbc {
 	 * @throws SQLException
 	 */
 	public Provider buscarProveedorPorNombre(String nombre) throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE nombre_organizacion = ? and es_proveedor = 'SI'";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_PROVEEDOR_POR_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombre);
@@ -372,7 +373,7 @@ public class OrganizacionesJdbc {
 	 * @throws SQLException
 	 */
 	public Provider leerProveedor(String nombreProveedor) throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE nombre_organizacion=? AND es_proveedor='SI' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_PROVEEDOR_POR_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreProveedor);
@@ -413,7 +414,7 @@ public class OrganizacionesJdbc {
 	 */
 	public Organization buscarOrganizacionPorNombre(String nombreOrganizacion)
 			throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE nombre_organizacion=? AND es_proveedor='NO' ";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_ORGANIZACION_POR_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreOrganizacion);
@@ -455,7 +456,7 @@ public class OrganizacionesJdbc {
 	 */
 	public Organization buscarOrganizacionOProveedorPorNombre(
 			String nombreOrganizacion) throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE nombre_organizacion=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_ORG_PROVEEDOR_POR_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreOrganizacion);
@@ -498,7 +499,7 @@ public class OrganizacionesJdbc {
 
 	public Organization leerOrganizacionOProveedor(Long idOrganization)
 			throws SQLException {
-		String SQL = "SELECT * FROM organizacion WHERE id_organizacion=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_ORG_O_PROVEEDOR_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idOrganization);
