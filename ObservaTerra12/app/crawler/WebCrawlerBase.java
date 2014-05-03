@@ -46,7 +46,7 @@ public class WebCrawlerBase extends WebCrawler {
 					"public/crawler/downloads/pruebaCrawler/PRUEBA.xls");
 			FileUtils.copyURLToFile(new URL(url), file);
 			
-			deleteTempFile(file);
+			//deleteTempFile(file);
 
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
@@ -68,7 +68,7 @@ public class WebCrawlerBase extends WebCrawler {
 					"public/crawler/downloads/pruebaCrawler/PRUEBA.json");
 			FileUtils.copyURLToFile(new URL(url), file);
 			
-			deleteTempFile(file);
+			//deleteTempFile(file);
 
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
