@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.QueryReader;
+
 import model.Area;
 import model.Indicator;
 import model.Measure;
@@ -48,9 +50,7 @@ public class ObservacionesJdbc {
 	 */
 	public Observation insertarObservacion(Observation observacion)
 			throws SQLException {
-		String SQL = "INSERT INTO OBSERVACIONES "
-				+ "(ID_OBSERVACION,ID_AREA,ID_INDICADOR,ID_MEDIDA,ID_TIEMPO,ID_PROVEEDOR,ID_ENTRADA) "
-				+ "VALUES (?,?,?,?,?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_OBSERVACION");
 
 		Long proximoID = leerProximoIdentificador();
 		observacion.setIdObservation(proximoID);
@@ -77,7 +77,7 @@ public class ObservacionesJdbc {
 	 * @throws SQLException
 	 */
 	private Long leerProximoIdentificador() throws SQLException {
-		String SQL = "SELECT max(id_observacion) as maximo FROM observaciones";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_OBSERVACION");
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
 		Long resultado = null;
@@ -101,7 +101,7 @@ public class ObservacionesJdbc {
 	 */
 	public void eliminarObservacion(Observation observacion)
 			throws SQLException {
-		String SQL = "DELETE FROM observaciones WHERE id_observacion=?";
+		String SQL =  QueryReader.instanciar().leerPropiedad("ELIMINAR_OBSERVACION");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, observacion.getIdObservation());
@@ -122,7 +122,7 @@ public class ObservacionesJdbc {
 	 */
 	public Observation buscarObservacionPorIdentificador(Long identificador)
 			throws SQLException {
-		String SQL = "SELECT * FROM observaciones WHERE id_observacion=?";
+		String SQL =  QueryReader.instanciar().leerPropiedad("BUSCAR_OBSERVACION_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, identificador);
@@ -183,7 +183,7 @@ public class ObservacionesJdbc {
 	 */
 	public List<Observation> leerObservacionesDeUnArea(Area area)
 			throws SQLException {
-		String SQL = "SELECT * FROM observaciones WHERE id_area=?";
+		String SQL =  QueryReader.instanciar().leerPropiedad("LEER_OBSERVACIONES_AREA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, area.getIdArea());
@@ -243,9 +243,8 @@ public class ObservacionesJdbc {
 	 * @return Listado de observaciones encontradas.
 	 * @throws SQLException
 	 */
-	public List<Observation> leerObservacionesDeUnIndicador(
-			String nombreIndicador) throws SQLException {
-		String SQL = "SELECT * FROM observaciones NATURAL JOIN indicadores WHERE nombre=?";
+	public List<Observation> leerObservacionesDeUnIndicador(String nombreIndicador) throws SQLException {
+		String SQL =  QueryReader.instanciar().leerPropiedad("LEER_OBSERVACIONES_INDICADOR");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreIndicador);
@@ -297,7 +296,7 @@ public class ObservacionesJdbc {
 	}
 
 	public List<Observation> listarTodasObservaciones() throws SQLException {
-		String SQL = "SELECT * FROM observaciones";
+		String SQL =  QueryReader.instanciar().leerPropiedad("LISTAR_TODAS_OBSERVACIONES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
@@ -358,9 +357,7 @@ public class ObservacionesJdbc {
 	 */
 	public Observation leerObservacionPorContenido(Observation observacion)
 			throws SQLException {
-		String SQL = "SELECT * FROM observaciones WHERE id_area = ?"
-				+ " and id_indicador = ? and id_medida = ? and id_tiempo = ? "
-				+ "and id_proveedor = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_OBSERVACION_POR_CONTENIDO");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, observacion.getArea().getIdArea());

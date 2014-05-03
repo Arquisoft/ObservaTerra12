@@ -36,3 +36,36 @@ GET		/user-panel/compare-observations			controllers.Application.compareObservati
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               				controllers.Assets.at(path="/public", file)
+
+
+# API
+#Areas
+GET     /api/area/name/:areaName	    controllers.AreasAPI.getAreaNameJSON(areaName : String)
+GET     /api/area/id/:idArea    controllers.AreasAPI.getAreaIdJSON(idArea : Long)
+GET     /api/country/name/:countryName	    controllers.AreasAPI.getCountryNameJSON(countryName : String)
+GET     /api/country/id/:idCountry    controllers.AreasAPI.getCountryIdJSON(idCountry : Long)
+
+#Indicadores
+GET		/api/indicator/name/:indicatorName		controllers.IndicadoresAPI.getIndicatorNameJSON(indicatorName : String)
+GET		/api/indicator/id/:idIndicator			controllers.IndicadoresAPI.getIndicatorIdJSON(idIndicator: Long)
+GET		/api/indicator/all					controllers.IndicadoresAPI.getIndicatorsListJSON()
+
+#Organizaciones 
+GET		/api/organization/id/:idOrganization	controllers.OrganizacionesAPI.getOrganizationIdJSON(idOrganization : Long)
+GET		/api/organization/name/:orgName		controllers.OrganizacionesAPI.getOrganizationNameJSON(orgName : String)
+GET		/api/organization/all			controllers.OrganizacionesAPI.getOrganizationListJSON()
+
+#Proveedores
+GET		/api/provider/id/:idProvider		controllers.OrganizacionesAPI.getProviderIdJSON(idProvider : Long)
+GET		/api/provider/name/:nameProvider		controllers.OrganizacionesAPI.getProviderNameJSON(nameProvider : String)
+GET		/api/provider/all		controllers.OrganizacionesAPI.getProviderListJSON()
+
+#Observaciones
+GET		/api/observation/all		controllers.ObservacionesAPI.getObservationsListJSON()
+GET		/api/observation/id/:idObservation		controllers.ObservacionesAPI.getObservationsIdJSON(idObservation : Long)
+GET 	/api/observation/area/name/:areaName		controllers.ObservacionesAPI.getObservationsAreaNameJSON(areaName : String)
+GET		/api/observation/indicator/name/:indicatorName		controllers.ObservacionesAPI.getObservationsIndicatorNameJSON(indicatorName : String)
+POST 	/api/observation/new	 controllers.ObservacionesAPI.createObservationJSON()
+
+# Esta ruta permite capturar todos los errores
+GET     /*urlname     controllers.Application.throwNotFound(urlname : String)

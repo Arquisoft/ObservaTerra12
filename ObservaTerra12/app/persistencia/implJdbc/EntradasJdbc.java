@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Date;
 
+import utils.QueryReader;
+
 import model.Submission;
 import model.User;
 
@@ -40,7 +42,7 @@ public class EntradasJdbc {
 	 * @throws SQLException
 	 */
 	public Submission crearEntrada(Submission entrada) throws SQLException {
-		String SQL = "INSERT INTO ENTRADAS (ID_ENTRADA,ID_USUARIO,FECHA_ENTRADA) VALUES (?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_ENTRADA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		Long idEntrada = leerProximoIdentificador();
@@ -69,7 +71,7 @@ public class EntradasJdbc {
 	 * @throws SQLException
 	 */
 	public void eliminarEntrada(Submission entrada) throws SQLException {
-		String SQL = "DELETE FROM entradas WHERE id_entrada=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ELIMINAR_ENTRADA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, entrada.getIdSubmission());
@@ -92,7 +94,7 @@ public class EntradasJdbc {
 	 * @throws SQLException
 	 */
 	public Submission leerEntrada(Long idEntrada) throws SQLException {
-		String SQL = "SELECT * FROM entradas WHERE id_entrada=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_ENTRADA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idEntrada);
@@ -125,7 +127,7 @@ public class EntradasJdbc {
 	 * @throws SQLException
 	 */
 	private Long leerProximoIdentificador() throws SQLException {
-		String SQL = "SELECT max(id_entrada) as maximo FROM entradas";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_ENTRADA");
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
 		Long resultado = null;

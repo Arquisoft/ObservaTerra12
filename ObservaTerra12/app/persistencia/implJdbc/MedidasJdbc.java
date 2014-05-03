@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import utils.QueryReader;
+
 import model.Measure;
 
 public class MedidasJdbc {
@@ -36,7 +38,7 @@ public class MedidasJdbc {
 	 * @throws SQLException
 	 */
 	public Measure crearMedida(Measure measure) throws SQLException {
-		String SQL = "INSERT INTO MEDIDAS (ID_MEDIDA,VALOR_MEDIDA,UNIDAD_MEDIDA) VALUES (?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_MEDIDA");
 
 		Long id = leerProximoIdentificador();
 		measure.setIdMeasure(id);
@@ -60,7 +62,7 @@ public class MedidasJdbc {
 	 * @throws SQLException
 	 */
 	private Long leerProximoIdentificador() throws SQLException {
-		String SQL = "SELECT max(id_medida) as maximo FROM medidas";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_MEDIDA");
 		PreparedStatement pst = con.prepareStatement(SQL);
 		ResultSet rs = pst.executeQuery();
 		Long resultado = null;
@@ -82,7 +84,7 @@ public class MedidasJdbc {
 	 * @throws SQLException
 	 */
 	public void borrarMedida(Measure medida) throws SQLException {
-		String SQL = "DELETE FROM medidas WHERE id_medida=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BORRAR_MEDIDA");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, medida.getIdMeasure());
@@ -101,7 +103,7 @@ public class MedidasJdbc {
 	 */
 	public Measure buscarMedidaPorIdentificador(Long identificador)
 			throws SQLException {
-		String SQL = "SELECT * FROM medidas WHERE id_medida=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_MEDIDA_POR_ID");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, identificador);
@@ -134,7 +136,7 @@ public class MedidasJdbc {
 	 */
 	public Measure buscarMedidaPorValorYUnidad(String value, String unit)
 			throws SQLException {
-		String SQL = "SELECT * FROM medidas WHERE valor_medida = ? and unidad_medida = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BUSCAR_MEDIDA_POR_VALOR");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, value);

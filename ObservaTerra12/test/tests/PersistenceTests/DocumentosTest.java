@@ -31,7 +31,7 @@ public class DocumentosTest {
 		usuario.setIdUser(1L);
 		
 		this.documento = new Document();
-		this.documento.setFile(new File("readme"));
+		this.documento.setFile(new File("build.sbt"));
 		this.documento.setUser(usuario);
 		this.documento.setName("1readme");
 	}

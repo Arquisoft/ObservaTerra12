@@ -13,6 +13,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.QueryReader;
+
 import model.Document;
 import model.User;
 
@@ -60,7 +62,7 @@ public class DocumentosJdbc {
 			IOException {
 
 		// Crea la consulta
-		String SQL = "INSERT INTO REPOSITORIOS (ID_USUARIO,DOCUMENTO,NOMBRE_DOCUMENTO) VALUES (?,?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("GUARDAR_DOCUMENTO");
 
 		// Precompila el statement y establece el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -100,7 +102,7 @@ public class DocumentosJdbc {
 	private Long getIdDocumento(Connection con, Long idUsuario)
 			throws SQLException {
 
-		String SQL = "SELECT max(id_repositorio) as id_repositorio from repositorios where id_usuario = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_DOCUMENTO");
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, idUsuario);
 		ResultSet rs = pst.executeQuery();
@@ -127,7 +129,7 @@ public class DocumentosJdbc {
 			IOException {
 
 		// Carga de la consulta
-		String SQL = "SELECT * FROM REPOSITORIOS where id_repositorio = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LEER_DOCUMENTO_POR_ID");
 
 		// Preparar el statement, y meter el id del usuario
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -189,7 +191,7 @@ public class DocumentosJdbc {
 					"No es el propietario del documento: petición denegada.");
 
 		// Carga de la consulta
-		String SQL = "DELETE FROM REPOSITORIOS WHERE ID_REPOSITORIO = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("BORRAR_DOCUMENTO");
 
 		// Preparar el statement, ejecutar la consulta
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -213,7 +215,7 @@ public class DocumentosJdbc {
 	private boolean esPropietario(User user, Long idRepositorio)
 			throws SQLException {
 		// Definición de SQL
-		String SQL = "SELECT id_usuario FROM repositorios WHERE id_repositorio = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ES_PROPIETARIO");
 
 		// Carga del statement y ejecución de la consulta
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -249,7 +251,7 @@ public class DocumentosJdbc {
 	public List<Long> listarRepositoriosUsuario(User usuario)
 			throws SQLException {
 		// Definición de SQL
-		String SQL = "SELECT id_repositorio FROM repositorios WHERE id_usuario = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTADO_REPOSITORIOS_USUARIOS");
 
 		// Carga del statement y ejecución de la consulta
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -285,7 +287,7 @@ public class DocumentosJdbc {
 	public List<Long> listarRespositoriosAccesiblesUsuario(User usuario)
 			throws SQLException {
 		// Definición de SQL
-		String SQL = "SELECT id_repositorio FROM comparte WHERE id_usuario=?";
+		String SQL = QueryReader.instanciar().leerPropiedad("LISTADO_REPOSITORIOS_ACCESIBLES_USUARIO");
 
 		// Carga del statement y ejecución de la consulta
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -333,7 +335,7 @@ public class DocumentosJdbc {
 					"No es el propietario del documento: petición denegada.");
 
 		// Definición de la consulta
-		String SQL = "INSERT INTO COMPARTE (ID_USUARIO,ID_REPOSITORIO) VALUES (?,?)";
+		String SQL = QueryReader.instanciar().leerPropiedad("COMPARTIR_REPOSITORIO");
 
 		// Carga de la consulta y ejecución
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -371,7 +373,7 @@ public class DocumentosJdbc {
 					"No es el propietario del documento: petición denegada.");
 
 		// Definición de la consulta
-		String SQL = "DELETE FROM COMPARTE WHERE ID_USUARIO = ? AND ID_REPOSITORIO = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ANULAR_COMPARTIR_REPOSITORIO");
 
 		// Carga de la consulta y ejecución
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -396,7 +398,7 @@ public class DocumentosJdbc {
 			throw new SecurityException("No es el propietario del documento: petición denegada.");
 
 		// Definición de la consulta
-		String SQL = "DELETE FROM COMPARTE WHERE ID_REPOSITORIO = ?";
+		String SQL = QueryReader.instanciar().leerPropiedad("ANULAR_COMPARTICIONES_DOCUMENTO");
 
 		// Carga de la consulta y ejecución
 		PreparedStatement pst = con.prepareStatement(SQL);
