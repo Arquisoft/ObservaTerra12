@@ -69,7 +69,7 @@ public class UsuariosTest {
 	
 	
 	@Test
-	public void test() throws SQLException {
+	public void testUsuarios() throws SQLException {
 		testCrearUsuario();
 		testActualizarUsuario();
 		testSuprimirUsuario();
@@ -90,8 +90,7 @@ public class UsuariosTest {
 				this.usuario.getPassword());
 
 		assertNotNull(usuarioLeido);
-		assertEquals(usuario.getName(), usuarioLeido.getName());
-		assertEquals(usuario.getRol(), usuarioLeido.getRol());
+		assertEquals(this.usuario, usuarioLeido);
 
 		// Probar a listar todos
 		List<User> usuariosLeidos = usuariosDAO.listarUsuarios();
@@ -119,23 +118,13 @@ public class UsuariosTest {
 				this.usuario.getPassword());
 
 		assertNotNull(usuarioLeido);
-		assertEquals(usuario.getName(), usuarioLeido.getName());
-		assertEquals(usuario.getRol(), usuarioLeido.getRol());
-		assertNotNull(usuarioLeido.getEmail());
-		assertEquals(usuarioLeido.getEmail(), this.usuario.getEmail());
-		assertNotNull(usuarioLeido.getSurname());
-		assertEquals(usuarioLeido.getSurname(), this.usuario.getSurname());
+		assertEquals(this.usuario, usuarioLeido);
 
 		// Probar a recuperarlo SOLO por nombre de usuario
 		usuarioLeido = usuariosDAO.buscarUsuario(this.usuario.getUserName());
 
 		assertNotNull(usuarioLeido);
-		assertEquals(usuario.getName(), usuarioLeido.getName());
-		assertEquals(usuario.getRol(), usuarioLeido.getRol());
-		assertNotNull(usuarioLeido.getEmail());
-		assertEquals(usuarioLeido.getEmail(), this.usuario.getEmail());
-		assertNotNull(usuarioLeido.getSurname());
-		assertEquals(usuarioLeido.getSurname(), this.usuario.getSurname());
+		assertEquals(this.usuario, usuarioLeido);
 
 		// Probar a listar todos
 		List<User> usuariosLeidos = usuariosDAO.listarUsuarios();

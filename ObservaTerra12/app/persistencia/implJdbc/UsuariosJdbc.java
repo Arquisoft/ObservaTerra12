@@ -299,13 +299,7 @@ public class UsuariosJdbc {
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getUserName());
 		pst.setString(2, usuario.getPassword());
-
-		// Un usuario puede no pertenecer a una organizacion
-		if (usuario.getOrganization() != null)
-			pst.setLong(3, usuario.getOrganization().getIdOrganization());
-		else
-			pst.setNull(3, java.sql.Types.INTEGER);
-		
+		pst.setLong(3, usuario.getOrganization().getIdOrganization());
 		pst.setLong(4, usuario.getIdUser());
 
 		pst.executeUpdate();

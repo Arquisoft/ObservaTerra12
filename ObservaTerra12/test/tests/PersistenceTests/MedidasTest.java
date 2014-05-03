@@ -35,8 +35,7 @@ public class MedidasTest {
 		Measure leida = medidasDAO.buscarMedidaPorIdentificador(this.medida.getIdMeasure());
 		org.junit.Assert.assertNotNull(leida);
 
-		org.junit.Assert.assertEquals(leida.getUnit(), this.medida.getUnit());
-		org.junit.Assert.assertEquals(leida.getValue(), this.medida.getValue());
+		org.junit.Assert.assertEquals(leida, this.medida);
 	}
 
 	private void testBorrarYRecuperar() throws SQLException {

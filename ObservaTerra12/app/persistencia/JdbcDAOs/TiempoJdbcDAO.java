@@ -2,6 +2,7 @@ package persistencia.JdbcDAOs;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Date;
 
 import model.Time;
 import persistencia.TiempoDAO;
@@ -93,6 +94,18 @@ public class TiempoJdbcDAO implements TiempoDAO {
 		Connection con = DBConnection.getConnection();
 		this.tiempoJDBC.setConnection(con);
 		Time t = this.tiempoJDBC.buscarIntervaloTiempo(idIntervalo);
+		con.close();
+		return t;
+	}
+
+	@Override
+	public Time buscarIntervaloTiempo(Date startDate, Date endDate)	throws SQLException {
+		if(startDate == null)
+			throw new IllegalArgumentException("Al menos debe incluirse la fecha de inicio.");
+		
+		Connection con = DBConnection.getConnection();
+		this.tiempoJDBC.setConnection(con);
+		Time t = this.tiempoJDBC.buscarIntervaloTiempo(startDate, endDate);
 		con.close();
 		return t;
 	}

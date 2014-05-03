@@ -1,6 +1,7 @@
 package persistencia;
 
 import java.sql.SQLException;
+import java.util.List;
 
 import model.Area;
 import model.Country;
@@ -150,5 +151,30 @@ public interface AreasDAO {
 	 * @throws SQLException
 	 */
 	public Area buscarAreaYPaisPorId(Long idArea) throws SQLException;
+	
+
+	/**
+	 * Genera un listado de áreas.
+	 * 
+	 * @return Listado de áreas
+	 * @throws SQLException
+	 */
+	public List<Area> listadoAreas() throws SQLException;
+
+	/**
+	 * Genera un listado de países.
+	 * 
+	 * @return Listado de países.
+	 * @throws SQLException
+	 */
+	public List<Country> listadoPaises() throws SQLException;
+
+	/**
+	 * Listado de areas y países conjuntamente
+	 * 
+	 * @return Listado de áreas y paises conjuntamente.
+	 * @throws SQLException 
+	 */
+	public List<Area> listadoAreasYPaises() throws SQLException;
 
 }

@@ -125,8 +125,27 @@ public class AreasJdbc {
 				eliminarSubarea(areas.getIdArea());
 			}
 		}
+		// Si es parte de otra area, eliminar la referencia
+		eliminarParteArea(area.getIdArea());
+
 		// Elimina el área principal
 		eliminarSubarea(area.getIdArea());
+	}
+
+	/**
+	 * Método auxiliar que elimina a un area como parte de otras mayores.
+	 * 
+	 * @param idArea
+	 *            - Area seleccionada.
+	 * @throws SQLException
+	 */
+	private void eliminarParteArea(Long idArea) throws SQLException {
+		String SQL = "DELETE FROM pertenece WHERE id_area_referenciada=?";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		pst.setLong(1, idArea);
+		pst.executeUpdate();
+		pst.close();
 	}
 
 	/**
@@ -190,7 +209,8 @@ public class AreasJdbc {
 	 * Recoge los datos de un area determinado de la base de datos en base a su
 	 * nombre.
 	 * 
-	 * @param nombre  - Nombre del area.
+	 * @param nombre
+	 *            - Nombre del area.
 	 * @return - Area encontrado.
 	 * @throws SQLException
 	 */
@@ -230,8 +250,7 @@ public class AreasJdbc {
 		ResultSet rs = pst.executeQuery();
 
 		Country area = null;
-		while (rs.next()) 
-		{
+		while (rs.next()) {
 			area = new Country();
 			area.setIdArea(rs.getLong("id_area"));
 			area.setName(rs.getString("nombre_area"));
@@ -363,7 +382,8 @@ public class AreasJdbc {
 	 *            - Subarea asociada al area referenciada.
 	 * @throws SQLException
 	 */
-	public void anularAsociacionSubarea(Area areaPertenece, Area subarea) throws SQLException {
+	public void anularAsociacionSubarea(Area areaPertenece, Area subarea)
+			throws SQLException {
 		String SQL = "DELETE FROM PERTENECE WHERE id_area_referenciada=? and id_area_pertenece=?";
 
 		PreparedStatement pst = con.prepareStatement(SQL);
@@ -412,7 +432,8 @@ public class AreasJdbc {
 	/**
 	 * Busca un area o un pais en función de su identificador.
 	 * 
-	 * @param idArea - Identificador único.
+	 * @param idArea
+	 *            - Identificador único.
 	 * @return Area/Pais encontrado
 	 * @throws SQLException
 	 */
@@ -441,7 +462,91 @@ public class AreasJdbc {
 		rs.close();
 		pst.close();
 		return area;
-	
+
+	}
+
+	/**
+	 * Genera un listado de áreas.
+	 * 
+	 * @return Listado de áreas
+	 * @throws SQLException
+	 */
+	public List<Area> listadoAreas() throws SQLException {
+		String SQL = "SELECT * FROM areas WHERE es_pais='NO'";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		ResultSet rs = pst.executeQuery();
+
+		List<Area> listado = new ArrayList<Area>();
+
+		while (rs.next()) {
+			Area area = new Area();
+			area.setIdArea(rs.getLong("id_area"));
+			area.setName(rs.getString("nombre_area"));
+			listado.add(area);
+		}
+
+		return listado;
+	}
+
+	/**
+	 * Genera un listado de países.
+	 * 
+	 * @return Listado de países.
+	 * @throws SQLException
+	 */
+	public List<Country> listadoPaises() throws SQLException {
+		String SQL = "SELECT * FROM areas WHERE es_pais='SI'";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		ResultSet rs = pst.executeQuery();
+
+		List<Country> listado = new ArrayList<Country>();
+
+		while (rs.next()) {
+			Country area = new Country();
+			area.setIdArea(rs.getLong("id_area"));
+			area.setName(rs.getString("nombre_area"));
+			listado.add(area);
+		}
+
+		return listado;
+	}
+
+	/**
+	 * Listado de areas y países conjuntamente
+	 * 
+	 * @return Listado de áreas y paises conjuntamente.
+	 * @throws SQLException 
+	 */
+	public List<Area> listadoAreasYPaises() throws SQLException {
+		String SQL = "SELECT * FROM areas";
+
+		PreparedStatement pst = con.prepareStatement(SQL);
+		ResultSet rs = pst.executeQuery();
+
+		List<Area> listado = new ArrayList<Area>();
+
+		while (rs.next()) {
+			Area area = null;
+			
+			//Comprobación es pais
+			String esPais = rs.getString("es_pais");
+			switch (esPais.toUpperCase()) {
+			case ("SI"):
+				 area = new Country();
+				break;
+			case ("NO"):
+				 area = new Area();
+				break;
+			}
+
+			area.setIdArea(rs.getLong("id_area"));
+			area.setName(rs.getString("nombre_area"));
+			listado.add(area);
+		}
+
+		return listado;
 	}
 
 }

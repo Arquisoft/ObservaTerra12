@@ -21,8 +21,8 @@ public class TiempoTest {
 		Date datebegining = new Date(System.currentTimeMillis() / 3);
 		this.tiempo.setStartDate(datebegining);
 
-		Date dateEnd = new Date(System.currentTimeMillis() / 4);
-		this.tiempo.setEndDate(dateEnd);
+		//Date dateEnd = new Date(System.currentTimeMillis() / 4);
+		//this.tiempo.setEndDate(dateEnd);
 	}
 
 	@Test
@@ -39,12 +39,12 @@ public class TiempoTest {
 
 		// Probar a recuperarla y comparar
 		Time leida = tiempoDAO.buscarIntervaloTiempo(this.tiempo.getIdTime());
-
 		org.junit.Assert.assertNotNull(leida);
-		org.junit.Assert.assertEquals(leida.getStartDate(),
-				this.tiempo.getStartDate());
-		org.junit.Assert.assertEquals(leida.getEndDate(),
-				this.tiempo.getEndDate());
+		org.junit.Assert.assertEquals(leida, this.tiempo);
+		
+		//Recuperar por datos
+		leida = tiempoDAO.buscarIntervaloTiempo(this.tiempo.getStartDate(), this.tiempo.getEndDate());
+		org.junit.Assert.assertEquals(leida, this.tiempo);
 	}
 
 	private void testBorrarYRecuperar() throws SQLException {
