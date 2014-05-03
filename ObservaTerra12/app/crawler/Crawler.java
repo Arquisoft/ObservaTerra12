@@ -5,8 +5,8 @@ import java.util.Timer;
 
 /**
  * 
- * Lanzador principal Utiliza un scheduler para lanzar las tareas indicadas cada
- * X tiempo
+ * Lanzador principal. Utiliza un scheduler para lanzar las tareas indicadas
+ * cada X tiempo
  * 
  * @author Pablo Garcia Fernandez
  * 
