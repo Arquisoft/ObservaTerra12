@@ -105,11 +105,4 @@ public class ParserJsonWHO extends AbstractParser {
 		return observations;
 	}
 
-	@Override
-	public void setTags(String countryTag, String indicatorTag,
-			String measureTag, String timeTag) {
-		// TODO Auto-generated method stub
-
-	}
-
 }

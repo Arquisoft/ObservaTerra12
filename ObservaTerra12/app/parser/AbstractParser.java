@@ -16,9 +16,8 @@ public abstract class AbstractParser implements Parser {
 	Submission submission;
 	Indicator indicator;
 	List<Observation> observations;
-	String countryTag;
-	String indicatorTag;
-	String measureTag;
+	String busquedaTag;
+	String displayTag;
 	String timeTag;
 
 	@Override
@@ -47,11 +46,9 @@ public abstract class AbstractParser implements Parser {
 	}
 
 	@Override
-	public void setTags(String countryTag, String indicatorTag,
-			String measureTag, String timeTag) {
-		this.countryTag = countryTag;
-		this.indicatorTag = indicatorTag;
-		this.measureTag = measureTag;
+	public void setTags(String busquedaTag, String displayTag, String timeTag) {
+		this.busquedaTag = busquedaTag;
+		this.displayTag = displayTag;
 		this.timeTag = timeTag;
 	}
 
