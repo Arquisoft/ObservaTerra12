@@ -1,0 +1,33 @@
+@(title: String)(content: Html)
+@import play.i18n._
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+    </head>
+    <body>
+    	<div class="wrapper">
+    		<a href="@routes.Application.logout()">@Messages.get("panel_logout")</a>
+    		<div class="nav">
+    			<ul>
+					<li><a class"documents" href="@routes.Application.documents()">@Messages.get("panel_documents")</a></li>
+					<li><a class"search_observations" href="@routes.Application.searchObservations()">@Messages.get("panel_search_observations")</a></li>
+					<li><a  class"compare_observations" href="@routes.Application.compareObservations()">@Messages.get("panel_compare_observations")</a></li>
+					<li><a  class"change_data" href="@routes.Application.changeData()">@Messages.get("panel_change_data")</a></li>
+    			</ul>
+    		</div>
+    		
+        	@content
+        </div>
+        
+        <div class="footer">
+        	<p>FOOTER TODO</p>
+        </div>
+    </body>
+</html>
