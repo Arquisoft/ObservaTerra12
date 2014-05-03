@@ -81,7 +81,7 @@ public class ParserJsonWHO extends AbstractParser {
 					Date endDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-12-31 23:59:59.000000");
-					TiempoJdbc tiempoDao = new TiempoJdbc();
+					TiempoDAO tiempoDao = PersistenceFactory.createTiempoDAO();
 					Time time = tiempoDao.buscarIntervaloTiempo(startDate,
 							endDate);
 					if (time == null)

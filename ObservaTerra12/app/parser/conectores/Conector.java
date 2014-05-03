@@ -109,7 +109,6 @@ public abstract class Conector {
 				providerCountry = new Country(providerCountryName);
 				areasDao.crearArea(providerCountry);
 				providerCountry = areasDao.leerPais(providerCountryName);
-				System.out.println(providerCountry);
 			}
 			organizacionesDao.crearProveedor(new Provider(providerName,
 					providerCountry, providerTipo));
@@ -151,8 +150,8 @@ public abstract class Conector {
 
 	protected void descargaFicheroJson(String url, String label) {
 		try {
-			file = new File("public/crawler/downloads/" + keyBusquedaProperties + "/" + label
-					+ ".json");
+			file = new File("public/crawler/downloads/" + keyBusquedaProperties
+					+ "/" + label + ".json");
 
 			FileUtils.copyURLToFile(new URL(url), file);
 		} catch (MalformedURLException e) {
