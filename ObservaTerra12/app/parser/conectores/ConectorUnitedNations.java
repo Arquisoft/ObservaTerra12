@@ -62,8 +62,16 @@ public class ConectorUnitedNations extends Conector {
 	public void start() {
 		super.start();
 
-		// String label = pairs.getKey().toString();
-		String display = "Life Expectancy at birth";
+		consulta("_2012_life_expectancy_at_birth", "Life Expectancy at birth",
+				"2012");
+		consulta("_2011_expected_years_of_schooling",
+				"Expected years of schooling", "2011");
+		consulta("_2010_mean_years_of_schooling", "Mean years of schooling",
+				"2010");
+
+	}
+
+	private void consulta(String tagBusqueda, String display, String year) {
 
 		try {
 			descargaFicheroJson("http://data.undp.org/resource/wxub-qc5k.json",
@@ -79,10 +87,12 @@ public class ConectorUnitedNations extends Conector {
 			miParser = ParserFactory.getParser(keyBusquedaProperties,
 					(String) properties.get(keyBusquedaProperties + "_FORMAT"));
 			miParser.setFile(file);
-			miParser.setKeySearch((String) properties.get(keyBusquedaProperties + "_KEY"));
+			miParser.setKeySearch((String) properties.get(keyBusquedaProperties
+					+ "_KEY"));
 			miParser.setIndicator(indicator);
 			miParser.setProvider(provider);
 			miParser.setSubmission(submission);
+			miParser.setTags(tagBusqueda, display, year);
 
 			observations = miParser.getParsedObservations();
 			insertaObservaciones();
@@ -90,7 +100,6 @@ public class ConectorUnitedNations extends Conector {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 }

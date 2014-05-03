@@ -15,7 +15,7 @@ import edu.uci.ics.crawler4j.crawler.WebCrawler;
  * @author Pablo Garcia Fernandez
  * 
  */
-public class PruebaCrawlerBase extends WebCrawler {
+public class WebCrawlerBase extends WebCrawler {
 
 	@Override
 	public void visit(Page page) {
@@ -46,6 +46,8 @@ public class PruebaCrawlerBase extends WebCrawler {
 					"public/crawler/downloads/pruebaCrawler/PRUEBA.xls");
 			FileUtils.copyURLToFile(new URL(url), file);
 
+			// deleteTempFile(file);
+
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -66,11 +68,24 @@ public class PruebaCrawlerBase extends WebCrawler {
 					"public/crawler/downloads/pruebaCrawler/PRUEBA.json");
 			FileUtils.copyURLToFile(new URL(url), file);
 
+			// deleteTempFile(file);
+
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
+	}
+
+	private void deleteTempFile(File file) {
+		if (file.delete())
+			System.out.printf(
+					"Operacion de borrado completada sobre el fichero %s. \no",
+					file.getName());
+		else
+			System.out.printf(
+					"Operacion de borrado fallida sobre el fichero %s. \n",
+					file.getName());
 	}
 }

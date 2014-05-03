@@ -197,7 +197,7 @@ public class WebCrawlerController {
 			 * code will reach the line after this only when crawling is
 			 * finished.
 			 */
-			controller.start(PruebaCrawlerBase.class, numberOfCrawlers);
+			controller.start(WebCrawlerBase.class, numberOfCrawlers);
 
 		} catch (Exception e) {
 			e.printStackTrace();

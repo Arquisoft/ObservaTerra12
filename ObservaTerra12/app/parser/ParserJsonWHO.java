@@ -81,11 +81,7 @@ public class ParserJsonWHO extends AbstractParser {
 					Date endDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-12-31 23:59:59.000000");
-					TiempoDAO tiempoDao = PersistenceFactory.createTiempoDAO();
-					Time time = tiempoDao.buscarIntervaloTiempo(startDate,
-							endDate);
-					if (time == null)
-						time = new Time(startDate, endDate);
+					Time time = new Time(startDate, endDate);
 
 					// Add observacion al listado
 
@@ -98,9 +94,6 @@ public class ParserJsonWHO extends AbstractParser {
 				} catch (NullPointerException e) {
 					System.out
 							.println("Problema con la observacion (Formato no compatible)");
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
 				}
 			}
 
@@ -110,13 +103,6 @@ public class ParserJsonWHO extends AbstractParser {
 			e1.printStackTrace();
 		}
 		return observations;
-	}
-
-	@Override
-	public void setTags(String countryTag, String indicatorTag,
-			String measureTag, String timeTag) {
-		// TODO Auto-generated method stub
-
 	}
 
 }

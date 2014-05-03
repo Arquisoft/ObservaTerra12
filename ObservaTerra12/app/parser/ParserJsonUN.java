@@ -55,7 +55,7 @@ public class ParserJsonUN extends AbstractParser {
 			for (int i = 0; i < arrayJsonOriginal.size(); i++) {
 
 				JsonElement value = arrayJsonOriginal.get(i).getAsJsonObject()
-						.get("_2012_life_expectancy_at_birth");
+						.get(busquedaTag);
 
 				if (value != null) {
 
@@ -64,7 +64,7 @@ public class ParserJsonUN extends AbstractParser {
 
 					Measure measure = new Measure(value.getAsString(), "years");
 
-					String year = "2012";
+					String year = timeTag;
 					Date startDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-01-01 00:00:00.000000");
@@ -77,9 +77,6 @@ public class ParserJsonUN extends AbstractParser {
 							time, provider, submission);
 
 					observations.add(obs);
-
-					// TODO: Quitar estos System.out de pruebas
-
 				}
 			}
 
@@ -89,13 +86,6 @@ public class ParserJsonUN extends AbstractParser {
 			e1.printStackTrace();
 		}
 		return observations;
-	}
-
-	@Override
-	public void setTags(String countryTag, String indicatorTag,
-			String measureTag, String timeTag) {
-		// TODO Auto-generated method stub
-
 	}
 
 }
