@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import persistencia.PersistenceFactory;
+import persistencia.TiempoDAO;
 import persistencia.implJdbc.TiempoJdbc;
 import model.Area;
 import model.Country;
@@ -69,7 +71,7 @@ public class ParserJsonUN extends AbstractParser {
 					Date endDate = new SimpleDateFormat(
 							"yyyy-MM-dd HH:mm:ss.SSSSSS").parse(year
 							+ "-12-31 23:59:59.000000");
-					TiempoJdbc tiempoDao = new TiempoJdbc();
+					TiempoDAO tiempoDao = PersistenceFactory.createTiempoDAO();
 					Time time = tiempoDao.buscarIntervaloTiempo(startDate,
 							endDate);
 					if (time == null)
