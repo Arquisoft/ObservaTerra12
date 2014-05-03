@@ -1,0 +1,770 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "43"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "22"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2007",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "19"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2003",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2004",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "14"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2005",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "33"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "21"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2006",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "20"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "51"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2008",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "23"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "175"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2009",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "11"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of meningitis epidemic districts",
+             "YEAR": "2010",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           }
+          ]
+}

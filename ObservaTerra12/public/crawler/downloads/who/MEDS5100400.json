@@ -1,0 +1,363 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2010",
+             "COUNTRY": "Argentina",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2008",
+             "COUNTRY": "Azerbaijan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Belgium",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Belize",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Barbados",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Switzerland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2009",
+             "COUNTRY": "Costa Rica",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Uruguay",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2001",
+             "COUNTRY": "Dominican Republic",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2010",
+             "COUNTRY": "Egypt",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Estonia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Finland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Grenada",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Guatemala",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "1974",
+             "COUNTRY": "Croatia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "1998",
+             "COUNTRY": "Indonesia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Iraq",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2001",
+             "COUNTRY": "Jordan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2010",
+             "COUNTRY": "Sri Lanka",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "1988",
+             "COUNTRY": "Morocco",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Malta",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Nicaragua",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Nepal",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Panama",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Peru",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2006",
+             "COUNTRY": "Portugal",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2009",
+             "COUNTRY": "Saudi Arabia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2008",
+             "COUNTRY": "Sudan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "El Salvador",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2009",
+             "COUNTRY": "Suriname",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Trinidad and Tobago",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "1996",
+             "COUNTRY": "Ukraine",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "National pharmacovigilance centre linked to the MRA exists",
+             "YEAR": "2011",
+             "COUNTRY": "Zimbabwe",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           }
+          ]
+}

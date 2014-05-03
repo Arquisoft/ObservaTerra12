@@ -20,7 +20,7 @@ a img {
 }
 
 body {
-	background-color: #ededed;
+	background: #ededed url(../images/backgrounds/body_bg.png) repeat-x;
     color:#2869eb;
 	font:82%/1.5em Georgia,Palatino,"Palatino Linotype",serif;
 }
@@ -31,6 +31,91 @@ body {
 }
 
 /* END GLOBALS */
+
+/* NAV.top_menu */
+
+.top_menu {
+	width: 1000px;
+	height: 26px;
+}
+
+/* END NAV.top_menu */
+
+
+/* HEADER */
+
+header {
+	width: 1000px;
+	height: 79px;
+}
+
+/* END HEADER */
+
+/* NAV */
+
+.nav {
+	width:1000px;
+}
+
+.nav ul {
+	float: left;
+	width:1000px;
+}
+.nav ul li{
+	display: inline;
+}
+
+.nav ul li a {
+	float: left;
+	width: 250px;
+	height: 84px;
+	color: #666;
+	text-transform: uppercase;
+}
+
+.nav ul li a p{
+	padding: 20px;
+	width: 210px;
+	text-align: center;
+}
+
+.nav ul li a.documents {
+	background: url(../images/nav/documents.png) no-repeat right top;
+}
+
+.nav ul li a.documents:hover {
+	background: url(../images/nav/documents.png) no-repeat right bottom;
+	color: #2869eb;
+}
+
+.nav ul li a.search_observations {
+	background: url(../images/nav/search_observations.png) no-repeat right top;
+}
+
+.nav ul li a.search_observations:hover {
+	background: url(../images/nav/search_observations.png) no-repeat right bottom;
+	color: #bc3121;
+}
+
+.nav ul li a.compare_observations {
+	background: url(../images/nav/compare_observations.png) no-repeat right top;
+}
+
+.nav ul li a.compare_observations:hover {
+	background: url(../images/nav/compare_observations.png) no-repeat right bottom;
+	color: #0fbad2;
+}
+
+.nav ul li a.change_data {
+	background: url(../images/nav/config.png) no-repeat right top;
+}
+
+.nav ul li a.change_data:hover {
+	background: url(../images/nav/config.png) no-repeat right bottom;
+	color: #60c31b;
+}
+
+/* END NAV */
 
 /* FOOTER */
 

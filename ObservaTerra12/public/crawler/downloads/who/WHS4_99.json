@@ -1,0 +1,107 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "45"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "54"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "28"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "94"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "23"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "REGION": "Global",
+             "PUBLISHSTATE": "Published",
+             "Value": "45"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "37"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "44"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "74"
+           },
+           {
+             "GHO": "Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%)",
+             "YEAR": "2008",
+             "WORLDBANKINCOMEGROUP": "Global",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "45"
+           }
+          ]
+}

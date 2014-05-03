@@ -70,3 +70,7 @@ documents_document_unshare = Dejar de compartir
 documents_document_upload = Subir archivo
 documents_document_upload_successfull = Fichero subido con éxito
 documents_document_upload_error = Ocurrió un error al subir el fichero
+#Buscar observaciones
+search_observation_title = ObservaTerra: Buscar observaciones
+search_observation_form_title = Filtrar observaciones
+search_observations_form_header_area = Area

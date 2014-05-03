@@ -16,16 +16,21 @@ GET     /user-panel                 				controllers.Application.userPanel()
 GET		/logout										controllers.Application.logout()
 GET		/user-panel/change-data						controllers.Application.changeData()
 POST	/user-panel/change-data						controllers.Application.changeUserData()
-GET		/user-panel/documents						controllers.Application.documents()
-GET		/user-panel/search-observations				controllers.Application.searchObservations()
-GET		/user-panel/compare-observations			controllers.Application.compareObservations()
 
 # Menu/Documentos
+GET		/user-panel/documents						controllers.Application.documents()
 GET		/user-panel/documents/download-file/:id		controllers.Application.downloadFile(id: Long)
 GET		/user-panel/documents/remove-file/:id		controllers.Application.removeFile(id: Long)
 GET		/user-panel/documents/unshare-file/:id		controllers.Application.unshareFile(id: Long)
 POST	/user-panel/documents/upload-file			controllers.Application.uploadFile()
 POST	/user-panel/documents/share-file			controllers.Application.shareFile()
+
+# Menu/Buscar observaciones
+GET		/user-panel/search-observations				controllers.Application.searchObservations()
+POST	/user-panel/search-observations				controllers.Application.filterObservations()
+
+# Menu/Comparar observaciones
+GET		/user-panel/compare-observations			controllers.Application.compareObservations()
 
 # Visualization
 

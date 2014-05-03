@@ -1,0 +1,890 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1257000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "737143"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2001",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1900000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "654128"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "250000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2002",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2003",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "90000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "100000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2004",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "300000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "90000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "732830"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2005",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "100000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "70000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "49654"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1047500"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "39900"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "882000"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2006",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2007",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2007",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "European Union (USD)",
+             "YEAR": "2007",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           }
+          ]
+}

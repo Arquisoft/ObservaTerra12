@@ -1,4 +1,5 @@
 @(title: String)(content: Html)
+@import play.i18n._
 
 <!DOCTYPE html>
 
@@ -12,14 +13,22 @@
     </head>
     <body>
     	<div class="wrapper">
-    		<div class="nav">
+    		<nav class="top_menu">
+    			<a href="@routes.Application.logout()">@Messages.get("panel_logout")</a>
+    		</nav>
+    		
+    		<header>
+    		
+    		</header>
+    		
+    		<nav class="nav">
     			<ul>
-    				<l1><a href="#">Opción A</a></l1>
-    				<l1><a href="#">Opción B</a></l1>
-    				<l1><a href="#">Opción C</a></l1>
-    				<l1><a href="#">Opción D</a></l1>
+					<li><a class="documents" href="@routes.Application.documents()"><p>@Messages.get("panel_documents")</p></a></li>
+					<li><a class="search_observations" href="@routes.Application.searchObservations()"><p>@Messages.get("panel_search_observations")</p></a></li>
+					<li><a  class="compare_observations" href="@routes.Application.compareObservations()"><p>@Messages.get("panel_compare_observations")</p></a></li>
+					<li><a  class="change_data" href="@routes.Application.changeData()"><p>@Messages.get("panel_change_data")</p></a></li>
     			</ul>
-    		</div>
+    		</nav>
     		
         	@content
         </div>
