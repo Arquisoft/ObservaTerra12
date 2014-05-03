@@ -15,7 +15,7 @@ import edu.uci.ics.crawler4j.crawler.WebCrawler;
  * @author Pablo Garcia Fernandez
  * 
  */
-public class PruebaCrawlerBase extends WebCrawler {
+public class WebCrawlerBase extends WebCrawler {
 
 	@Override
 	public void visit(Page page) {
