@@ -7,13 +7,20 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 
+import model.Area;
 import model.Document;
+import model.Indicator;
 import model.Observation;
 import model.Organization;
+import model.Time;
 import model.User;
+import persistencia.AreasDAO;
 import persistencia.DocumentosDAO;
+import persistencia.IndicadoresDAO;
+import persistencia.ObservacionesDAO;
 import persistencia.OrganizacionesDAO;
 import persistencia.PersistenceFactory;
 import persistencia.UsuariosDAO;
@@ -25,7 +32,13 @@ import play.mvc.Controller;
 import play.mvc.Http.MultipartFormData;
 import play.mvc.Http.MultipartFormData.FilePart;
 import play.mvc.Result;
-import views.html.*;
+import views.html.change_data;
+import views.html.documents;
+import views.html.error;
+import views.html.index;
+import views.html.register;
+import views.html.search_observations;
+import views.html.user_panel;
 
 public class Application extends Controller {
 	
@@ -175,6 +188,30 @@ public class Application extends Controller {
     	public String userNames;
     	public List<String> compartidos;
     }
+    
+    /**
+     * Clase utilizada para el formulario de filtrado de observaciones.
+     * 
+     * @author Manuel & Nacho
+     */
+    public static class FilterObservations {
+    	
+    	public String area;
+    	public String indicator;
+    	public Date startDate;
+    	public Date endDate;
+		
+		public static FilterObservations configure() {
+			FilterObservations fo = new FilterObservations();
+
+			fo.area = "-1";
+			fo.indicator = "-1";
+			fo.startDate = null;
+			fo.endDate = null;
+			
+			return fo;
+		}
+    }
 
     public static Result index() {
         return ok(index.render(form(Login.class)));
@@ -189,15 +226,6 @@ public class Application extends Controller {
 	    	session("userName", loginForm.get().userName);
 	    	return redirect(routes.Application.userPanel());
 	    }
-    }
-    
-    /**
-     * Clase utilizada para el formulario de filtrado de observaciones.
-     * 
-     * @author Manuel & Nacho
-     */
-    public static class FilterObservations {
-    	// TODO
     }
 
     public static Result register() {
@@ -231,6 +259,7 @@ public class Application extends Controller {
 		    	
 		    	user = usuariosDao.crearUsuario(user);
 			} catch (SQLException e) {
+				e.printStackTrace();
 				return badRequest(error.render());
 			}
 	    	
@@ -292,6 +321,7 @@ public class Application extends Controller {
 		    	
 		    	usuariosDao.actualizarUsuario(user);
 			} catch (SQLException e) {
+				e.printStackTrace();
 				return badRequest(error.render());
 			}
 	    	
@@ -316,6 +346,7 @@ public class Application extends Controller {
 	    	compartidos = documentosDao.listarRespositoriosAccesiblesUsuario(user);
 	    	
     	} catch (SQLException | IOException e) {
+			e.printStackTrace();
 			return badRequest(error.render());
 		}
     	
@@ -342,6 +373,7 @@ public class Application extends Controller {
 				return redirect(routes.Application.error());
 			
 		} catch (SQLException | IOException e) {
+			e.printStackTrace();
 			return badRequest(error.render());
 		}
 		
@@ -365,6 +397,7 @@ public class Application extends Controller {
 			documentosDao.borrarDocumento(documento);
 			
 		} catch (SQLException | IOException e) {
+			e.printStackTrace();
 			return badRequest(error.render());
 		}
 		
@@ -388,6 +421,7 @@ public class Application extends Controller {
 			documentosDao.anularCompartirRepositorioConUsuario(documento, user);
 			
 		} catch (SQLException | IOException e) {
+			e.printStackTrace();
 			return badRequest(error.render());
 		}
 		
@@ -417,6 +451,7 @@ public class Application extends Controller {
 	    	documentosDao.guardarDocumento(documento);
 	    	
 		} catch (SQLException | IOException e) {
+			e.printStackTrace();
 			return badRequest(error.render());
 		}
     	return documents();
@@ -460,6 +495,7 @@ public class Application extends Controller {
 					documentosDao.compartirRepositorioConUsuario(document, user);
 			
 		} catch (SQLException | IOException e) {
+			e.printStackTrace();
 			return badRequest(error.render());
 		}
 		
@@ -470,12 +506,76 @@ public class Application extends Controller {
     	if (session().get("userName") == null)
         	return redirect(routes.Application.error());
     	
-    	return ok(search_observations.render(form(FilterObservations.class), new ArrayList<Observation>()));
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;
+		try {
+			listAreas = PersistenceFactory.createAreasDAO().listadoAreasYPaises();
+			listIndicators = PersistenceFactory.createIndicadoresDAO().listarTodosLosIndicadores();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+    	
+    	return ok(search_observations.render(form(FilterObservations.class).fill(FilterObservations.configure()), new ArrayList<Observation>(), listAreas, listIndicators));
     }
     
     public static Result filterObservations() {
-    	//TODO
-    	return TODO;
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+
+    	ObservacionesDAO observacionesDao = PersistenceFactory.createObservacionesDAO();
+    	AreasDAO areasDao = PersistenceFactory.createAreasDAO();
+    	IndicadoresDAO indicadoresDao = PersistenceFactory.createIndicadoresDAO();
+    	
+	    Form<FilterObservations> filterForm = form(FilterObservations.class).bindFromRequest();
+	    
+	    List<Observation> listObservations;
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;	    
+	    try {
+    		listObservations = observacionesDao.listarTodasObservaciones();
+    		
+	    	// Filtrar por área
+	    	if (!filterForm.get().area.equals("-1")) {
+	    		List<Observation> temp = new ArrayList<Observation>();
+	    		for (Observation observation : listObservations)
+	    			if (observation.getArea().getIdArea().equals(Long.valueOf(filterForm.get().area)))
+	    				temp.add(observation);
+	    		listObservations = temp;
+	    	}
+	    	
+	    	// Filtrar por indicador
+	    	if (!filterForm.get().indicator.equals("-1")) {
+	    		List<Observation> temp = new ArrayList<Observation>();
+	    		Indicator indicator = indicadoresDao.leerIndicador(Long.valueOf(filterForm.get().indicator));
+	    		for (Observation observation : listObservations)
+	    			if (observation.getIndicator().equals(indicator))
+	    				temp.add(observation);
+	    		listObservations = temp;
+	    	}
+
+	    	// Filtrar por fecha
+	    	if (filterForm.get().endDate != null && filterForm.get().startDate != null) {
+	    		List<Observation> temp = new ArrayList<Observation>();
+		    	for (Observation observation : listObservations) {
+		    		Time periodo = observation.getTime();
+		    		if (periodo.getStartDate().before(filterForm.get().endDate) 
+		    				&& periodo.getEndDate().after(filterForm.get().startDate))
+						temp.add(observation);
+		    	}
+	    		listObservations = temp;
+	    	}
+	    	
+	    	// Crea las listas con las opciones de filtro
+			listAreas = areasDao.listadoAreasYPaises();
+			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+	    	
+	    } catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+
+    	return ok(search_observations.render(filterForm, listObservations, listAreas, listIndicators));
     }
     
     public static Result compareObservations() {
