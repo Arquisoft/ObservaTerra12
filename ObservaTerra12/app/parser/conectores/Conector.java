@@ -1,11 +1,16 @@
 package parser.conectores;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Properties;
+
+import org.apache.commons.io.FileUtils;
 
 import model.Country;
 import model.Observation;
@@ -37,24 +42,34 @@ public abstract class Conector {
 	ObservacionesDAO observacionesDao;
 	User user;
 	Parser miParser;
-	String key;
+	String keyBusquedaProperties;
+	File file;
 	List<Observation> observations;
 	static final String PROPERTIES = "public/crawler/configuration/conector.properties";
 
-	protected void inicializaConector() throws IOException {
+	/**
+	 * Inicializa todos los parametros necesarios antes de la ejecucion
+	 * 
+	 * @throws IOException
+	 */
+	public void preparar() throws IOException {
 		cargaProperties();
+		startDaos();
+		setUser();
+	}
+
+	/**
+	 * Comienza la ejecucion del conector
+	 */
+	public void start() {
+	}
+
+	private void startDaos() {
 		usersDao = PersistenceFactory.createUsuariosDAO();
 		organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
 		areasDao = PersistenceFactory.createAreasDAO();
 		entradasDao = PersistenceFactory.createEntradasDAO();
 		observacionesDao = PersistenceFactory.createObservacionesDAO();
-		setUser();
-	}
-
-	public void preparar() {
-	}
-
-	public void start() {
 	}
 
 	/**
@@ -84,7 +99,7 @@ public abstract class Conector {
 	 * @return
 	 * @throws SQLException
 	 */
-	protected Provider getProvider(String providerName,
+	protected Provider generarProvider(String providerName,
 			String providerCountryName, String providerTipo)
 			throws SQLException {
 		Provider provider = organizacionesDao.leerProvedor(providerName);
@@ -132,6 +147,22 @@ public abstract class Conector {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
+
+	protected void descargaFicheroJson(String url, String label) {
+		try {
+			file = new File("public/crawler/downloads/" + keyBusquedaProperties + "/" + label
+					+ ".json");
+
+			FileUtils.copyURLToFile(new URL(url), file);
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 
 }

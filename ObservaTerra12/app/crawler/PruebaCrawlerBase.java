@@ -42,7 +42,8 @@ public class PruebaCrawlerBase extends WebCrawler {
 		System.out.println("URL: " + url);
 
 		try {
-			File file = new File("public/crawler/temp/downloads/PRUEBA.xls");
+			File file = new File(
+					"public/crawler/downloads/pruebaCrawler/PRUEBA.xls");
 			FileUtils.copyURLToFile(new URL(url), file);
 
 		} catch (MalformedURLException e) {
@@ -61,7 +62,8 @@ public class PruebaCrawlerBase extends WebCrawler {
 		System.out.println("URL: " + url);
 
 		try {
-			File file = new File("public/crawler/temp/downloads/PRUEBA.json");
+			File file = new File(
+					"public/crawler/downloads/pruebaCrawler/PRUEBA.json");
 			FileUtils.copyURLToFile(new URL(url), file);
 
 		} catch (MalformedURLException e) {

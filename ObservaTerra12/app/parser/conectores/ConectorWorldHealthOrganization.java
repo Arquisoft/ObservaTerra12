@@ -5,42 +5,31 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import model.Area;
-import model.Country;
-import model.Indicator;
-import model.Measure;
-import model.Observation;
-import model.Provider;
-import model.Submission;
-import model.Time;
-
 import org.apache.commons.io.FileUtils;
 
-import parser.Parser;
+import model.Indicator;
+import model.Provider;
+import model.Submission;
 import parser.ParserFactory;
-import parser.ParserJson;
 
 import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 /**
  * 
  * Clase conector con la API de la World Health Organization
+ * 
+ * 
+ * VERSION PRELIMINAR
  * 
  * 
  * @author Pablo Garcia Fernandez
@@ -51,15 +40,14 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private static ConectorWorldHealthOrganization instance;
 	private Map<String, String> consultasDisponibles;
 
-	private ConectorWorldHealthOrganization(String key) throws IOException {
-		inicializaConector();
-		this.key = key;
+	private ConectorWorldHealthOrganization(String keyBusquedaProperties) throws IOException {
+		this.keyBusquedaProperties = keyBusquedaProperties;
 	}
 
-	public static ConectorWorldHealthOrganization getInstance(String key)
+	public static ConectorWorldHealthOrganization getInstance(String keyBusquedaProperties)
 			throws IOException {
 		if (instance == null) {
-			instance = new ConectorWorldHealthOrganization(key);
+			instance = new ConectorWorldHealthOrganization(keyBusquedaProperties);
 		}
 		return instance;
 	}
@@ -77,13 +65,13 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 		// Todas las url's comienzan igual, tenemos eso guardado en el fichero
 		// de properties
-		str.append((String) properties.get(key + "_URL_INIT"));
+		str.append((String) properties.get(keyBusquedaProperties + "_URL_INIT"));
 
 		// La etiqueta especifica de cada consulta
 		str.append(label);
 
 		// Todas las url's acaban igual tambien
-		str.append((String) properties.get(key + "_URL_END"));
+		str.append((String) properties.get(keyBusquedaProperties + "_URL_END"));
 
 		return str.toString();
 	}
@@ -95,8 +83,9 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 * esas observaciones
 	 */
 	@Override
-	public void preparar() {
-		String url = (String) properties.get(key + "_LIST");
+	public void preparar() throws IOException {
+		super.preparar();
+		String url = (String) properties.get(keyBusquedaProperties + "_LIST");
 		consultasDisponibles = new HashMap<String, String>(); // Label - Display
 		BufferedReader br;
 		JsonParser parser;
@@ -104,10 +93,11 @@ public class ConectorWorldHealthOrganization extends Conector {
 		// ********************
 		try {
 			// Guardando el fichero y trabajando sobre la version local
-			File file = new File(
-					"public/crawler/downloads/who/listLabelObservationsWorldHealthOrganization.json");
-			FileUtils.copyURLToFile(new URL(url), file);
-			br = new BufferedReader(new FileReader(file));
+			File fileListado = new File(
+					"public/crawler/downloads/WHO/listLabelObservationsWorldHealthOrganization.json");
+			FileUtils.copyURLToFile(new URL(url), fileListado);
+
+			br = new BufferedReader(new FileReader(fileListado));
 
 			parser = new JsonParser();
 
@@ -135,8 +125,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
 		}
 
 	}
@@ -148,6 +136,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 	 */
 	@Override
 	public void start() {
+		super.start();
+
 		Iterator<Entry<String, String>> it = consultasDisponibles.entrySet()
 				.iterator();
 
@@ -155,27 +145,23 @@ public class ConectorWorldHealthOrganization extends Conector {
 			Entry<String, String> pairs = (Entry<String, String>) it.next();
 			String label = pairs.getKey().toString();
 			String display = pairs.getValue().toString();
-			String url = construyeUrl(label);
 
 			try {
-				System.out.println("Trabajando con el fichero: " + label);
 				// Guardando el fichero y trabajando sobre la version local
-				File file = new File("public/crawler/downloads/who/" + label
-						+ ".json");
 
-				FileUtils.copyURLToFile(new URL(url), file);
+				descargaFicheroJson(construyeUrl(label), label);
 
-				Provider provider = getProvider(
-						(String) properties.get(key + "_NAME"),
-						(String) properties.get(key + "_COUNTRY"),
-						(String) properties.get(key + "_TYPE"));
+				Provider provider = generarProvider(
+						(String) properties.get(keyBusquedaProperties + "_NAME"),
+						(String) properties.get(keyBusquedaProperties + "_COUNTRY"),
+						(String) properties.get(keyBusquedaProperties + "_TYPE"));
 				Submission submission = new Submission(new Date(), user);
 
 				Indicator indicator = new Indicator(display);
-				miParser = ParserFactory.getParser((String) properties.get(key
-						+ "_FORMAT"));
+				miParser = ParserFactory.getParser(keyBusquedaProperties,
+						(String) properties.get(keyBusquedaProperties + "_FORMAT"));
 				miParser.setFile(file);
-				miParser.setKeySearch((String) properties.get(key + "_KEY"));
+				miParser.setKeySearch((String) properties.get(keyBusquedaProperties + "_KEY"));
 				miParser.setIndicator(indicator);
 				miParser.setProvider(provider);
 				miParser.setSubmission(submission);
@@ -183,8 +169,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 				observations = miParser.getParsedObservations();
 				insertaObservaciones();
 
-			} catch (IOException e) {
-				e.printStackTrace();
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}

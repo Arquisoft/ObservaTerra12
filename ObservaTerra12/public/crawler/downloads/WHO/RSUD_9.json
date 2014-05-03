@@ -27,16 +27,7 @@
                ],
   "fact": [
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Afghanistan",
-             "REGION": "Eastern Mediterranean",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Afghanistan",
              "REGION": "Eastern Mediterranean",
@@ -45,7 +36,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Albania",
              "REGION": "Europe",
@@ -54,7 +54,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Albania",
              "REGION": "Europe",
@@ -63,16 +63,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Algeria",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Algeria",
              "REGION": "Africa",
@@ -81,7 +72,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Angola",
              "REGION": "Africa",
@@ -90,7 +90,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Angola",
              "REGION": "Africa",
@@ -99,16 +99,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Armenia",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Armenia",
              "REGION": "Europe",
@@ -117,7 +108,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Australia",
              "REGION": "Western Pacific",
@@ -126,7 +126,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Australia",
              "REGION": "Western Pacific",
@@ -135,7 +135,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Austria",
              "REGION": "Europe",
@@ -144,7 +144,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Austria",
              "REGION": "Europe",
@@ -153,7 +153,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Azerbaijan",
              "REGION": "Europe",
@@ -162,7 +162,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Azerbaijan",
              "REGION": "Europe",
@@ -171,25 +171,25 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Bahamas",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Bahamas",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Bahrain",
              "REGION": "Eastern Mediterranean",
@@ -198,7 +198,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Bahrain",
              "REGION": "Eastern Mediterranean",
@@ -207,16 +207,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Bangladesh",
-             "REGION": "South-East Asia",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Bangladesh",
              "REGION": "South-East Asia",
@@ -225,16 +216,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Belarus",
-             "REGION": "Europe",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Belarus",
              "REGION": "Europe",
@@ -243,16 +234,25 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Belgium",
+             "COUNTRY": "Belarus",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Belgium",
              "REGION": "Europe",
@@ -261,7 +261,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Belize",
              "REGION": "Americas",
@@ -270,7 +270,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Belize",
              "REGION": "Americas",
@@ -279,7 +279,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Benin",
              "REGION": "Africa",
@@ -288,7 +288,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Benin",
              "REGION": "Africa",
@@ -297,25 +297,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Bhutan",
-             "REGION": "South-East Asia",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Bhutan",
              "REGION": "South-East Asia",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Botswana",
              "REGION": "Africa",
@@ -324,7 +324,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Botswana",
              "REGION": "Africa",
@@ -333,7 +333,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Brunei Darussalam",
              "REGION": "Western Pacific",
@@ -342,7 +342,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Bulgaria",
              "REGION": "Europe",
@@ -351,25 +351,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Bulgaria",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Burkina Faso",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Burkina Faso",
              "REGION": "Africa",
@@ -378,7 +360,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Burundi",
              "REGION": "Africa",
@@ -387,16 +387,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Burundi",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Cameroon",
              "REGION": "Africa",
@@ -405,7 +396,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Cameroon",
              "REGION": "Africa",
@@ -414,34 +405,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Canada",
              "REGION": "Americas",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Canada",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Cabo Verde",
-             "REGION": "Africa",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Cabo Verde",
              "REGION": "Africa",
@@ -450,7 +432,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Central African Republic",
              "REGION": "Africa",
@@ -459,7 +450,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Central African Republic",
              "REGION": "Africa",
@@ -468,16 +459,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Chad",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Chad",
              "REGION": "Africa",
@@ -486,7 +468,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Chile",
              "REGION": "Americas",
@@ -495,25 +495,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Chile",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "China",
-             "REGION": "Western Pacific",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "China",
              "REGION": "Western Pacific",
@@ -522,25 +504,34 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Colombia",
-             "REGION": "Americas",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Colombia",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Comoros",
              "REGION": "Africa",
@@ -549,7 +540,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Comoros",
              "REGION": "Africa",
@@ -558,7 +549,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Congo",
              "REGION": "Africa",
@@ -567,7 +558,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Congo",
              "REGION": "Africa",
@@ -576,16 +567,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Costa Rica",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Costa Rica",
              "REGION": "Americas",
@@ -594,7 +576,25 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Croatia",
              "REGION": "Europe",
@@ -603,16 +603,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Croatia",
+             "COUNTRY": "Cyprus",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Cyprus",
              "REGION": "Europe",
@@ -621,16 +621,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Cyprus",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Democratic Republic of the Congo",
              "REGION": "Africa",
@@ -639,7 +630,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Democratic Republic of the Congo",
              "REGION": "Africa",
@@ -648,7 +639,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Denmark",
              "REGION": "Europe",
@@ -657,25 +648,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Denmark",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Dominican Republic",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Dominican Republic",
              "REGION": "Americas",
@@ -684,7 +666,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ecuador",
              "REGION": "Americas",
@@ -693,7 +684,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ecuador",
              "REGION": "Americas",
@@ -702,16 +693,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Egypt",
-             "REGION": "Eastern Mediterranean",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Egypt",
              "REGION": "Eastern Mediterranean",
@@ -720,25 +702,43 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "El Salvador",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "El Salvador",
-             "REGION": "Americas",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Equatorial Guinea",
              "REGION": "Africa",
@@ -747,25 +747,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Equatorial Guinea",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Eritrea",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Eritrea",
              "REGION": "Africa",
@@ -774,16 +765,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Estonia",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Estonia",
              "REGION": "Europe",
@@ -792,7 +774,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ethiopia",
              "REGION": "Africa",
@@ -801,7 +792,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ethiopia",
              "REGION": "Africa",
@@ -810,16 +801,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Fiji",
-             "REGION": "Western Pacific",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Fiji",
              "REGION": "Western Pacific",
@@ -828,7 +810,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Finland",
              "REGION": "Europe",
@@ -837,7 +828,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Finland",
              "REGION": "Europe",
@@ -846,7 +837,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "France",
              "REGION": "Europe",
@@ -855,7 +846,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "France",
              "REGION": "Europe",
@@ -864,7 +855,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Gabon",
              "REGION": "Africa",
@@ -873,7 +864,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Gabon",
              "REGION": "Africa",
@@ -882,7 +873,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Gambia",
              "REGION": "Africa",
@@ -891,7 +882,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Gambia",
              "REGION": "Africa",
@@ -900,16 +891,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Georgia",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Georgia",
              "REGION": "Europe",
@@ -918,7 +900,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Germany",
              "REGION": "Europe",
@@ -927,7 +918,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Germany",
              "REGION": "Europe",
@@ -936,7 +927,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ghana",
              "REGION": "Africa",
@@ -945,7 +936,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ghana",
              "REGION": "Africa",
@@ -954,16 +945,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Greece",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Greece",
              "REGION": "Europe",
@@ -972,7 +954,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Guatemala",
              "REGION": "Americas",
@@ -981,7 +972,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Guatemala",
              "REGION": "Americas",
@@ -990,25 +981,34 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Guinea",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Guinea",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Honduras",
              "REGION": "Americas",
@@ -1017,25 +1017,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Honduras",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Hungary",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Hungary",
              "REGION": "Europe",
@@ -1044,7 +1035,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Iceland",
              "REGION": "Europe",
@@ -1053,7 +1044,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Iceland",
              "REGION": "Europe",
@@ -1062,25 +1053,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "India",
              "REGION": "South-East Asia",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "India",
              "REGION": "South-East Asia",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Indonesia",
              "REGION": "South-East Asia",
@@ -1089,25 +1080,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Indonesia",
              "REGION": "South-East Asia",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Iran (Islamic Republic of)",
-             "REGION": "Eastern Mediterranean",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Iran (Islamic Republic of)",
              "REGION": "Eastern Mediterranean",
@@ -1116,7 +1098,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Iraq",
              "REGION": "Eastern Mediterranean",
@@ -1125,7 +1116,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Iraq",
              "REGION": "Eastern Mediterranean",
@@ -1134,7 +1125,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ireland",
              "REGION": "Europe",
@@ -1143,7 +1134,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ireland",
              "REGION": "Europe",
@@ -1152,16 +1143,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Israel",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Israel",
              "REGION": "Europe",
@@ -1170,7 +1152,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Italy",
              "REGION": "Europe",
@@ -1179,25 +1179,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Italy",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Jamaica",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Jamaica",
              "REGION": "Americas",
@@ -1206,25 +1188,34 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Japan",
-             "REGION": "Western Pacific",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Japan",
-             "REGION": "Western Pacific",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Jordan",
              "REGION": "Eastern Mediterranean",
@@ -1233,7 +1224,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Jordan",
              "REGION": "Eastern Mediterranean",
@@ -1242,34 +1233,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Kyrgyzstan",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Kyrgyzstan",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Lao People's Democratic Republic",
-             "REGION": "Western Pacific",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Lao People's Democratic Republic",
              "REGION": "Western Pacific",
@@ -1278,7 +1260,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Latvia",
              "REGION": "Europe",
@@ -1287,70 +1287,61 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Latvia",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Lithuania",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Lesotho",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Lesotho",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Liberia",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Liberia",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Lithuania",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Lithuania",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Luxembourg",
              "REGION": "Europe",
@@ -1359,7 +1350,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Madagascar",
              "REGION": "Africa",
@@ -1368,7 +1359,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Madagascar",
              "REGION": "Africa",
@@ -1377,25 +1368,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Malawi",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Malawi",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Malaysia",
              "REGION": "Western Pacific",
@@ -1404,7 +1395,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Malaysia",
              "REGION": "Western Pacific",
@@ -1413,16 +1404,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Maldives",
-             "REGION": "South-East Asia",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Maldives",
              "REGION": "South-East Asia",
@@ -1431,7 +1413,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Mali",
              "REGION": "Africa",
@@ -1440,16 +1440,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Mali",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Malta",
              "REGION": "Europe",
@@ -1458,7 +1449,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Malta",
              "REGION": "Europe",
@@ -1467,16 +1458,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Mauritania",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Mauritania",
              "REGION": "Africa",
@@ -1485,7 +1467,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Mauritius",
              "REGION": "Africa",
@@ -1494,25 +1494,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Mauritius",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Mexico",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Mexico",
              "REGION": "Americas",
@@ -1521,7 +1503,25 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Mongolia",
              "REGION": "Western Pacific",
@@ -1530,61 +1530,43 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Mongolia",
-             "REGION": "Western Pacific",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Morocco",
              "REGION": "Eastern Mediterranean",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Morocco",
              "REGION": "Eastern Mediterranean",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Mozambique",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Mozambique",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Myanmar",
-             "REGION": "South-East Asia",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Myanmar",
              "REGION": "South-East Asia",
@@ -1593,7 +1575,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Namibia",
              "REGION": "Africa",
@@ -1602,7 +1593,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Namibia",
              "REGION": "Africa",
@@ -1611,7 +1602,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Nepal",
              "REGION": "South-East Asia",
@@ -1620,7 +1611,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Nepal",
              "REGION": "South-East Asia",
@@ -1629,16 +1620,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Netherlands",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Netherlands",
              "REGION": "Europe",
@@ -1647,7 +1629,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "New Zealand",
              "REGION": "Western Pacific",
@@ -1656,7 +1647,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "New Zealand",
              "REGION": "Western Pacific",
@@ -1665,7 +1656,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Nicaragua",
              "REGION": "Americas",
@@ -1674,7 +1665,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Nicaragua",
              "REGION": "Americas",
@@ -1683,7 +1674,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Niger",
              "REGION": "Africa",
@@ -1692,7 +1683,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Niger",
              "REGION": "Africa",
@@ -1701,16 +1692,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Nigeria",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Nigeria",
              "REGION": "Africa",
@@ -1719,25 +1701,43 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Norway",
-             "REGION": "Europe",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Norway",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Oman",
              "REGION": "Eastern Mediterranean",
@@ -1746,16 +1746,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Oman",
-             "REGION": "Eastern Mediterranean",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Pakistan",
              "REGION": "Eastern Mediterranean",
@@ -1764,7 +1755,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Pakistan",
              "REGION": "Eastern Mediterranean",
@@ -1773,43 +1764,43 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Palau",
              "REGION": "Western Pacific",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Palau",
              "REGION": "Western Pacific",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Panama",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Panama",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Papua New Guinea",
              "REGION": "Western Pacific",
@@ -1818,7 +1809,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Papua New Guinea",
              "REGION": "Western Pacific",
@@ -1827,70 +1818,43 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Paraguay",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Paraguay",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Peru",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Peru",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Philippines",
              "REGION": "Western Pacific",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Philippines",
              "REGION": "Western Pacific",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Poland",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Poland",
              "REGION": "Europe",
@@ -1899,7 +1863,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Republic of Korea",
              "REGION": "Western Pacific",
@@ -1908,16 +1881,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Republic of Moldova",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Republic of Moldova",
              "REGION": "Europe",
@@ -1926,7 +1890,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Russian Federation",
              "REGION": "Europe",
@@ -1935,7 +1908,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Russian Federation",
              "REGION": "Europe",
@@ -1944,16 +1917,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Rwanda",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Rwanda",
              "REGION": "Africa",
@@ -1962,7 +1926,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Saint Lucia",
              "REGION": "Americas",
@@ -1971,25 +1953,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Saint Lucia",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "San Marino",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "San Marino",
              "REGION": "Europe",
@@ -1998,7 +1962,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sao Tome and Principe",
              "REGION": "Africa",
@@ -2007,7 +1980,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sao Tome and Principe",
              "REGION": "Africa",
@@ -2016,7 +1989,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Saudi Arabia",
              "REGION": "Eastern Mediterranean",
@@ -2025,7 +1998,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Saudi Arabia",
              "REGION": "Eastern Mediterranean",
@@ -2034,7 +2007,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Senegal",
              "REGION": "Africa",
@@ -2043,7 +2016,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Senegal",
              "REGION": "Africa",
@@ -2052,34 +2025,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Serbia",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Serbia",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Serbia",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Seychelles",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Seychelles",
              "REGION": "Africa",
@@ -2088,7 +2052,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sierra Leone",
              "REGION": "Africa",
@@ -2097,43 +2070,43 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sierra Leone",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Singapore",
-             "REGION": "Western Pacific",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Singapore",
              "REGION": "Western Pacific",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Slovakia",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Slovakia",
              "REGION": "Europe",
@@ -2142,16 +2115,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Slovenia",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Slovenia",
              "REGION": "Europe",
@@ -2160,25 +2124,43 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "South Africa",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "South Africa",
-             "REGION": "Africa",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Spain",
              "REGION": "Europe",
@@ -2187,16 +2169,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Spain",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sri Lanka",
              "REGION": "South-East Asia",
@@ -2205,7 +2178,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sri Lanka",
              "REGION": "South-East Asia",
@@ -2214,7 +2187,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sudan",
              "REGION": "Eastern Mediterranean",
@@ -2223,7 +2196,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sudan",
              "REGION": "Eastern Mediterranean",
@@ -2232,34 +2205,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Suriname",
-             "REGION": "Americas",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Suriname",
              "REGION": "Americas",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Swaziland",
-             "REGION": "Africa",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Swaziland",
              "REGION": "Africa",
@@ -2268,7 +2232,16 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sweden",
              "REGION": "Europe",
@@ -2277,7 +2250,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Sweden",
              "REGION": "Europe",
@@ -2286,16 +2259,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Switzerland",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Switzerland",
              "REGION": "Europe",
@@ -2304,7 +2268,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Syrian Arab Republic",
              "REGION": "Eastern Mediterranean",
@@ -2313,7 +2286,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Syrian Arab Republic",
              "REGION": "Eastern Mediterranean",
@@ -2322,16 +2295,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Tajikistan",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "yes"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Tajikistan",
              "REGION": "Europe",
@@ -2340,7 +2304,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Thailand",
              "REGION": "South-East Asia",
@@ -2349,16 +2322,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Thailand",
              "REGION": "South-East Asia",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "yes"
+             "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Timor-Leste",
              "REGION": "South-East Asia",
@@ -2367,7 +2340,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Timor-Leste",
              "REGION": "South-East Asia",
@@ -2376,7 +2349,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Togo",
              "REGION": "Africa",
@@ -2385,7 +2358,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Togo",
              "REGION": "Africa",
@@ -2394,7 +2367,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Tunisia",
              "REGION": "Eastern Mediterranean",
@@ -2403,7 +2376,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Tunisia",
              "REGION": "Eastern Mediterranean",
@@ -2412,7 +2385,16 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Turkey",
              "REGION": "Europe",
@@ -2421,16 +2403,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Turkey",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Uganda",
              "REGION": "Africa",
@@ -2439,7 +2412,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Uganda",
              "REGION": "Africa",
@@ -2448,25 +2421,25 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Ukraine",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Ukraine",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Uruguay",
              "REGION": "Americas",
@@ -2475,7 +2448,7 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Uruguay",
              "REGION": "Americas",
@@ -2484,34 +2457,25 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Uzbekistan",
              "REGION": "Europe",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Uzbekistan",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Venezuela (Bolivarian Republic of)",
-             "REGION": "Americas",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Venezuela (Bolivarian Republic of)",
              "REGION": "Americas",
@@ -2520,7 +2484,25 @@
              "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "no"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Viet Nam",
              "REGION": "Western Pacific",
@@ -2529,34 +2511,25 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Viet Nam",
-             "REGION": "Western Pacific",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Zambia",
-             "REGION": "Africa",
-             "SUBSTANCETYPE": "Alcohol",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Zambia",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "SUBSTANCETYPE": "Alcohol",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Zimbabwe",
              "REGION": "Africa",
@@ -2565,7 +2538,7 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Zimbabwe",
              "REGION": "Africa",
@@ -2574,36 +2547,36 @@
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
-             "YEAR": "2008",
-             "COUNTRY": "Montenegro",
-             "REGION": "Europe",
-             "SUBSTANCETYPE": "Drugs",
-             "PUBLISHSTATE": "Published",
-             "Value": "no"
-           },
-           {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
              "COUNTRY": "Montenegro",
              "REGION": "Europe",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
-             "Value": "no"
+             "Value": "yes"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "SUBSTANCETYPE": "Drugs",
+             "PUBLISHSTATE": "Published",
+             "Value": "yes"
+           },
+           {
+             "GHO": "Service delivery data collection system for substance use disorders",
+             "YEAR": "2008",
+             "COUNTRY": "C?te d'Ivoire",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Drugs",
              "PUBLISHSTATE": "Published",
              "Value": "no"
            },
            {
-             "GHO": "Epidemiological data collection system for substance use disorders",
+             "GHO": "Service delivery data collection system for substance use disorders",
              "YEAR": "2008",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "REGION": "Africa",
              "SUBSTANCETYPE": "Alcohol",
              "PUBLISHSTATE": "Published",
