@@ -41,14 +41,14 @@ public class ConectorUnitedNations extends Conector {
 
 	private static ConectorUnitedNations instance;
 
-	private ConectorUnitedNations(String key) {
-		this.key = key;
+	private ConectorUnitedNations(String keyBusquedaProperties) {
+		this.keyBusquedaProperties = keyBusquedaProperties;
 	}
 
-	public static ConectorUnitedNations getInstance(String key)
+	public static ConectorUnitedNations getInstance(String keyBusquedaProperties)
 			throws IOException {
 		if (instance == null) {
-			instance = new ConectorUnitedNations(key);
+			instance = new ConectorUnitedNations(keyBusquedaProperties);
 		}
 		return instance;
 	}
@@ -70,16 +70,16 @@ public class ConectorUnitedNations extends Conector {
 					"observationsPrueba1UnitedNations");
 
 			Provider provider = generarProvider(
-					(String) properties.get(key + "_NAME"),
-					(String) properties.get(key + "_COUNTRY"),
-					(String) properties.get(key + "_TYPE"));
+					(String) properties.get(keyBusquedaProperties + "_NAME"),
+					(String) properties.get(keyBusquedaProperties + "_COUNTRY"),
+					(String) properties.get(keyBusquedaProperties + "_TYPE"));
 			Submission submission = new Submission(new Date(), user);
 
 			Indicator indicator = new Indicator(display);
-			miParser = ParserFactory.getParser(key,
-					(String) properties.get(key + "_FORMAT"));
+			miParser = ParserFactory.getParser(keyBusquedaProperties,
+					(String) properties.get(keyBusquedaProperties + "_FORMAT"));
 			miParser.setFile(file);
-			miParser.setKeySearch((String) properties.get(key + "_KEY"));
+			miParser.setKeySearch((String) properties.get(keyBusquedaProperties + "_KEY"));
 			miParser.setIndicator(indicator);
 			miParser.setProvider(provider);
 			miParser.setSubmission(submission);

@@ -42,7 +42,7 @@ public abstract class Conector {
 	ObservacionesDAO observacionesDao;
 	User user;
 	Parser miParser;
-	String key;
+	String keyBusquedaProperties;
 	File file;
 	List<Observation> observations;
 	static final String PROPERTIES = "public/crawler/configuration/conector.properties";
@@ -151,7 +151,7 @@ public abstract class Conector {
 
 	protected void descargaFicheroJson(String url, String label) {
 		try {
-			file = new File("public/crawler/downloads/" + key + "/" + label
+			file = new File("public/crawler/downloads/" + keyBusquedaProperties + "/" + label
 					+ ".json");
 
 			FileUtils.copyURLToFile(new URL(url), file);

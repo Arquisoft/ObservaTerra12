@@ -40,14 +40,14 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private static ConectorWorldHealthOrganization instance;
 	private Map<String, String> consultasDisponibles;
 
-	private ConectorWorldHealthOrganization(String key) throws IOException {
-		this.key = key;
+	private ConectorWorldHealthOrganization(String keyBusquedaProperties) throws IOException {
+		this.keyBusquedaProperties = keyBusquedaProperties;
 	}
 
-	public static ConectorWorldHealthOrganization getInstance(String key)
+	public static ConectorWorldHealthOrganization getInstance(String keyBusquedaProperties)
 			throws IOException {
 		if (instance == null) {
-			instance = new ConectorWorldHealthOrganization(key);
+			instance = new ConectorWorldHealthOrganization(keyBusquedaProperties);
 		}
 		return instance;
 	}
@@ -65,13 +65,13 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 		// Todas las url's comienzan igual, tenemos eso guardado en el fichero
 		// de properties
-		str.append((String) properties.get(key + "_URL_INIT"));
+		str.append((String) properties.get(keyBusquedaProperties + "_URL_INIT"));
 
 		// La etiqueta especifica de cada consulta
 		str.append(label);
 
 		// Todas las url's acaban igual tambien
-		str.append((String) properties.get(key + "_URL_END"));
+		str.append((String) properties.get(keyBusquedaProperties + "_URL_END"));
 
 		return str.toString();
 	}
@@ -85,7 +85,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 	@Override
 	public void preparar() throws IOException {
 		super.preparar();
-		String url = (String) properties.get(key + "_LIST");
+		String url = (String) properties.get(keyBusquedaProperties + "_LIST");
 		consultasDisponibles = new HashMap<String, String>(); // Label - Display
 		BufferedReader br;
 		JsonParser parser;
@@ -152,16 +152,16 @@ public class ConectorWorldHealthOrganization extends Conector {
 				descargaFicheroJson(construyeUrl(label), label);
 
 				Provider provider = generarProvider(
-						(String) properties.get(key + "_NAME"),
-						(String) properties.get(key + "_COUNTRY"),
-						(String) properties.get(key + "_TYPE"));
+						(String) properties.get(keyBusquedaProperties + "_NAME"),
+						(String) properties.get(keyBusquedaProperties + "_COUNTRY"),
+						(String) properties.get(keyBusquedaProperties + "_TYPE"));
 				Submission submission = new Submission(new Date(), user);
 
 				Indicator indicator = new Indicator(display);
-				miParser = ParserFactory.getParser(key,
-						(String) properties.get(key + "_FORMAT"));
+				miParser = ParserFactory.getParser(keyBusquedaProperties,
+						(String) properties.get(keyBusquedaProperties + "_FORMAT"));
 				miParser.setFile(file);
-				miParser.setKeySearch((String) properties.get(key + "_KEY"));
+				miParser.setKeySearch((String) properties.get(keyBusquedaProperties + "_KEY"));
 				miParser.setIndicator(indicator);
 				miParser.setProvider(provider);
 				miParser.setSubmission(submission);
