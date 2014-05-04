@@ -1,0 +1,34 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "AGEGROUP",
+                   "display": "Age Group"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 },
+                 {
+                   "label": "MGHEREG",
+                   "display": "Region"
+                 },
+                 {
+                   "label": "GHECAUSES",
+                   "display": "Causes"
+                 }
+               ],
+  "fact": [
+          ]
+}

@@ -1,0 +1,981 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Afghanistan",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "662"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Angola",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2019"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Benin",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "74"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Botswana",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "15"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Burundi",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "355"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cambodia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "39"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cameroon",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "804"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Canada",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Chad",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "67"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "China",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "85"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Congo",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "93"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Côte d'Ivoire",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "22899"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ethiopia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "31509"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "France",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ghana",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1294"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "42"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea-Bissau",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Iraq",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Kenya",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "11425"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Liberia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1070"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Malawi",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5751"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Malaysia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "187"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mozambique",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "19679"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Namibia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "159"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nepal",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "82"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nigeria",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "13691"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Papua New Guinea",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1957"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Paraguay",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Rwanda",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "67"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Senegal",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Somalia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "208"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "South Africa",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "10520"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sudan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "13681"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Swaziland",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "19"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Thailand",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "315"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Togo",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "218"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Uganda",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1095"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "United Kingdom",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "16"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "United Republic of Tanzania",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7700"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "United States of America",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Viet Nam",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "471"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Yemen",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "55"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zambia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4712"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "68153"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "77636.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "26.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "117.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1810.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "942.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "46.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "31789.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "527.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "6.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1072.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "10628.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "32.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1279.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "120.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "22433.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "42.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "17267.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2220.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1261.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "21700.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "23377.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "16.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "20851.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "3733.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "127.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "49.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "755.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "120.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "586.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1187.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "20.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "74.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "33.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "330.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "340311.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1220.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1535.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1146.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2324.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "762.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "279.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "203444"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2739"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2009",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "177106"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "High-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "116.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "114999.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "110915.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2296.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Low-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "472017.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Global",
+             "REGION": "Global",
+             "PUBLISHSTATE": "Published",
+             "Value": "589854.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "361266.00"
+           },
+           {
+             "GHO": "Cholera - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Upper-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "24791.00"
+           }
+          ]
+}

@@ -1,0 +1,100 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "104"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "..."
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "WORLDBANKINCOMEGROUP": "Global",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "17"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "61"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "..."
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "..."
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2006",
+             "REGION": "Global",
+             "PUBLISHSTATE": "Published",
+             "Value": "17"
+           }
+          ]
+}

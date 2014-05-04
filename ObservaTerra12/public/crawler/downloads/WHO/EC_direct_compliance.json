@@ -1,0 +1,4682 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Algeria",
+             "Value": "5"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Benin",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "COUNTRY": "Botswana",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "2"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Cabo Verde",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Chad",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Comoros",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Congo",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "Value": "6"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Gambia",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "Value": "3"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Mali",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Mauritius",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Niger",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "COUNTRY": "South Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United Republic of Tanzania",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "United States of America",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Afghanistan",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "5"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Bahrain",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Iraq",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Kuwait",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "COUNTRY": "Libya",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Saudi Arabia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "5"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Syrian Arab Republic",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Yemen",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "Value": "3"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Bangladesh",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "India",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "REGION": "South-East Asia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Maldives",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Sri Lanka",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "COUNTRY": "New Zealand",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Republic of Korea",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Viet Nam",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "Value": "3"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Benin",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Burkina Faso",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Chad",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Comoros",
+             "Value": "6"
+           },
+           {
+             "COUNTRY": "Congo",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "Value": "9"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Eritrea",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Madagascar",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Mauritius",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Mozambique",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Niger",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Brazil",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Canada",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Colombia",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "Value": "8"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Mexico",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "9"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Peru",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Trinidad and Tobago",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "Value": "5"
+           },
+           {
+             "COUNTRY": "United States of America",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Uruguay",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Bahrain",
+             "YEAR": "2010",
+             "Value": "9"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Iraq",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Libya",
+             "Value": "9"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Sudan",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Syrian Arab Republic",
+             "YEAR": "2010",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Tunisia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "Value": "7"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "United Arab Emirates",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Yemen",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Armenia",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Austria",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "COUNTRY": "Azerbaijan",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Belarus",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Belgium",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "COUNTRY": "Bulgaria",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Cyprus",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Czech Republic",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "Denmark",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Finland",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Georgia",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Germany",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "Hungary",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Iceland",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Ireland",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "Italy",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Kazakhstan",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "Kyrgyzstan",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Latvia",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "Value": "10"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Malta",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Montenegro",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Netherlands",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "Poland",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Portugal",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Republic of Moldova",
+             "YEAR": "2010",
+             "Value": "5"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Romania",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Russian Federation",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "San Marino",
+             "Value": "9"
+           },
+           {
+             "COUNTRY": "Serbia",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Slovakia",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Slovenia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "Spain",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Sweden",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkey",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "8"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Ukraine",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "Value": "7"
+           },
+           {
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Bhutan",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "India",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Maldives",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "Value": "9"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Myanmar",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Nepal",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Sri Lanka",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Thailand",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Australia",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Brunei Darussalam",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Fiji",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Malaysia",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Mongolia",
+             "Value": "5"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "New Zealand",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Papua New Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Algeria",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Benin",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Botswana",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "COUNTRY": "Cameroon",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Republic of Korea",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "Value": "6"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Singapore",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Comoros",
+             "Value": "6"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Congo",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Eritrea",
+             "Value": "9"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Madagascar",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Mali",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Mauritius",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Mozambique",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Namibia",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Niger",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "Value": "9"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Seychelles",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "South Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "United Republic of Tanzania",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Argentina",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Tuvalu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Brazil",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Ecuador",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Viet Nam",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Honduras",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Jamaica",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Mexico",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "Value": "5"
+           },
+           {
+             "COUNTRY": "Panama",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Peru",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Uruguay",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Afghanistan",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Bahrain",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "8"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Jordan",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Kuwait",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Lebanon",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Libya",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Morocco",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Oman",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Saudi Arabia",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Sudan",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Tunisia",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Albania",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Armenia",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Austria",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Azerbaijan",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Belarus",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Belgium",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Croatia",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Czech Republic",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Estonia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Finland",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Georgia",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Germany",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Hungary",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Italy",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Lithuania",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Montenegro",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Netherlands",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Norway",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Poland",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Serbia",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "Value": "8"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Slovakia",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Slovenia",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Spain",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Sweden",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Switzerland",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkey",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "Value": "10"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Bhutan",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "COUNTRY": "India",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Myanmar",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Nepal",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sri Lanka",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "Value": "9"
+           },
+           {
+             "COUNTRY": "Thailand",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Brunei Darussalam",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Cambodia",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Fiji",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Malaysia",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Mongolia",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "Value": "10"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Palau",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Philippines",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Tuvalu",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "COUNTRY": "Vanuatu",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Central African Republic",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Côte d'Ivoire",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Equatorial Guinea",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Liberia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Rwanda",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sao Tome and Principe",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Swaziland",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Zambia",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Zimbabwe",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Antigua and Barbuda",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Belize",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Colombia",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "El Salvador",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Haiti",
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "COUNTRY": "Honduras",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Panama",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Suriname",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Trinidad and Tobago",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Oman",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Pakistan",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Angola",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Burundi",
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Ethiopia",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guinea-Bissau",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Namibia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Senegal",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Seychelles",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sierra Leone",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Togo",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Uganda",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Argentina",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cuba",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "COUNTRY": "Dominica",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Dominican Republic",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guatemala",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guyana",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Uruguay",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Lebanon",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Somalia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Monaco",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Timor-Leste",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Cambodia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Tuvalu",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Central African Republic",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Turkey",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Japan",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Kiribati",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Niue",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Palau",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Solomon Islands",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Angola",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Burundi",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Ethiopia",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Uganda",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "COUNTRY": "Antigua and Barbuda",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Argentina",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Grenada",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "COUNTRY": "Guyana",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Lebanon",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Equatorial Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Mauritania",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Nigeria",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Rwanda",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Sao Tome and Principe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Sierra Leone",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Swaziland",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Barbados",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "COUNTRY": "Costa Rica",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Dominican Republic",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "Ecuador",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "El Salvador",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Haiti",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Paraguay",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "Suriname",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Pakistan",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "COUNTRY": "Somalia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "South Sudan",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "COUNTRY": "Monaco",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Indonesia",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Cambodia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Kiribati",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Burundi",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Ethiopia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Turkmenistan",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Timor-Leste",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Japan",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Niue",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Angola",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Côte d'Ivoire",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Equatorial Guinea",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Ghana",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Malawi",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Senegal",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Sierra Leone",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Togo",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Dominican Republic",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Guatemala",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Guyana",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Paraguay",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "Suriname",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Somalia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "South Sudan",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Lesotho",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Liberia",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Mauritania",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Nigeria",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "COUNTRY": "Rwanda",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Sao Tome and Principe",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Swaziland",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Zimbabwe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Antigua and Barbuda",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Barbados",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Belize",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Cuba",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Saint Lucia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Pakistan",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Andorra",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Timor-Leste",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Niue",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Monaco",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "YEAR": "2012",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Indonesia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Kiribati",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Burkina Faso",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Mozambique",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Jamaica",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Morocco",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Kenya",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Bahamas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Canada",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Azerbaijan",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Belarus",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "COUNTRY": "Bulgaria",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Croatia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Finland",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Hungary",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Iceland",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Kazakhstan",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Latvia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Montenegro",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Portugal",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Serbia",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Slovakia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Slovenia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Tajikistan",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Uzbekistan",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Cook Islands",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Botswana",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Belgium",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Czech Republic",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Denmark",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Georgia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "COUNTRY": "Greece",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Israel",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Italy",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Luxembourg",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Netherlands",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Norway",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Russian Federation",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "San Marino",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Spain",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "COUNTRY": "Sweden",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Ukraine",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "South-East Asia",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2007",
+             "COUNTRY": "Bhutan",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Australia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Brunei Darussalam",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Fiji",
+             "YEAR": "2007",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Marshall Islands",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Papua New Guinea",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Namibia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Nicaragua",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Djibouti",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Saudi Arabia",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Ghana",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "COUNTRY": "Afghanistan",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "COUNTRY": "Morocco",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Oman",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "France",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2010",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Chad",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "COUNTRY": "Israel",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Luxembourg",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Marshall Islands",
+             "YEAR": "2010",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Cabo Verde",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Bahamas",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Tonga",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "United Arab Emirates",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Vanuatu",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Colombia",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "COUNTRY": "Nicaragua",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "United States of America",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Syrian Arab Republic",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Israel",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Latvia",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Russian Federation",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Australia",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Papua New Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Samoa",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "COUNTRY": "Singapore",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Greece",
+             "GHO": "Compliance with bans on direct advertising",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Kazakhstan",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Kyrgyzstan",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "YEAR": "2012",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Europe",
+             "COUNTRY": "Tajikistan",
+             "YEAR": "2012",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Uzbekistan",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Nauru",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Compliance with bans on direct advertising",
+             "COUNTRY": "Tonga",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           }
+          ]
+}

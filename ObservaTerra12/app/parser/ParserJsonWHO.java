@@ -44,6 +44,8 @@ public class ParserJsonWHO extends AbstractParser {
 			br = new BufferedReader(new FileReader(file));
 			parser = new JsonParser();
 
+			String medida = getMeasure(indicator.getNombre());
+
 			JsonObject ficheroJsonOriginal = parser.parse(br).getAsJsonObject();
 
 			JsonArray arrayJsonDatosObservaciones = ficheroJsonOriginal
@@ -70,7 +72,7 @@ public class ParserJsonWHO extends AbstractParser {
 					// TODO: Leer bien el measure.unit del JSON
 					Measure measure = new Measure(arrayJsonDatosObservaciones
 							.get(i).getAsJsonObject().get("Value")
-							.getAsString(), "*");
+							.getAsString(), medida);
 
 					String year = arrayJsonDatosObservaciones.get(i)
 							.getAsJsonObject().get("YEAR").getAsString();
@@ -100,6 +102,19 @@ public class ParserJsonWHO extends AbstractParser {
 			e1.printStackTrace();
 		}
 		return observations;
+	}
+
+	private String getMeasure(String textoCompleto) {
+		String resultado = textoCompleto;
+
+		if (textoCompleto.contains("(")) {
+			int startIndex = textoCompleto.indexOf("(");
+			int endIndex = textoCompleto.lastIndexOf(")");
+
+			resultado = textoCompleto.substring(startIndex + 1, endIndex);
+		}
+		System.out.println(resultado);
+		return resultado;
 	}
 
 }

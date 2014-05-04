@@ -1,0 +1,4665 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "MOTOCYCLEOCCUPANTTYPE",
+                   "display": "Motorcycle Occupant Type"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Serbia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Serbia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Serbia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Not applicable"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Drivers",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Adult passengers",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           },
+           {
+             "GHO": "Applicability of national motorcycle helmet law to all occupants",
+             "YEAR": "2011",
+             "MOTOCYCLEOCCUPANTTYPE": "Child passengers",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Yes"
+           }
+          ]
+}

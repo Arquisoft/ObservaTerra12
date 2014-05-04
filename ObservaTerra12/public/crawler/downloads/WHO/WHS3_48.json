@@ -1,0 +1,4801 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "86129"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "92202"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "81574"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "64880"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "69397"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "77549"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "27"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1082398"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1533485"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1377992"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1573422"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1682870"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1632282"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "212"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "387"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "106"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "86"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "72"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "36"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "141"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "108"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "72"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "78"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "50"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "19"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "32857"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "59866"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "84690"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "63873"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "55873"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "51773"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "844"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "845"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "538"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "256"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "150"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "79"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "889597"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "422968"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1868"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "793"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "329"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "972"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "436"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "194"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "19725"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "14610"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "9742"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "9743"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "13769"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "7143"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2548"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "390"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "927"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1024"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1046"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "432"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "549469"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "458652"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "315746"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "309316"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "334618"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "267045"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "44265"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "44246"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "36514"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "182527"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "804539"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "428113"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "791731"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1101644"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "876741"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1185622"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1763447"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1571874"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "78696"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "42518"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "42124"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "64595"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "49356"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "57423"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "313083"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "63"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "16"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "65"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "18"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "36"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "45155"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "48288"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "47757"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "200448"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "181126"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "33286"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "28112"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "15870"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "9287"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4990"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3367"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "120096"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "128462"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "80501"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "79347"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "117650"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "64309"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "20559"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5982"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "36538"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "24856"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "103213"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "117291"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "92855"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "71048"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2903"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1223"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "966"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "262"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "114"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "17"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3527"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7388"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "62726"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "29976"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "12983"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "4345"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "16611"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "14632"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "13393"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "15633"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2050"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "740858"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1618218"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1878705"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2417780"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4561981"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1796"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "210"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "119"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "2686"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1019"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2494"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2193"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1668"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1643"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "3414"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1616"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "9863"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "8464"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "4891"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "4120"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1888"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1233"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "49"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "40"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "21"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "24"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "16"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "6287"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9503"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "14184"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "53813"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "22466"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "6541"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "15565"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8764"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "11759"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "35982"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "34848"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "447780"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "451816"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "458561"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1036316"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1158197"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1480306"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "33458"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "45186"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "40701"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "660"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8566"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "39164"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "50378"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "116353"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "261967"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "58"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "24"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "472255"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "476484"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1094483"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1104370"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1071637"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1041260"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "31093"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "15382"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "7193"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "7080"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "7384"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "6822"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "54227"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "44518"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "33405"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "35841"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "95574"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "15120"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "14284"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "11299"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "11757"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "50391"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "71982"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "21064"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "11657"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "11774"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "13673"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "22935"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "29471"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "32739"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "29824"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "36769"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "49535"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "84153"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "32048"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "11880"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10512"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "8368"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "9313"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "9682"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "7615"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1785109"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1508927"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1532497"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1563574"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1599986"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1310367"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "347597"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "333792"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "266277"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "272491"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "229819"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "256592"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "13127"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "13278"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "8349"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "4477"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1847"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1710"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "23"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "186"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "191"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "18"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "15"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "839904"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "898531"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1002805"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "314"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "96"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "18"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "18382"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "17458"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "19347"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "14674"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "20800"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "17835"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "761415"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "492272"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "606952"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "839581"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "922173"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1915762"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5689"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "48497"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "93234"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "215110"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "202450"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "224498"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "304499"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4597"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4627"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "6517"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "6426"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "5819"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4164"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "227482"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "307035"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1061"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "302"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "940"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1994"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2926"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2514"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2361"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "916"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2703"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1226"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1124"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "141663"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "120259"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "93874"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1522577"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1756874"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "203071"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "373958"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "447073"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "436068"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "420808"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "465294"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "27690"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4242"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1092"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "505"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "556"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1860"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "4351"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "4741"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "3228"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2725"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2792"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2288"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "3114"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1356"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "762"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "610"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "692"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "925"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3956"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "249027"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "496858"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "309675"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "620058"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "780876"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "143079"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "479845"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "551187"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "24"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "13"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "123761"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "128380"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "104334"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "167579"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "219175"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "334589"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1651"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1265"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "732"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "770"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "418"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "354"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "93938"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "86955"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "84452"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "77758"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "93956"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "80928"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "823"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1341"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "348"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "91"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "27"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "64925"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "50797"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "42214"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "36886"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "29174"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "22878"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "35405"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "36234"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "23653"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "19316"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "18560"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "9552"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2021"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2192"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1023"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1309"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1716"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "774"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "11"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "573686"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "382686"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "316242"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "698745"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "638669"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "208858"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5146"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2421"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "6258"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "6182"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2740"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8442"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "270"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "467"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "61"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "58"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "29"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "69"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "49366"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "118332"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "241926"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "165933"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4932"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "154459"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "646808"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "934028"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "638859"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "75337"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "65404"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "40535"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "33002"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "39704"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "26657"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "16430"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "16675"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "36905"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "25202"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "24553"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "3351"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "12098"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "6327"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "7796"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "2759"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3875"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "9866"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "52011"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "900283"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "112024"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "591"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "198"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "649"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "531"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "632"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "124"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "721233"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "686908"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "569296"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "711462"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "720557"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "506806"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "3289"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1741"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2709"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1355"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1712"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "750"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "155"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "84"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "58"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "106"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "268"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "549"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1343"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "635"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "314"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "164"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "111"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "65"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "30294"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "33178"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "28569"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "29462"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "32480"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "24897"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "37896"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "52813"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "51260"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "47527"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "48137"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "19739"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "221110"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "344862"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "391338"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "617101"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "519450"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "751"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "313"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "166"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "38"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "867398"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1045378"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "979298"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1301337"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1581160"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "231873"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1928296"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1845917"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "67"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "40"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "60"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "30"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "8055"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "5471"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3765"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4189"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "8169"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4820"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "37062"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "41243"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "31483"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "35100"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "45155"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "45824"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "22637"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "16389"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "11355"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "16130"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "17515"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "16612"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "55000"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "67677"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "44206"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "55446"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "106697"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "90410"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2006",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "39404"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2007",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "116518"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2008",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "32788"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "114028"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2010",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "249379"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "319935"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Global",
+             "REGION": "Global",
+             "PUBLISHSTATE": "Published",
+             "Value": "23800000"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "489296"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2149205"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Low-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "18100000"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "223338"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Lower-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "3656120"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "20200000"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "796178"
+           },
+           {
+             "GHO": "Malaria - number of reported confirmed cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Upper-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "2086744"
+           }
+          ]
+}
