@@ -140,12 +140,6 @@ public abstract class Conector {
 
 			entradasDao.crearEntrada(observacion.getSubmission());
 			observacionesDao.insertarObservacion(observacion);
-
-			// TODO: Quitar estos System.out de pruebas
-			if (observacion.getIdObservation() == null)
-				System.out.println("Insertando observacion: FALLO al insertar");
-			else
-				System.out.println("Insertada observacion: " + observacion);
 		}
 	}
 
