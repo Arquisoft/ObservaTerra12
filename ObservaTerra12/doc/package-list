@@ -1,0 +1,10 @@
+controllers
+crawler
+model
+parser
+parser.conectores
+parser.util
+persistencia
+persistencia.JdbcDAOs
+persistencia.implJdbc
+utils

@@ -17,7 +17,7 @@ public class ParserFactory {
 	 * 
 	 * @param formato
 	 *            El formato que se ecesita tratar.
-	 * @param string
+	 * @param key
 	 * @return Un objeto parser para tratar el determinado formato.
 	 */
 	public static Parser getParser(String key, String formato) {

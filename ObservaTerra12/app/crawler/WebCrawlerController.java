@@ -1,12 +1,12 @@
 package crawler;
 
+import java.util.List;
+
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.crawler.CrawlController;
-import edu.uci.ics.crawler4j.crawler.Page;
 import edu.uci.ics.crawler4j.fetcher.PageFetcher;
 import edu.uci.ics.crawler4j.robotstxt.RobotstxtConfig;
 import edu.uci.ics.crawler4j.robotstxt.RobotstxtServer;
-import edu.uci.ics.crawler4j.url.WebURL;
 
 public class WebCrawlerController {
 
@@ -136,7 +136,7 @@ public class WebCrawlerController {
 	 *            Direccion de la pagina a descargar
 	 * @throws Exception
 	 */
-	public void start(String url) {
+	public void start(List<String> urls) {
 		try {
 			setCrawlStorageFolder(crawlerFolder);
 
@@ -190,7 +190,9 @@ public class WebCrawlerController {
 			 * controller .addSeed(
 			 * "http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/" );
 			 */
-			controller.addSeed(url);
+			for (String url : urls) {
+				controller.addSeed(url);
+			}
 
 			/*
 			 * Start the crawl. This is a blocking operation, meaning that your

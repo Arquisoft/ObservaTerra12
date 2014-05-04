@@ -25,7 +25,6 @@ import com.google.gson.JsonParser;
  * a nuestro formato
  * 
  * 
- * VERSION FINAL
  * 
  * 
  * @author Pablo Garcia Fernandez

@@ -15,7 +15,7 @@ import parser.conectores.ConectorWorldHealthOrganization;
  * @author Pablo Garcia Fernandez
  * 
  */
-public class CrawlerConectores extends TimerTask {
+public class TareaConectores extends TimerTask {
 
 	Conector conectorUN, conectorWHO;
 

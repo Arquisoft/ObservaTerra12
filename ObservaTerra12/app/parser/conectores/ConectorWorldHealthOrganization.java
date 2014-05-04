@@ -13,11 +13,12 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.apache.commons.io.FileUtils;
-
 import model.Indicator;
 import model.Provider;
 import model.Submission;
+
+import org.apache.commons.io.FileUtils;
+
 import parser.ParserFactory;
 
 import com.google.gson.JsonArray;
@@ -29,7 +30,6 @@ import com.google.gson.JsonParser;
  * Clase conector con la API de la World Health Organization
  * 
  * 
- * VERSION PRELIMINAR
  * 
  * 
  * @author Pablo Garcia Fernandez
@@ -151,8 +151,6 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 			try {
 				// Guardando el fichero y trabajando sobre la version local
-
-				System.out.println("Trabajando con el fichero: " + label);
 
 				descargaFicheroJson(construyeUrl(label), label);
 

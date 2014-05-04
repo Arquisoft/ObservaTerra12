@@ -23,7 +23,6 @@ import com.google.gson.JsonParser;
 /**
  * Parseador de JSON de la API de la World Health Organization
  * 
- * VERSION PRELIMINAR
  * 
  * 
  * @author Pablo Garcia Fernandez
@@ -69,7 +68,6 @@ public class ParserJsonWHO extends AbstractParser {
 								.getAsJsonObject().get("MGHEREG").getAsString());
 					}
 
-					// TODO: Leer bien el measure.unit del JSON
 					Measure measure = new Measure(arrayJsonDatosObservaciones
 							.get(i).getAsJsonObject().get("Value")
 							.getAsString(), medida);
@@ -104,6 +102,16 @@ public class ParserJsonWHO extends AbstractParser {
 		return observations;
 	}
 
+	/**
+	 * En el caso de WHO la API no nos indica directamente la unidad de medida
+	 * en que estan las observaciones, solo en algunos casos entre parentesis.
+	 * Este metodo devuelve la medida a utilizar
+	 * 
+	 * @param textoCompleto
+	 *            texto del indicador de la observacion
+	 * @return el contenido entre parentesis del indicador en caso de tenerlo o
+	 *         el indicador completo en caso contrario
+	 */
 	private String getMeasure(String textoCompleto) {
 		String resultado = textoCompleto;
 
@@ -111,9 +119,9 @@ public class ParserJsonWHO extends AbstractParser {
 			int startIndex = textoCompleto.indexOf("(");
 			int endIndex = textoCompleto.lastIndexOf(")");
 
-			resultado = textoCompleto.substring(startIndex + 1, endIndex);
+			resultado = textoCompleto.substring(startIndex + 1, endIndex)
+					.toLowerCase();
 		}
-		System.out.println(resultado);
 		return resultado;
 	}
 

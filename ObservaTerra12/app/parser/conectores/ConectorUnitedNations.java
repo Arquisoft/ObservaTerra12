@@ -14,7 +14,6 @@ import parser.ParserFactory;
  * Conector de nuestra aplicacion con la API de United Nations
  * 
  * 
- * VERSION FINAL
  * 
  * 
  * @author Pablo Garcia Fernandez
