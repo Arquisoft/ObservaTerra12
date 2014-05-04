@@ -64,7 +64,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void insertarDatosPersonales(User usuario) throws SQLException {
-		String SQL = QueryReader.instanciar().leerPropiedad("CREAR_DATOS_PERSONALES");
+		String SQL = QueryReader.instanciar().leerPropiedad(
+				"CREAR_DATOS_PERSONALES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, usuario.getIdUser());
@@ -86,7 +87,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private Long leerSiguienteIdUsuario() throws SQLException {
-		String SQL = QueryReader.instanciar().leerPropiedad("LEER_MAX_ID_USUARIOS");
+		String SQL = QueryReader.instanciar().leerPropiedad(
+				"LEER_MAX_ID_USUARIOS");
 
 		Long maxID = null;
 
@@ -112,7 +114,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void insertarUsuario(User usuario) throws SQLException {
-		String SQL = QueryReader.instanciar().leerPropiedad("INSERTAR_USUARIOS");
+		String SQL = QueryReader.instanciar()
+				.leerPropiedad("INSERTAR_USUARIOS");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setLong(1, usuario.getIdUser());
@@ -139,7 +142,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public void eliminarUsuario(User usuario) throws SQLException {
-		String SQL1 = QueryReader.instanciar().leerPropiedad("BORRAR_DATOS_PERSONALES");
+		String SQL1 = QueryReader.instanciar().leerPropiedad(
+				"BORRAR_DATOS_PERSONALES");
 		String SQL2 = QueryReader.instanciar().leerPropiedad("BORRAR_USUARIOS");
 
 		PreparedStatement pst = null;
@@ -272,7 +276,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void actualizarDatosPersonales(User usuario) throws SQLException {
-		String SQL = QueryReader.instanciar().leerPropiedad("ACTUALIZAR_DATOS_PERSONALES");
+		String SQL = QueryReader.instanciar().leerPropiedad(
+				"ACTUALIZAR_DATOS_PERSONALES");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getName());
@@ -296,7 +301,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	private void actualizarDatosUsuario(User usuario) throws SQLException {
-		String SQL = QueryReader.instanciar().leerPropiedad("ACTUALIZAR_DATOS_USUARIO");
+		String SQL = QueryReader.instanciar().leerPropiedad(
+				"ACTUALIZAR_DATOS_USUARIO");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, usuario.getUserName());
@@ -353,7 +359,8 @@ public class UsuariosJdbc {
 	 * @throws SQLException
 	 */
 	public User leerUsuario(String nombreUsuario) throws SQLException {
-		String SQL = QueryReader.instanciar().leerPropiedad("LEER_USUARIO_NOMBRE");
+		String SQL = QueryReader.instanciar().leerPropiedad(
+				"LEER_USUARIO_NOMBRE");
 
 		PreparedStatement pst = con.prepareStatement(SQL);
 		pst.setString(1, nombreUsuario);
