@@ -4,7 +4,10 @@
 @main(Messages.get("register_title")) {
 
 	@helper.form(routes.Application.registerUser) {
+	
+		<br>
 		<h1>@Messages.get("register_form_title")</h1>
+		<br>
 
 		@if(form.hasGlobalErrors) {
 			<p class="error">

@@ -87,3 +87,17 @@ search_observations_table_header_measure = Medida
 search_observations_table_header_start_date = Fecha de inicio
 search_observations_table_header_end_date = Fecha de fin
 search_observations_table_header_provider = Autor
+#Comparar observaciones
+compare_observations_title = ObservaTerra: Comparar observaciones
+compare_observations_form_title = Comparar observaciones
+compare_observations_form_compare = Comparar
+compare_observations_form_header_indicator = Indicador
+compare_observations_form_header_area = Áreas
+compare_observations_form_header_area_select = Seleccionar
+compare_observations_table_title = Listado de observaciones
+compare_observations_table_header_area = Área
+compare_observations_table_header_indicator = Indicador
+compare_observations_table_header_measure = Medida
+compare_observations_table_header_start_date = Fecha de inicio
+compare_observations_table_header_end_date = Fecha de fin
+compare_observations_table_header_provider = Autor
