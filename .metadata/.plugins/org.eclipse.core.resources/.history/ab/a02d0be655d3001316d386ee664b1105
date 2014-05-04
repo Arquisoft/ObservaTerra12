@@ -1,0 +1,40 @@
+@(title: String)(content: Html)
+@import play.i18n._
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+    </head>
+    <body>
+    	<div class="wrapper">
+    		<nav class="top_menu">
+    			<a class="disconnect" href="@routes.Application.logout()"><img src="@routes.Assets.at("images/icons/black/shut-down.png")" alt="@Messages.get("panel_logout")"/></a>
+    		</nav>
+    		
+    		<header>
+    			<h1 class="logo"><img src="@routes.Assets.at("images/observaterra12_logo_mini.png")" alt="ObservaTerra 1.2"/></h1>
+    		</header>
+    		
+    		<nav class="nav">
+    			<ul>
+					<li><a class="documents_opt" href="@routes.Application.documents()"><p>@Messages.get("panel_documents")</p></a></li>
+					<li><a class="search_observations_opt" href="@routes.Application.searchObservations()"><p>@Messages.get("panel_search_observations")</p></a></li>
+					<li><a  class="compare_observations_opt" href="@routes.Application.compareObservations()"><p>@Messages.get("panel_compare_observations")</p></a></li>
+					<li><a  class="change_data_opt" href="@routes.Application.changeData()"><p>@Messages.get("panel_change_data")</p></a></li>
+    			</ul>
+    		</nav>
+    		
+        	@content
+        </div>
+        
+        <div class="footer">
+        	<p>FOOTER TODO</p>
+        </div>
+    </body>
+</html>

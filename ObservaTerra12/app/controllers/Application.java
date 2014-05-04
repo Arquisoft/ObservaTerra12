@@ -224,7 +224,7 @@ public class Application extends Controller {
 	    else {
 	    	session().clear();
 	    	session("userName", loginForm.get().userName);
-	    	return redirect(routes.Application.userPanel());
+	    	return redirect(routes.Application.documents());
 	    }
     }
 
@@ -266,7 +266,7 @@ public class Application extends Controller {
 	    	// Loguea automáticamente al usuario
 	    	session().clear();
 	    	session("userName", user.getUserName());
-	    	return redirect(routes.Application.userPanel());
+	    	return redirect(routes.Application.documents());
 	    }
     }
 

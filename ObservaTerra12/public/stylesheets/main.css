@@ -48,7 +48,13 @@ body {
 
 .top_menu a.disconnect {
 	float: right;
+	margin-right: 20px;
 }
+
+ .top_menu a.disconnect img {
+ 	width: 28px; 
+ 	height: 28px;
+ }
 
 /* END NAV.top_menu */
 
@@ -59,6 +65,10 @@ header {
 	float: left;
 	width: 1000px;
 	height: 79px;
+}
+
+header .logo{
+	padding: 8px;
 }
 
 /* END HEADER */
@@ -184,7 +194,7 @@ header {
 }
 
 .search_observations input[type="date"] {
-	width:110px;
+	width:120px;
 }
 
 /* END SEARCH OBSERVATIONS */

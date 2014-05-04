@@ -1,4 +1,5 @@
 @(title: String)(content: Html)
+@import play.i18n._
 
 <!DOCTYPE html>
 
@@ -16,7 +17,9 @@
         </div>
         
         <div class="footer">
-        	<p>FOOTER TODO</p>
+        	<div class="wrapper">
+        		<a class="logout" href="@routes.Application.register()">@Messages.get("index_register")</a>
+        	</div>
         </div>
     </body>
 </html>
