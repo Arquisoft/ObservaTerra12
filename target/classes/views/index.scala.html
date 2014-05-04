@@ -1,0 +1,35 @@
+@(form: Form[Application.Login])
+@import play.i18n._
+
+@home(Messages.get("index_title")) {
+	
+	<br>
+	<h1 class="logo"><img src="@routes.Assets.at("images/observaterra12_logo.png")" alt="ObservaTerra 1.2"/></h1>
+	<br>
+	
+	<div class="login">
+		<h1>@Messages.get("index_form_title")</h1>
+			
+		@helper.form(routes.Application.authenticate) {
+			@if(form.hasGlobalErrors) {
+				<span class="error">@form.globalError.message</p></span>
+			}
+		
+			<span class="validationError">
+			@if(!form.field("userName").errors().isEmpty()) {
+				@Messages.get(form.field("userName").errors().get(0).message())
+			}
+			</span>
+			<input type="text" name="userName" placeholder="@Messages.get("index_form_user_name")" value='@form("userName").value'/>
+
+			<span class="validationError">
+			@if(!form.field("password").errors().isEmpty()) {
+				@Messages.get(form.field("password").errors().get(0).message())
+			}
+			</span>
+			<input type="password" name="password" placeholder="@Messages.get("index_form_password")"/>
+
+			<button type="submit">@Messages.get("index_form_login")</button>	
+		}
+	</div>
+}
