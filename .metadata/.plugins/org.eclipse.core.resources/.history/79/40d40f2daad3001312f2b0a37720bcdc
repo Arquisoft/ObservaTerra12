@@ -1,0 +1,91 @@
+@(form: Form[Application.FilterObservations])(observations:List[model.Observation])(listAreas:List[model.Area])(listIndicators:List[model.Indicator])
+@import play.i18n._
+
+@main(Messages.get("search_observations_title")) {
+	<div class="search_observations">
+		<h1>@Messages.get("search_observations_form_title")</h1>
+		<div class="content_block">
+			@helper.form(routes.Application.filterObservations) {
+				<table>
+					<tbody>
+						<tr>
+							<th>@Messages.get("search_observations_form_header_area")</th>
+							<th>@Messages.get("search_observations_form_header_indicator")</th>
+							<th>@Messages.get("search_observations_form_header_start_date")</th>
+							<th>@Messages.get("search_observations_form_header_end_date")</th>
+						</tr>
+						<tr>
+							<td>
+								<select name="area">
+									<optgroup>
+										<option value="-1">@Messages.get("search_observations_form_all_areas")
+								    </optgroup>
+								    <optgroup>
+										@for(area <- listAreas) {
+											@if(form("area").value.equals(area.getIdArea().toString())) {
+												<option value="@area.getIdArea()" selected="selected">@area.getName()</option>
+											} else {
+												<option value="@area.getIdArea()">@area.getName()</option>
+											}
+										}
+									</optgroup>
+								</select>
+							</td>
+							<td>
+								<select name="indicator">
+									<optgroup>
+										<option value="-1">@Messages.get("search_observations_form_all_indicators")
+									</optgroup>
+								    <optgroup>
+										@for(indicator <- listIndicators) {
+											@if(form("indicator").value.equals(indicator.getIdIndicator().toString())) {
+												<option value="@indicator.getIdIndicator()" selected="selected">@indicator.getNombre()</option>
+											} else {
+												<option value="@indicator.getIdIndicator()">@indicator.getNombre()</option>
+											}
+										}
+									</optgroup>
+								</select>
+							</td>
+							<td>
+								<input type="date" name="startDate" value='@form("startDate").value'>
+							</td>
+							<td>
+								<input type="date" name="endDate" value='@form("endDate").value'>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<button type="submit">@Messages.get("search_observations_form_filter")</button>
+			}
+			
+			@if(!observations.isEmpty()) {
+				<h1>@Messages.get("search_observations_table_title")</h1>
+				<table>
+					<tbody>
+						<tr>
+							<th>@Messages.get("search_observations_table_header_area")</th>
+							<th>@Messages.get("search_observations_table_header_indicator")</th>
+							<th>@Messages.get("search_observations_table_header_measure")</th>
+							<th>@Messages.get("search_observations_table_header_start_date")</th>
+							<th>@Messages.get("search_observations_table_header_end_date")</th>
+							<th>@Messages.get("search_observations_table_header_provider")</th>
+						</tr>
+						<tr>
+							@for(observation <- observations) {
+								<tr>
+									<td>@observation.getArea().getName()</td>
+									<td>@observation.getIndicator().getNombre()</td>
+									<td>@observation.getMeasure().getValue() (@observation.getMeasure().getUnit())</td>
+									<td>@observation.getTime().getStartDate()</td>
+									<td>@observation.getTime().getEndDate()</td>
+									<td>@observation.getProvider().getNombre()</td>
+								</tr>
+							}
+						</tr>
+					</tbody>
+				</table>
+			}
+		</div>
+	</div>
+}

@@ -4,7 +4,7 @@
 @home(Messages.get("index_title")) {
 	
 	<br>
-	<h1 class="logo"><a href="/" alt="index"><img src="@routes.Assets.at("images/observaterra12_logo.png")" alt="ObservaTerra 1.2"/></a></h1>
+	<h1 class="logo"><img src="@routes.Assets.at("images/observaterra12_logo.png")" alt="ObservaTerra 1.2"/></h1>
 	<br>
 	
 	<div class="login">
@@ -29,9 +29,7 @@
 			</span>
 			<input type="password" name="password" placeholder="@Messages.get("index_form_password")"/>
 
-			<button type="submit">@Messages.get("index_form_login")</button>
-			
-			<a class="register_button" href="@routes.Application.register()">@Messages.get("index_register")</a>	
+			<button type="submit">@Messages.get("index_form_login")</button>	
 		}
 	</div>
 }

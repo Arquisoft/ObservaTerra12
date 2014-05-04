@@ -18,7 +18,7 @@
         
         <div class="footer">
         	<div class="wrapper">
-
+        		<a class="logout" href="@routes.Application.register()">@Messages.get("index_register")</a>
         	</div>
         </div>
     </body>
