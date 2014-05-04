@@ -1,0 +1,688 @@
+package controllers;
+
+import static play.data.Form.form;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import model.Area;
+import model.Document;
+import model.Indicator;
+import model.Observation;
+import model.Organization;
+import model.Time;
+import model.User;
+import persistencia.AreasDAO;
+import persistencia.DocumentosDAO;
+import persistencia.IndicadoresDAO;
+import persistencia.ObservacionesDAO;
+import persistencia.OrganizacionesDAO;
+import persistencia.PersistenceFactory;
+import persistencia.UsuariosDAO;
+import play.data.Form;
+import play.data.validation.Constraints.Email;
+import play.data.validation.Constraints.Required;
+import play.i18n.Messages;
+import play.mvc.Controller;
+import play.mvc.Http.MultipartFormData;
+import play.mvc.Http.MultipartFormData.FilePart;
+import play.mvc.Result;
+import views.html.*;
+
+public class Application extends Controller {
+	
+	 /**
+	  * Este metodo responde a las peticiones
+	  * con una URI incorrecta, mostrando un mensaje
+	  * de error y un 404.
+	  * 
+	  * @param url - URL de la peticion
+	  * @return Error 404
+	  */
+	public static Result throwNotFound(String url) {
+		return notFound("Route " + url + " is not on this server.");
+	}
+	
+	/**
+	 * Clase utilizada para el formulario de acceso a la aplicación.
+	 * 
+	 * @author Nacho & Manuel
+	 */
+	public static class Login {
+
+		@Required(message="index_form_error_user_name_required")
+		public String userName;
+		@Required(message="index_form_error_password_required")
+		public String password;
+		
+		public String validate() {
+			try {
+				UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+				User user = usuariosDao.leerUsuario(userName, password);
+				if (user == null)
+					return Messages.get("index_form_error_login");
+				return null;
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return Messages.get("error_bd");
+			}
+		}
+	}
+	
+	/**
+	 * Clase utilizada para el formulario de registro.
+	 * 
+	 * @author Nacho & Manuel
+	 */
+	public static class Register {
+		
+		@Required(message="register_form_error_user_name_required")
+		public String userName;
+		@Required(message="register_form_error_password_required")
+		public String password;
+
+		@Required(message="register_form_error_name_required")
+		public String name;
+		@Required(message="register_form_error_surname_required")
+		public String surname;
+		@Required(message="register_form_error_email_required")
+		@Email(message="register_form_error_email_invalid")
+		public String email;
+		public String organization;
+		
+		public String validate() {
+			try {
+				UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+				OrganizacionesDAO organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
+				
+				User user = usuariosDao.buscarUsuario(userName);
+				if (user != null)
+					return Messages.get("register_form_error_user_name_already_in_use");
+				
+				if (organization != null && organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(organization);
+			    	if (organizacion == null)
+						return Messages.get("register_form_error_organization_no_exists");
+				}
+		    	
+				return null;
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return Messages.get("error_bd");
+			}
+		}
+	}
+	
+	/**
+	 * Clase utilizada para el formulario de cambio de datos.
+	 * 
+	 * @author Nacho & Manuel
+	 */
+	public static class ChangeData {
+		
+		public String password;
+
+		@Required(message="change_data_form_error_name_required")
+		public String name;
+		@Required(message="change_data_form_error_surname_required")
+		public String surname;
+		@Required(message="change_data_form_error_email_required")
+		@Email(message="change_data_form_error_email_invalid")
+		public String email;
+		public String organization;
+		
+		public static ChangeData configure() {
+			// Carga los datos del usuario actual
+			UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+			ChangeData cd = new ChangeData();
+			
+			try {
+				User usuario = usuariosDao.buscarUsuario(session().get("userName"));
+				cd.name = usuario.getName();
+				cd.surname = usuario.getSurname();
+				cd.email = usuario.getEmail();
+				if (usuario.getOrganization() != null)
+					cd.organization = usuario.getOrganization().getNombre();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			return cd;
+		}
+		
+		public String validate() {
+			try {
+				OrganizacionesDAO organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
+				
+				if (organization != null && organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(organization);
+			    	if (organizacion == null)
+						return Messages.get("change_data_error_organization_no_exists");
+				}
+		    	
+				return null;
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return Messages.get("error_bd");
+			}
+		}
+	}
+	
+    /**
+     * Clase utilizada para el formulario de compartición de documentos.
+     * 
+     * @author Manuel & Nacho
+     */
+    public static class Share {
+    	
+    	public String userNames;
+    	public List<String> compartidos;
+    }
+    
+    /**
+     * Clase utilizada para el formulario de filtrado de observaciones.
+     * 
+     * @author Manuel & Nacho
+     */
+    public static class FilterObservations {
+    	
+    	public String area;
+    	public String indicator;
+    	public Date startDate;
+    	public Date endDate;
+		
+		public static FilterObservations configure() {
+			FilterObservations fo = new FilterObservations();
+
+			fo.area = "-1";
+			fo.indicator = "-1";
+			fo.startDate = null;
+			fo.endDate = null;
+			
+			return fo;
+		}
+    }
+    
+    /**
+     * Clase utilizada para el formulario de comparación de observaciones.
+     * 
+     * @author Manuel & Nacho
+     */
+    public static class CompareObservations {
+    	
+    	public String indicator;
+    	public List<String> areas;
+    	
+    	public static CompareObservations configure() {
+    		CompareObservations co = new CompareObservations();
+
+    		co.indicator = "0";
+			
+			return co;
+		}
+    }
+
+    public static Result index() {
+        return ok(index.render(form(Login.class)));
+    }
+
+    public static Result authenticate() {
+	    Form<Login> loginForm = form(Login.class).bindFromRequest();
+	    if (loginForm.hasErrors())
+	    	return badRequest(index.render(loginForm));
+	    else {
+	    	session().clear();
+	    	session("userName", loginForm.get().userName);
+	    	return redirect(routes.Application.documents());
+	    }
+    }
+
+    public static Result register() {
+        return ok(register.render(form(Register.class)));
+    }
+
+    public static Result registerUser() {
+	    Form<Register> registerForm = form(Register.class).bindFromRequest();
+	    if (registerForm.hasErrors())
+	    	return badRequest(register.render(registerForm));
+	    else {
+			UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+	    	OrganizacionesDAO organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
+	    	
+	    	User user = new User();
+	    	
+	    	user.setUserName(registerForm.get().userName);
+	    	user.setPassword(registerForm.get().password);
+
+	    	user.setName(registerForm.get().name);
+	    	user.setSurname(registerForm.get().surname);
+	    	user.setEmail(registerForm.get().email);
+	    	
+	    	user.setRol("PENDIENTE");
+	    	
+	    	try {	    		
+	    		if (registerForm.get().organization != null && registerForm.get().organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(registerForm.get().organization);
+			    	user.setOrganization(organizacion);
+	    		}
+		    	
+		    	user = usuariosDao.crearUsuario(user);
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return badRequest(error.render());
+			}
+	    	
+	    	// Loguea automáticamente al usuario
+	    	session().clear();
+	    	session("userName", user.getUserName());
+	    	return redirect(routes.Application.documents());
+	    }
+    }
+
+    public static Result error() {
+        return badRequest(error.render());
+    }
+    
+// * Ya no se usa:
+//    
+//    public static Result userPanel() {
+//    	if (session().get("userName") == null)
+//        	return redirect(routes.Application.error());
+//    	
+//		return ok(user_panel.render());
+//    }
+    
+    public static Result logout() {
+    	session().clear();
+        return redirect(routes.Application.index());
+    }
+
+    public static Result changeData() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+        return ok(change_data.render(form(ChangeData.class).fill(ChangeData.configure())));
+    }
+
+    public static Result changeUserData() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+	    Form<ChangeData> changeDataForm = form(ChangeData.class).bindFromRequest();
+	    if (changeDataForm.hasErrors())
+	    	return badRequest(change_data.render(changeDataForm));
+	    else {
+			UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+	    	OrganizacionesDAO organizacionesDao = PersistenceFactory.createOrganizacionesDAO();
+
+	    	try {
+		    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+		    	
+		    	if (changeDataForm.get().password != null && changeDataForm.get().password != "")
+		    		user.setPassword(changeDataForm.get().password);
+	
+		    	user.setName(changeDataForm.get().name);
+		    	user.setSurname(changeDataForm.get().surname);
+		    	user.setEmail(changeDataForm.get().email);
+	    	
+	    		if (changeDataForm.get().organization != null && changeDataForm.get().organization != "") {
+	    			Organization organizacion = organizacionesDao.buscarOrganizacionOProveedorPorNombre(changeDataForm.get().organization);
+			    	user.setOrganization(organizacion);
+	    		}
+		    	
+		    	usuariosDao.actualizarUsuario(user);
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return badRequest(error.render());
+			}
+	    	
+	    	return redirect(routes.Application.documents());
+	    }
+    }
+    
+    public static Result documents() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+
+    	List<Document> documentos;
+    	List<Document> compartidos;
+    	
+    	try {
+	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+	    	
+	    	documentos = documentosDao.listarRepositoriosUsuario(user);
+	    	compartidos = documentosDao.listarRespositoriosAccesiblesUsuario(user);
+	    	
+    	} catch (SQLException | IOException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+    	
+    	return ok(documents.render(form(Share.class), documentos, compartidos));
+    }
+    
+    public static Result downloadFile(Long id) {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+    	
+    	Document documento;
+    	
+		try {
+			documento = documentosDao.leerDocumento(id);
+	    	
+	    	// Permisos
+			// * El usuario no es el dueño del fichero ni está compartido con él
+	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+			if (!documento.getUser().equals(user) &&
+					!documentosDao.listarRespositoriosAccesiblesUsuario(user).contains(documento))
+				return redirect(routes.Application.error());
+			
+		} catch (SQLException | IOException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+		
+        return ok(documento.getFile());
+    }
+    
+    public static Result removeFile(Long id) {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	
+		try {
+			Document documento = documentosDao.leerDocumento(id);
+			
+	    	// Permisos
+			// * El usuario no es el dueño del fichero
+			if (!documento.getUser().getUserName().equals(session().get("userName")))
+				return redirect(routes.Application.error());
+			
+			documentosDao.borrarDocumento(documento);
+			
+		} catch (SQLException | IOException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+		
+        return documents();
+    }
+    
+    public static Result unshareFile(Long id) {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+    	
+		try {
+	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+			Document documento = documentosDao.leerDocumento(id);
+			
+	    	// Permisos
+			// * No necesarios, no hay problema al descompartir archivos
+			
+			documentosDao.anularCompartirRepositorioConUsuario(documento, user);
+			
+		} catch (SQLException | IOException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+		
+        return documents();
+    }
+    
+    public static Result uploadFile() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	MultipartFormData part = request().body().asMultipartFormData();
+    	FilePart file = part.getFile("file");
+	    
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+
+		try {
+	    	Document documento = new Document();
+
+	    	documento.setFile(file.getFile());
+	    	
+	    	documento.setName(file.getFilename());
+	    	
+	    	User user = usuariosDao.buscarUsuario(session().get("userName"));
+	    	documento.setUser(user);
+	    	
+	    	documentosDao.guardarDocumento(documento);
+	    	
+		} catch (SQLException | IOException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+    	return documents();
+    }
+    
+    public static Result shareFile() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+	    Form<Share> shareForm = form(Share.class).bindFromRequest();
+	    String[] nombres = shareForm.get().userNames.split(",");
+    	
+	    if(shareForm.get().compartidos == null || shareForm.get().compartidos.isEmpty())
+	    	return documents();
+	    	
+    	DocumentosDAO documentosDao = PersistenceFactory.createDocumentosDAO();
+    	UsuariosDAO usuariosDao = PersistenceFactory.createUsuariosDAO();
+    	
+		try {
+	    	User usuario = usuariosDao.buscarUsuario(session().get("userName"));
+			
+			List<User> usuarios = new ArrayList<User>();
+			for (String nombre : nombres) {
+				if(nombre == null || nombre == "")
+					continue;
+				User user = usuariosDao.buscarUsuario(nombre);
+				if (user != null)
+					usuarios.add(user);
+			}
+
+			List<Document> documentos = new ArrayList<Document>();
+			shareForm.get().compartidos.removeAll(Collections.singleton(null));
+			for (String identificador : shareForm.get().compartidos) {
+				Document document = documentosDao.leerDocumento(Long.valueOf(identificador));
+				if (document != null && document.getUser().equals(usuario))
+					documentos.add(document);
+			}
+			
+			for (User user : usuarios)
+				for (Document document : documentos)
+					documentosDao.compartirRepositorioConUsuario(document, user);
+			
+		} catch (SQLException | IOException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+		
+        return documents();
+    }
+    
+    public static Result searchObservations() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;
+		try {
+			listAreas = PersistenceFactory.createAreasDAO().listadoAreasYPaises();
+			listIndicators = PersistenceFactory.createIndicadoresDAO().listarTodosLosIndicadores();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+    	
+    	return ok(search_observations.render(form(FilterObservations.class).fill(FilterObservations.configure()), new ArrayList<Observation>(), listAreas, listIndicators));
+    }
+    
+    public static Result filterObservations() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+
+    	ObservacionesDAO observacionesDao = PersistenceFactory.createObservacionesDAO();
+    	AreasDAO areasDao = PersistenceFactory.createAreasDAO();
+    	IndicadoresDAO indicadoresDao = PersistenceFactory.createIndicadoresDAO();
+    	
+	    Form<FilterObservations> filterForm = form(FilterObservations.class).bindFromRequest();
+	    
+	    List<Observation> listObservations;
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;	    
+	    try {
+    		listObservations = observacionesDao.listarTodasObservaciones();
+    		
+	    	// Filtrar por área
+	    	if (!filterForm.get().area.equals("-1")) {
+	    		List<Observation> temp = new ArrayList<Observation>();
+	    		for (Observation observation : listObservations)
+	    			if (observation.getArea().getIdArea().equals(Long.valueOf(filterForm.get().area)))
+	    				temp.add(observation);
+	    		listObservations = temp;
+	    	}
+	    	
+	    	// Filtrar por indicador
+	    	if (!filterForm.get().indicator.equals("-1")) {
+	    		List<Observation> temp = new ArrayList<Observation>();
+	    		Indicator indicator = indicadoresDao.leerIndicador(Long.valueOf(filterForm.get().indicator));
+	    		for (Observation observation : listObservations)
+	    			if (observation.getIndicator().equals(indicator))
+	    				temp.add(observation);
+	    		listObservations = temp;
+	    	}
+
+	    	// Filtrar por fecha
+	    	if (filterForm.get().endDate != null && filterForm.get().startDate != null) {
+	    		List<Observation> temp = new ArrayList<Observation>();
+		    	for (Observation observation : listObservations) {
+		    		Time periodo = observation.getTime();
+		    		if (periodo.getStartDate().before(filterForm.get().endDate) 
+		    				&& periodo.getEndDate().after(filterForm.get().startDate))
+						temp.add(observation);
+		    	}
+	    		listObservations = temp;
+	    	}
+	    	
+	    	// Crea las listas con las opciones de filtro
+			listAreas = areasDao.listadoAreasYPaises();
+			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+	    	
+	    } catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+
+    	return ok(search_observations.render(filterForm, listObservations, listAreas, listIndicators));
+    }
+    
+    public static Result compareObservations() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;
+		try {
+			listAreas = PersistenceFactory.createAreasDAO().listadoAreasYPaises();
+			listIndicators = PersistenceFactory.createIndicadoresDAO().listarTodosLosIndicadores();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+    	
+    	return ok(compare_observations.render(form(CompareObservations.class).fill(CompareObservations.configure()), new ArrayList<Observation>(), listAreas, listIndicators, new HashMap<String,Double>()));
+    }
+    
+    public static Result doCompareObservations() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+
+    	ObservacionesDAO observacionesDao = PersistenceFactory.createObservacionesDAO();
+    	AreasDAO areasDao = PersistenceFactory.createAreasDAO();
+    	IndicadoresDAO indicadoresDao = PersistenceFactory.createIndicadoresDAO();
+    	
+	    Form<CompareObservations> compareForm = form(CompareObservations.class).bindFromRequest();
+	    
+	    if(compareForm.get().areas == null || compareForm.get().areas.isEmpty())
+	    	return compareObservations();
+	    
+	    Map<String,Double> data = new HashMap<String,Double>();
+	    
+	    List<Observation> listObservations;
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;  
+	    try {
+	    	
+	    	// Filtrar por indicador
+    		Indicator indicator = indicadoresDao.leerIndicador(Long.valueOf(compareForm.get().indicator));
+    		listObservations = observacionesDao.leerObservacionesDeUnIndicador(indicator.getNombre());
+    		
+	    	// Filtrar por área
+    		List<Observation> temp = new ArrayList<Observation>();
+			compareForm.get().areas.removeAll(Collections.singleton(null));
+			for (Observation observation : listObservations)
+				if (compareForm.get().areas.contains(observation.getArea().getIdArea().toString()))
+					temp.add(observation);
+			listObservations = temp;
+			
+			// Calcular datos
+			/*
+			 * Lo siguiente es solo un truco para comprobar si un indicador es numérico.
+			 * Debería hacerse de una forma mejor.
+			 */
+			try {
+				// * Map -> Agrupar por área
+				Map<String,List<Double>> dataTemp = new HashMap<String,List<Double>>();
+				for (Observation observation : listObservations) {
+					Double value = Double.parseDouble(observation.getMeasure().getValue());
+				    if (dataTemp.containsKey(observation.getArea().getName()))
+				    	dataTemp.get(observation.getArea().getName()).add(value);
+				    else {
+				    	List<Double> lista = new ArrayList<Double>();
+				    	lista.add(value);
+				    	dataTemp.put(observation.getArea().getName(), lista);
+				    }
+				}
+				
+				// * Reduce -> Calcular la media
+				for (Entry<String,List<Double>> entry :  dataTemp.entrySet()) {
+					double media = 0;
+					for (Double number : entry.getValue())
+						media += number;
+					data.put(entry.getKey(), media / entry.getValue().size());
+				}
+			} catch(NumberFormatException e) {
+				// Indicador no numérico
+			}
+			
+	    	// Crea las listas con las opciones de filtro
+			listAreas = areasDao.listadoAreasYPaises();
+			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+	    	
+	    } catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+	    
+    	return ok(compare_observations.render(compareForm, listObservations, listAreas, listIndicators, data));
+    }
+}

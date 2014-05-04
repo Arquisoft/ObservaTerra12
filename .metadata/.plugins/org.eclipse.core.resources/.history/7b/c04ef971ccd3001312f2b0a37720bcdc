@@ -1,0 +1,103 @@
+#Error
+error_title = ObservaTerra: Error
+error_message = It seems we had a problem...
+error_bd = Internal error.
+#Index
+index_title = ObservaTerra: Home
+index_form_title = Login
+index_form_user_name = User
+index_form_error_user_name_required = Required
+index_form_password = Password
+index_form_error_password_required = Required
+index_form_login = Login
+index_form_error_login = Wrong user or password.
+index_register = Register
+#Register
+register_title = ObservaTerra: Register
+register_form_title = Register
+register_form_register = Register
+register_form_error_already_in_use = User name already in use.
+register_form_user_name = User name
+register_form_error_user_name_required = Required
+register_form_password = Password
+register_form_error_password_required = Required
+register_form_name = Name
+register_form_error_name_required = Required
+register_form_surname = Surname
+register_form_error_surname_required = Required
+register_form_email = Email
+register_form_error_email_required = Required
+register_form_error_email_invalid = Invalid format => user@server.domain
+register_form_organization = Organization
+register_form_error_organization_required = Required
+register_form_error_organization_no_exists = The organization doesn't exist
+#User panel
+panel_title = ObservaTerra: User panel.
+panel_logout = Logout
+panel_documents = My shared documents
+panel_change_data = Configuration
+panel_search_observations = Search observations
+panel_compare_observations = Compare observations
+#Modify information
+change_data_title = ObservaTerra: Configuration
+change_data_form_title = Modify personal information
+change_data_form_change_data = Modify
+change_data_form_password = Password
+change_data_form_error_password_required = Required
+change_data_form_name = Name
+change_data_form_error_name_required = Required
+change_data_form_surname = Surname
+change_data_form_error_surname_required = Required
+change_data_form_email = Email
+change_data_form_error_email_required = Required
+change_data_form_error_email_invalid = Invalid format => user@server.domain
+change_data_form_organization = Organization
+change_data_error_organization_no_exists = The organization doesn't exist
+#Documents
+documents_title = ObservaTerra: Documents
+documents_my_documents = My documents
+documents_shared_documents = My shared files
+documents_document_name = Name
+documents_document_extension = Type
+documents_document_download = Download
+documents_document_remove = Remove
+documents_document_share = Share
+documents_form_share_tittle = Share selected documents
+documents_form_share_info = Select the users which you'd like to share the documents (split by , without gaps).
+documents_form_user_name = User name(s)
+documents_form_share = Share
+documents_document_unshare = Unshare
+documents_document_upload = Upload file
+documents_document_upload_successfull = File successfully uploaded
+documents_document_upload_error = There was an error while uploading the file
+#Search observations
+search_observations_title = ObservaTerra: Search observations
+search_observations_form_title = Filter observations
+search_observations_form_filter = Filter
+search_observations_form_header_area = Area
+search_observations_form_header_indicator = Indicator
+search_observations_form_header_start_date = Start date
+search_observations_form_header_end_date = End date
+search_observations_form_all_areas = All areas
+search_observations_form_all_indicators = All indicators
+search_observations_table_title = Observations
+search_observations_table_header_area = Area
+search_observations_table_header_indicator = Indicator
+search_observations_table_header_measure = Measure
+search_observations_table_header_start_date = Start date
+search_observations_table_header_end_date = End date
+search_observations_table_header_provider = Provider
+#Compare observations
+compare_observations_title = ObservaTerra: Compare observations
+compare_observations_form_title = Compare observations
+compare_observations_form_compare = Compare
+compare_observations_form_header_indicator = Indicator
+compare_observations_form_header_area = Areas
+compare_observations_form_header_area_select = Select
+compare_observations_table_title = Observations
+compare_observations_table_header_area = Area
+compare_observations_table_header_indicator = Indicator
+compare_observations_table_header_measure = Measure
+compare_observations_table_header_start_date = Start date
+compare_observations_table_header_end_date = End date
+compare_observations_table_header_provider = Provider

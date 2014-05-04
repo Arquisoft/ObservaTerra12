@@ -1,0 +1,136 @@
+@(form: Form[Application.CompareObservations])(observations:List[model.Observation])(listAreas:List[model.Area])(listIndicators:List[model.Indicator])(areasData:Array[String])(valuesData:Array[Double])
+@import play.i18n._
+
+@main(Messages.get("compare_observations_title")) {
+
+	<div class="compare_observations">
+		<h1>@Messages.get("compare_observations_form_title")</h1>
+		<div class="content_block">
+			@helper.form(routes.Application.doCompareObservations) {
+				<table>
+					<tbody>
+						<tr>
+							<td>@Messages.get("compare_observations_form_header_indicator")</td>
+							<td>
+								<select name="indicator">
+									@for(indicator <- listIndicators) {
+										@if(form("indicator").value.equals(indicator.getIdIndicator().toString())) {
+											<option value="@indicator.getIdIndicator()" selected="selected">@indicator.getNombre()</option>
+										} else {
+											<option value="@indicator.getIdIndicator()">@indicator.getNombre()</option>
+										}
+									}
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>@Messages.get("compare_observations_form_header_area")</th>
+							<th>@Messages.get("compare_observations_form_header_area_select")</th>
+						</tr>
+						@for((area, index) <- listAreas.zipWithIndex) {
+							<tr>
+								<td>@area.getName()</td>
+								<td><input type="checkbox" name="areas[@index]" value="@area.getIdArea()"></td>
+							</tr>
+						}
+					</tbody>
+				</table>
+				<button type="submit">@Messages.get("compare_observations_form_compare")</button>
+			}
+			
+			@if(!observations.isEmpty()) {
+				<h1>@Messages.get("compare_observations_table_title")</h1>
+				<table>
+					<tbody>
+						<tr>
+							<th>@Messages.get("compare_observations_table_header_area")</th>
+							<th>@Messages.get("compare_observations_table_header_indicator")</th>
+							<th>@Messages.get("compare_observations_table_header_measure")</th>
+							<th>@Messages.get("compare_observations_table_header_start_date")</th>
+							<th>@Messages.get("compare_observations_table_header_end_date")</th>
+							<th>@Messages.get("compare_observations_table_header_provider")</th>
+						</tr>
+						<tr>
+							@for(observation <- observations) {
+								<tr>
+									<td>@observation.getArea().getName()</td>
+									<td>@observation.getIndicator().getNombre()</td>
+									<td>@observation.getMeasure().getValue() (@observation.getMeasure().getUnit())</td>
+									<td>@observation.getTime().getStartDate()</td>
+									<td>@observation.getTime().getEndDate()</td>
+									<td>@observation.getProvider().getNombre()</td>
+								</tr>
+							}
+						</tr>
+					</tbody>
+				</table>
+				
+				<!-- HISTOGRAMA -->
+				<article>
+					<script>
+						// Valores del histograma.
+						@{var miArray:Array[Int] = new Array[Int](data.size());
+						
+						data.copyToArray(miArray);
+						}
+						var values = d3.range(100).map(d3.random.bates(@data.size()));
+						
+						// A formatter for counts.
+						var formatCount = d3.format(",.0f");
+						
+						var margin = {top: 10, right: 30, bottom: 30, left: 30},
+						    width = 960 - margin.left - margin.right,
+						    height = 500 - margin.top - margin.bottom;
+						
+						var x = d3.scale.linear()
+						    .domain([0, 1])
+						    .range([0, width]);
+						
+						// Generate a histogram using twenty uniformly-spaced bins.
+						var data = d3.layout.histogram()
+						    .bins(x.ticks(@data.size()))
+						    (values);
+						
+						var y = d3.scale.linear()
+						    .domain([0, d3.max(data, function(d) { return d.y; })])
+						    .range([height, 0]);
+						
+						var xAxis = d3.svg.axis()
+						    .scale(x)
+						    .orient("bottom");
+						
+						var svg = d3.select("article").append("svg")
+						    .attr("width", width + margin.left + margin.right)
+						    .attr("height", height + margin.top + margin.bottom)
+						  	.append("g")
+						    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+						
+						var bar = svg.selectAll(".bar")
+						    .data(data)
+						  	.enter().append("g")
+						    .attr("class", "bar")
+						    .attr("transform", function(d) { return "translate(" + x(d.x) + "," + y(d.y) + ")"; });
+						
+						bar.append("rect")
+						    .attr("x", 1)
+						    .attr("width", x(data[0].dx) - 1)
+						    .attr("height", function(d) { return height - y(d.y); });
+						
+						bar.append("text")
+						    .attr("dy", ".75em")
+						    .attr("y", 6)
+						    .attr("x", x(data[0].dx) / 2)
+						    .attr("text-anchor", "middle")
+						    .text(function(d) { return formatCount(d.y); });
+						
+						svg.append("g")
+						    .attr("class", "x axis")
+						    .attr("transform", "translate(0," + height + ")")
+						    .call(xAxis);
+						
+						</script>
+					</article>
+			}
+		</div>
+	</div>
+}
