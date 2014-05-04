@@ -126,7 +126,7 @@ public class ConectorTest {
 
 	@After
 	public void after() {
-		printObservations(40000, 40009);
+		printObservations(0, 25);
 	}
 
 	/*

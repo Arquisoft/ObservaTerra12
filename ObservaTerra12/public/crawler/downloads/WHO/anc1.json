@@ -225,7 +225,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "RESIDENCEAREATYPE": "Urban",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
@@ -235,7 +235,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "RESIDENCEAREATYPE": "Rural",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
@@ -1335,7 +1335,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q1 (Poorest)",
@@ -1345,7 +1345,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q2",
@@ -1355,7 +1355,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q3",
@@ -1365,7 +1365,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q4",
@@ -1375,7 +1375,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "WEALTHQUINTILE": "Q5 (Richest)",
@@ -3155,7 +3155,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "None",
@@ -3165,7 +3165,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Primary",
@@ -3175,7 +3175,7 @@
            {
              "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
              "YEAR": "2006",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "DATASOURCE": "MICS",
              "REGION": "Africa",
              "EDUCATIONLEVEL": "Secondary or higher",
