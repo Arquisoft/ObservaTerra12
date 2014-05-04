@@ -9,12 +9,8 @@
 		<div class="content_block">
 			<form name="fileUploadForm" method="POST" enctype="multipart/form-data" action="@routes.Application.uploadFile()">
 				<h2>@Messages.get("documents_document_upload")</h2>
-			    <p>
-			    	<input type="file" name="file">
-			    </p>
-			    <p>
-			        <input type="submit">
-			    </p>
+			    <input type="file" name="file">
+			    <input type="submit">
 			</form>
 		
 			@helper.form(routes.Application.shareFile) {
@@ -43,10 +39,8 @@
 			
 				<h2>@Messages.get("documents_form_share_tittle")</h2>
 				<p>@Messages.get("documents_form_share_info")</p>
-				<p>
-					<input type="text" name="userNames" placeholder="@Messages.get("documents_form_user_name")">
-					<button type="submit">@Messages.get("documents_form_share")</button>
-				</p>
+				<input type="text" name="userNames" placeholder="@Messages.get("documents_form_user_name")">
+				<button type="submit">@Messages.get("documents_form_share")</button>
 			}
 		</div>
 	
