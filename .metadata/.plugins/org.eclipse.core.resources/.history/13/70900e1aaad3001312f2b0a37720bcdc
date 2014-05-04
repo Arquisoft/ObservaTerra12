@@ -170,7 +170,6 @@ header .logo{
 /* END DOCUMENTS */
 
 /* SEARCH OBSERVATIONS */
-
 .search_observations {
 	float: left;
 	width:1000px;
