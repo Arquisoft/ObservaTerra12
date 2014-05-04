@@ -1,0 +1,196 @@
+@(form: Form[Application.CompareObservations])(observations:List[model.Observation])(listAreas:List[model.Area])(listIndicators:List[model.Indicator])(areasData:Array[String])(valuesData:Array[Int])
+@import play.i18n._
+@import play.api.libs.json._
+
+@main(Messages.get("compare_observations_title")) {
+
+	<div class="compare_observations">
+		<h1>@Messages.get("compare_observations_form_title")</h1>
+		<div class="content_block">
+			@helper.form(routes.Application.doCompareObservations) {
+				<table>
+					<tbody>
+						<tr>
+							<td>@Messages.get("compare_observations_form_header_indicator")</td>
+							<td>
+								<select name="indicator">
+									@for(indicator <- listIndicators) {
+										@if(form("indicator").value.equals(indicator.getIdIndicator().toString())) {
+											<option value="@indicator.getIdIndicator()" selected="selected">@indicator.getNombre()</option>
+										} else {
+											<option value="@indicator.getIdIndicator()">@indicator.getNombre()</option>
+										}
+									}
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>@Messages.get("compare_observations_form_header_area")</th>
+							<th>@Messages.get("compare_observations_form_header_area_select")</th>
+						</tr>
+						@for((area, index) <- listAreas.zipWithIndex) {
+							<tr>
+								<td>@area.getName()</td>
+								<td><input type="checkbox" name="areas[@index]" value="@area.getIdArea()"></td>
+							</tr>
+						}
+					</tbody>
+				</table>
+				<button type="submit">@Messages.get("compare_observations_form_compare")</button>
+			}
+			
+			@if(!observations.isEmpty()) {
+				<h1>@Messages.get("compare_observations_table_title")</h1>
+				<table>
+					<tbody>
+						<tr>
+							<th>@Messages.get("compare_observations_table_header_area")</th>
+							<th>@Messages.get("compare_observations_table_header_indicator")</th>
+							<th>@Messages.get("compare_observations_table_header_measure")</th>
+							<th>@Messages.get("compare_observations_table_header_start_date")</th>
+							<th>@Messages.get("compare_observations_table_header_end_date")</th>
+							<th>@Messages.get("compare_observations_table_header_provider")</th>
+						</tr>
+						<tr>
+							@for(observation <- observations) {
+								<tr>
+									<td>@observation.getArea().getName()</td>
+									<td>@observation.getIndicator().getNombre()</td>
+									<td>@observation.getMeasure().getValue() (@observation.getMeasure().getUnit())</td>
+									<td>@observation.getTime().getStartDate()</td>
+									<td>@observation.getTime().getEndDate()</td>
+									<td>@observation.getProvider().getNombre()</td>
+								</tr>
+							}
+						</tr>
+					</tbody>
+				</table>
+		</div>
+		<div class="content_block">
+				
+				<!-- PIE-CHART -->
+				<article id="chart">
+					<center>
+					<script type="text/javascript">
+	 
+				    var w = 500,                        //width
+				    h = 500,                            //height
+				    r = 200,                            //radius
+				    color = d3.scale.category20c();     //builtin range of colors
+				    
+				    data = [];
+				    var i = 0;
+				    while (i < @areasData.length) {
+				        var item = {};
+				        // Chapuza
+				        item.label = [@for((area,index)<- areasData.zipWithIndex) {@if(index == areasData.length - 1) {"@(area)"} else {"@(area)",}}][i];
+				        item.value = @(Json.toJson(valuesData))[i];
+				    	data.push(item);
+				    	i = i + 1;
+				    }
+				    
+				    var vis = d3.select("center")
+				        .append("svg:svg")              //create the SVG element inside the <body>
+				        .data([data])                   //associate our data with the document
+				            .attr("width", w)           //set the width and height of our visualization (these will be attributes of the <svg> tag
+				            .attr("height", h)
+				        .append("svg:g")                //make a group to hold our pie chart
+				            .attr("transform", "translate(" + r + "," + r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
+				 
+				    var arc = d3.svg.arc()              //this will create <path> elements for us using arc data
+				        .outerRadius(r);
+				 
+				    var pie = d3.layout.pie()           //this will create arc data for us given a list of values
+				        .value(function(d) { return d.value; });    //we must tell it out to access the value of each element in our data array
+				 
+				    var arcs = vis.selectAll("g.slice")     //this selects all <g> elements with class slice (there aren't any yet)
+				        .data(pie)                          //associate the generated pie data (an array of arcs, each having startAngle, endAngle and value properties) 
+				        .enter()                            //this will create <g> elements for every "extra" data element that should be associated with a selection. The result is creating a <g> for every object in the data array
+				            .append("svg:g")                //create a group to hold each slice (we will have a <path> and a <text> element associated with each slice)
+				                .attr("class", "slice");    //allow us to style things in the slices (like text)
+				 
+				        arcs.append("svg:path")
+				                .attr("fill", function(d, i) { return color(i); } ) //set the color for each slice to be chosen from the color function defined above
+				                .attr("d", arc);                                    //this creates the actual SVG path using the associated data (pie) with the arc drawing function
+				 
+				        arcs.append("svg:text")                                     //add a label to each slice
+				                .attr("transform", function(d) {                    //set the label's origin to the center of the arc
+				                //we have to make sure to set these before calling arc.centroid
+				                d.innerRadius = 0;
+				                d.outerRadius = r;
+				                return "translate(" + arc.centroid(d) + ")";        //this gives us a pair of coordinates like [50, 50]
+				            })
+				            .attr("text-anchor", "middle")                          //center the text on it's origin
+				            .text(function(d, i) { return data[i].label; });        //get the label from our original data array
+				    </script>
+				    </center>
+				</article>
+				    
+				<!-- HISTOGRAMA -->
+				<article id="histogram">
+					<script>
+						// Generate a Bates distribution of 10 random variables.
+						var values = d3.range(1000).map(d3.random.bates(10));
+						
+						// Valores del histograma.
+						//var values = @Json.toJson(valuesData);
+						
+						// A formatter for counts.
+						var formatCount = d3.format(",.0f");
+						
+						var margin = {top: 10, right: 30, bottom: 30, left: 30},
+						    width = 960 - margin.left - margin.right,
+						    height = 500 - margin.top - margin.bottom;
+						
+						var x = d3.scale.linear()
+						    .domain([0, 1])
+						    .range([0, width]);
+						
+						// Generate a histogram using twenty uniformly-spaced bins.
+						var data = d3.layout.histogram()
+						    .bins(x.ticks(@valuesData.length))
+						    (values);
+						
+						var y = d3.scale.linear()
+						    .domain([0, d3.max(data, function(d) { return d.y; })])
+						    .range([height, 0]);
+						
+						var xAxis = d3.svg.axis()
+						    .scale(x)
+						    .orient("bottom");
+						
+						var svg = d3.select("#histogram").append("svg")
+						    .attr("width", width + margin.left + margin.right)
+						    .attr("height", height + margin.top + margin.bottom)
+						  	.append("g")
+						    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+						
+						var bar = svg.selectAll(".bar")
+						    .data(data)
+						  	.enter().append("g")
+						    .attr("class", "bar")
+						    .attr("transform", function(d) { return "translate(" + x(d.x) + "," + y(d.y) + ")"; });
+						
+						bar.append("rect")
+						    .attr("x", 1)
+						    .attr("width", x(data[0].dx) - 1)
+						    .attr("height", function(d) { return height - y(d.y); });
+						
+						bar.append("text")
+						    .attr("dy", ".75em")
+						    .attr("y", 6)
+						    .attr("x", x(data[0].dx) / 2)
+						    .attr("text-anchor", "middle")
+						    .text(function(d) { return formatCount(d.y); });
+						
+						svg.append("g")
+						    .attr("class", "x axis")
+						    .attr("transform", "translate(0," + height + ")")
+						    .call(xAxis);
+						
+					</script>
+				</article>
+			}
+		</div>
+	</div>
+}
