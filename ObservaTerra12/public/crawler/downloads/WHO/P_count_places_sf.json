@@ -1,0 +1,4682 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Algeria",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Angola",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Benin",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Botswana",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Burkina Faso",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Burundi",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Cabo Verde",
+             "YEAR": "2007",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Central African Republic",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Chad",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Congo",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "Value": "2"
+           },
+           {
+             "COUNTRY": "Democratic Republic of the Congo",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Eritrea",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Gabon",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Gambia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Ghana",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Guinea",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Guinea-Bissau",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Kenya",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Mali",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Mauritania",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Mauritius",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Mozambique",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Namibia",
+             "YEAR": "2007",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Nigeria",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Senegal",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Sierra Leone",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Swaziland",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "United Republic of Tanzania",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2007",
+             "COUNTRY": "Zambia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Antigua and Barbuda",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Argentina",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Belize",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Brazil",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "COUNTRY": "Colombia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Costa Rica",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "COUNTRY": "Dominica",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Dominican Republic",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Ecuador",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "Value": "3"
+           },
+           {
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Honduras",
+             "Value": "5"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Jamaica",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Mexico",
+             "YEAR": "2007",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Nicaragua",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Panama",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "Value": "2"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Peru",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Trinidad and Tobago",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "United States of America",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Uruguay",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2007",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Afghanistan",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Bahrain",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "COUNTRY": "Egypt",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "COUNTRY": "Iraq",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "COUNTRY": "Jordan",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lebanon",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Libya",
+             "YEAR": "2007",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Morocco",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Oman",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Pakistan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Qatar",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Saudi Arabia",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Somalia",
+             "Value": "2"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Sudan",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "COUNTRY": "United Arab Emirates",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Yemen",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Albania",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "8"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Andorra",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Armenia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Azerbaijan",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Bulgaria",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Cyprus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Czech Republic",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Denmark",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Estonia",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Georgia",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Germany",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Greece",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Hungary",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Iceland",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Ireland",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Israel",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Kazakhstan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Kyrgyzstan",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Latvia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Lithuania",
+             "Value": "5"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "COUNTRY": "Malta",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Monaco",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Montenegro",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Netherlands",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Poland",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Portugal",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Romania",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "1"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Russian Federation",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "San Marino",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "COUNTRY": "Serbia",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Slovakia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "Slovenia",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Spain",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sweden",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Switzerland",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Tajikistan",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Ukraine",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "COUNTRY": "Bangladesh",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "South-East Asia",
+             "COUNTRY": "India",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Indonesia",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Maldives",
+             "YEAR": "2007",
+             "REGION": "South-East Asia",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Myanmar",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Sri Lanka",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "REGION": "South-East Asia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Thailand",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Timor-Leste",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Australia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Brunei Darussalam",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Cambodia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "China",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2007",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Malaysia",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Marshall Islands",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Micronesia (Federated States of)",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "Value": "1"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Nauru",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Niue",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Palau",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Papua New Guinea",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Republic of Korea",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Samoa",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Solomon Islands",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Tonga",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Tuvalu",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Viet Nam",
+             "YEAR": "2007",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Angola",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "COUNTRY": "Benin",
+             "Value": "4"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Botswana",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Burkina Faso",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Burundi",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "2"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Cabo Verde",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Central African Republic",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Congo",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Côte d'Ivoire",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "Value": "2"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Equatorial Guinea",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "Value": "3"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Eritrea",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Ethiopia",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Gabon",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Gambia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Ghana",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Kenya",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Lesotho",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Liberia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Madagascar",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Malawi",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Mali",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Mauritania",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Namibia",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Niger",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Nigeria",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Rwanda",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Sao Tome and Principe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "2"
+           },
+           {
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Sierra Leone",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "South Africa",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Swaziland",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "COUNTRY": "Togo",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Zambia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Zimbabwe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Antigua and Barbuda",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "COUNTRY": "Argentina",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Bahamas",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Barbados",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "YEAR": "2010",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Brazil",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "COUNTRY": "Colombia",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Cuba",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Dominican Republic",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Ecuador",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "El Salvador",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Grenada",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Guyana",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Haiti",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Honduras",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Jamaica",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Nicaragua",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Panama",
+             "YEAR": "2010",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Paraguay",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Peru",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Lucia",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2010",
+             "COUNTRY": "Suriname",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Trinidad and Tobago",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "United States of America",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Uruguay",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "2"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Bahrain",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "COUNTRY": "Djibouti",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Egypt",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Iraq",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Kuwait",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Libya",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Morocco",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Pakistan",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Saudi Arabia",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "COUNTRY": "Somalia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Sudan",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "United Arab Emirates",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Albania",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Andorra",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Austria",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Azerbaijan",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Belarus",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Bulgaria",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Cyprus",
+             "Value": "6"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Czech Republic",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Germany",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Greece",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Kazakhstan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "6"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Latvia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Lithuania",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Malta",
+             "Value": "8"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Monaco",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Netherlands",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Norway",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Poland",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Republic of Moldova",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Serbia",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Slovakia",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Spain",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Switzerland",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2010",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Turkey",
+             "YEAR": "2010",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Turkmenistan",
+             "Value": "8"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Ukraine",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Uzbekistan",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Bangladesh",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "2"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "COUNTRY": "Indonesia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Maldives",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "South-East Asia",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Myanmar",
+             "Value": "3"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Nepal",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Australia",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "COUNTRY": "Brunei Darussalam",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cambodia",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "China",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "3"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Fiji",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Japan",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "Value": "4"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Malaysia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Mongolia",
+             "YEAR": "2010",
+             "Value": "1"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Nauru",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "Value": "0"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Palau",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Algeria",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Angola",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Benin",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Burkina Faso",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Cameroon",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Central African Republic",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Chad",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Samoa",
+             "Value": "6"
+           },
+           {
+             "COUNTRY": "Solomon Islands",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Comoros",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Congo",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Côte d'Ivoire",
+             "Value": "2"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Equatorial Guinea",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Eritrea",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Gabon",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "COUNTRY": "Gambia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Ghana",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Guinea",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "5"
+           },
+           {
+             "COUNTRY": "Guinea-Bissau",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Kenya",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Lesotho",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Liberia",
+             "YEAR": "2012",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Malawi",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Mali",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Mauritania",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Mauritius",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Mozambique",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Namibia",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Niger",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Nigeria",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Sao Tome and Principe",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Senegal",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "COUNTRY": "Seychelles",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Swaziland",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Togo",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United Republic of Tanzania",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Zambia",
+             "Value": "7"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "COUNTRY": "Zimbabwe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Antigua and Barbuda",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Argentina",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Bahamas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Belize",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Brazil",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "8"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Tonga",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Tuvalu",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Canada",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Chile",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Costa Rica",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Cuba",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Dominican Republic",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Ecuador",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "El Salvador",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Guatemala",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Guyana",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "3"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Haiti",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Viet Nam",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Honduras",
+             "YEAR": "2012",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Jamaica",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Panama",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Saint Lucia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Suriname",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Trinidad and Tobago",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Uruguay",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Afghanistan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Bahrain",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "6"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Egypt",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Iraq",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Jordan",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Kuwait",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Lebanon",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Libya",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Morocco",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Pakistan",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Saudi Arabia",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Somalia",
+             "YEAR": "2012",
+             "Value": "2"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "South Sudan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Sudan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Syrian Arab Republic",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Tunisia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Armenia",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Austria",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Belarus",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Bulgaria",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Cyprus",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Czech Republic",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Denmark",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Estonia",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "COUNTRY": "Georgia",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Greece",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "1"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Ireland",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Israel",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Kazakhstan",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "COUNTRY": "Kyrgyzstan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Latvia",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Lithuania",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Malta",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Monaco",
+             "YEAR": "2012",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Norway",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Portugal",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Republic of Moldova",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "COUNTRY": "Romania",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Russian Federation",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Serbia",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "Value": "5"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Slovakia",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Slovenia",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "COUNTRY": "Spain",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Switzerland",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Turkey",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Ukraine",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "Value": "6"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "United Kingdom",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Uzbekistan",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Bangladesh",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Indonesia",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Maldives",
+             "YEAR": "2012",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Myanmar",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "Value": "4"
+           },
+           {
+             "COUNTRY": "Nepal",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Timor-Leste",
+             "YEAR": "2012",
+             "REGION": "South-East Asia",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Australia",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "COUNTRY": "Brunei Darussalam",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Cambodia",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "China",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Cook Islands",
+             "YEAR": "2012",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Fiji",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "Value": "3"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Micronesia (Federated States of)",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Mongolia",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Nauru",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "Value": "8"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "New Zealand",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Niue",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Palau",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "Value": "6"
+           },
+           {
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "COUNTRY": "Philippines",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "REGION": "Western Pacific",
+             "COUNTRY": "Republic of Korea",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Samoa",
+             "Value": "6"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Solomon Islands",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "COUNTRY": "Tonga",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Tuvalu",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Vanuatu",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Viet Nam",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "6"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Luxembourg",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "COUNTRY": "South Sudan",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Oman",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Andorra",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2012",
+             "COUNTRY": "Uganda",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Italy",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "France",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Mexico",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "South Sudan",
+             "YEAR": "2010",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "India",
+             "YEAR": "2012",
+             "REGION": "South-East Asia",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Belgium",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Italy",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Belgium",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "*"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "France",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "Value": "*"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Western Pacific",
+             "YEAR": "2010",
+             "COUNTRY": "Singapore",
+             "Value": "*"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "India",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "COUNTRY": "Finland",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Uganda",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Oman",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Croatia",
+             "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "YEAR": "2007",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "REGION": "Europe",
+             "YEAR": "2010",
+             "COUNTRY": "Luxembourg",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2010",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "COUNTRY": "Uganda",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "Value": "*"
+           },
+           {
+             "YEAR": "2007",
+             "COUNTRY": "Luxembourg",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "REGION": "Americas",
+             "COUNTRY": "Mexico",
+             "YEAR": "2010",
+             "Value": "*"
+           },
+           {
+             "COUNTRY": "Italy",
+             "GHO": "Number of places smoke-free (national legislation)",
+             "YEAR": "2010",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "*"
+           }
+          ]
+}

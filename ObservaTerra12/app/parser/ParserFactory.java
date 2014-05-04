@@ -28,8 +28,5 @@ public class ParserFactory {
 		if (formato.equalsIgnoreCase(XLS))
 			return new ParserXLS();
 		throw new IllegalArgumentException("Formato no reconocido");
-
-		// Modifico
-
 	}
 }

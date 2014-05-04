@@ -1,0 +1,913 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "6.80"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "WORLDBANKINCOMEGROUP": "Global",
+             "REGION": "Global",
+             "PUBLISHSTATE": "Published",
+             "Value": "11.92"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.50"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "144.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Uganda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "52.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.40"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.70"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "138.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "14.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "29.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "191.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.38"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "16.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.60"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.90"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "22.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "172.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "125.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.48"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "5.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "7.20"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "44.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "177.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Lower-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "14.31"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "86.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "64.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "11.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "36.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.20"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "39.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.40"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "44.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "116.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2.70"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.30"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.24"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "131.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "26.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "108.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "104.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.60"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "52.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "62.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.30"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "169.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.40"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Upper-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.58"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "51.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "34.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.40"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.20"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.90"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "4.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Low-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "39.46"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "67.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.10"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "119.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "24.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "71.55"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "22.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "63.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Deaths due to malaria (per 100 000 population)",
+             "YEAR": "2010",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.90"
+           }
+          ]
+}

@@ -3,17 +3,12 @@ package parser;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import persistencia.PersistenceFactory;
-import persistencia.TiempoDAO;
-import persistencia.JdbcDAOs.TiempoJdbcDAO;
-import persistencia.implJdbc.TiempoJdbc;
 import model.Area;
 import model.Country;
 import model.Measure;
@@ -26,6 +21,10 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 /**
+ * Parseador de JSON de la API de la World Health Organization
+ * 
+ * VERSION PRELIMINAR
+ * 
  * 
  * @author Pablo Garcia Fernandez
  * 
@@ -44,6 +43,8 @@ public class ParserJsonWHO extends AbstractParser {
 		try {
 			br = new BufferedReader(new FileReader(file));
 			parser = new JsonParser();
+
+			String medida = getMeasure(indicator.getNombre());
 
 			JsonObject ficheroJsonOriginal = parser.parse(br).getAsJsonObject();
 
@@ -71,7 +72,7 @@ public class ParserJsonWHO extends AbstractParser {
 					// TODO: Leer bien el measure.unit del JSON
 					Measure measure = new Measure(arrayJsonDatosObservaciones
 							.get(i).getAsJsonObject().get("Value")
-							.getAsString(), "*");
+							.getAsString(), medida);
 
 					String year = arrayJsonDatosObservaciones.get(i)
 							.getAsJsonObject().get("YEAR").getAsString();
@@ -90,10 +91,8 @@ public class ParserJsonWHO extends AbstractParser {
 
 					observations.add(obs);
 
-					// TODO: Quitar estos System.out de pruebas
 				} catch (NullPointerException e) {
-					System.out
-							.println("Problema con la observacion (Formato no compatible)");
+					// Problema con la observacion (Formato no compatible)
 				}
 			}
 
@@ -103,6 +102,19 @@ public class ParserJsonWHO extends AbstractParser {
 			e1.printStackTrace();
 		}
 		return observations;
+	}
+
+	private String getMeasure(String textoCompleto) {
+		String resultado = textoCompleto;
+
+		if (textoCompleto.contains("(")) {
+			int startIndex = textoCompleto.indexOf("(");
+			int endIndex = textoCompleto.lastIndexOf(")");
+
+			resultado = textoCompleto.substring(startIndex + 1, endIndex);
+		}
+		System.out.println(resultado);
+		return resultado;
 	}
 
 }

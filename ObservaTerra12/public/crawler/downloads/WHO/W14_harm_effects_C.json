@@ -57,7 +57,7 @@
            {
              "PUBLISHSTATE": "Published",
              "REGION": "Africa",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2007",
              "Value": "No"
@@ -73,9 +73,9 @@
            {
              "REGION": "Africa",
              "YEAR": "2007",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Guinea",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -88,10 +88,10 @@
            },
            {
              "YEAR": "2007",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Madagascar",
              "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -113,9 +113,9 @@
            {
              "COUNTRY": "Niger",
              "YEAR": "2007",
-             "PUBLISHSTATE": "Published",
              "REGION": "Africa",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -137,9 +137,9 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "United Republic of Tanzania",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -177,17 +177,17 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Americas",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "COUNTRY": "Canada",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
              "COUNTRY": "Chile",
              "REGION": "Americas",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -337,9 +337,9 @@
            {
              "COUNTRY": "Albania",
              "YEAR": "2007",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -409,9 +409,9 @@
            {
              "YEAR": "2007",
              "COUNTRY": "Estonia",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -505,9 +505,9 @@
            {
              "COUNTRY": "Montenegro",
              "REGION": "Europe",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -593,9 +593,9 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2007",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "COUNTRY": "Switzerland",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -760,23 +760,23 @@
            },
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "REGION": "Africa",
              "YEAR": "2010",
              "COUNTRY": "Cameroon",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
              "COUNTRY": "Chad",
              "REGION": "Africa",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
              "PUBLISHSTATE": "Published",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Africa",
              "YEAR": "2010",
@@ -785,9 +785,9 @@
            {
              "REGION": "Africa",
              "COUNTRY": "Eritrea",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2010",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -808,10 +808,10 @@
            },
            {
              "YEAR": "2010",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Kenya",
              "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -937,9 +937,9 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2010",
-             "PUBLISHSTATE": "Published",
              "REGION": "Americas",
              "COUNTRY": "Colombia",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1065,9 +1065,9 @@
            {
              "REGION": "Eastern Mediterranean",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2010",
              "COUNTRY": "Iran (Islamic Republic of)",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1088,10 +1088,10 @@
            },
            {
              "REGION": "Eastern Mediterranean",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Qatar",
              "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1137,9 +1137,9 @@
            {
              "REGION": "Europe",
              "YEAR": "2010",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Albania",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1392,10 +1392,10 @@
            },
            {
              "YEAR": "2010",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Slovenia",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1433,9 +1433,9 @@
            {
              "COUNTRY": "Ukraine",
              "YEAR": "2010",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1504,10 +1504,10 @@
            },
            {
              "REGION": "Western Pacific",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2010",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Japan",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1529,9 +1529,9 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Western Pacific",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Nauru",
              "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1569,9 +1569,9 @@
            {
              "REGION": "Africa",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Benin",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -1593,9 +1593,9 @@
            {
              "YEAR": "2012",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Chad",
              "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -1634,7 +1634,7 @@
              "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2012",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "REGION": "Africa",
              "Value": "No"
            },
@@ -1656,10 +1656,10 @@
            },
            {
              "REGION": "Africa",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Ghana",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1768,18 +1768,18 @@
            },
            {
              "YEAR": "2012",
-             "PUBLISHSTATE": "Published",
              "REGION": "Africa",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Zimbabwe",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
              "COUNTRY": "Argentina",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Americas",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1801,9 +1801,9 @@
            {
              "REGION": "Western Pacific",
              "YEAR": "2010",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Tuvalu",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -1872,10 +1872,10 @@
            },
            {
              "YEAR": "2012",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Guatemala",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -1929,9 +1929,9 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2012",
-             "PUBLISHSTATE": "Published",
              "REGION": "Americas",
              "COUNTRY": "United States of America",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -2064,10 +2064,10 @@
            },
            {
              "COUNTRY": "Armenia",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2012",
              "REGION": "Europe",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -2081,9 +2081,9 @@
            {
              "YEAR": "2012",
              "REGION": "Europe",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Azerbaijan",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No"
            },
            {
@@ -2169,9 +2169,9 @@
            {
              "COUNTRY": "Germany",
              "REGION": "Europe",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -2209,9 +2209,9 @@
            {
              "YEAR": "2012",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "COUNTRY": "Israel",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -2257,17 +2257,17 @@
            {
              "REGION": "Europe",
              "YEAR": "2012",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Netherlands",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Europe",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Norway",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -2321,9 +2321,9 @@
            {
              "COUNTRY": "Spain",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2012",
              "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -2336,10 +2336,10 @@
            },
            {
              "COUNTRY": "Switzerland",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -2368,10 +2368,10 @@
            },
            {
              "COUNTRY": "Uzbekistan",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "YEAR": "2012",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "Yes"
            },
            {
@@ -2561,17 +2561,17 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Western Pacific",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Lao People's Democratic Republic",
              "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "YEAR": "2007",
              "COUNTRY": "Uzbekistan",
-             "PUBLISHSTATE": "Published",
              "REGION": "Europe",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -2760,10 +2760,10 @@
            },
            {
              "REGION": "Western Pacific",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2012",
              "COUNTRY": "China",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -2800,26 +2800,26 @@
            },
            {
              "REGION": "Western Pacific",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Malaysia",
              "YEAR": "2007",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "YEAR": "2007",
              "COUNTRY": "Jamaica",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "REGION": "Africa",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "COUNTRY": "Ghana",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -2896,10 +2896,10 @@
            },
            {
              "REGION": "Americas",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Guyana",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -2913,41 +2913,41 @@
            {
              "YEAR": "2010",
              "REGION": "Africa",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Liberia",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "YEAR": "2007",
              "COUNTRY": "Bolivia (Plurinational State of)",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "COUNTRY": "Samoa",
-             "PUBLISHSTATE": "Published",
              "REGION": "Western Pacific",
              "YEAR": "2007",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Guinea-Bissau",
              "YEAR": "2012",
              "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "YEAR": "2010",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Lebanon",
              "REGION": "Eastern Mediterranean",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3137,9 +3137,9 @@
            {
              "COUNTRY": "Suriname",
              "YEAR": "2012",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3152,9 +3152,9 @@
            },
            {
              "REGION": "Europe",
+             "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Tajikistan",
              "YEAR": "2007",
-             "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
@@ -3185,9 +3185,9 @@
            {
              "COUNTRY": "Nauru",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "REGION": "Western Pacific",
              "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3353,9 +3353,9 @@
            {
              "COUNTRY": "Somalia",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2012",
              "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3417,9 +3417,9 @@
            {
              "REGION": "Western Pacific",
              "YEAR": "2007",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Tuvalu",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3440,10 +3440,10 @@
            },
            {
              "COUNTRY": "Rwanda",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2007",
              "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3464,10 +3464,10 @@
            },
            {
              "COUNTRY": "Morocco",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "REGION": "Eastern Mediterranean",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3593,25 +3593,25 @@
            {
              "YEAR": "2012",
              "COUNTRY": "Malaysia",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "COUNTRY": "Equatorial Guinea",
              "REGION": "Africa",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "COUNTRY": "Republic of Korea",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2012",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3657,9 +3657,9 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "COUNTRY": "Niue",
-             "PUBLISHSTATE": "Published",
              "REGION": "Western Pacific",
              "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3689,9 +3689,9 @@
            {
              "COUNTRY": "Haiti",
              "REGION": "Americas",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2010",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -3865,9 +3865,9 @@
            {
              "COUNTRY": "Namibia",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "REGION": "Africa",
              "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -4040,66 +4040,66 @@
            },
            {
              "YEAR": "2007",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Nigeria",
              "REGION": "Africa",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "YEAR": "2012",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Dominica",
              "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "COUNTRY": "Rwanda",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2012",
              "REGION": "Africa",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "REGION": "Africa",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "COUNTRY": "Uganda",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "YEAR": "2007",
              "REGION": "Americas",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Guyana",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "COUNTRY": "Burundi",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2010",
              "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2012",
-             "PUBLISHSTATE": "Published",
              "REGION": "South-East Asia",
              "COUNTRY": "Bangladesh",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "COUNTRY": "Solomon Islands",
              "REGION": "Western Pacific",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2007",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -4145,9 +4145,9 @@
            {
              "COUNTRY": "Gabon",
              "REGION": "Africa",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -4161,9 +4161,9 @@
            {
              "COUNTRY": "Palau",
              "REGION": "Western Pacific",
-             "PUBLISHSTATE": "Published",
              "YEAR": "2010",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -4177,9 +4177,9 @@
            {
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Africa",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Equatorial Guinea",
              "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -4225,25 +4225,25 @@
            {
              "YEAR": "2010",
              "COUNTRY": "Barbados",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "YEAR": "2012",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
-             "PUBLISHSTATE": "Published",
              "COUNTRY": "Antigua and Barbuda",
              "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
              "REGION": "Americas",
              "COUNTRY": "Haiti",
-             "PUBLISHSTATE": "Published",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2007",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {
@@ -4656,10 +4656,10 @@
            },
            {
              "COUNTRY": "Saudi Arabia",
-             "PUBLISHSTATE": "Published",
              "REGION": "Eastern Mediterranean",
              "GHO": "Do health warnings on smokeless tobacco packaging describe the harmful effects of tobacco use on health?",
              "YEAR": "2010",
+             "PUBLISHSTATE": "Published",
              "Value": "No data"
            },
            {

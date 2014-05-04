@@ -1,37 +1,20 @@
 package parser.conectores;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Iterator;
-import java.util.Map.Entry;
 
-import parser.ParserFactory;
-import persistencia.PersistenceFactory;
-import model.Country;
 import model.Indicator;
-import model.Measure;
-import model.Observation;
 import model.Provider;
 import model.Submission;
-import model.Time;
-
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
+import parser.ParserFactory;
 
 /**
  * 
- * Prueba de un conector de nuestra aplicacion con la API de United Nations
+ * Conector de nuestra aplicacion con la API de United Nations
  * 
  * 
- * VERSION PRELIMINAR
+ * VERSION FINAL
  * 
  * 
  * @author Pablo Garcia Fernandez

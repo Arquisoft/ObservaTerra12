@@ -335,7 +335,7 @@
            {
              "GHO": "Yellow fever - number of reported cases",
              "YEAR": "2009",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "WORLDBANKINCOMEGROUP": "Lower-middle-income",
              "REGION": "Africa",
              "PUBLISHSTATE": "Published",
@@ -1539,7 +1539,7 @@
            {
              "GHO": "Yellow fever - number of reported cases",
              "YEAR": "2010",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "REGION": "Africa",
              "PUBLISHSTATE": "Published",
              "Value": "49"
@@ -2451,7 +2451,7 @@
            {
              "GHO": "Yellow fever - number of reported cases",
              "YEAR": "2011",
-             "COUNTRY": "Côte d'Ivoire",
+             "COUNTRY": "C?te d'Ivoire",
              "REGION": "Africa",
              "PUBLISHSTATE": "Published",
              "Value": "10.00"

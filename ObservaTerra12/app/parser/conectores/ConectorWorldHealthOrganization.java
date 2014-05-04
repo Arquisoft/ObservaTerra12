@@ -40,14 +40,16 @@ public class ConectorWorldHealthOrganization extends Conector {
 	private static ConectorWorldHealthOrganization instance;
 	private Map<String, String> consultasDisponibles;
 
-	private ConectorWorldHealthOrganization(String keyBusquedaProperties) throws IOException {
+	private ConectorWorldHealthOrganization(String keyBusquedaProperties)
+			throws IOException {
 		this.keyBusquedaProperties = keyBusquedaProperties;
 	}
 
-	public static ConectorWorldHealthOrganization getInstance(String keyBusquedaProperties)
-			throws IOException {
+	public static ConectorWorldHealthOrganization getInstance(
+			String keyBusquedaProperties) throws IOException {
 		if (instance == null) {
-			instance = new ConectorWorldHealthOrganization(keyBusquedaProperties);
+			instance = new ConectorWorldHealthOrganization(
+					keyBusquedaProperties);
 		}
 		return instance;
 	}
@@ -93,6 +95,7 @@ public class ConectorWorldHealthOrganization extends Conector {
 		// ********************
 		try {
 			// Guardando el fichero y trabajando sobre la version local
+
 			File fileListado = new File(
 					"public/crawler/downloads/WHO/listLabelObservationsWorldHealthOrganization.json");
 			FileUtils.copyURLToFile(new URL(url), fileListado);
@@ -149,19 +152,26 @@ public class ConectorWorldHealthOrganization extends Conector {
 			try {
 				// Guardando el fichero y trabajando sobre la version local
 
+				System.out.println("Trabajando con el fichero: " + label);
+
 				descargaFicheroJson(construyeUrl(label), label);
 
 				Provider provider = generarProvider(
-						(String) properties.get(keyBusquedaProperties + "_NAME"),
-						(String) properties.get(keyBusquedaProperties + "_COUNTRY"),
-						(String) properties.get(keyBusquedaProperties + "_TYPE"));
+						(String) properties
+								.get(keyBusquedaProperties + "_NAME"),
+						(String) properties.get(keyBusquedaProperties
+								+ "_COUNTRY"), (String) properties
+								.get(keyBusquedaProperties + "_TYPE"));
 				Submission submission = new Submission(new Date(), user);
 
 				Indicator indicator = new Indicator(display);
-				miParser = ParserFactory.getParser(keyBusquedaProperties,
-						(String) properties.get(keyBusquedaProperties + "_FORMAT"));
+				miParser = ParserFactory.getParser(
+						keyBusquedaProperties,
+						(String) properties.get(keyBusquedaProperties
+								+ "_FORMAT"));
 				miParser.setFile(file);
-				miParser.setKeySearch((String) properties.get(keyBusquedaProperties + "_KEY"));
+				miParser.setKeySearch((String) properties
+						.get(keyBusquedaProperties + "_KEY"));
 				miParser.setIndicator(indicator);
 				miParser.setProvider(provider);
 				miParser.setSubmission(submission);

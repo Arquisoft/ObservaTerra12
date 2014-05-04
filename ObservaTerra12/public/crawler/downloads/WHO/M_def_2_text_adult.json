@@ -1,0 +1,1578 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "AGEGROUP",
+                   "display": "Age Group"
+                 }
+               ],
+  "fact": [
+           {
+             "COUNTRY": "San Marino",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Tajikistan",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Lucia",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Honduras",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Monaco",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Nicaragua",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "South Sudan",
+             "REGION": "Eastern Mediterranean",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Somalia",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Central African Republic",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "COUNTRY": "Guinea-Bissau",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Equatorial Guinea",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "Value": "No data"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "COUNTRY": "Antigua and Barbuda",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Burundi",
+             "PUBLISHSTATE": "Published",
+             "Value": "No data"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Eastern Mediterranean",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Lebanon",
+             "PUBLISHSTATE": "Published",
+             "Value": "Current cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Jamaica",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Timor-Leste",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Bahamas",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Albania",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "REGION": "Americas",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "COUNTRY": "Seychelles",
+             "AGEGROUP": "Adult",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "COUNTRY": "United Republic of Tanzania",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Ecuador",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United Kingdom",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Nigeria",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Guyana",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Suriname",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "COUNTRY": "Afghanistan",
+             "AGEGROUP": "Adult",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Republic of Korea",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily cigarette smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Montenegro",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "COUNTRY": "Mauritius",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "COUNTRY": "Hungary",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Myanmar",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Finland",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Sao Tome and Principe",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Viet Nam",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Kyrgyzstan",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Spain",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Congo",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lesotho",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "COUNTRY": "Switzerland",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "COUNTRY": "Peru",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Chile",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "COUNTRY": "Italy",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Ireland",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Syrian Arab Republic",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Tonga",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Belarus",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Cabo Verde",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Botswana",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Grenada",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Cook Islands",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Mongolia",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Morocco",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "South Africa",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Serbia",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Malawi",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "India",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Canada",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Marshall Islands",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Kuwait",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Burkina Faso",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Niue",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Republic of Moldova",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Saudi Arabia",
+             "AGEGROUP": "Adult",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Sri Lanka",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Algeria",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Armenia",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "COUNTRY": "Mozambique",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "COUNTRY": "Chad",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "New Zealand",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Netherlands",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "COUNTRY": "Panama",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Nauru",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Belgium",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mali",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Bahrain",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Guatemala",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Samoa",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Indonesia",
+             "AGEGROUP": "Adult",
+             "REGION": "South-East Asia",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Greece",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Georgia",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Dominican Republic",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Turkey",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Slovakia",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Czech Republic",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Madagascar",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Brunei Darussalam",
+             "AGEGROUP": "Adult",
+             "REGION": "Western Pacific",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Senegal",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Germany",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Libya",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Fiji",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Yemen",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "France",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Romania",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Zimbabwe",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "COUNTRY": "Estonia",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Guinea",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Latvia",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "COUNTRY": "Uzbekistan",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Japan",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Pakistan",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Papua New Guinea",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Malaysia",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Austria",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Argentina",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Croatia",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Thailand",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Andorra",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Paraguay",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Niger",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Comoros",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Sweden",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Swaziland",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "COUNTRY": "Luxembourg",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Gabon",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Tunisia",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Ukraine",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Djibouti",
+             "AGEGROUP": "Adult",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Tuvalu",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "COUNTRY": "Portugal",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Azerbaijan",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Belize",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "COUNTRY": "Slovenia",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "COUNTRY": "Gambia",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Uruguay",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Americas",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Maldives",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "South-East Asia",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Poland",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Europe",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Solomon Islands",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Israel",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Benin",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "COUNTRY": "Brazil",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Malta",
+             "AGEGROUP": "Adult",
+             "REGION": "Europe",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "COUNTRY": "China",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Sierra Leone",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "GHO": "Adult indicator 2 definition",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "United Arab Emirates",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco smoking"
+           },
+           {
+             "COUNTRY": "Kenya",
+             "GHO": "Adult indicator 2 definition",
+             "AGEGROUP": "Adult",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Daily tobacco use"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Africa",
+             "COUNTRY": "Uganda",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco use"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "South-East Asia",
+             "AGEGROUP": "Adult",
+             "COUNTRY": "Nepal",
+             "Value": "Daily tobacco use"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "GHO": "Adult indicator 2 definition",
+             "REGION": "Americas",
+             "AGEGROUP": "Adult",
+             "Value": "Daily tobacco use"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "AGEGROUP": "Adult",
+             "GHO": "Adult indicator 2 definition",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "Value": "Daily tobacco use"
+           }
+          ]
+}

@@ -25,7 +25,6 @@ import persistencia.ObservacionesDAO;
 import persistencia.OrganizacionesDAO;
 import persistencia.PersistenceFactory;
 import persistencia.TiempoDAO;
-import persistencia.JdbcDAOs.AreasJdbcDAO;
 
 /**
  * 
@@ -66,7 +65,6 @@ public class ConectorTest {
 		// observaciones
 	}
 
-	// Numero de observaciones: 207
 	@Test
 	public void testUN() {
 		try {
@@ -101,35 +99,42 @@ public class ConectorTest {
 	 * Organization, los analiza e intenta insertar las observaciones. En total
 	 * son mas de 100 JSON y miles de observaciones y le lleva un rato largo
 	 */
-	// @Test
-	// public void testWHO() {
-	//
-	// try { conectorWHO =
-	// ConectorWorldHealthOrganization.getInstance("WHO");
-	// conectorWHO.preparar(); conectorWHO.start();
-	//
-	// List<Provider> lista = orgsDao.listarProveedores(); Provider prueba =
-	// null;
-	//
-	// for (Provider proveedor : lista) { if
-	// (proveedor.getNombre().equals("World Health Organization")) prueba =
-	// proveedor; }
-	//
-	// assertTrue(prueba != null); } catch (SQLException e) {
-	// e.printStackTrace(); } catch (IOException e) { e.printStackTrace(); }
-	//
-	// }
+	@Test
+	public void testWHO() {
+
+		try {
+			conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
+			conectorWHO.preparar();
+			conectorWHO.start();
+
+			List<Provider> lista = orgsDao.listarProveedores();
+			Provider prueba = null;
+
+			for (Provider proveedor : lista) {
+				if (proveedor.getNombre().equals("World Health Organization"))
+					prueba = proveedor;
+			}
+
+			assertTrue(prueba != null);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
 
 	@After
 	public void after() {
-		printObservations(0);
+		printObservations(0, 25);
 	}
 
 	/*
-	 * limite: Para no imprimir todo el listado podemos especificarle un limite
-	 * e imprimira desde 0 hasta ese limite. Limite = 0 => Sin limite
+	 * Para no imprimir todo el listado podemos especificarle un limite y un
+	 * comienzo e imprimira desde ese comienzo hasta ese limite. Limite 0 => Sin
+	 * limite
 	 */
-	public void printObservations(int limite) {
+	public void printObservations(int inicio, int limite) {
 		List<Observation> lista;
 
 		System.out.println("**** LISTADO DE OBSERVACIONES ****");
@@ -138,7 +143,9 @@ public class ConectorTest {
 			lista = obsDao.listarTodasObservaciones();
 			if (limite == 0)
 				limite = lista.size();
-			for (int i = 0; i < limite; i++) {
+			if (inicio < 0 || (inicio > limite && limite != 0))
+				inicio = 0;
+			for (int i = inicio; i < limite; i++) {
 				System.out.println(lista.get(i));
 				System.out
 						.println("\t"

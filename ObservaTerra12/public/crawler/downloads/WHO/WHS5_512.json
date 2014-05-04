@@ -1,0 +1,1881 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "RESIDENCEAREATYPE",
+                   "display": "Residence Area Type"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "77"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "33"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Global",
+             "PUBLISHSTATE": "Published",
+             "Value": "41"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "61"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "42"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "WORLDBANKINCOMEGROUP": "Global",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "41"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "<5"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "91"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "54"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2010",
+             "RESIDENCEAREATYPE": "Total",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Not specified",
+             "PUBLISHSTATE": "Published",
+             "Value": "29"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Afghanistan",
+             "Value": "81"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Albania",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "Value": "38"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Algeria",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Andorra",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Angola",
+             "Value": "56"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "COUNTRY": "Antigua and Barbuda",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "Value": "7"
+           },
+           {
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Australia",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Austria",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Azerbaijan",
+             "PUBLISHSTATE": "Published",
+             "Value": "11"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Bahamas",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Bahrain",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "South-East Asia",
+             "COUNTRY": "Bangladesh",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "89"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "COUNTRY": "Belarus",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Belgium",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "14"
+           },
+           {
+             "COUNTRY": "Benin",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "94"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "37"
+           },
+           {
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "PUBLISHSTATE": "Published",
+             "Value": "25"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "PUBLISHSTATE": "Published",
+             "Value": "58"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "37"
+           },
+           {
+             "COUNTRY": "Brazil",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Brunei Darussalam",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Europe",
+             "COUNTRY": "Bulgaria",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Burkina Faso",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "95"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "98"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Cambodia",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "89"
+           },
+           {
+             "COUNTRY": "Cameroon",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "78"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Canada",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Cabo Verde",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "31"
+           },
+           {
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Central African Republic",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "97"
+           },
+           {
+             "COUNTRY": "Chad",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "93"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Chile",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "45"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Colombia",
+             "PUBLISHSTATE": "Published",
+             "Value": "15"
+           },
+           {
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Comoros",
+             "PUBLISHSTATE": "Published",
+             "Value": "71"
+           },
+           {
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Congo",
+             "PUBLISHSTATE": "Published",
+             "Value": "76"
+           },
+           {
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Cook Islands",
+             "PUBLISHSTATE": "Published",
+             "Value": "17"
+           },
+           {
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Costa Rica",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "6"
+           },
+           {
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Croatia",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "COUNTRY": "Cyprus",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Czech Republic",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Côte d'Ivoire",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "79"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "92"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "93"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "14"
+           },
+           {
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "7"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Dominican Republic",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Ecuador",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Egypt",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "El Salvador",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "21"
+           },
+           {
+             "COUNTRY": "Equatorial Guinea",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "PUBLISHSTATE": "Published",
+             "Value": "78"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "63"
+           },
+           {
+             "REGION": "Europe",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Estonia",
+             "PUBLISHSTATE": "Published",
+             "Value": "12"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Ethiopia",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "98"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Fiji",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "40"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Finland",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "France",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Gabon",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "21"
+           },
+           {
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Gambia",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "95"
+           },
+           {
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "COUNTRY": "Georgia",
+             "PUBLISHSTATE": "Published",
+             "Value": "46"
+           },
+           {
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Germany",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "COUNTRY": "Ghana",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "84"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Grenada",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Guatemala",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "PUBLISHSTATE": "Published",
+             "Value": "64"
+           },
+           {
+             "COUNTRY": "Guinea",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "96"
+           },
+           {
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98"
+           },
+           {
+             "YEAR": "2012",
+             "COUNTRY": "Guyana",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "COUNTRY": "Haiti",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "93"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Honduras",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "51"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Hungary",
+             "Value": "12"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Iceland",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "South-East Asia",
+             "COUNTRY": "India",
+             "Value": "63"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Indonesia",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "South-East Asia",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "47"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Iraq",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Ireland",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Israel",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Italy",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Jamaica",
+             "Value": "13"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Jordan",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Kazakhstan",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "Value": "9"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Kenya",
+             "YEAR": "2012",
+             "Value": "84"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Kiribati",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "Value": "45"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "COUNTRY": "Kuwait",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Kyrgyzstan",
+             "Value": "34"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "98"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Latvia",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "6"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lebanon",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Lesotho",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "62"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "COUNTRY": "Liberia",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "98"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Libya",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Lithuania",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Luxembourg",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Madagascar",
+             "Value": "98"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Malawi",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "Value": "97"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Malaysia",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Maldives",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "7"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mali",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "Value": "98"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Malta",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "Value": "32"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Mauritania",
+             "Value": "56"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Mexico",
+             "Value": "14"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "Value": "42"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Monaco",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Mongolia",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "70"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "Value": "28"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Morocco",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Mozambique",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "Value": "96"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "Value": "93"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "COUNTRY": "Namibia",
+             "YEAR": "2012",
+             "Value": "55"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "COUNTRY": "Nepal",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "80"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Netherlands",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Western Pacific",
+             "COUNTRY": "New Zealand",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Nicaragua",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "54"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "Value": "94"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Nigeria",
+             "Value": "75"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Niue",
+             "Value": "5"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "COUNTRY": "Norway",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "COUNTRY": "Oman",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "62"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "17"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Papua New Guinea",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "Value": "70"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Paraguay",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "46"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Peru",
+             "YEAR": "2012",
+             "Value": "36"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Philippines",
+             "Value": "49"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "COUNTRY": "Portugal",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Qatar",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Republic of Korea",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Republic of Moldova",
+             "Value": "11"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Romania",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "Value": "21"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "COUNTRY": "Russian Federation",
+             "Value": "2"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Rwanda",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "98"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Saint Lucia",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "1"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Samoa",
+             "YEAR": "2012",
+             "Value": "61"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Sao Tome and Principe",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Africa",
+             "Value": "71"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Saudi Arabia",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Eastern Mediterranean",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Africa",
+             "COUNTRY": "Senegal",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "56"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Serbia",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "Value": "32"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Seychelles",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sierra Leone",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "Value": "98"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Singapore",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Slovakia",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Slovenia",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Western Pacific",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Solomon Islands",
+             "YEAR": "2012",
+             "Value": "92"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Somalia",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "96"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "Value": "13"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "South Sudan",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "Value": "97"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Spain",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Sri Lanka",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "74"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sudan",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Eastern Mediterranean",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "72"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "Value": "11"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "62"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "COUNTRY": "Switzerland",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Syrian Arab Republic",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "COUNTRY": "Tajikistan",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "37"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "YEAR": "2012",
+             "COUNTRY": "Thailand",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "24"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "33"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "South-East Asia",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Timor-Leste",
+             "YEAR": "2012",
+             "Value": "94"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Africa",
+             "YEAR": "2012",
+             "COUNTRY": "Togo",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "95"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "COUNTRY": "Tonga",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "Value": "45"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "COUNTRY": "Trinidad and Tobago",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Tunisia",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Europe",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Turkey",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "4"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "COUNTRY": "Turkmenistan",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Western Pacific",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "Tuvalu",
+             "YEAR": "2012",
+             "Value": "17"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Uganda",
+             "YEAR": "2012",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "97"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "Value": "3"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "GHO": "Population using solid fuels (%)",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "United Kingdom",
+             "YEAR": "2012",
+             "REGION": "Europe",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Africa",
+             "COUNTRY": "United Republic of Tanzania",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "Value": "96"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "REGION": "Americas",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "COUNTRY": "United States of America",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "COUNTRY": "Uruguay",
+             "YEAR": "2012",
+             "REGION": "Americas",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "REGION": "Europe",
+             "COUNTRY": "Uzbekistan",
+             "Value": "11"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "REGION": "Western Pacific",
+             "COUNTRY": "Vanuatu",
+             "Value": "85"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Americas",
+             "Value": "0"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "RESIDENCEAREATYPE": "Total",
+             "YEAR": "2012",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "Value": "51"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "REGION": "Eastern Mediterranean",
+             "COUNTRY": "Yemen",
+             "RESIDENCEAREATYPE": "Total",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "33"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "YEAR": "2012",
+             "RESIDENCEAREATYPE": "Total",
+             "REGION": "Africa",
+             "COUNTRY": "Zambia",
+             "GHO": "Population using solid fuels (%)",
+             "Value": "83"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Population using solid fuels (%)",
+             "YEAR": "2012",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "RESIDENCEAREATYPE": "Total",
+             "Value": "70"
+           }
+          ]
+}

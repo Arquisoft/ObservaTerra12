@@ -1,0 +1,2239 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "WORLDBANKINCOMEGROUP",
+                   "display": "World Bank income group"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Algeria",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Australia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Austria",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bahrain",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bangladesh",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "15"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Belarus",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Belgium",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bhutan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Brunei Darussalam",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Bulgaria",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Burundi",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cambodia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "193"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Cabo Verde",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "China",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3913"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Congo",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Czech Republic",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "10"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Djibouti",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Estonia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Fiji",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Finland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Gambia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Georgia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Guinea-Bissau",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Hungary",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Iceland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Ireland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Japan",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Jordan",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Kazakhstan",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Kiribati",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "26"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Latvia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lebanon",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lesotho",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Liberia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Lithuania",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Luxembourg",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Madagascar",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Malaysia",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "9"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Maldives",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Malta",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Marshall Islands",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mauritius",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Mongolia",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Myanmar",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "8"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Nepal",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "146"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "New Zealand",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Norway",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Oman",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Palau",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Montenegro",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Philippines",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "5"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Poland",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Qatar",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Republic of Korea",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Republic of Moldova",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Romania",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Samoa",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "San Marino",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sao Tome and Principe",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Saudi Arabia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Seychelles",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Singapore",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Slovakia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Slovenia",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Solomon Islands",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "South Africa",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Spain",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sri Lanka",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "72"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Swaziland",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Sweden",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Switzerland",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Syrian Arab Republic",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Thailand",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "36"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Timor-Leste",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "3"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Tonga",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "United Kingdom",
+             "WORLDBANKINCOMEGROUP": "High-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Uzbekistan",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Viet Nam",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "68"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zambia",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "WORLDBANKINCOMEGROUP": "Low-income",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "15"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "2541"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Micronesia (Federated States of)",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "5171"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "41"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "26"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "82"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "27"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "18"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "183"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "181"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "1"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "36"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "140"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2010",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Seychelles",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "103.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "53.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "3.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Montenegro",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1625.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "San Marino",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "8247.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "126.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Marshall Islands",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "9.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "20.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Palau",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Democratic People's Republic of Korea",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "24.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Maldives",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "30.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "126.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "45.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "COUNTRY": "Republic of Moldova",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "0.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2009",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "4220"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "8582.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Global",
+             "REGION": "Global",
+             "PUBLISHSTATE": "Published",
+             "Value": "10426.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Lower-middle-income",
+             "REGION": "Lower-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "8430.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "WORLDBANKINCOMEGROUP": "Upper-middle-income",
+             "REGION": "Upper-middle-income",
+             "PUBLISHSTATE": "Published",
+             "Value": "1690.00"
+           },
+           {
+             "GHO": "Japanese encephalitis - number of reported cases",
+             "YEAR": "2011",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "1844.00"
+           }
+          ]
+}

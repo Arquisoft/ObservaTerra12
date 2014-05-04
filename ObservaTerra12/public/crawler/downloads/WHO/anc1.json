@@ -1,0 +1,4176 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "DATASOURCE",
+                   "display": "Data Source"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "EDUCATIONLEVEL",
+                   "display": "Education Level"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 },
+                 {
+                   "label": "RESIDENCEAREATYPE",
+                   "display": "Residence Area Type"
+                 },
+                 {
+                   "label": "WEALTHQUINTILE",
+                   "display": "Wealth Quintile"
+                 }
+               ],
+  "fact": [
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "65.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "41.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "62.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "55.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "78.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Djibouti",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Djibouti",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "47.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "74.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Iraq",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Iraq",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "74.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Jamaica",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Jamaica",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "76.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "27.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "91.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "66.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "86.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "86.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "50.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "45.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "14.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "PUBLISHSTATE": "Published",
+             "Value": "80.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "77.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "85.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "74.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "75.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "68.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "PUBLISHSTATE": "Published",
+             "Value": "39.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "RESIDENCEAREATYPE": "Urban",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "RESIDENCEAREATYPE": "Rural",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "27.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "35.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "44.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "60.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "78.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "47.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "69.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "46.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "58.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "71.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "68.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "81.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "91.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "91.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "76.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "76.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "69.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "81.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "66.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "86.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "85.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "16.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "24.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "31.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "54.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "52.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "66.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "84.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "23.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "41.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "58.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "80.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.0"
+           },
+           {
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "Value": "98.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "71.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "80.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "80.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "85.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "8.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "12.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "23.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "34.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "51.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "76.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "68.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "61.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "73.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "81.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "67.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "72.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "77.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "81.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "68.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "32.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "35.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "43.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "56.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "86.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q1 (Poorest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q2",
+             "PUBLISHSTATE": "Published",
+             "Value": "100.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q3",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q4",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "WEALTHQUINTILE": "Q5 (Richest)",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "29.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "40.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bangladesh",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "67.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Belize",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Burkina Faso",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "46.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "78.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Cameroon",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "51.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "77.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Central African Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "78.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "C?te d'Ivoire",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Djibouti",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Djibouti",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Djibouti",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "91.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Ghana",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "74.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guinea-Bissau",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "78.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Guyana",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Iraq",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "69.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Iraq",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Iraq",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Jamaica",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Jamaica",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Jamaica",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Kazakhstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "14.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "37.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "75.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "89.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Malawi",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "95.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "70.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "81.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Mauritania",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "83.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2008",
+             "COUNTRY": "Mozambique",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "34.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "70.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Nigeria",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "88.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "79.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "94.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "20.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "47.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Somalia",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "53.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "65.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.1"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Suriname",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "63.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "81.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Syrian Arab Republic",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "52.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "77.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.6"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "DATASOURCE": "MICS",
+             "REGION": "South-East Asia",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "84.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "74.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "87.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Togo",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "93.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Trinidad and Tobago",
+             "DATASOURCE": "MICS",
+             "REGION": "Americas",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "96.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Uzbekistan",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "99.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "72.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2007",
+             "COUNTRY": "Vanuatu",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "91.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "73.8"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.4"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Viet Nam",
+             "DATASOURCE": "MICS",
+             "REGION": "Western Pacific",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "97.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "38.0"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "59.2"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2006",
+             "COUNTRY": "Yemen",
+             "DATASOURCE": "MICS",
+             "REGION": "Eastern Mediterranean",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "73.3"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": "82.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "84.5"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2009",
+             "COUNTRY": "Zimbabwe",
+             "DATASOURCE": "MICS",
+             "REGION": "Africa",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "90.9"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "None",
+             "PUBLISHSTATE": "Published",
+             "Value": " "
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Primary",
+             "PUBLISHSTATE": "Published",
+             "Value": "92.7"
+           },
+           {
+             "GHO": "Antenatal care coverage - at least one visit (in the two years preceding the survey) (%)",
+             "YEAR": "2005",
+             "COUNTRY": "Montenegro",
+             "DATASOURCE": "MICS",
+             "REGION": "Europe",
+             "EDUCATIONLEVEL": "Secondary or higher",
+             "PUBLISHSTATE": "Published",
+             "Value": "98.7"
+           }
+          ]
+}

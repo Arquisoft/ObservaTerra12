@@ -1,0 +1,1466 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 }
+               ],
+  "fact": [
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Afghanistan",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Albania",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Algeria",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Angola",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Antigua and Barbuda",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Argentina",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Armenia",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Australia",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Austria",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Azerbaijan",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Bahamas",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Bahrain",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Bangladesh",
+             "REGION": "South-East Asia",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Barbados",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Belarus",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Belgium",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Belize",
+             "REGION": "Americas",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Benin",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Bhutan",
+             "REGION": "South-East Asia",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Bolivia (Plurinational State of)",
+             "REGION": "Americas",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Bosnia and Herzegovina",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Botswana",
+             "REGION": "Africa",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Brazil",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Brunei Darussalam",
+             "REGION": "Western Pacific",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Bulgaria",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Burkina Faso",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Burundi",
+             "REGION": "Africa",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Cambodia",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Cameroon",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Canada",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Cabo Verde",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Central African Republic",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Chad",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Chile",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "China",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Colombia",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Comoros",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Congo",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Cook Islands",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Costa Rica",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Croatia",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Cuba",
+             "REGION": "Americas",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Cyprus",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Czech Republic",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Democratic Republic of the Congo",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Denmark",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Djibouti",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Dominica",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Dominican Republic",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Ecuador",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Egypt",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "El Salvador",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Equatorial Guinea",
+             "REGION": "Africa",
+             "Value": "Inconclusive"
+           },
+           {
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Eritrea",
+             "REGION": "Africa",
+             "PUBLISHSTATE": "Published",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Estonia",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Ethiopia",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Fiji",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Finland",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "France",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Gabon",
+             "REGION": "Africa",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Gambia",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Georgia",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Germany",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Ghana",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Greece",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Grenada",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Guatemala",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Guinea",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Guinea-Bissau",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Guyana",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Haiti",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Honduras",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Hungary",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Iceland",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "India",
+             "REGION": "South-East Asia",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Indonesia",
+             "REGION": "South-East Asia",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Iran (Islamic Republic of)",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Iraq",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Ireland",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Italy",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Jamaica",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Japan",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Jordan",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Kazakhstan",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Kenya",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Kiribati",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Kuwait",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Kyrgyzstan",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Lao People's Democratic Republic",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Latvia",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Lebanon",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Lesotho",
+             "REGION": "Africa",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Liberia",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Libya",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Lithuania",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Luxembourg",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Madagascar",
+             "REGION": "Africa",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Malawi",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Malaysia",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Mali",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Malta",
+             "REGION": "Europe",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Mauritania",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Mauritius",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Mexico",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Mongolia",
+             "REGION": "Western Pacific",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Morocco",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Mozambique",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Myanmar",
+             "REGION": "South-East Asia",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Namibia",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Nauru",
+             "REGION": "Western Pacific",
+             "Value": "Decrease"
+           },
+           {
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Nepal",
+             "REGION": "South-East Asia",
+             "PUBLISHSTATE": "Published",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Netherlands",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "New Zealand",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Nicaragua",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Niger",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Nigeria",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Niue",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Norway",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Oman",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Pakistan",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Panama",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Papua New Guinea",
+             "REGION": "Western Pacific",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Paraguay",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Peru",
+             "REGION": "Americas",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Philippines",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Poland",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Portugal",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Qatar",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Republic of Korea",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Romania",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Russian Federation",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Rwanda",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Saint Kitts and Nevis",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Saint Lucia",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Saint Vincent and the Grenadines",
+             "REGION": "Americas",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Samoa",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Sao Tome and Principe",
+             "REGION": "Africa",
+             "Value": "Inconclusive"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Saudi Arabia",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Senegal",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Serbia",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Sierra Leone",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Singapore",
+             "REGION": "Western Pacific",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Slovakia",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Slovenia",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Solomon Islands",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Somalia",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "South Africa",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Spain",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Sri Lanka",
+             "REGION": "South-East Asia",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Sudan",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Suriname",
+             "REGION": "Americas",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Swaziland",
+             "REGION": "Africa",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Sweden",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Switzerland",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Syrian Arab Republic",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Decrease"
+           },
+           {
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Tajikistan",
+             "REGION": "Europe",
+             "PUBLISHSTATE": "Published",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Thailand",
+             "REGION": "South-East Asia",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "The former Yugoslav Republic of Macedonia",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Timor-Leste",
+             "REGION": "South-East Asia",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Togo",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Tonga",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Trinidad and Tobago",
+             "REGION": "Americas",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Tunisia",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Turkey",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Turkmenistan",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Tuvalu",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Ukraine",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "United Arab Emirates",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "United Kingdom",
+             "REGION": "Europe",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "United Republic of Tanzania",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "United States of America",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Uruguay",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Uzbekistan",
+             "REGION": "Europe",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Vanuatu",
+             "REGION": "Western Pacific",
+             "Value": "Decrease"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Venezuela (Bolivarian Republic of)",
+             "REGION": "Americas",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Viet Nam",
+             "REGION": "Western Pacific",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Yemen",
+             "REGION": "Eastern Mediterranean",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Zambia",
+             "REGION": "Africa",
+             "Value": "Stable"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Zimbabwe",
+             "REGION": "Africa",
+             "Value": "Increase"
+           },
+           {
+             "PUBLISHSTATE": "Published",
+             "GHO": "Estimate of five-year change in recorded alcohol per capita (15+) consumption",
+             "YEAR": "2005",
+             "COUNTRY": "Côte d'Ivoire",
+             "REGION": "Africa",
+             "Value": "Stable"
+           }
+          ]
+}
