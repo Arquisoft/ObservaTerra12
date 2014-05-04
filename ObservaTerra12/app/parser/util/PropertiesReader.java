@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class PropertiesRead {
+public class PropertiesReader {
 
 	private final static int URL = 0;
 	private final static int FORMAT = 1;
