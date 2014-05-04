@@ -1,6 +1,8 @@
 package crawler;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Timer;
 
 /**
@@ -15,6 +17,7 @@ public class Crawler {
 
 	public static void main(String[] args) {
 		Timer timer = new Timer();
+		List<String> listURLs = new ArrayList<String>();
 		Calendar date = Calendar.getInstance();
 
 		// Lanzamos la tarea todos los sabados
@@ -24,13 +27,13 @@ public class Crawler {
 		date.set(Calendar.SECOND, 0);
 		date.set(Calendar.MILLISECOND, 0);
 
-		timer.schedule(new CrawlerConectores(), date.getTime(), 1000 * 60 * 60
+		timer.schedule(new TareaConectores(), date.getTime(), 1000 * 60 * 60
 				* 24 * 7);
 
 		WebCrawlerController crawlerWebsController = new WebCrawlerController(
 				5, "public/crawler/temp/");
-		crawlerWebsController
-				.start("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");
+		listURLs.add("http://api.worldbank.org/v2/en/topic/1?downloadformat=excel/");
+		crawlerWebsController.start(listURLs);
 	}
 
 }
