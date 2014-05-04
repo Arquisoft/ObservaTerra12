@@ -1,4 +1,3 @@
-
 package controllers;
 
 import static play.data.Form.form;
@@ -8,7 +7,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import model.Area;
 import model.Document;
@@ -32,27 +34,21 @@ import play.mvc.Controller;
 import play.mvc.Http.MultipartFormData;
 import play.mvc.Http.MultipartFormData.FilePart;
 import play.mvc.Result;
-import views.html.change_data;
-import views.html.documents;
-import views.html.error;
-import views.html.index;
-import views.html.register;
-import views.html.search_observations;
-import views.html.user_panel;
+import views.html.*;
 
 public class Application extends Controller {
 	
 	 /**
-		 * Este metodo responde a las peticiones
-		 * con una URI incorrecta, mostrando un mensaje
-		 * de error y un 404.
-		 * @param url - URL de la peticion
-		 * @return Error 404
-		 */
-		public static Result throwNotFound(String url)
-		{
-			return notFound("Route " + url + " is not on this server.");
-		}
+	  * Este metodo responde a las peticiones
+	  * con una URI incorrecta, mostrando un mensaje
+	  * de error y un 404.
+	  * 
+	  * @param url - URL de la peticion
+	  * @return Error 404
+	  */
+	public static Result throwNotFound(String url) {
+		return notFound("Route " + url + " is not on this server.");
+	}
 	
 	/**
 	 * Clase utilizada para el formulario de acceso a la aplicación.
@@ -212,6 +208,25 @@ public class Application extends Controller {
 			return fo;
 		}
     }
+    
+    /**
+     * Clase utilizada para el formulario de comparación de observaciones.
+     * 
+     * @author Manuel & Nacho
+     */
+    public static class CompareObservations {
+    	
+    	public String indicator;
+    	public List<String> areas;
+    	
+    	public static CompareObservations configure() {
+    		CompareObservations co = new CompareObservations();
+
+    		co.indicator = "0";
+			
+			return co;
+		}
+    }
 
     public static Result index() {
         return ok(index.render(form(Login.class)));
@@ -224,7 +239,7 @@ public class Application extends Controller {
 	    else {
 	    	session().clear();
 	    	session("userName", loginForm.get().userName);
-	    	return redirect(routes.Application.userPanel());
+	    	return redirect(routes.Application.documents());
 	    }
     }
 
@@ -266,7 +281,7 @@ public class Application extends Controller {
 	    	// Loguea automáticamente al usuario
 	    	session().clear();
 	    	session("userName", user.getUserName());
-	    	return redirect(routes.Application.userPanel());
+	    	return redirect(routes.Application.documents());
 	    }
     }
 
@@ -274,12 +289,14 @@ public class Application extends Controller {
         return badRequest(error.render());
     }
     
-    public static Result userPanel() {
-    	if (session().get("userName") == null)
-        	return redirect(routes.Application.error());
-    	
-		return ok(user_panel.render());
-    }
+// * Ya no se usa:
+//    
+//    public static Result userPanel() {
+//    	if (session().get("userName") == null)
+//        	return redirect(routes.Application.error());
+//    	
+//		return ok(user_panel.render());
+//    }
     
     public static Result logout() {
     	session().clear();
@@ -325,7 +342,7 @@ public class Application extends Controller {
 				return badRequest(error.render());
 			}
 	    	
-	    	return redirect(routes.Application.userPanel());
+	    	return redirect(routes.Application.documents());
 	    }
     }
     
@@ -579,7 +596,91 @@ public class Application extends Controller {
     }
     
     public static Result compareObservations() {
-    	//TODO
-    	return TODO;
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+    	
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;
+		try {
+			listAreas = PersistenceFactory.createAreasDAO().listadoAreasYPaises();
+			listIndicators = PersistenceFactory.createIndicadoresDAO().listarTodosLosIndicadores();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+    	
+    	return ok(compare_observations.render(form(CompareObservations.class).fill(CompareObservations.configure()), new ArrayList<Observation>(), listAreas, listIndicators, new HashMap<String,Double>()));
+    }
+    
+    public static Result doCompareObservations() {
+    	if (session().get("userName") == null)
+        	return redirect(routes.Application.error());
+
+    	ObservacionesDAO observacionesDao = PersistenceFactory.createObservacionesDAO();
+    	AreasDAO areasDao = PersistenceFactory.createAreasDAO();
+    	IndicadoresDAO indicadoresDao = PersistenceFactory.createIndicadoresDAO();
+    	
+	    Form<CompareObservations> compareForm = form(CompareObservations.class).bindFromRequest();
+	    
+	    Map<String,Double> data = new HashMap<String,Double>();
+	    
+	    List<Observation> listObservations;
+    	List<Area> listAreas;
+		List<Indicator> listIndicators;  
+	    try {
+	    	
+	    	// Filtrar por indicador
+    		Indicator indicator = indicadoresDao.leerIndicador(Long.valueOf(compareForm.get().indicator));
+    		listObservations = observacionesDao.leerObservacionesDeUnIndicador(indicator.getNombre());
+    		
+	    	// Filtrar por área
+    		List<Observation> temp = new ArrayList<Observation>();
+			compareForm.get().areas.removeAll(Collections.singleton(null));
+			for (Observation observation : listObservations)
+				if (compareForm.get().areas.contains(observation.getArea().getIdArea().toString()))
+					temp.add(observation);
+			listObservations = temp;
+			
+			// Calcular datos
+			/*
+			 * Lo siguiente es solo un truco para comprobar si un indicador es numérico.
+			 * Debería hacerse de una forma mejor.
+			 */
+			try {
+				// * Map -> Agrupar por área
+				Map<String,List<Double>> dataTemp = new HashMap<String,List<Double>>();
+				for (Observation observation : listObservations) {
+					Double value = Double.parseDouble(observation.getMeasure().getValue());
+				    if (dataTemp.containsKey(observation.getArea().getName()))
+				    	dataTemp.get(observation.getArea().getName()).add(value);
+				    else {
+				    	List<Double> lista = new ArrayList<Double>();
+				    	lista.add(value);
+				    	dataTemp.put(observation.getArea().getName(), lista);
+				    }
+				}
+				
+				// * Reduce -> Calcular la media
+				for (Entry<String,List<Double>> entry :  dataTemp.entrySet()) {
+					double media = 0;
+					for (Double number : entry.getValue())
+						media += number;
+					data.put(entry.getKey(), media / entry.getValue().size());
+				}
+			} catch(NumberFormatException e) {
+				// Indicador no numérico
+			}
+			System.out.println(data);
+			
+	    	// Crea las listas con las opciones de filtro
+			listAreas = areasDao.listadoAreasYPaises();
+			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+	    	
+	    } catch (SQLException e) {
+			e.printStackTrace();
+			return badRequest(error.render());
+		}
+	    
+    	return ok(compare_observations.render(compareForm, listObservations, listAreas, listIndicators, data));
     }
 }
