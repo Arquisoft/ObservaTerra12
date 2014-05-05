@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -47,7 +48,7 @@ public class Application extends Controller {
 	  * @return Error 404
 	  */
 	public static Result throwNotFound(String url) {
-		return notFound("Route " + url + " is not on this server.");
+        return notFound(error.render());
 	}
 	
 	/**
@@ -522,12 +523,27 @@ public class Application extends Controller {
     public static Result searchObservations() {
     	if (session().get("userName") == null)
         	return redirect(routes.Application.error());
+			
+    	AreasDAO areasDao = PersistenceFactory.createAreasDAO();
+    	IndicadoresDAO indicadoresDao = PersistenceFactory.createIndicadoresDAO();
     	
     	List<Area> listAreas;
 		List<Indicator> listIndicators;
 		try {
-			listAreas = PersistenceFactory.createAreasDAO().listadoAreasYPaises();
-			listIndicators = PersistenceFactory.createIndicadoresDAO().listarTodosLosIndicadores();
+			
+	    	// Crea las listas con las opciones de filtro y las ordena
+			listAreas = areasDao.listadoAreasYPaises();
+			Collections.sort(listAreas, new Comparator<Area>() {
+				public int compare(Area a1, Area a2) {
+					return a1.getName().compareTo(a2.getName());
+				}
+			});
+			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+			Collections.sort(listIndicators, new Comparator<Indicator>() {
+				public int compare(Indicator i1, Indicator i2) {
+					return i1.getNombre().compareTo(i2.getNombre());
+				}
+			});
 		} catch (SQLException e) {
 			e.printStackTrace();
 			return badRequest(error.render());
@@ -583,9 +599,19 @@ public class Application extends Controller {
 	    		listObservations = temp;
 	    	}
 	    	
-	    	// Crea las listas con las opciones de filtro
+	    	// Crea las listas con las opciones de filtro y las ordena
 			listAreas = areasDao.listadoAreasYPaises();
+			Collections.sort(listAreas, new Comparator<Area>() {
+				public int compare(Area a1, Area a2) {
+					return a1.getName().compareTo(a2.getName());
+				}
+			});
 			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+			Collections.sort(listIndicators, new Comparator<Indicator>() {
+				public int compare(Indicator i1, Indicator i2) {
+					return i1.getNombre().compareTo(i2.getNombre());
+				}
+			});
 	    	
 	    } catch (SQLException e) {
 			e.printStackTrace();
@@ -599,11 +625,26 @@ public class Application extends Controller {
     	if (session().get("userName") == null)
         	return redirect(routes.Application.error());
     	
+    	AreasDAO areasDao = PersistenceFactory.createAreasDAO();
+    	IndicadoresDAO indicadoresDao = PersistenceFactory.createIndicadoresDAO();
+    	
     	List<Area> listAreas;
 		List<Indicator> listIndicators;
 		try {
-			listAreas = PersistenceFactory.createAreasDAO().listadoAreasYPaises();
-			listIndicators = PersistenceFactory.createIndicadoresDAO().listarTodosLosIndicadores();
+			
+	    	// Crea las listas con las opciones de filtro y las ordena
+			listAreas = areasDao.listadoAreasYPaises();
+			Collections.sort(listAreas, new Comparator<Area>() {
+				public int compare(Area a1, Area a2) {
+					return a1.getName().compareTo(a2.getName());
+				}
+			});
+			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+			Collections.sort(listIndicators, new Comparator<Indicator>() {
+				public int compare(Indicator i1, Indicator i2) {
+					return i1.getNombre().compareTo(i2.getNombre());
+				}
+			});
 		} catch (SQLException e) {
 			e.printStackTrace();
 			return badRequest(error.render());
@@ -680,9 +721,19 @@ public class Application extends Controller {
 				// Indicador no numérico
 			}
 			
-	    	// Crea las listas con las opciones de filtro
+	    	// Crea las listas con las opciones de filtro y las ordena
 			listAreas = areasDao.listadoAreasYPaises();
+			Collections.sort(listAreas, new Comparator<Area>() {
+				public int compare(Area a1, Area a2) {
+					return a1.getName().compareTo(a2.getName());
+				}
+			});
 			listIndicators = indicadoresDao.listarTodosLosIndicadores();
+			Collections.sort(listIndicators, new Comparator<Indicator>() {
+				public int compare(Indicator i1, Indicator i2) {
+					return i1.getNombre().compareTo(i2.getNombre());
+				}
+			});
 	    	
 	    } catch (SQLException e) {
 			e.printStackTrace();
