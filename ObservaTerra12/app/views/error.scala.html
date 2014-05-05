@@ -1,6 +1,13 @@
 @import play.i18n._
 
-@main(Messages.get("error_title")) {
+@home(Messages.get("error_title")) {
+	<h1 class="logo_error"><a href="/" alt="index">ObservaTerra 1.2</a></h1>
 
-	<h1>@Messages.get("error_message")</h1>
+	<div class="page_error">
+		<div class="block_content">
+			
+			<center><img src="@routes.Assets.at("images/page_error.png")" alt="Error"/></center>
+			<center><h2>@Messages.get("error_message")</h2></center>
+		</div>
+	</div>
 }
