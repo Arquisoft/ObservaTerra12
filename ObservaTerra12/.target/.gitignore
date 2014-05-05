@@ -1,3 +1,5 @@
 /controllers
-/parser
+/crawler
+/model
+/tests
 /views
