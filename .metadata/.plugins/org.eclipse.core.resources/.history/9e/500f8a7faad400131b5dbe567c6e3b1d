@@ -6,10 +6,7 @@
 
 	<div class="compare_observations">
 		<h1>@Messages.get("compare_observations_form_title")</h1>
-
-		
-		<div class="content_block">
-					@if(!observations.isEmpty()) {
+		@if(!observations.isEmpty()) {
 				<h1>@Messages.get("compare_observations_table_title")</h1>
 				<table>
 					<tbody>
@@ -37,7 +34,7 @@
 				</table>
 		</div>
 		
-		<h1>@Messages.get("compare_observations_pie_chart")</h1>
+		<h1>@Messages.get("compare_observations_graphics")</h1>
 		
 		<div class="content_block">
 				<!-- PIE-CHART -->
@@ -99,6 +96,7 @@
 				</article>
 			}
 		</div>
+		
 		<div class="content_block">
 			@helper.form(routes.Application.doCompareObservations) {
 				<table>
@@ -131,6 +129,5 @@
 				</table>
 				<button type="submit">@Messages.get("compare_observations_form_compare")</button>
 			}
-		</div>
 	</div>
 }

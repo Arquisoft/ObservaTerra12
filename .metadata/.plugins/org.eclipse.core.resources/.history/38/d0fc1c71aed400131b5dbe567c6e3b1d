@@ -282,14 +282,6 @@ table {
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
-table a {
-	color: #3399cc;
-}
-
-table a:hover {
-	color: #2288bb;
-}
-
 th, td {
 	padding:18px 28px 18px; 
 	text-align:center; 

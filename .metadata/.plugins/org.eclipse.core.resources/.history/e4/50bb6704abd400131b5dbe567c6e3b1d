@@ -101,4 +101,4 @@ compare_observations_table_header_measure = Medida
 compare_observations_table_header_start_date = Fecha de inicio
 compare_observations_table_header_end_date = Fecha de fin
 compare_observations_table_header_provider = Autor
-compare_observations_pie_chart = Diagrama de sectores
+compare_observations_graphics = Gráficas
