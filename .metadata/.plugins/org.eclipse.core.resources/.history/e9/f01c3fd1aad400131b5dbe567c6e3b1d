@@ -37,7 +37,7 @@
 				</table>
 		</div>
 		
-		<h1>@Messages.get("compare_observations_pie_chart")</h1>
+		<h1>@Messages.get("compare_observations_graphics")</h1>
 		
 		<div class="content_block">
 				<!-- PIE-CHART -->

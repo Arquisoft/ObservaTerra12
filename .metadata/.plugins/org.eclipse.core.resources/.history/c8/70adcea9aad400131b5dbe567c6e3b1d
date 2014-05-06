@@ -37,7 +37,7 @@
 				</table>
 		</div>
 		
-		<h1>@Messages.get("compare_observations_pie_chart")</h1>
+		<h1>@Messages.get("compare_observations_graphics")</h1>
 		
 		<div class="content_block">
 				<!-- PIE-CHART -->
@@ -99,7 +99,6 @@
 				</article>
 			}
 		</div>
-		<div class="content_block">
 			@helper.form(routes.Application.doCompareObservations) {
 				<table>
 					<tbody>
@@ -131,6 +130,5 @@
 				</table>
 				<button type="submit">@Messages.get("compare_observations_form_compare")</button>
 			}
-		</div>
 	</div>
 }
