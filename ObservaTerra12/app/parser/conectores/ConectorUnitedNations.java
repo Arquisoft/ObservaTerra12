@@ -43,6 +43,8 @@ public class ConectorUnitedNations extends Conector {
 	@Override
 	public void start() {
 		super.start();
+		System.out.println("Trabajando con la API de "
+				+ (String) properties.get(keyBusquedaProperties + "_NAME"));
 
 		consulta("_2012_life_expectancy_at_birth", "Life Expectancy at birth",
 				"2012");
@@ -56,6 +58,7 @@ public class ConectorUnitedNations extends Conector {
 	private void consulta(String tagBusqueda, String display, String year) {
 
 		try {
+			System.out.println("Trabajando con el fichero: " + tagBusqueda);
 			descargaFicheroJson("http://data.undp.org/resource/wxub-qc5k.json",
 					"observationsPrueba1UnitedNations");
 

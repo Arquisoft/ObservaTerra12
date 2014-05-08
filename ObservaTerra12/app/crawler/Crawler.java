@@ -27,6 +27,8 @@ public class Crawler {
 		date.set(Calendar.SECOND, 0);
 		date.set(Calendar.MILLISECOND, 0);
 
+		System.out.println("Crawler iniciado correctamente");
+
 		timer.schedule(new TareaConectores(), date.getTime(), 1000 * 60 * 60
 				* 24 * 7);
 

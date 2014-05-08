@@ -95,6 +95,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 		// ********************
 		try {
 			// Guardando el fichero y trabajando sobre la version local
+			System.out.println("Trabajando con la API de "
+					+ (String) properties.get(keyBusquedaProperties + "_NAME"));
 
 			File fileListado = new File(
 					"public/crawler/downloads/WHO/listLabelObservationsWorldHealthOrganization.json");
@@ -151,6 +153,8 @@ public class ConectorWorldHealthOrganization extends Conector {
 
 			try {
 				// Guardando el fichero y trabajando sobre la version local
+
+				System.out.println("Trabajando con el fichero: " + label);
 
 				descargaFicheroJson(construyeUrl(label), label);
 

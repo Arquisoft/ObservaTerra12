@@ -99,30 +99,30 @@ public class ConectorTest {
 	 * Organization, los analiza e intenta insertar las observaciones. En total
 	 * son mas de 100 JSON y miles de observaciones y le lleva un rato largo
 	 */
-	@Test
-	public void testWHO() {
-
-		try {
-			conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
-			conectorWHO.preparar();
-			conectorWHO.start();
-
-			List<Provider> lista = orgsDao.listarProveedores();
-			Provider prueba = null;
-
-			for (Provider proveedor : lista) {
-				if (proveedor.getNombre().equals("World Health Organization"))
-					prueba = proveedor;
-			}
-
-			assertTrue(prueba != null);
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-	}
+	// @Test
+	// public void testWHO() {
+	//
+	// try {
+	// conectorWHO = ConectorWorldHealthOrganization.getInstance("WHO");
+	// conectorWHO.preparar();
+	// conectorWHO.start();
+	//
+	// List<Provider> lista = orgsDao.listarProveedores();
+	// Provider prueba = null;
+	//
+	// for (Provider proveedor : lista) {
+	// if (proveedor.getNombre().equals("World Health Organization"))
+	// prueba = proveedor;
+	// }
+	//
+	// assertTrue(prueba != null);
+	// } catch (SQLException e) {
+	// e.printStackTrace();
+	// } catch (IOException e) {
+	// e.printStackTrace();
+	// }
+	//
+	// }
 
 	@After
 	public void after() {
