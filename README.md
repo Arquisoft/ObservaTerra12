@@ -13,17 +13,22 @@ La aplicacion cuenta con tres modulos independientes que deben ser iniciados por
 * La aplicacion web se inicia como una aplicacion Play normal
 * Para el funcionamiento de la demo no es necesario el crawler pero se puede iniciar desde su clase Crawler.java
 
-Para realizar pruebas con la demo se puede registrarse o utilizar uno de los usuarios ya creados como:
+Para utilizar la demo puede registrarse o utilizar uno de los usuarios ya creados como:
 
 * Usuario: periodista1
 * Contraseña: periodista1
+
+Compilacion y pruebas del proyecto:
+
+* Para compilar el proyecto es necesario hacer una compilacion con Maven y una compilacion con Play
+* Las pruebas es posible ejecutarlas en local o bien dejar que Travis se encargue de ello (este proyecto de GitHub ya esta enlazado con Travis)
 
 
 Desarrolladores:
 * Jose Enrique Álvarez Rendal
 * Ignacio Astorga Coto
 * Manuel Casas Toscano
-* Pablo Garcia Fernandez
+* Pablo García Fernández
 * Alejandro Pato Tellada
 
 
